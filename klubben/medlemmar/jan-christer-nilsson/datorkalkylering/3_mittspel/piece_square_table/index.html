@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piece Square Table</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/datorkalkylering/">Datorkalkylering</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/datorkalkylering/3_mittspel/">3 Mittspel</a>
+
+
+		<h1>Piece Square Table</h1>
+
+		
+		
+		<div class='container'>
+<div class='box'>
+<p>Genom att ge ett värde för varje pjäs på varje ruta vid varje tillfälle, kan man räkna ut värdet av en viss given ställning.</p>
+<ul>
+<li>Enkelt att införa</li>
+<li>Bra prestanda, pga inkrementell uppdatering</li>
+<li>Brädets rutor = 64</li>
+<li>Antal olika pjäser = 6</li>
+<li>Antal färger = 2</li>
+<li>En tabell för öppning, en för slutspel = 2</li>
+<li>Totalt ger detta 64 * 6 * 2 * 2 = 1536 heltal</li>
+<li>Interpolera mellan dessa mha material,
+<ul>
+<li>Spelöppning: 2 * (9 + 5 + 3 + 3 + 8) = 56</li>
+<li>Slutspel: 0</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class='box'>
+<h2 id="torn">Torn</h2>
+<!-- | a | b | c | d | e | f | g | h | -->
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"></th>
+          <th style="text-align: center"></th>
+          <th style="text-align: center"></th>
+          <th style="text-align: center"></th>
+          <th style="text-align: center"></th>
+          <th style="text-align: center"></th>
+          <th style="text-align: center"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">4</td>
+          <td style="text-align: center">4</td>
+          <td style="text-align: center">4</td>
+          <td style="text-align: center">6</td>
+          <td style="text-align: center">6</td>
+          <td style="text-align: center">4</td>
+          <td style="text-align: center">4</td>
+          <td style="text-align: center">4</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">20</td>
+          <td style="text-align: center">20</td>
+          <td style="text-align: center">20</td>
+          <td style="text-align: center">20</td>
+          <td style="text-align: center">20</td>
+          <td style="text-align: center">20</td>
+          <td style="text-align: center">20</td>
+          <td style="text-align: center">20</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">10</td>
+          <td style="text-align: center">10</td>
+          <td style="text-align: center">10</td>
+          <td style="text-align: center">10</td>
+          <td style="text-align: center">10</td>
+          <td style="text-align: center">10</td>
+          <td style="text-align: center">10</td>
+          <td style="text-align: center">10</td>
+      </tr>
+  </tbody>
+</table>
+</div>
+<div class='box'>
+<h2 id="kung-slutspel">Kung, slutspel</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"></th>
+          <th style="text-align: center"></th>
+          <th style="text-align: center"></th>
+          <th style="text-align: center"></th>
+          <th style="text-align: center"></th>
+          <th style="text-align: center"></th>
+          <th style="text-align: center"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">8</td>
+          <td style="text-align: center">16</td>
+          <td style="text-align: center">18</td>
+          <td style="text-align: center">18</td>
+          <td style="text-align: center">16</td>
+          <td style="text-align: center">8</td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">8</td>
+          <td style="text-align: center">16</td>
+          <td style="text-align: center">24</td>
+          <td style="text-align: center">32</td>
+          <td style="text-align: center">32</td>
+          <td style="text-align: center">24</td>
+          <td style="text-align: center">16</td>
+          <td style="text-align: center">8</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">16</td>
+          <td style="text-align: center">24</td>
+          <td style="text-align: center">32</td>
+          <td style="text-align: center">40</td>
+          <td style="text-align: center">40</td>
+          <td style="text-align: center">32</td>
+          <td style="text-align: center">24</td>
+          <td style="text-align: center">16</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">25</td>
+          <td style="text-align: center">32</td>
+          <td style="text-align: center">40</td>
+          <td style="text-align: center">48</td>
+          <td style="text-align: center">48</td>
+          <td style="text-align: center">40</td>
+          <td style="text-align: center">32</td>
+          <td style="text-align: center">25</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">25</td>
+          <td style="text-align: center">32</td>
+          <td style="text-align: center">40</td>
+          <td style="text-align: center">48</td>
+          <td style="text-align: center">48</td>
+          <td style="text-align: center">40</td>
+          <td style="text-align: center">32</td>
+          <td style="text-align: center">25</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">16</td>
+          <td style="text-align: center">24</td>
+          <td style="text-align: center">32</td>
+          <td style="text-align: center">40</td>
+          <td style="text-align: center">40</td>
+          <td style="text-align: center">32</td>
+          <td style="text-align: center">24</td>
+          <td style="text-align: center">16</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">8</td>
+          <td style="text-align: center">16</td>
+          <td style="text-align: center">24</td>
+          <td style="text-align: center">32</td>
+          <td style="text-align: center">32</td>
+          <td style="text-align: center">24</td>
+          <td style="text-align: center">16</td>
+          <td style="text-align: center">8</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">8</td>
+          <td style="text-align: center">16</td>
+          <td style="text-align: center">18</td>
+          <td style="text-align: center">18</td>
+          <td style="text-align: center">16</td>
+          <td style="text-align: center">8</td>
+          <td style="text-align: center">0</td>
+      </tr>
+  </tbody>
+</table>
+</div>
+<div class='box'>
+<h2 id="undersök">Undersök!</h2>
+<!-- | a | b | c | d | e | f | g | h |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   | ♚|   |   |
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
+|   |   | ♔|   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
+|   |   |   | ♖|   |   |   |   | -->
+<img src="https://lichess1.org/export/fen.gif?fen=8/8/5k2/8/8/2K5/8/3R4 w - - 0 1" alt="Stamma board" style="width:auto; height:428px;">
+</div>
+<div class='box'>
+<ul>
+<li>
+<p>Utgående från</p>
+<ul>
+<li>Kc3, Rd1 (vit)</li>
+<li>Kf6 (svart)</li>
+<li>FEN: 8/8/5k2/8/8/2K5/8/3R4 w - - 0 1</li>
+<li>Tornet värderas till 500 centipawns</li>
+</ul>
+</li>
+<li>
+<p>Hur mycket ändras evalueringen av Kd4?</p>
+</li>
+<li>
+<p>Hur mycket ändras evalueringen av Rd8?</p>
+</li>
+<li>
+<p>Hur mycket ändras evalueringen av Kg6?</p>
+</li>
+<li>
+<p>Vits tre bästa drag är:</p>
+<ul>
+<li>Kd4, Rd5 och Re1</li>
+<li>Hur mycket ändras evalueringen av dessa?</li>
+</ul>
+</li>
+<li>
+<p>Hur hanterar Jordans program detta slutspel?</p>
+<ul>
+<li>Hur få nivåer behöver användas?</li>
+</ul>
+</li>
+<li>
+<p>Hur skulle du vilja förbättra matriserna ovan?</p>
+</li>
+</ul>
+</div>
+<div class='box'>
+<br>
+<br>
+<p><a href="https://christernilsson.github.io/JavaScript-Chess/">Schackprogram</a><br>
+<a href="Bill_Jordan/index.html">Bill Jordan</a><br>
+<a href="https://www.chessprogramming.org/Simplified_Evaluation_Function">Simplified Evaluation Function</a><br>
+<a href="https://www.chessprogramming.org/Piece-Square_Tables">Piece-Square Tables</a></p>
+<p>♟♞♝♜♛♚<br>
+♙♘♗♖♕♔</p>
+</div>
+</div>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

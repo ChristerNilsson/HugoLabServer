@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R8</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/fairpair2/">FairPair2</a>
+
+
+		<h1>R8</h1>
+
+		
+		
+		<pre tabindex="0"><code>Pos #   1    2    3    4    5    6    7    8  Score   Elo Namn                 T C
+01 01 01w½ 01b½ 01w½ 01b½ 01w½ 01b½ 01w½ 01w_ 1234.5 1238 JOHANSSON Lennart B 01 w
+02 02 01w½ 01b½ 01w½ 01b½ 01w½ 01b½ 01w½ 01b_ 1234.5 1238 PETTERSSON Lars-Åke 02 b
+03 03 01w½ 01b½ 01w½ 01b½ 01w½ 01b½ 01w½ 01w_ 1234.5 1238 NILSSON Christer    02 w
+03 03 01w½ 01b½ 01w½ 01b½ 01w½ 01b½ 01w½ 01b_ 1234.5 1238 NILSSON Christer    01 b
+</code></pre>
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>
