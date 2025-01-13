@@ -1,0 +1,20 @@
+[Event "Seniorserien_HT2015"]
+[Site "Stockholm"]
+[Date "2015.09.16"]
+[Round "?"]
+[White "Kjell Persson"]
+[Black "Per Åhlin"]
+[Result "1-0"]
+[ECO "C50"]
+[Annotator "Persson,Kjell"]
+[PlyCount "51"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 d6 5. Nxd4 Bd7
+6. O-O Nf6 7. Nc3 Be7 8. h3 O-O 9. f4 a6 10. a4 Nxd4 11. Qxd4 c6 12. Be2 Ne8
+13. Be3 Nc7 14. Rad1 Be6 15. e5 d5 16. f5 Bd7 17. Qf4 (17. f6 $1 Ne6 18. Qg4
+Re8 19. fxe7 Qxe7 20. Qg3) 17... Ne8 18. Qf2 Kh8 19. Bb6 Qb8 20. Rde1 Bd8 21.
+Bxd8 (21. Bc5 $1 Rg8 22. e6 fxe6 23. fxe6 Bxe6 24. Bg4 $1 Bxg4 25. Rxe8 Rxe8
+26. Qf8+ Rxf8 27. Rxf8#) 21... Qxd8 22. f6 g6 23. Qh4 Qb6+ 24. Kh1 Qxb2 25. Qh6
+Qxc3 26. Qxf8# 1-0
+

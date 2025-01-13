@@ -1,0 +1,15 @@
+[Event "Vrnjacka Banja"]
+[Site "?"]
+[Date "1972.04.29"]
+[Round "?"]
+[White "Smejkal"]
+[Black "Adorjan"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "r7/2p1r1bk/3p2pp/PP3p2/2Q5/2q2PP1/R3PNK1/7R w - - 0 1"]
+[PlyCount "3"]
+
+{600MB, Fritz11.ctg, Dell} 1. Rxh6+ $3 Bxh6 (1... Kxh6 $4 2. Qh4#) 2. Qxc3 {
+och vit vinner.} 1-0
+

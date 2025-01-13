@@ -1,0 +1,18 @@
+[Event "HT2017_pos_1"]
+[Site "?"]
+[Date "2017.06.25"]
+[Round "?"]
+[White "Polgar"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "4q3/1R5p/6p1/3N2P1/k4K2/8/1P6/8 w - - 0 1"]
+[PlyCount "21"]
+
+{600MB, Fritz11.ctg, Dell} 1. Rb4+ {[%emt 0:00:00]} Ka5 {[%emt 0:00:00]} 2.
+Rb5+ Qxb5 (2... Kxb5 $2 3. Nc7+) (2... Ka6 $2 3. Nc7+) (2... Ka4 $2 3. Nc3#) 3.
+b4+ Ka4 4. Nc3+ Kxb4 (4... Ka3 5. Nxb5+ Kxb4 6. Nd6 Kc5 7. Ke5) (4... Kb3 5.
+Nxb5 Kxb4 6. Nd6 Kc5 7. Ke5) 5. Nxb5 Kxb5 6. Ke5 Kc5 7. Kf6 Kd5 8. Kg7 Ke5 9.
+Kxh7 Kf5 10. Kh6 Ke6 11. Kxg6 {och vit vinner.} 1-0
+

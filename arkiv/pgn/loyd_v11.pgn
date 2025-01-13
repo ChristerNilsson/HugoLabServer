@@ -1,0 +1,15 @@
+[Event "?"]
+[Site "?"]
+[Date "2016.03.11"]
+[Round "?"]
+[White "Samuel Loyd"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/3K4/8/1pp5/2k2P2/8/R7/7Q w - - 0 1"]
+[PlyCount "5"]
+
+{600MB, Fritz11.ctg, Dell} 1. Ra3 b4 (1... Kb4 2. Qa8 c4 (2... Kc4 3. Qe4#) 3.
+Qf8#) (1... Kd4 2. Kd6 b4 (2... Kc4 3. Qe4#) 3. Qd5#) 2. Qf1+ Kd5 3. Qd3# 1-0
+

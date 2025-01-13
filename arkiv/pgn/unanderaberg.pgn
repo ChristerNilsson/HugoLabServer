@@ -1,0 +1,55 @@
+[Event "Korr_SM"]
+[Site "Stockholm"]
+[Date "2013.09.30"]
+[Round "?"]
+[White "Matts Unander"]
+[Black "Lars-Erik Åberg"]
+[Result "0-1"]
+[ECO "B12"]
+[Annotator "Grahn, Lars"]
+[PlyCount "120"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6.
+O-O Nd7 7. Nbd2 Ng6 8. Nb3 Rc8 {Möjligen en nyhet. Det som brukar känneteckna
+den här varianten är att svart satsar på f7-f6. Åberg avstår från den
+bondeframstöten och fördelen med det visar sig snabbt.} 9. Ne1 ({
+Vit hade haft en mer flexibel ställning efter} 9. Be3 h5 10. Qd2 {Då kan ett}
+b6 {bemötas med a4 eller c4.}) 9... h5 {Det förhindrar g4} 10. Nd3 (10. Bxh5 $2
+{besvaras med} Qh4 $1) 10... h4 11. Be3 b6 12. c3 c5 13. Nf4 {Vit har ägnat
+fyra drag åt att få springaren till f4 och då blir det ändå inget avbyte som
+gynnar vit. Nu tar svart över damflygeln.} Nxf4 14. Bxf4 c4 15. Nd2 b5 {
+Svart har bekvämt spel och det är inte särskilt besvärande att kungen har
+fastnat i centrum.} 16. Bg4 Bd3 17. Re1 b4 18. Qa4 Qb6 19. Nf3 Rb8 20. Ng5 {
+Vit måste försöka skapa motspel med ett kungsangrepp. Det hotar slag på f7.}
+bxc3 21. bxc3 ({Inte} 21. Nxf7 cxb2 22. Nxh8 Bb4 $1 {och svarts kung reder sig
+gott på egen hand. Det är inte någon brådska med att slå på a1. Löpardraget är
+gratis.}) 21... Rb7 {Springaren övergarderas och det eliminerar hotet på f7.}
+22. Qd1 {Tanken är att damen ska angripa kungen från en annan vinkel.} Be7 23.
+Bc1 O-O {Åberg utgår från att det finns tillräckliga försvarsresurser mot det
+kungsangrepp som kan förväntas. Svart äger damflygeln, så vit måste åstadkomma
+något på kungsflygeln.} 24. Be2 Qa6 {Han accepterar ett avbyte av vitfältaren,
+men ställer kravet att han då ska ha en inflytelserik bonde på d3.} 25. h3 ({
+Efter} 25. Bxd3 cxd3 26. Qh5 Bxg5 27. Bxg5 f6 {
+ser det ut som om vits motspel är neutraliserat, till exempel} 28. exf6 Nxf6
+29. Bxf6 Rxf6 30. Qxh4 Rb2 31. Rf1 Qc4 32. Rad1 Qxc3 33. Qg3 Rxa2 34. Qxd3 (34.
+Rxd3 $2 Raxf2 $1) 34... Qxd3 35. Rxd3 Rf7 {med liten fördel för svart.}) 25...
+Rfb8 26. Bh5 {
+Det var fortfarande aktuellt att byta av den starka löparen på d3.} g6 27. Bg4
+Qa5 28. Nxf7 $5 {Bästa försöket.} ({Efter} 28. Qf3 Bxg5 29. Bxg5 Qxc3 {
+är vits löparpar ganska harmlöst.}) 28... Kxf7 29. Qf3+ Kg7 30. Bxe6 Rf8 31.
+Qxd5 Qxd5 32. Bxd5 Rbb8 {Vit har fått tre bönder för pjäsen, så materiellt är
+läget okej. Återstår att försöka få fart på de förbundna fribönderna.} 33. Bf3
+$6 ({Med tanke på partifortsättningen kommer} 33. Bc6 {i fråga, till exempel}
+Nb6 34. d5 Rbc8 35. Be3 Rfd8 36. Bxb6 axb6 37. a4 {och vit kan streta emot.})
+33... Rxf3 $1 34. gxf3 Nb6 {
+Poängen med kvalitetsoffret är att springaren får ett guldfält på d5.} 35. Bd2
+Nd5 36. a4 Rb2 37. Bc1 Rb3 38. Bd2 Kf7 {Bonden på c3 springer ingenstans, men
+kanske var det ändå inte nödvändigt att provocera fram e-bonden. Svart står
+hur som helst på vinst.} 39. e6+ Ke8 40. Re5 Nxc3 41. Bxc3 Rxc3 42. Ra5 Ra3 43.
+Rc1 Be2 44. Rxa7 Bxf3 45. Rc7 ({Inte} 45. Rxc4 $2 Ra1+ {med matt.}) 45... Bd5 {
+Springaren värmde upp det fältet och löparen finner sig väl till rätta där.}
+46. Rc8+ Bd8 47. Rc5 Bxe6 48. d5 Bxh3 49. R5xc4 Bf5 50. d6 Kd7 51. Rd1 Rb3 52.
+Rf4 h3 53. Rd5 Be6 54. Rd1 Rb2 55. Ra1 g5 56. Rf8 g4 {Uppgivet. Till exempel}
+57. a5 g3 58. fxg3 h2+ 59. Kh1 Bd5+ 60. Rf3 Bxf3# 0-1
+

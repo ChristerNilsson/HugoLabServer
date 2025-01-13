@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arkiv</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLab/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLab/">Home</a>
+
+
+		<h1>Arkiv</h1>
+
+		
+		
+		<ul>
+<li><a href="dokument">Dokument</a></li>
+<li><a href="partier">Partier</a></li>
+<li><a href="pgn">PGN</a></li>
+<li><a href="resultat-i-seniorschack-stockholm">Resultat i Seniorschack Stockholm</a></li>
+<li><a href="resultat-i-snabbschack-och-blixt">Resultat i snabbschack och blixt</a></li>
+<li><a href="veckans-kombination">Veckans kombination</a></li>
+<li><a href="https://www.seniorschackstockholm.se">Äldre hemsida</a></li>
+<li><a href="https://www.google.co/search?q=site:seniorschackstockholm.se">Äldre hemsida - Sök</a></li>
+<li><a href="%C3%B6vrigt">Övrigt</a></li>
+</ul>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

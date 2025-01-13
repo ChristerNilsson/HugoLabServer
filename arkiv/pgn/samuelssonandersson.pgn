@@ -1,0 +1,30 @@
+[Event "Senior_KM_VT2013"]
+[Site "Stockholm"]
+[Date "2013.02.07"]
+[Round "4"]
+[White "Sven-Gunnar Samuelsson"]
+[Black "Lars Owe Andersson"]
+[Result "1-0"]
+[ECO "E01"]
+[WhiteElo "2019"]
+[BlackElo "1711"]
+[Annotator "Persson,Kjell"]
+[PlyCount "81"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. g3 Bd6 (4... dxc4 5.
+Bg2 Nc6 6. Qa4 Bb4+ 7. Bd2 Nd5 8. Bxb4 Ndxb4 9. O-O Rb8 {är teori.}) 5. Bg2
+dxc4 6. Qa4+ Bd7 7. Qxc4 O-O 8. O-O Nc6 9. Nc3 a6 10. Bg5 h6 11. Bxf6 Qxf6 12.
+Ne4 Qe7 13. Rac1 Na5 14. Qc2 Rfc8 15. Rfd1 Rab8 16. a3 Nc6 17. b4 Na7 {
+Ingen bra plats för en springare.} 18. Qb3 Bc6 19. Nc5 Bd5 20. Qd3 Bxc5 21.
+Rxc5 f6 22. Rdc1 (22. e4 Bc6 23. d5 Ba4 24. Bh3 $1 {
+är ett starkare alternativ för vit.}) 22... Bc6 23. Qc2 Qd6 24. e3 Nb5 25. a4
+Na7 {Svarts springare tvingas tillbaka till en passiv plats i skamvrån.} 26.
+Ne1 Bxg2 27. Kxg2 c6 28. Nd3 b6 29. Rc3 e5 30. Qb3+ Kh7 31. dxe5 fxe5 32. Ne1 (
+{Med manövern} 32. Qf7 Rc7 33. Qf5+ g6 34. Qxe5 {
+erövras e-bonden och vit står överlägset.}) 32... Rf8 33. Qc2+ Kh8 34. Qe4 Rf6
+35. Rd3 Qf8 36. f3 Rd8 37. Rcd1 Rxd3 38. Nxd3 Rd6 $4 ({På} 38... Qe8 $2 39.
+Nxe5 Re6 {har vit} 40. Qh4 $1 {och svart kan inte slå springaren p.g.a. Td8!})
+39. Nxe5 $1 Kg8 40. Nd7 $1 Rxd7 ({På} 40... Rxd1 {följer} 41. Nxf8 Kxf8 42. Qe5
+{och svart är förlorad ändå.}) 41. Rxd7 {Uppgivet.} 1-0
+

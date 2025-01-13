@@ -1,0 +1,20 @@
+[Event "tornslutspel_PO_6"]
+[Site "?"]
+[Date "2016.10.27"]
+[Round "?"]
+[White "Vit"]
+[Black "Svart"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "r7/5k1P/8/6K1/6R1/8/8/8 w - - 0 1"]
+[PlyCount "7"]
+
+{600MB, Fritz11.ctg, Dell} 1. Ra4 Rh8 (1... Rxa4 {[%emt 0:00:00]} 2. h8=Q {
+[%emt 0:00:02]} Ra5+ 3. Kf4 Ra4+ 4. Ke5 Ra5+ 5. Kd6 Ra6+ 6. Kc7 Ra7+ 7. Kb6 Re7
+8. Kc5 Re6 9. Kd5 Rf6 10. Qh7+ Ke8 11. Ke5 Rb6 12. Qc7 Rg6 13. Qc4 Ke7 14. Qh4+
+Kf7 15. Qh7+ Rg7 16. Qf5+ Kg8 17. Ke6 Rb7 18. Qg5+ Rg7 19. Qe5 Rg2 20. Qd4 Rg6+
+21. Kf5 Kh7 22. Qe4 Rg7 23. Kf6+ Kh8 24. Qh4+ Kg8 25. Qh5 Rg1 26. Qe8+ Kh7 27.
+Qe4+ Kg8 28. Qa8+ Kh7 29. Qa7+ Kg8 30. Qxg1+ Kf8 31. Qg7+ Ke8 32. Qe7#) 2. Ra7+
+Ke6 3. Kg6 Rc8 4. Kg7 1-0
+

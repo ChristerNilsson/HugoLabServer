@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Performance Calculator</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLab/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLab/">Home</a> • 
+<a href="/HugoLab/klubben/">Klubben</a> • 
+<a href="/HugoLab/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLab/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+		<h1>Performance Calculator</h1>
+
+		
+		
+		<p>Skriv in motståndarnas rating följt av din uppnådda partipoäng, separerade med mellanslag:</p>
+<!-- <input type="text" id="INPUT" oninput="calculate()" size=50 value="1400 1500 1600 1800 2.5" style="font-size:24px"> -->
+<input type="text" id="INPUT" oninput="calculate()" size=50 value="1400 1500 1600 1800 2.5" style="font-size:24px">
+<p>Performance Rating: <span id="PR">0</span></p>
+<p><a href="index.coffee">Metod</a></p>
+<script src="index.js"></script>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

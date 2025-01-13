@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webkarta</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLab/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLab/">Home</a>
+
+
+		<h1>Webkarta</h1>
+
+		
+		
+		<p>• <a href="../arkiv">Arkiv</a><br>
+• • <a href="../arkiv/dokument">Dokument</a><br>
+• • <a href="../arkiv/partier">Partier</a><br>
+• • <a href="../arkiv/pgn">PGN</a><br>
+• • <a href="../arkiv/resultat-i-seniorschack-stockholm">Resultat i Seniorschack Stockholm</a><br>
+• • <a href="../arkiv/resultat-i-snabbschack-och-blixt">Resultat i snabbschack och blixt</a><br>
+• • <a href="../arkiv/veckans-kombination">Veckans kombination</a><br>
+• • <a href="../arkiv/%C3%B6vrigt">Övrigt</a><br>
+• <a href="../externa-l%C3%A4nkar">Externa länkar</a><br>
+• <a href="../inst%C3%A4llningar">Inställningar</a><br>
+• <a href="../klubben">Klubben</a><br>
+• • <a href="../klubben/blanketter">Blanketter</a><br>
+• • <a href="../klubben/matrikel">Matrikel</a><br>
+• • <a href="../klubben/medlemmar">Medlemmar</a><br>
+• • • <a href="../klubben/medlemmar/anders-fl%C3%A4rdh">Anders Flärdh</a><br>
+• • • <a href="../klubben/medlemmar/christer-nilsson">Christer Nilsson</a><br>
+• • <a href="../klubben/styrelse">Styrelse</a><br>
+• • <a href="../klubben/webmaster">Webmaster</a><br>
+• <a href="../kontakt">Kontakt</a><br>
+• <a href="../program">Program</a><br>
+• • <a href="../program/schacktr%C3%A4ning">Schackträning</a><br>
+• • <a href="../program/seniorserien">Seniorserien</a><br>
+• <a href="../rating">Rating</a></p>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

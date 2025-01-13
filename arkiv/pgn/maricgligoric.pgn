@@ -1,0 +1,15 @@
+[Event "Belgrad 1962"]
+[Site "?"]
+[Date "1962.11.03"]
+[Round "?"]
+[White "Maric"]
+[Black "Gligoric"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "6k1/4bp1p/p2p1p2/q4R2/8/2r5/P1PQ2PP/1R5K b - - 0 1"]
+[PlyCount "3"]
+
+{600MB, Fritz11.ctg, Dell} 1... Rb3 $3 {hotar Rxb1 matt.} 2. axb3 Qxd2 {
+och svarts materiella övervikt avgör.} 0-1
+

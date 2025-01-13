@@ -1,0 +1,32 @@
+[Event "Senior_KM_VT2015"]
+[Site "Stockholm"]
+[Date "2015.04.09"]
+[Round "9"]
+[White "Onni Aikio"]
+[Black "Jan Stachowizc"]
+[Result "1/2-1/2"]
+[ECO "C01"]
+[WhiteElo "1777"]
+[BlackElo "1794"]
+[Annotator "Persson,Kjell"]
+[PlyCount "50"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 d6 2. d4 e6 $6 3. f4 g6 4. Nf3 f6 $2 {
+Svart ger upp centrum och väljer en mycket passiv uppställning, som dock kan
+vara svår att angripa.} 5. e5 f5 6. Bc4 d5 7. Bb5+ c6 8. Bd3 Nh6 9. Ng5 Be7 10.
+h4 Ng4 11. h5 Bxg5 12. fxg5 gxh5 13. Rxh5 Qe7 {Vitspelaren anser att detta
+parti är ett typexempel på att schack är ett geometriskt språk. Trianglarna
+som bildas av löpardiagonalerna d3-h7 och c1-h6 har stor betydelse för
+utgången av detta parti.} 14. g6 Qg7 15. Qxg4 $5 {
+Ett damoffer som är chansrikt och ställer svart inför stora problem.} fxg4 16.
+Bh6 $4 {och spelarna enades om remi i en ställning som svart bara kan vinna
+med mycket exakt spel.} ({Vitspelaren menade att} 16. Bg5 {är bättre, men efter
+} hxg6 17. Bf6 Qxf6 18. exf6 gxh5 19. Bg6+ Kf8 {
+är svart torn över och har lätt vinst!}) {Svart kan fortsätta på följande sätt:
+} 16... Qc7 17. g7 Rg8 18. Rg5 (18. Bxh7 $4 {räcker inte för vit p.g.a.} Rxg7
+19. Bxg7 Qxg7 {och vits angrepp är över.}) 18... Qb6 $1 {
+med dubbelhot på b2 och d4 håller liv i ställningen.} 19. Bxh7 Qxd4 20. Bxg8
+Qg1+ 21. Ke2 Qxg2+ 22. Ke1 Qh1+ 23. Kd2 Qxh6 24. Bf7+ $3 Kd7 25. g8=Q Qh2+ {
+och svart har remischackar.} 1/2-1/2
+

@@ -1,0 +1,16 @@
+[Event "San Sebastian"]
+[Site "?"]
+[Date "1912.10.21"]
+[Round "?"]
+[White "R. Spielmann"]
+[Black "S. Tarrasch"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/6pk/7p/3p1p1Q/3PbPP1/b1p4P/2P2B1K/1r6 b - - 0 1"]
+[PlyCount "11"]
+
+{600MB, Fritz11.ctg, Dell} 1... Bc1 2. Kg3 g6 3. Qh4 g5 4. fxg5 Bxg5 {
+och damen går förlorad.} 5. Qxg5 (5. Qh5 $4 f4+ 6. Kh2 Rh1#) 5... hxg5 6. gxf5
+Rb2 {med enkel vinst.} 0-1
+

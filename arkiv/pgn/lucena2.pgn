@@ -1,0 +1,15 @@
+[Event "?"]
+[Site "?"]
+[Date "2015.11.10"]
+[Round "?"]
+[White "Lucena_2"]
+[Black "Whoever"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "6K1/3k2P1/6P1/8/8/7r/4R3/8 w - - 0 1"]
+[PlyCount "7"]
+
+{600MB, Fritz11.ctg, Dell} 1. Re6 Rf3 (1... Kxe6 $2 2. Kf8 Rf3+ 3. Ke8 Ra3 4.
+g8=Q+ {och vit vinner.}) 2. Rf6 Rxf6 3. Kh7 Rf2 4. g8=Q {med enkel vinst.} 1-0
+

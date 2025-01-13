@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schackträning</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLab/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLab/">Home</a> • 
+<a href="/HugoLab/program/">Program</a>
+
+
+		<h1>Schackträning</h1>
+
+		
+		
+		<p><a href="FL2_HT24_Konsten_att_kalkylera_Del2.pdf">Konsten att kakylera</a><br>
+<a href="SrS_Veckans_Kluring_15_24_L%C3%B6sning.pdf">Veckans Kluring 15</a><br>
+<a href="SrS_Veckans_Kluring_16_24.pdf">Veckans Kluring 16</a></p>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

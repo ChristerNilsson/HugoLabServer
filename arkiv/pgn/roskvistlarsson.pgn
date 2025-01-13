@@ -1,0 +1,26 @@
+[Event "Senior_KM_VT2014"]
+[Site "Stockholm"]
+[Date "2014.03.27"]
+[Round "9"]
+[White "Gunnar Roskvist"]
+[Black "Christer Larsson"]
+[Result "0-1"]
+[ECO "A81"]
+[WhiteElo "1365"]
+[BlackElo "1644"]
+[Annotator "Persson,Kjell"]
+[PlyCount "36"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. d4 f5 2. g3 Nf6 3. Bh3 (3. Bg2 {är normaldraget.}
+) 3... d5 4. f4 e6 {öppnar för löparen på f8.} 5. Nf3 Be7 6. Nbd2 $6 (6. Nc3 {
+Springaren står nog bättre här.}) 6... Bd7 7. c3 O-O 8. Ne5 Be8 {
+litet väl passivt.} (8... c5 9. Ndf3 Nc6 {är en bättre utveckling för svart.})
+9. Ndf3 Ne4 10. e3 $2 {murar in löparen på c1.} Nd7 11. Rg1 $4 (11. O-O {
+var nödvändigt.}) 11... Bh5 {Nu hamnar svarts kung i problem.} 12. Nxd7 Bxf3 $1
+{svart förhindrar nu vits andra springare att komma till e5.} 13. Qxf3 Qxd7 14.
+g4 $4 Bh4+ {Svart är inte sen att utnyttja vits misstag.} 15. Kd1 Qa4+ 16. Ke2
+$4 (16. b3 Nxc3+ 17. Kc2 Qc6 18. Kb2 {och vit kan klara sig några drag till.})
+16... Qc4+ 17. Kd1 Qd3+ {Uppgivet. Det blir matt i nästa drag.} 18. Bd2 Qxd2#
+0-1
+

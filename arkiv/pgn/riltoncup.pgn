@@ -1,0 +1,17 @@
+[Event "bondegenombrott"]
+[Site "?"]
+[Date "2017.01.02"]
+[Round "?"]
+[White "Vit"]
+[Black "Svart"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/1pk5/p7/6p1/1P1Kp2p/P3P2P/6P1/4Nb2 b - - 0 1"]
+[PlyCount "17"]
+
+{600MB, Fritz11.ctg, Dell} 1... g4 2. Kxe4 (2. hxg4 Bxg2 3. Nxg2 (3. g5 Kd7 4.
+g6 Ke8 5. g7 Kf7 $1) 3... h3 $1) 2... Bxg2+ 3. Kf4 gxh3 4. Nf3 Bxf3 5. Kxf3 {
+och svart vinner.} Kd6 6. e4 Ke5 7. a4 b5 8. axb5 axb5 9. Kf2 {tvångsdrag.}
+Kxe4 {och svart vinner.} 0-1
+

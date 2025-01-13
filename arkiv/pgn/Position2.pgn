@@ -1,0 +1,38 @@
+[Event "?"]
+[Site "?"]
+[Date "2016.02.01"]
+[Round "?"]
+[White "POS2"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "1q1r4/4k3/8/2R3K1/8/8/8/2Q5 w - - 0 1"]
+[PlyCount "9"]
+[EventDate "2016.??.??"]
+
+1. Rc7+ Rd7 2. Qc5+ Kd8 3. Kh6 Rxc7 (3... Qxc7 $4 4. Qf8#) (3... Rh7+ $2 4.
+Rxh7 Qh2+ 5. Kg6 Qg3+ 6. Qg5+ Qxg5+ 7. Kxg5) (3... Rf7 4. Qd6+ Ke8 5. Re7+ Rxe7
+6. Qxb8+ {och vit vinner.}) (3... Qa8 $2 4. Qf8+ {och den svarta damen faller.}
+) 4. Qf8+ Kd7 5. Qxb8 {och vit vinner.} 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "2016.02.01"]
+[Round "?"]
+[White "Position_3"]
+[Black "?"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/k7/4P3/4K3/5B2/P7/8/r7 w - - 0 1"]
+[PlyCount "13"]
+[EventDate "2016.??.??"]
+
+1. Be3+ Kb7 2. e7 $1 (2. Bc5 $4 Re1+ 3. Kd6 Rxe6+ 4. Kxe6 {
+och ställningen är remi, eftersom vits löpare har fel färg.}) 2... Rxa3 3. Ba7
+$1 (3. Bc5 $4 Ra8 $1 {och svart bevakar e8-rutan och håller därför remi.}) 3...
+Kxa7 (3... Ra2 $2 4. Kf4 Re2 5. Be3 $1) (3... Ra1 $2 4. Kf4 Re1 5. Be3) 4. Kd4
+$1 {och svart kan inte hindra e-bonden att gå i dam.} {T.ex.} Ra4+ 5. Kd5 Ra5+
+6. Kd6 Ra6+ 7. Kd7 {och schackarna tar slut.} 1-0
+

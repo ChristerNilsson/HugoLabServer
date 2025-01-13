@@ -1,0 +1,30 @@
+[Event "Budapest 1963"]
+[Site "?"]
+[Date "2013.05.11"]
+[Round "?"]
+[White "Kasandi"]
+[Black "Forintos"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "2R5/8/8/8/8/7k/P1pbKp2/8 b - - 0 0"]
+[PlyCount "3"]
+
+{600MB, Fritz11.ctg, Dell} 1... Bc3 $1 2. Rxc3+ Kg2 {
+och vit gav upp. en av svarts bönder går i dam.} 0-1
+
+[Event "Budapest 1963"]
+[Site "?"]
+[Date "1963.05.11"]
+[Round "?"]
+[White "Kasandi"]
+[Black "Forintos"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "2R5/8/8/8/8/7k/P1pbKp2/8 b - - 0 1"]
+[PlyCount "3"]
+
+{600MB, Fritz11.ctg, Dell} 1... Bc3 $1 2. Rxc3+ Kg2 {
+och vit gav upp. En av svarts bönder går i dam.} 0-1
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2 Slutspel</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLab/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLab/">Home</a> • 
+<a href="/HugoLab/klubben/">Klubben</a> • 
+<a href="/HugoLab/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLab/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a> • 
+<a href="/HugoLab/klubben/medlemmar/christer-nilsson/datorkalkylering/">Datorkalkylering</a>
+
+
+		<h1>2 Slutspel</h1>
+
+		
+		
+		<p>Slutspel kan hanteras utan trädsökning med upp till sju pjäser.<br>
+Dragen är perfekta.
+De räknas ut inom någon millisekund.</p>
+<p>Vi börjar med den enklaste databasen, tre pjäser (kByte):</p>
+<ul>
+<li>KBK 0.2 + 1.5 (löpare)</li>
+<li>KNK 0.2 + 0.2 (springare)</li>
+<li>KPK 16 + 17 (bonde)</li>
+<li>KQK 5.8 + 7.4 (dam)</li>
+<li><a href="http://tablebase.sesse.net/3-4-5/krk.nbb.emd">KRK black</a> och <a href="http://tablebase.sesse.net/3-4-5/krk.nbw.emd">KRK white</a> 6.9 + 6.9 (torn)</li>
+</ul>
+<p>Vi kommer här att se närmare på KRK, dvs Kung och torn mot ensam Kung.</p>
+<ul>
+<li>För varje position anges antal halvdrag till matt</li>
+<li>För att hitta det bästa draget måste man
+<ul>
+<li>Skapa alla positioner nåbara med ett halvdrag.</li>
+<li>Söka upp dessa positioner i filen och få fram antal halvdrag till matt.</li>
+<li>Välja det bästa draget.</li>
+</ul>
+</li>
+</ul>
+<p>Exempel</p>
+<p><a href="https://syzygy-tables.info/?fen=7k/8/4R3/4K3/8/8/8/8_w_-_-_0_1">Ke5 Re6 Kh8</a></p>
+<h2 id="exempel-på-innehåll-i-filerna-krk">Exempel på innehåll i filerna KRK</h2>
+<p><a href="KRk.txt">KRk.txt</a> visar positionerna samt antal halvdrag till matt. T ex a1a2c1 7</p>
+<p>Filerna är binärfiler.<br>
+Man måste använda ett speciellt program där man går in med var och en av positionerna man vill slå upp. T ex returnerar Kf6, dvs &ldquo;f6e6h8&rdquo;, värdet 6.</p>
+<p>Fil implementerad som en tredimensionell kub:<br>
+64 * 64 * 64 * 1 = 262 kb</p>
+<p>Filen är hårt komprimerad, bl a med hjälp av rotationer och speglingar.<br>
+Totalt 14 kb. Cirka 4 bitar per unik position.</p>
+<pre tabindex="0"><code>...
+Kf6 6
+Re7 8
+Rg6 8
+Kd6 10
+Kf5 10
+Kf4 12
+Rf6 12
+Kd5 14
+...
+</code></pre><h1 id="databasstorlekar">Databasstorlekar</h1>
+<pre tabindex="0"><code>Antal
+pjäser      Storlek  Klar
+3             62 kB  1975 (10 filer: KBK + KNK + KPK + KQK + KRK)
+4          30 MB     1985 ca
+5        1 GB        1995 ca
+6      150 GB        2005
+7    17 TB           2012
+8  2000 TB           pågår
+</code></pre><p>Åtta pjäser påbörjades 2012 och beräknas ta 2000 TB i anspråk.<br>
+20 TB kostar idag (2024) cirka <a href="https://www.webhallen.com/se/product/361407-Seagate-One-Touch-Desktop-med-hubb-20TB">5.000 kr</a>.</p>
+<p>Här kan man ladda ner <a href="http://tablebase.sesse.net/3-4-5/">databaserna</a> för 3, 4 och 5 pjäser</p>
+<p>Chess.com och Lichess har egna kopior av dessa databaser.<br>
+Man anger sin position mha <a href="https://www.chess.com/terms/fen-chess">Forsyth-Edwards Notation (FEN)</a> och får tillbaks de möjliga dragen, sorterade bäst först.<br>
+(Vilken svaghet har FEN?)<br>
+Man kan nå dessa via ett <a href="https://tablebase.lichess.ovh/standard?fen=7k/8/4R3/4K3/8/8/8/8_w_-_-_0_1">Application Programming Interface (API)</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Endgame_tablebase">Wikipedia</a><br>
+<a href="https://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a><br>
+<a href="https://web.archive.org/web/20090325093618/http://www.gadycosteff.com/eg/eg52.pdf">End Papers</a></p>
+<p><a href="https://syzygy-tables.info/?fen=8/1p6/8/2P1B3/8/8/p2K4/1k6_w_-_-_0_1">Stamma 1737</a></p>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

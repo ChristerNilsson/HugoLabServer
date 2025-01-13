@@ -1,0 +1,15 @@
+[Event "Sovjet 1936"]
+[Site "?"]
+[Date "1936.10.16"]
+[Round "?"]
+[White "Kasparian"]
+[Black "Manvelian"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "2q4r/1kp4p/1pbp2p1/p7/P1Q5/1P3NP1/2P3BP/2K5 w - - 0 1"]
+[PlyCount "9"]
+
+{600MB, Fritz11.ctg, Dell} 1. Qxc6+ Kxc6 2. Ne5+ Kc5 3. Nd3+ Kd4 4. Kd2 Qf5 5.
+c3# 1-0
+

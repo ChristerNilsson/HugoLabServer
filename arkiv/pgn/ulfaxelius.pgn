@@ -1,0 +1,20 @@
+[Event "Simultan_2013"]
+[Site "Stockholm"]
+[Date "2013.02.20"]
+[Round "?"]
+[White "Ulf Andersson"]
+[Black "Gunnar Axelius"]
+[Result "1/2-1/2"]
+[ECO "D09"]
+[Annotator "Persson,Kjell"]
+[PlyCount "34"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. d4 d5 2. c4 e5 {Albins notgambit.} 3. dxe5 d4 4.
+Nf3 Nc6 5. g3 Be6 6. Nbd2 Bb4 7. Bg2 Nge7 8. O-O Ng6 9. Nb3 O-O 10. Nbxd4 Nxd4
+11. Nxd4 Bxc4 12. Bxb7 c5 $2 (12... Rb8 13. Be4 Nxe5 {
+är förstås bättre för svart.}) 13. Nc6 Qxd1 14. Rxd1 Bxe2 15. Bxa8 $2 (15. Rd7
+$1 {ger svart stora problem t.ex.} Rae8 $4 16. a3 $1 Be1 17. Be3 {
+och löparen är fångad.}) 15... Bxd1 16. Nxb4 Rxa8 17. Be3 Bf3 {
+och spelarna enades om remi.} 1/2-1/2
+

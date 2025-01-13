@@ -1,0 +1,18 @@
+[Event "?"]
+[Site "?"]
+[Date "1930.01.28"]
+[Round "?"]
+[White "Heuacker"]
+[Black "Svart"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "1B6/8/7P/4p3/3b3k/8/8/2K5 w - - 0 1"]
+[PlyCount "11"]
+
+{# 600MB, Fritz11.ctg, Dell} 1. Ba7 $1 Ba1 (1... Bc3 2. Kc2 Ba1 3. Bd4 $1) 2.
+Kb1 Bc3 3. Kc2 Ba1 4. Bd4 $1 Bxd4 (4... exd4 $2 5. Kd3 $1 {
+och löpardiagonalen är blockerad.}) 5. Kd3 Ba1 (5... Kg5 6. h7 e4+ 7. Kxd4 {
+och vit vinner.}) 6. Ke4 $1 {
+och vit vinner eftersom löpardiagonalen är blockerad.} 1-0
+

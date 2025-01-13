@@ -1,0 +1,16 @@
+[Event "?"]
+[Site "?"]
+[Date "1974.10.08"]
+[Round "?"]
+[White "Moldoyanov"]
+[Black "Samochanov"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/8/R7/pp5p/2bK3k/2P5/6P1/8 w - - 0 1"]
+[PlyCount "11"]
+
+{600MB, Fritz11.ctg, Dell} 1. Rg6 {Stänger in den svarta kungen.} a4 2. Ke4 a3
+3. Kf4 a2 {bonden hinner aldrig fram till förvandlingsfältet.} 4. Rg3 Be6 (4...
+a1=Q 5. Rh3#) 5. Rh3+ Bxh3 6. g3# 1-0
+

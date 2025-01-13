@@ -1,0 +1,27 @@
+[Event "Seniorserien_HT2016"]
+[Site "Stockholm"]
+[Date "2016.12.01"]
+[Round "?"]
+[White "Rolf Svensson"]
+[Black "Lars-Ivar Juntti"]
+[Result "1-0"]
+[ECO "B28"]
+[Annotator "Rolf Svensson"]
+[PlyCount "71"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 a6 5. Be2 d6
+6. c4 {Utnyttjar att svart dröjt med Sf6.} Nf6 7. Nc3 e6 8. O-O Be7 9. a3 {
+Svårt att se vad vit är rädd för.} e5 {Varför inte direkt i 7:e draget?} 10.
+Nc2 O-O 11. Ne3 Nd4 12. Ned5 Nxd5 13. cxd5 Bg5 {
+Kanske bättre att bryta centrum med f5.} 14. Kh1 Bxc1 15. Rxc1 b5 16. f4 {
+Vit försöker ta initiativet.} f6 17. fxe5 fxe5 (17... dxe5 {
+är eventuellt bättre.}) 18. Rxf8+ Kxf8 {
+Ett, som det senare visar sig,  ödesdigert beslut.} 19. Bf1 {
+Vit vill byta bort svarts starka springare och förbereder detta.} Bd7 20. Ne2
+Bg4 $2 {Svart spikar vits springare för att förbereda bytet.} 21. Nxd4 $1 {
+Hoppsan!} Bxd1 22. Ne6+ Kf7 23. Nxd8+ Rxd8 24. Rxd1 {
+resten av partiet är rel. ointressant men återges för tydlighetens skull.} Rc8
+25. Bd3 Rc5 26. Kg1 a5 27. Rd2 b4 28. axb4 axb4 29. Rc2 Rxc2 30. Bxc2 Ke7 31.
+Kf2 Kd7 32. Ke3 Kc7 33. Kd3 Kb6 34. Kc4 Ka5 35. h4 h6 36. h5 1-0
+

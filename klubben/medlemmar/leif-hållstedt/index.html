@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leif Hållstedt</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLab/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLab/">Home</a> • 
+<a href="/HugoLab/klubben/">Klubben</a> • 
+<a href="/HugoLab/klubben/medlemmar/">Medlemmar</a>
+
+
+		<h1>Leif Hållstedt</h1>
+
+		
+		
+		<p><a href="/SrS/api/?tid=14509&amp;pid=525104">Klass 2</a></p>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

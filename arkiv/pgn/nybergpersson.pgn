@@ -1,0 +1,28 @@
+[Event "Allsvenskan_HT2014"]
+[Site "Stockholm"]
+[Date "2014.10.19"]
+[Round "1"]
+[White "Leif Nyberg"]
+[Black "Kjell Persson"]
+[Result "1/2-1/2"]
+[ECO "A22"]
+[WhiteElo "2008"]
+[BlackElo "1642"]
+[Annotator "Persson,Kjell"]
+[PlyCount "92"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. c4 e5 2. g3 Nf6 3. Bg2 Be7 4. Nc3 O-O 5. Nf3 d6
+6. d3 c5 7. Bg5 Nc6 8. O-O Be6 9. Ne1 Qd7 10. Bxf6 Bxf6 11. Nc2 Bh3 12. Ne3
+Bxg2 13. Kxg2 Nd4 14. Ned5 Bd8 15. e3 Ne6 16. a3 f5 17. Ne2 Qf7 18. b4 Qg6 19.
+f4 Qh6 20. Rb1 b6 21. Qd2 g5 22. fxe5 dxe5 23. Qc3 Qg7 24. Kh1 Rc8 25. Rf2 Nc7
+26. Nxc7 Rxc7 27. Rbf1 {och Fritz tycker att ställningen är lika.} Rcf7 28. Qb3
+Be7 29. Nc3 f4 30. gxf4 exf4 31. Nd5 Bd6 32. exf4 Bxf4 33. bxc5 bxc5 34. Qd1
+Qh6 35. Nxf4 Rxf4 36. Rxf4 gxf4 37. Rg1+ Kh8 38. Qf3 (38. Qa1+ Qf6 39. Qxf6+
+Rxf6 {med lika spel.}) 38... Qd6 39. Qb7 Qd4 {
+och ställningen är lika enligt Fritz.} 40. Qe7 (40. Qxa7 f3 41. Qe7 Rg8 42.
+Rxg8+ Kxg8 43. Qe8+ Kg7 {med remibetonat spel.}) 40... Rg8 41. Re1 f3 42. Qe4
+Qf6 (42... Qxe4 43. dxe4 Rg4 $1 44. e5 Kg7 45. e6 Kf8 46. e7+ Ke8 47. Rf1 Rf4 {
+och svart vinner bonde.}) 43. Qe3 f2 44. Rf1 Qc6+ 45. Qe4 Qf6 46. Qe3 Qc6+ {
+och spelarna enades om remi.} 1/2-1/2
+

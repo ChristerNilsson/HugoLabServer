@@ -1,0 +1,16 @@
+ï»¿[Event "?"]
+[Site "?"]
+[Date "2016.03.16"]
+[Round "?"]
+[White "POS1"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/7R/6P1/7P/8/6r1/8/K7 w - - 0 1"]
+[PlyCount "21"]
+[EventDate "2016.??.??"]
+
+1. Ka2 (1. Kb2 Rh3 2. Kc2 Rg3 3. Kd2 Rh3 4. Ke2 Rg3 5. Kf2 Rh3 6. Kg2 Ra3 7.
+Rb7 Ra5 $11) 1... Rh3 2. Kb2 Rg3 3. Kc2 Rh3 4. Kd2 Rg3 5. Ke2 Rh3 6. Kf2 Ra3 7.
+Rb7 Rh3 8. Rb5 Kg7 9. Kg2 Rh4 10. Kg3 Rh1 11. Rb7+ *
+

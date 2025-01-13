@@ -1,0 +1,20 @@
+[Event "Tiblisi"]
+[Site "?"]
+[Date "1969.02.09"]
+[Round "?"]
+[White "Michael Tal"]
+[Black "Suetin"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "r3k2r/2q1np1p/p2pP1p1/1p2n2Q/8/2PBB3/P1PR2PP/5RK1 w kq - 0 1"]
+[PlyCount "15"]
+
+{600MB, Fritz11.ctg, Dell} 1. Qxe5 $3 {
+Trollkarlen från Riga har hittat ett genialt drag.} dxe5 $2 {
+är inte det bästa draget.} (1... O-O-O 2. Qg5 fxe6 3. Rf7 {
+men vit är pjäs över och vinner så småning om.}) ({Även} 1... O-O {
+leder till vit vinst efter} 2. exf7+ Rxf7 3. Qe6 Raf8 4. Rxf7 Rxf7 5. Rf2 Nf5
+6. Bxf5 gxf5 7. Rxf5 $1) 2. exf7+ Kd8 (2... Kf8 $4 3. Bh6#) 3. f8=Q+ Rxf8 4.
+Rxf8+ Kd7 5. Bf5+ Kc6 6. Be4+ Nd5 7. Rxd5 Rxf8 8. Rd8# 1-0
+

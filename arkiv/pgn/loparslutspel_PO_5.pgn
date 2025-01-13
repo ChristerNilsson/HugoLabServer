@@ -1,0 +1,30 @@
+[Event "Löparslutspel"]
+[Site "?"]
+[Date "2016.10.24"]
+[Round "?"]
+[White "Vit"]
+[Black "Svart"]
+[Result "1/2-1/2"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "4k3/8/3b2K1/6P1/7P/8/8/8 b - - 0 1"]
+[PlyCount "13"]
+
+{600MB, Fritz11.ctg, Dell} 1... Bg3 (1... Kf8 $4 {leder till förlust.} 2. Kh7
+Be5 3. h5 Bd4 4. g6 Be5 5. h6 $1 {och vit vinner.}) 2. h5 Bf4 3. h6 Kf8 4. h7
+Be5 5. Kh6 Bg7+ 6. Kg6 Be5 7. Kf5 Bh8 1/2-1/2
+
+[Event "tornslutspel_PO_6"]
+[Site "?"]
+[Date "2016.10.27"]
+[Round "?"]
+[White "Vit"]
+[Black "Svart"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "r7/5k1P/8/6K1/6R1/8/8/8 w - - 0 1"]
+[PlyCount "7"]
+
+{600MB, Fritz11.ctg, Dell} 1. Ra4 Rh8 2. Ra7+ Ke6 3. Kg6 Rc8 4. Kg7 1-0
+

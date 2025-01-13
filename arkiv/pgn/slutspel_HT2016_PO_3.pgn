@@ -1,0 +1,19 @@
+[Event "Slutspel_HT2016_PO_3"]
+[Site "?"]
+[Date "2016.09.17"]
+[Round "?"]
+[White "Vit"]
+[Black "Svart"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/8/1b5P/kP6/8/5K2/1P6/8 w - - 0 1"]
+[PlyCount "19"]
+
+{600MB, Fritz11.ctg, Dell} 1. Ke4 Bd8 2. b6 $1 (2. Ke5 $2 Bg5 3. h7 Bc1 $1 {
+med remi.}) (2. Kf5 Bb6 3. Ke4 Bd8 4. b6 $1 {vinner också.}) 2... Ka6 (2...
+Kxb6 $2 3. Kf5 {och vit vinner.}) 3. Ke5 Bg5 4. h7 Bc1 5. Kd6 Bxb2 6. Kc7 $1 (
+6. Kc6 $2 Be5 $1 7. b7 Ka7 $1 {och svart håller remi.} 8. h8=Q Bxh8 9. Kc7 Be5+
+10. Kc8) 6... Be5+ 7. Kc6 Bc3 8. b7 Ka7 9. Kc7 Be5+ 10. Kc8 {och vit vinner.}
+1-0
+

@@ -1,0 +1,23 @@
+[Event "Senior_DM_HT2014"]
+[Site "Stockholm"]
+[Date "2014.10.16"]
+[Round "?"]
+[White "Kjell Persson"]
+[Black "Bertil Wennström"]
+[Result "1-0"]
+[ECO "C44"]
+[WhiteElo "1642"]
+[Annotator "Persson,Kjell"]
+[PlyCount "50"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bb4+ 5. c3
+dxc3 6. O-O Be7 $2 (6... d6 7. a3 Bc5 8. b4 Bb6 9. Qb3 Qf6 10. Nxc3 Nge7 11.
+Bb2 O-O {är teori.}) 7. Qd5 Nh6 8. Bxh6 O-O 9. Bc1 ({Även} 9. Bxg7 Kxg7 10.
+Nxc3 {är bra för vit. +0.8}) 9... Nb4 10. Qh5 $1 g6 11. Qh6 d5 12. Bxd5 (12.
+exd5 c2 (12... Nc2 $4 13. Nxc3 Nxa1 14. d6 cxd6 15. Ng5 Bxg5 16. Bxg5 Qxg5 17.
+Qxg5) 13. Nc3 {och vit står överlägset.}) 12... Nxd5 13. exd5 c2 14. Nc3 {
+och vit har pjäs över. +2.5} f6 15. Qd2 {Vit väljer att spela på säkerhet.} Bf5
+16. Nd4 Qd7 17. Nxc2 Rad8 18. Ne3 Bc5 19. Nxf5 Qxf5 20. Qf4 Qh5 21. g4 Qe5 22.
+Be3 Qe7 23. Rad1 Bd6 24. Qe4 b6 25. Qxe7 Bxe7 {och svart ger upp.} 1-0
+

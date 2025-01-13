@@ -1,0 +1,17 @@
+[Event "Studie"]
+[Site "?"]
+[Date "1975.03.26"]
+[Round "?"]
+[White "Fenoglio"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "4K2k/6bp/7r/4B3/3Q4/8/7q/8 w - - 0 1"]
+[PlyCount "9"]
+
+{600MB, Fritz11.ctg, Dell} 1. Qd8 $1 Qa2 (1... Qxe5+ 2. Kf7+ Qe8+ 3. Qxe8+ Bf8
+4. Qxf8#) (1... Qh4 2. Kf7+ Qxd8 3. Bxg7#) (1... Rf6 2. Ke7+ Rf8 (2... Bf8+ 3.
+Qxf8#) 3. Qxf8#) (1... Qf4 2. Ke7+ Qf8+ 3. Qxf8#) 2. Ke7+ Qg8 3. Bxg7+ Kxg7 4.
+Qd4+ Kg6 (4... Rf6 5. Qxf6#) 5. Qg4# 1-0
+

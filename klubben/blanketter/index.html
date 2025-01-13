@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blanketter</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLab/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLab/">Home</a> • 
+<a href="/HugoLab/klubben/">Klubben</a>
+
+
+		<h1>Blanketter</h1>
+
+		
+			
+			<ul>
+			
+			</ul>
+		
+			<ul>
+			
+				<li>
+				<a href="/HugoLab/klubben/blanketter/rondlistor-4-24-deltagare.xls" >rondlistor-4-24-deltagare.xls</a>
+				</li>
+			
+				<li>
+				<a href="/HugoLab/klubben/blanketter/byte-av-huvudklubb.pdf" >byte-av-huvudklubb.pdf</a>
+				</li>
+			
+				<li>
+				<a href="/HugoLab/klubben/blanketter/fullmakt-srs-%C3%A5rsm%C3%B6te.pdf" >fullmakt-srs-årsmöte.pdf</a>
+				</li>
+			
+				<li>
+				<a href="/HugoLab/klubben/blanketter/ny-medlem.pdf" >ny-medlem.pdf</a>
+				</li>
+			
+			</ul>
+		
+		
+		
+		
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+[Event "Seniorserien_HT2016"]
+[Site "Stockholm"]
+[Date "2016.11.09"]
+[Round "10"]
+[White "Hasse Svedberg"]
+[Black "Jan-Olof Cederström"]
+[Result "0-1"]
+[ECO "B01"]
+[WhiteElo "1818"]
+[BlackElo "1683"]
+[Annotator "Persson,Kjell"]
+[PlyCount "40"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 d5 2. exd5 Nf6 3. c4 c6 4. dxc6 (4. Nc3 cxd5
+5. d4 {är vanligare här.}) 4... Nxc6 {ger svart goda möjligheter.} 5. g3 $2 (5.
+d3 e5 6. Nf3 {är den vanliga dragföljden här.}) 5... e5 6. Bg2 Qc7 $2 ({Efter} 
+6... Nb4 7. d4 Bf5 $1 {har svart ett klart övertag.}) 7. a3 a5 8. Nc3 Be6 9. d3
+Rd8 10. Nb5 Qd7 11. b3 Nd4 12. Nc3 Bc5 $1 13. h3 {tvunget.} (13. Be3 $2 Nxb3
+14. Qxb3 Bxe3 15. fxe3 Qxd3 {med vilda förvecklingar.}) 13... b6 14. Nge2 Nxe2
+15. Nxe2 $2 (15. Qxe2 O-O 16. Bb2 Qxd3 17. Qxd3 Rxd3 18. Ke2 {
+och vit klarar sig.}) 15... Qxd3 16. Bc6+ Ke7 17. Bb2 $4 (17. Qxd3 Rxd3 18. Bb2
+) 17... Bxf2+ $3 18. Kxf2 Qf5+ $1 {och vit förlorar damen.} 19. Kg2 Rxd1 20.
+Raxd1 Qc2 $1 {och vit ger upp.} 0-1
+
