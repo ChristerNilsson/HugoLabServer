@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Schackträning on My New Hugo Site</title>
-    <link>https://christernilsson.github.io/HugoLab/program/schacktr%C3%A4ning/</link>
+    <link>https://christernilsson.github.io/HugoLabServer/program/schacktr%C3%A4ning/</link>
     <description>Recent content in Schackträning on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://christernilsson.github.io/HugoLab/program/schacktr%C3%A4ning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://christernilsson.github.io/HugoLabServer/program/schacktr%C3%A4ning/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

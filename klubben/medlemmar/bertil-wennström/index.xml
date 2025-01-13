@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bertil Wennström on My New Hugo Site</title>
-    <link>https://christernilsson.github.io/HugoLab/klubben/medlemmar/bertil-wennstr%C3%B6m/</link>
+    <link>https://christernilsson.github.io/HugoLabServer/klubben/medlemmar/bertil-wennstr%C3%B6m/</link>
     <description>Recent content in Bertil Wennström on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://christernilsson.github.io/HugoLab/klubben/medlemmar/bertil-wennstr%C3%B6m/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://christernilsson.github.io/HugoLabServer/klubben/medlemmar/bertil-wennstr%C3%B6m/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
