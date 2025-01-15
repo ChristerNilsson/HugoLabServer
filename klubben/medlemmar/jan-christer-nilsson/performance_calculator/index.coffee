@@ -39,6 +39,20 @@ performance = (pp,elos) ->
 		if pp == n then return extrapolate n-1,n-0.5,elos
 	performance_rating pp,elos
 
+perf_fide = (elos, score, average) ->
+	if score < 0 or elos.length < score then return ""
+
+	dp = [0, 7, 14, 21, 29, 36, 43, 50, 57, 65, 
+		72, 80, 87, 95, 102, 110, 117, 125, 133, 141, 
+		149, 158, 166, 175, 184, 193, 202, 211, 220, 230, 
+		240, 251, 262, 273, 284, 296, 309, 322, 336, 351, 
+		366, 383, 401, 422, 444, 470, 501, 538, 589, 677, 800]
+	
+	percentage = Math.round 100 * score / elos.length
+
+	diff = if percentage >= 50 then dp[percentage - 50] else -dp[50 - percentage]
+	average + diff
+
 calculate = ->
 	input = document.getElementById("INPUT").value
 	input = input.replaceAll ',',' '
@@ -46,8 +60,11 @@ calculate = ->
 	if data.length <= 1 then return
 	pp = parseFloat data.pop()
 	elos = (parseFloat item for item in data)
-	document.getElementById("PR").innerText = performance(pp, elos).toFixed 6
-
+	average = summa(elos) / elos.length
+	document.getElementById("AVG").innerText = average.toFixed 0
+	document.getElementById("PR").innerText = performance(pp, elos).toFixed 3
+	document.getElementById("FIDE").innerText = perf_fide(elos, pp, average).toFixed 0
+ 
 calculate()
 
 ass "1118", performance(0.0,[1500]).toFixed 0
