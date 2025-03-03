@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schackorientering</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a>
+
+
+		<h1>Schackorientering</h1>
+
+		
+		
+		<p>Detta är ett försök att kombinera schack med orientering och få schack att bli en bättre lagsport, som bygger på samarbete.</p>
+<p>Man skapar ett virtuellt schackbräde, t ex i skogen och där det gärna får finnas hinder i form av vattendrag, berg och sjöar.</p>
+<p>Varje schackruta är 100 x 100 meter. Hela brädet blir då 800 x 800 meter.</p>
+<p>Spelarna startar appen och beger sig till sina överenskomna startpunkter.<br>
+Då någon bestämt sig för ett drag, publicerar han dessa två rutor.<br>
+Bara det egna laget kan se detta drag.<br>
+Åtta rutor kan ligga på denna lista.<br>
+Spelare som ligger nära till kan markera att de tänker hjälpa till.<br>
+När både startruta och slutruta besökts, skickas draget till motståndaren och det plingar till i hans mobil.</p>
+<p>Detta upprepas till man nått spelets slut.</p>
+<h1 id="optimering">Optimering</h1>
+<p>Löparna hjälps åt att positionera sig på bästa sätt.<br>
+Detta beror på var pjäserna står i pågående partier.<br>
+Man kan se var spelarna i det egna laget befinner sig.<br>
+Man ser dock bara sitt eget parti.<br>
+Ibland väljer man ett svagare drag istället för ett starkare om löptiden på så sätt minimeras.<br>
+Det kräver kännedom om terrängen och förmåga att läsa en karta, förutom att vara en god schackspelare.</p>
+<h1 id="löparnas-uppgifter">Löparnas uppgifter</h1>
+<p>En löpare kan markera sig för flera uppgifter samtidigt.<br>
+Samtidigt kanske motståndaren gör ett drag och då måste man tänka ut ett svar också.</p>
+<h1 id="ett-partis-längd-enhet-rutsidor">Ett partis längd (enhet: rutsidor)</h1>
+<p>(Metod: manhattanavståndet. T ex ett springardrag blir 1+2=3 istf sqrt(5)=2.24)</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">nr</th>
+          <th style="text-align: left">drag</th>
+          <th style="text-align: left">avstånd</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">e2e4</td>
+          <td style="text-align: left">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">g1f3</td>
+          <td style="text-align: left">2312 = 8</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">d2d3</td>
+          <td style="text-align: left">211 = 4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">e4xd5</td>
+          <td style="text-align: left">1111 = 4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">5</td>
+          <td style="text-align: left">b1c3</td>
+          <td style="text-align: left">2412 = 9</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">6</td>
+          <td style="text-align: left">c1d2</td>
+          <td style="text-align: left">211  = 4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">d1c3</td>
+          <td style="text-align: left">112  = 4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">8</td>
+          <td style="text-align: left">f1e2</td>
+          <td style="text-align: left">3211 = 7</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">9</td>
+          <td style="text-align: left">f1g1</td>
+          <td style="text-align: left">111  = 3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">10</td>
+          <td style="text-align: left">h2h3</td>
+          <td style="text-align: left">111  = 3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">11</td>
+          <td style="text-align: left">f3d2</td>
+          <td style="text-align: left">221  = 5</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">12</td>
+          <td style="text-align: left">d1e2</td>
+          <td style="text-align: left">111  = 3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">13</td>
+          <td style="text-align: left">e2d1</td>
+          <td style="text-align: left">111  = 3</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">14</td>
+          <td style="text-align: left">f2f3</td>
+          <td style="text-align: left">211  = 4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">15</td>
+          <td style="text-align: left">g1h1</td>
+          <td style="text-align: left">121  = 4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">16</td>
+          <td style="text-align: left">d1e2</td>
+          <td style="text-align: left">411  = 6</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">17</td>
+          <td style="text-align: left">h1h2</td>
+          <td style="text-align: left">311  = 5</td>
+      </tr>
+  </tbody>
+</table>
+<p>I snitt blir det 78 rutsidor/17 = 4.6 rutsidor per drag.
+Med rutsidan 100 meter blir det cirka 460 meter per drag.</p>
+<p>Om löparen springer 5 minuter per km, tar löpandet ungefär 2.5 minuter per drag.<br>
+Inkrementet bör alltså ligga på cirka 300 sek.</p>
+<p>Om vi försöker uppskatta tidsåtgången för ett fyrmannalag, kan man räkna med att varje löpare rör sig 3 rutsidor, enkel väg.<br>
+Fyra partier på 60 drag skulle innebära 60 * 3 * 100 meter = 18 km per spelare.<br>
+I praktiken borde denna sträcka bli mindre pga samordningsmöjligheter.</p>
+<h1 id="parallella-partier">Parallella partier</h1>
+<p>Precis som i en lagmatch möter varje lagmedlem en spelare i andra laget.<br>
+Samarbetet inom laget går ut på att man hjälps åt att utföra varandras drag.<br>
+De drag som behöver utföras publiceras i en lista och man markerar att man tänker avverka dem.<br>
+Det hindrar inte att någon annan kan hinna före.<br>
+Partierna placeras så att varje spelare får ett väderstreck.<br>
+I varje lag finns spelarna N, S, E och W. Som i bridge.</p>
+<h1 id="kartbild">Kartbild</h1>
+<p>Kan vara lämpligt att placera första matchen på en stor gräsplan, t ex Gärdet!<br>
+Det här terrängavnittet kan tyckas lite extremt, men en varm sommardag kan det ge många tillfällen till bad.<br>
+Sandasjön är 650 meter lång och dess bredd varierar mellan 50 och 100 meter.<br>
+Vissa rutor kommer att hamna i vattnet, så det är lämpligt att ha ett vattentätt fodral till sin mobil.<br>
+Självklart är grodfötter tillåtet, schack är ju en materialsport.</p>
+<p><img src="Screenshot.png" alt=""></p>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>
