@@ -56,144 +56,254 @@ setDefault('font','Helvetica')
 		
 		
 		<p>Detta är ett försök att kombinera schack med orientering och få schack att bli en bättre lagsport, som bygger på samarbete.</p>
-<p>Man skapar ett virtuellt schackbräde, t ex i skogen och där det gärna får finnas hinder i form av vattendrag, berg och sjöar.</p>
+<p>Man skapar ett virtuellt schackbräde, t ex i skogen och där det gärna får finnas naturliga hinder i form av vattendrag, berg och sjöar.</p>
 <p>Varje schackruta är 100 x 100 meter. Hela brädet blir då 800 x 800 meter.</p>
 <p>Spelarna startar appen och beger sig till sina överenskomna startpunkter.<br>
-Då någon bestämt sig för ett drag, publicerar han dessa två rutor.<br>
-Bara det egna laget kan se detta drag.<br>
-Åtta rutor kan ligga på denna lista.<br>
-Spelare som ligger nära till kan markera att de tänker hjälpa till.<br>
+Då någon bestämt sig för ett drag, publicerar han detta som två uppdrag (startruta och slutruta).<br>
+Bara det egna laget kan se dessa uppdrag.<br>
+Åtta uppdrag kan ligga på denna lista, fyra startrutor och fyra slutrutor.<br>
 När både startruta och slutruta besökts, skickas draget till motståndaren och det plingar till i hans mobil.</p>
-<p>Detta upprepas till man nått spelets slut.</p>
-<h1 id="optimering">Optimering</h1>
-<p>Löparna hjälps åt att positionera sig på bästa sätt.<br>
-Detta beror på var pjäserna står i pågående partier.<br>
-Man kan se var spelarna i det egna laget befinner sig.<br>
-Man ser dock bara sitt eget parti.<br>
-Ibland väljer man ett svagare drag istället för ett starkare om löptiden på så sätt minimeras.<br>
-Det kräver kännedom om terrängen och förmåga att läsa en karta, förutom att vara en god schackspelare.</p>
-<h1 id="löparnas-uppgifter">Löparnas uppgifter</h1>
-<p>En löpare kan markera sig för flera uppgifter samtidigt.<br>
-Samtidigt kanske motståndaren gör ett drag och då måste man tänka ut ett svar också.</p>
-<h1 id="ett-partis-längd-enhet-rutsidor">Ett partis längd (enhet: rutsidor)</h1>
-<p>(Metod: manhattanavståndet. T ex ett springardrag blir 1+2=3 istf sqrt(5)=2.24)</p>
+<p>Detta upprepas tills partiet spelats klart.</p>
+<h3 id="uppdragslistan">Uppdragslistan</h3>
+<ul>
+<li>Deltagaren anges med sin färg</li>
+<li>Nr är uppdragets nummer
+<ul>
+<li>Används vid kommunikation med annan deltagare, koordinaterna är ju olika</li>
+</ul>
+</li>
+<li>Koordinaterna som anges är de egna</li>
+<li>Högra kolumnen anger hur länge draget legat på listan</li>
+</ul>
+<p>Man ser alla det egna lagets uppdrag, men utför i första hand bara de man kommit överens om.<br>
+Det hindrar inte att man utför någon annan deltagares uppdrag.<br>
+Är man ansvarig för abcd1234 kanske man utför a5 eller e4 ibland, men inte h8.<br>
+Maximalt kan det ligga åtta uppdrag i denna lista.<br>
+Man vet inte om uppdraget handlar om en startruta eller slutruta eller ens vilken pjäs det handlar om.<br>
+<em>Har man bra hjärnkapacitet, kanske man kan hålla det egna lagets fyra partier i huvudet,<br>
+dock vet man inte var motståndarnas pjäser står.</em></p>
+<p><em>En spelare kan ta bort sitt drag, om inget av de två uppdragen utförts.</em></p>
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">nr</th>
-          <th style="text-align: left">drag</th>
-          <th style="text-align: left">avstånd</th>
+          <th style="text-align: center">deltagare</th>
+          <th style="text-align: center">nr</th>
+          <th style="text-align: center">ruta</th>
+          <th style="text-align: right">sek</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">1</td>
-          <td style="text-align: left">e2e4</td>
-          <td style="text-align: left">2</td>
+          <td style="text-align: center">röd</td>
+          <td style="text-align: center">12</td>
+          <td style="text-align: center">e2</td>
+          <td style="text-align: right">219</td>
       </tr>
       <tr>
-          <td style="text-align: left">2</td>
-          <td style="text-align: left">g1f3</td>
-          <td style="text-align: left">2312 = 8</td>
+          <td style="text-align: center">röd</td>
+          <td style="text-align: center">13</td>
+          <td style="text-align: center">e4</td>
+          <td style="text-align: right">219</td>
       </tr>
       <tr>
-          <td style="text-align: left">3</td>
-          <td style="text-align: left">d2d3</td>
-          <td style="text-align: left">211 = 4</td>
+          <td style="text-align: center">gul</td>
+          <td style="text-align: center">17</td>
+          <td style="text-align: center">g1</td>
+          <td style="text-align: right">57</td>
       </tr>
       <tr>
-          <td style="text-align: left">4</td>
-          <td style="text-align: left">e4xd5</td>
-          <td style="text-align: left">1111 = 4</td>
+          <td style="text-align: center">gul</td>
+          <td style="text-align: center">22</td>
+          <td style="text-align: center">f3</td>
+          <td style="text-align: right">57</td>
       </tr>
       <tr>
-          <td style="text-align: left">5</td>
-          <td style="text-align: left">b1c3</td>
-          <td style="text-align: left">2412 = 9</td>
+          <td style="text-align: center">grön</td>
+          <td style="text-align: center">56</td>
+          <td style="text-align: center">h8</td>
+          <td style="text-align: right">19</td>
       </tr>
       <tr>
-          <td style="text-align: left">6</td>
-          <td style="text-align: left">c1d2</td>
-          <td style="text-align: left">211  = 4</td>
+          <td style="text-align: center">grön</td>
+          <td style="text-align: center">63</td>
+          <td style="text-align: center">h7</td>
+          <td style="text-align: right">19</td>
       </tr>
       <tr>
-          <td style="text-align: left">7</td>
-          <td style="text-align: left">d1c3</td>
-          <td style="text-align: left">112  = 4</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">8</td>
-          <td style="text-align: left">f1e2</td>
-          <td style="text-align: left">3211 = 7</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">9</td>
-          <td style="text-align: left">f1g1</td>
-          <td style="text-align: left">111  = 3</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">10</td>
-          <td style="text-align: left">h2h3</td>
-          <td style="text-align: left">111  = 3</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">11</td>
-          <td style="text-align: left">f3d2</td>
-          <td style="text-align: left">221  = 5</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">12</td>
-          <td style="text-align: left">d1e2</td>
-          <td style="text-align: left">111  = 3</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">13</td>
-          <td style="text-align: left">e2d1</td>
-          <td style="text-align: left">111  = 3</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">14</td>
-          <td style="text-align: left">f2f3</td>
-          <td style="text-align: left">211  = 4</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">15</td>
-          <td style="text-align: left">g1h1</td>
-          <td style="text-align: left">121  = 4</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">16</td>
-          <td style="text-align: left">d1e2</td>
-          <td style="text-align: left">411  = 6</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">17</td>
-          <td style="text-align: left">h1h2</td>
-          <td style="text-align: left">311  = 5</td>
+          <td style="text-align: center">blå</td>
+          <td style="text-align: center">112</td>
+          <td style="text-align: center">b8</td>
+          <td style="text-align: right">12</td>
       </tr>
   </tbody>
 </table>
-<p>I snitt blir det 78 rutsidor/17 = 4.6 rutsidor per drag.
+<p>Deltagaren som anges är den som skapat draget.<br>
+<em>Denna lista är sorterad på avståndet från den koordinat deltagaren själv befinner sig på.</em></p>
+<h3 id="optimering">Optimering</h3>
+<p>Löparna hjälps åt att positionera sig på bästa sätt.<br>
+Detta beror på var pjäserna står i pågående partier.<br>
+Man kan se var spelarna i det egna laget befinner sig.<br>
+Man ser dock bara sitt eget parti.<br>
+<em>Ibland väljer man ett svagare drag istället för ett starkare om löptiden på så sätt minimeras.<br>
+Det kräver kännedom om terrängen och förmåga att läsa en karta, förutom att vara en god schackspelare.</em></p>
+<h3 id="deltagarens-uppgifter">Deltagarens uppgifter</h3>
+<ol>
+<li>Sköta sitt eget parti</li>
+<li>Utföra uppdrag i de egna rutorna samt eventuella närliggande uppdrag, i mån av tid och ork.</li>
+</ol>
+<p><em>Om spelarna vill kan de hantera enbart sina egna drag.<br>
+Dock, den totala sträckan deltagarna springer kommer då att öka.<br>
+Ett lika starkt lag som samarbetar kommer att ha en stor fördel.</em></p>
+<h3 id="parallella-partier">Parallella partier</h3>
+<p>Precis som i en lagmatch möter varje lagmedlem en spelare i andra laget.<br>
+Samarbetet inom laget går ut på att man hjälps åt att utföra varandras drag.<br>
+De drag som behöver utföras publiceras i en lista.<br>
+Partierna placeras så att varje spelare får ett väderstreck.<br>
+I varje lag finns spelarna N, S, E och W. Som i bridge.</p>
+<p>De fyra brädena är orienterade som nedan.<br>
+Tänk er brädena staplade på höjden.<br>
+N:g1 delar ruta med W:h7, E:b8 samt S:a2.<br>
+<em>Det behöver inte vara Fischer 960</em><br>
+En spelare ser bara sitt eget bräde (rättvänt), och han ser dessutom var alla lagkamrater befinner sig (som cirklar med olika färger).</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">N <img src="N.png" alt="N"></td>
+          <td style="text-align: left">W <img src="W.png" alt="W"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">E <img src="E.png" alt="E"></td>
+          <td style="text-align: left">S <img src="S.png" alt="S"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="kartbild">Kartbild</h3>
+<p><em>Det kan vara lämpligt att placera första matchen på en stor gräsplan, t ex Gärdet!</em></p>
+<p>Det här <a href="https://minkarta.lantmateriet.se/plats/3006/v2.0/?e=681858&amp;n=6575132&amp;z=12&amp;mapprofile=karta&amp;layers=%5B%5B%223%22%5D%2C%5B%221%22%5D%5D">terrängavsnittet</a> kan tyckas lite extremt, men en varm sommardag kan det ge många tillfällen till bad.<br>
+Sandasjön är 650 meter lång och dess bredd varierar mellan 50 och 100 meter.<br>
+Vissa rutor kommer att hamna i vattnet, så det är lämpligt att ha ett vattentätt fodral till sin mobil.<br>
+<em>Självklart är grodfötter tillåtet, schack är ju en materialsport.</em></p>
+<p><img src="Screenshot.png" alt=""></p>
+<p>Fundering: Bör man rockera kort eller långt med denna topografi?</p>
+<h3 id="ett-partis-längd-enhet-rutsidor">Ett partis längd (enhet: rutsidor)</h3>
+<p>Det är inte helt enkelt att räkna ut hur lång tid ett drag tar.<br>
+a1h8 kan ske snabbt om två spelare befinner sig i närheten, kanske t o m i dessa rutor.<br>
+Väljer spelarna drag genom att studera var kamraterna befinner sig, kan tiden bli mycket kort.<br>
+Men, troligen blir dragen då inte de starkaste.</p>
+<p><em>I exemplet nedan utgår jag från att en deltagare utför sina drag själv, utan hjälp från någon annan.<br>
+Dessutom räknar jag in transportsträckan från slutdrag till startdrag.</em></p>
+<p><em>Metod: <a href="https://simple.wikipedia.org/wiki/Manhattan_distance">manhattanavståndet</a>. T ex blir ett springardrag 1 + 2 = 3 istf sqrt(1 x 1 + 2 x 2) = 2.24</em></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: right">nr</th>
+          <th style="text-align: center">drag</th>
+          <th style="text-align: right">avstånd</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: right">1</td>
+          <td style="text-align: center">e2e4</td>
+          <td style="text-align: right">2</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">2</td>
+          <td style="text-align: center">g1f3</td>
+          <td style="text-align: right">2312 = 8</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">3</td>
+          <td style="text-align: center">d2d3</td>
+          <td style="text-align: right">211 = 4</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">4</td>
+          <td style="text-align: center">e4d5</td>
+          <td style="text-align: right">1111 = 4</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">5</td>
+          <td style="text-align: center">b1c3</td>
+          <td style="text-align: right">2412 = 9</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">6</td>
+          <td style="text-align: center">c1d2</td>
+          <td style="text-align: right">211  = 4</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">7</td>
+          <td style="text-align: center">d1c3</td>
+          <td style="text-align: right">112  = 4</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">8</td>
+          <td style="text-align: center">f1e2</td>
+          <td style="text-align: right">3211 = 7</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">9</td>
+          <td style="text-align: center">f1g1</td>
+          <td style="text-align: right">111  = 3</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">10</td>
+          <td style="text-align: center">h2h3</td>
+          <td style="text-align: right">111  = 3</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">11</td>
+          <td style="text-align: center">f3d2</td>
+          <td style="text-align: right">221  = 5</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">12</td>
+          <td style="text-align: center">d1e2</td>
+          <td style="text-align: right">111  = 3</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">13</td>
+          <td style="text-align: center">e2d1</td>
+          <td style="text-align: right">111  = 3</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">14</td>
+          <td style="text-align: center">f2f3</td>
+          <td style="text-align: right">211  = 4</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">15</td>
+          <td style="text-align: center">g1h1</td>
+          <td style="text-align: right">121  = 4</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">16</td>
+          <td style="text-align: center">d1e2</td>
+          <td style="text-align: right">411  = 6</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">17</td>
+          <td style="text-align: center">h1h2</td>
+          <td style="text-align: right">311  = 5</td>
+      </tr>
+  </tbody>
+</table>
+<p>I snitt blir det 78 rutsidor/17 = 4.6 rutsidor per drag.<br>
 Med rutsidan 100 meter blir det cirka 460 meter per drag.</p>
 <p>Om löparen springer 5 minuter per km, tar löpandet ungefär 2.5 minuter per drag.<br>
 Inkrementet bör alltså ligga på cirka 300 sek.</p>
 <p>Om vi försöker uppskatta tidsåtgången för ett fyrmannalag, kan man räkna med att varje löpare rör sig 3 rutsidor, enkel väg.<br>
 Fyra partier på 60 drag skulle innebära 60 * 3 * 100 meter = 18 km per spelare.<br>
-I praktiken borde denna sträcka bli mindre pga samordningsmöjligheter.</p>
-<h1 id="parallella-partier">Parallella partier</h1>
-<p>Precis som i en lagmatch möter varje lagmedlem en spelare i andra laget.<br>
-Samarbetet inom laget går ut på att man hjälps åt att utföra varandras drag.<br>
-De drag som behöver utföras publiceras i en lista och man markerar att man tänker avverka dem.<br>
-Det hindrar inte att någon annan kan hinna före.<br>
-Partierna placeras så att varje spelare får ett väderstreck.<br>
-I varje lag finns spelarna N, S, E och W. Som i bridge.</p>
-<h1 id="kartbild">Kartbild</h1>
-<p>Kan vara lämpligt att placera första matchen på en stor gräsplan, t ex Gärdet!<br>
-Det här terrängavnittet kan tyckas lite extremt, men en varm sommardag kan det ge många tillfällen till bad.<br>
-Sandasjön är 650 meter lång och dess bredd varierar mellan 50 och 100 meter.<br>
-Vissa rutor kommer att hamna i vattnet, så det är lämpligt att ha ett vattentätt fodral till sin mobil.<br>
-Självklart är grodfötter tillåtet, schack är ju en materialsport.</p>
-<p><img src="Screenshot.png" alt=""></p>
+I praktiken borde denna sträcka bli kortare pga samordningsmöjligheter.</p>
+<p><em>Ju färre partier som pågår, desto fortare kan dragen utföras.<br>
+Detta pga att alla deltagare fortsätter avverka uppdrag tills alla partier är klara.</em></p>
 
 	
 	</div>
