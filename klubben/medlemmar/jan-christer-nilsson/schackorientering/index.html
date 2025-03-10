@@ -66,7 +66,7 @@ När både startruta och slutruta besökts, skickas draget till motståndaren oc
 <p>Detta upprepas tills partiet spelats klart.</p>
 <h1 id="uppdrag">Uppdrag</h1>
 <p>Fyra partier pågår samtidigt, precis som i en vanlig lagmatch.<br>
-Dock utförs inte dragen förrän start och slutruta besökts boots on the ground.
+Dock utförs inte dragen förrän start och slutruta besökts boots on the ground.<br>
 Varje drag delas upp i två uppdrag: startruta och slutruta.<br>
 Därefter fördelas de till en eller två kvadranter.<br>
 Spelare C kan t ex bestämma sig för ett drag, t ex löparen a1-h8, som sedan utförs av spelare A och D, kanske parallellt.<br>
@@ -75,7 +75,7 @@ Spelarna lämnar inte sina kvadranter, utan står kvar och väntar på nya uppdr
 <table>
   <thead>
       <tr>
-          <th style="text-align: left"></th>
+          <th style="text-align: left">•</th>
           <th style="text-align: left">a</th>
           <th style="text-align: left">b</th>
           <th style="text-align: left">c</th>
@@ -207,9 +207,10 @@ Dyker det upp ett nytt uppdrag, som är närmare än det pågående, byter man a
 Detta är en primitiv algoritm för att approximativt hitta en bra lösning.<br>
 (Den perfekta lösningen kan vara svår att finna, man har ju inte alla dragen i verkligheten)</p>
 <p>Det egna lagets deltagare är markerade med A-D, motståndarna E-H.<br>
-Den ruta man ska gå till är markerad med ett streck.<br>
-Andra drag är markerade med röda punkter.<br>
+Den ruta man ska gå till är markerad med ett streck mellan den egna bokstaven och rutan.<br>
+Pågående/köade drag är markerade med röda punkter.<br>
 Start och slutruta är hopkopplade med ett streck.</p>
+<p>I simulatorn kan man även se motståndarlagets drag. Detta är ej möjligt i appen.</p>
 <h3 id="optimeringsmöjlighet">Optimeringsmöjlighet</h3>
 <p>Man kan se var spelarna i det egna laget befinner sig.<br>
 Man ser dock bara sitt eget parti.<br>
