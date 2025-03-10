@@ -60,111 +60,176 @@ setDefault('font','Helvetica')
 <p>Varje schackruta är 100 x 100 meter. Hela brädet blir då 800 x 800 meter.</p>
 <p>Spelarna startar appen och beger sig till sina överenskomna startpunkter.<br>
 Då någon bestämt sig för ett drag, publicerar han detta som två uppdrag (startruta och slutruta).<br>
-Bara det egna laget kan se dessa uppdrag.<br>
+Bara det egna laget, med fyra medlemmar, kan se dessa uppdrag.<br>
 Åtta uppdrag kan ligga på denna lista, fyra startrutor och fyra slutrutor.<br>
 När både startruta och slutruta besökts, skickas draget till motståndaren och det plingar till i hans mobil.</p>
 <p>Detta upprepas tills partiet spelats klart.</p>
-<h3 id="uppdragslistan">Uppdragslistan</h3>
-<ul>
-<li>Deltagaren anges med sin färg</li>
-<li>Nr är uppdragets nummer
-<ul>
-<li>Används vid kommunikation med annan deltagare, koordinaterna är ju olika</li>
-</ul>
-</li>
-<li>Koordinaterna som anges är de egna</li>
-<li>Högra kolumnen anger hur länge draget legat på listan</li>
-</ul>
-<p>Man ser alla det egna lagets uppdrag, men utför i första hand bara de man kommit överens om.<br>
-Det hindrar inte att man utför någon annan deltagares uppdrag.<br>
-Är man ansvarig för abcd1234 kanske man utför a5 eller e4 ibland, men inte h8.<br>
-Maximalt kan det ligga åtta uppdrag i denna lista.<br>
-Man vet inte om uppdraget handlar om en startruta eller slutruta eller ens vilken pjäs det handlar om.<br>
-<em>Har man bra hjärnkapacitet, kanske man kan hålla det egna lagets fyra partier i huvudet,<br>
-dock vet man inte var motståndarnas pjäser står.</em></p>
-<p><em>En spelare kan ta bort sitt drag, om inget av de två uppdragen utförts.</em></p>
+<h1 id="uppdrag">Uppdrag</h1>
+<p>Fyra partier pågår samtidigt, precis som i en vanlig lagmatch.<br>
+Dock utförs inte dragen förrän start och slutruta besökts boots on the ground.
+Varje drag delas upp i två uppdrag: startruta och slutruta.<br>
+Därefter fördelas de till en eller två kvadranter.<br>
+Spelare C kan t ex bestämma sig för ett drag, t ex löparen a1-h8, som sedan utförs av spelare A och D, kanske parallellt.<br>
+Då båda uppdragen utförts, skickas draget till motståndaren.<br>
+Spelarna lämnar inte sina kvadranter, utan står kvar och väntar på nya uppdrag.</p>
 <table>
   <thead>
       <tr>
-          <th style="text-align: center">deltagare</th>
-          <th style="text-align: center">nr</th>
-          <th style="text-align: center">ruta</th>
-          <th style="text-align: right">sek</th>
+          <th style="text-align: left"></th>
+          <th style="text-align: left">a</th>
+          <th style="text-align: left">b</th>
+          <th style="text-align: left">c</th>
+          <th style="text-align: left">d</th>
+          <th style="text-align: left">e</th>
+          <th style="text-align: left">f</th>
+          <th style="text-align: left">g</th>
+          <th style="text-align: left">h</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: center">röd</td>
-          <td style="text-align: center">12</td>
-          <td style="text-align: center">e2</td>
-          <td style="text-align: right">219</td>
+          <td style="text-align: left">8</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">D</td>
+          <td style="text-align: left">D</td>
+          <td style="text-align: left">D</td>
+          <td style="text-align: left">D</td>
       </tr>
       <tr>
-          <td style="text-align: center">röd</td>
-          <td style="text-align: center">13</td>
-          <td style="text-align: center">e4</td>
-          <td style="text-align: right">219</td>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">D</td>
+          <td style="text-align: left">D</td>
+          <td style="text-align: left">D</td>
+          <td style="text-align: left">D</td>
       </tr>
       <tr>
-          <td style="text-align: center">gul</td>
-          <td style="text-align: center">17</td>
-          <td style="text-align: center">g1</td>
-          <td style="text-align: right">57</td>
+          <td style="text-align: left">6</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">D</td>
+          <td style="text-align: left">D</td>
+          <td style="text-align: left">D</td>
+          <td style="text-align: left">D</td>
       </tr>
       <tr>
-          <td style="text-align: center">gul</td>
-          <td style="text-align: center">22</td>
-          <td style="text-align: center">f3</td>
-          <td style="text-align: right">57</td>
+          <td style="text-align: left">5</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">C</td>
+          <td style="text-align: left">D</td>
+          <td style="text-align: left">D</td>
+          <td style="text-align: left">D</td>
+          <td style="text-align: left">D</td>
       </tr>
       <tr>
-          <td style="text-align: center">grön</td>
-          <td style="text-align: center">56</td>
-          <td style="text-align: center">h8</td>
-          <td style="text-align: right">19</td>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">B</td>
+          <td style="text-align: left">B</td>
+          <td style="text-align: left">B</td>
+          <td style="text-align: left">B</td>
       </tr>
       <tr>
-          <td style="text-align: center">grön</td>
-          <td style="text-align: center">63</td>
-          <td style="text-align: center">h7</td>
-          <td style="text-align: right">19</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">B</td>
+          <td style="text-align: left">B</td>
+          <td style="text-align: left">B</td>
+          <td style="text-align: left">B</td>
       </tr>
       <tr>
-          <td style="text-align: center">blå</td>
-          <td style="text-align: center">112</td>
-          <td style="text-align: center">b8</td>
-          <td style="text-align: right">12</td>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">B</td>
+          <td style="text-align: left">B</td>
+          <td style="text-align: left">B</td>
+          <td style="text-align: left">B</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">B</td>
+          <td style="text-align: left">B</td>
+          <td style="text-align: left">B</td>
+          <td style="text-align: left">B</td>
       </tr>
   </tbody>
 </table>
-<p>Deltagaren som anges är den som skapat draget.<br>
-<em>Denna lista är sorterad på avståndet från den koordinat deltagaren själv befinner sig på.</em></p>
-<h3 id="optimering">Optimering</h3>
-<p>Löparna hjälps åt att positionera sig på bästa sätt.<br>
-Detta beror på var pjäserna står i pågående partier.<br>
-Man kan se var spelarna i det egna laget befinner sig.<br>
+<p>I början av partiet ovan, kan det tyckas som om spelare C och D inte får några uppdrag.<br>
+Dock pågår fyra partier samtidigt, och dessa är roterade.<br>
+Detta innebär att uppdragen kommer att fördelas någorlunda jämnt.<br>
+Eftersom det handlar om schack, vet man inte var striderna kommer att äga rum.</p>
+<h1 id="simulator">Simulator</h1>
+<p><a href="https://christernilsson.github.io/2025/007-SchackOrientering/">Prova simulatorn!</a></p>
+<p>Vid start samlas alla åtta deltagarna i brädets mittpunkt.<br>
+Eftersom alla står i samma punkt, syns bara spelaren H.<br>
+Därefter sätter man igång ett eller flera partier genom att klicka A, B, C, och/eller D.</p>
+<p>De fyra partierna är vända åt fyra olika väderstreck.<br>
+Detta för att jämna ut geografiska orättvisor.</p>
+<ul>
+<li>A: Vit längst ner</li>
+<li>B: Vit till höger</li>
+<li>C: Vit högst upp</li>
+<li>D: Vit till vänster</li>
+</ul>
+<p>Partierna är hämtade från Lichess.<br>
+Därför är betänketiden noll sekunder.<br>
+Tiderna man ser går åt till spelarnas förflyttning, en faktor 30 av normal tid.<br>
+Varje spelare ansvarar för sin kvadrant av brädet, t ex har A abcd1234.<br>
+Deltagarna antas börja på ett uppdrag så fort det dyker upp.<br>
+Det kan slumpa sig så att en spelare får åtta uppdrag med en gång.<br>
+I så fall börjar han med det närmaste, tar därefter nästa som är närmast, osv.<br>
+Ibland står de redan på start- eller stopprutan och då markeras uppdraget som klart.<br>
+Annars börjar de förflytta sig mot den ruta som är närmast, av alla uppdrag.<br>
+Dyker det upp ett nytt uppdrag, som är närmare än det pågående, byter man automatiskt till det.<br>
+Detta är en primitiv algoritm för att approximativt hitta en bra lösning.<br>
+(Den perfekta lösningen kan vara svår att finna, man har ju inte alla dragen i verkligheten)</p>
+<p>Det egna lagets deltagare är markerade med A-D, motståndarna E-H.<br>
+Den ruta man ska gå till är markerad med ett streck.<br>
+Andra drag är markerade med röda punkter.<br>
+Start och slutruta är hopkopplade med ett streck.</p>
+<h3 id="optimeringsmöjlighet">Optimeringsmöjlighet</h3>
+<p>Man kan se var spelarna i det egna laget befinner sig.<br>
 Man ser dock bara sitt eget parti.<br>
-<em>Ibland väljer man ett svagare drag istället för ett starkare om löptiden på så sätt minimeras.<br>
-Det kräver kännedom om terrängen och förmåga att läsa en karta, förutom att vara en god schackspelare.</em></p>
+Vid tidsnöd kan man välja ett svagare drag istället för ett starkare om löptiden på så sätt minimeras.</p>
 <h3 id="deltagarens-uppgifter">Deltagarens uppgifter</h3>
 <ol>
-<li>Sköta sitt eget parti</li>
-<li>Utföra uppdrag i de egna rutorna samt eventuella närliggande uppdrag, i mån av tid och ork.</li>
+<li>Sköta sitt eget parti.</li>
+<li>Utföra alla tilldelade uppdrag.</li>
 </ol>
-<p><em>Om spelarna vill kan de hantera enbart sina egna drag.<br>
-Dock, den totala sträckan deltagarna springer kommer då att öka.<br>
-Ett lika starkt lag som samarbetar kommer att ha en stor fördel.</em></p>
 <h3 id="parallella-partier">Parallella partier</h3>
 <p>Precis som i en lagmatch möter varje lagmedlem en spelare i andra laget.<br>
 Samarbetet inom laget går ut på att man hjälps åt att utföra varandras drag.<br>
-De drag som behöver utföras publiceras i en lista.<br>
+De drag som behöver utföras fördelas på spelarnas kvadranter.
 Partierna placeras så att varje spelare får ett väderstreck.<br>
 I varje lag finns spelarna N, S, E och W. Som i bridge.</p>
 <p>De fyra brädena är orienterade som nedan.<br>
 Tänk er brädena staplade på höjden.<br>
 N:g1 delar ruta med W:h7, E:b8 samt S:a2.<br>
 <em>Det behöver inte vara Fischer 960</em><br>
-En spelare ser bara sitt eget bräde (rättvänt), och han ser dessutom var alla lagkamrater befinner sig (som cirklar med olika färger).</p>
+En spelare ser bara sitt eget bräde (rättvänt), och han ser dessutom var alla lagkamrater befinner sig.</p>
 <table>
   <thead>
       <tr>
@@ -191,119 +256,18 @@ Vissa rutor kommer att hamna i vattnet, så det är lämpligt att ha ett vattent
 <em>Självklart är grodfötter tillåtet, schack är ju en materialsport.</em></p>
 <p><img src="Screenshot.png" alt=""></p>
 <p>Fundering: Bör man rockera kort eller långt med denna topografi?</p>
-<h3 id="ett-partis-längd-enhet-rutsidor">Ett partis längd (enhet: rutsidor)</h3>
-<p>Det är inte helt enkelt att räkna ut hur lång tid ett drag tar.<br>
-a1h8 kan ske snabbt om två spelare befinner sig i närheten, kanske t o m i dessa rutor.<br>
-Väljer spelarna drag genom att studera var kamraterna befinner sig, kan tiden bli mycket kort.<br>
-Men, troligen blir dragen då inte de starkaste.</p>
-<p><em>I exemplet nedan utgår jag från att en deltagare utför sina drag själv, utan hjälp från någon annan.<br>
-Dessutom räknar jag in transportsträckan från slutdrag till startdrag.</em></p>
-<p><em>Metod: <a href="https://simple.wikipedia.org/wiki/Manhattan_distance">manhattanavståndet</a>. T ex blir ett springardrag 1 + 2 = 3 istf sqrt(1 x 1 + 2 x 2) = 2.24</em></p>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: right">nr</th>
-          <th style="text-align: center">drag</th>
-          <th style="text-align: right">avstånd</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: right">1</td>
-          <td style="text-align: center">e2e4</td>
-          <td style="text-align: right">2</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">2</td>
-          <td style="text-align: center">g1f3</td>
-          <td style="text-align: right">2312 = 8</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">3</td>
-          <td style="text-align: center">d2d3</td>
-          <td style="text-align: right">211 = 4</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">4</td>
-          <td style="text-align: center">e4d5</td>
-          <td style="text-align: right">1111 = 4</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">5</td>
-          <td style="text-align: center">b1c3</td>
-          <td style="text-align: right">2412 = 9</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">6</td>
-          <td style="text-align: center">c1d2</td>
-          <td style="text-align: right">211  = 4</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">7</td>
-          <td style="text-align: center">d1c3</td>
-          <td style="text-align: right">112  = 4</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">8</td>
-          <td style="text-align: center">f1e2</td>
-          <td style="text-align: right">3211 = 7</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">9</td>
-          <td style="text-align: center">f1g1</td>
-          <td style="text-align: right">111  = 3</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">10</td>
-          <td style="text-align: center">h2h3</td>
-          <td style="text-align: right">111  = 3</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">11</td>
-          <td style="text-align: center">f3d2</td>
-          <td style="text-align: right">221  = 5</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">12</td>
-          <td style="text-align: center">d1e2</td>
-          <td style="text-align: right">111  = 3</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">13</td>
-          <td style="text-align: center">e2d1</td>
-          <td style="text-align: right">111  = 3</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">14</td>
-          <td style="text-align: center">f2f3</td>
-          <td style="text-align: right">211  = 4</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">15</td>
-          <td style="text-align: center">g1h1</td>
-          <td style="text-align: right">121  = 4</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">16</td>
-          <td style="text-align: center">d1e2</td>
-          <td style="text-align: right">411  = 6</td>
-      </tr>
-      <tr>
-          <td style="text-align: right">17</td>
-          <td style="text-align: center">h1h2</td>
-          <td style="text-align: right">311  = 5</td>
-      </tr>
-  </tbody>
-</table>
-<p>I snitt blir det 78 rutsidor/17 = 4.6 rutsidor per drag.<br>
-Med rutsidan 100 meter blir det cirka 460 meter per drag.</p>
-<p>Om löparen springer 5 minuter per km, tar löpandet ungefär 2.5 minuter per drag.<br>
-Inkrementet bör alltså ligga på cirka 300 sek.</p>
-<p>Om vi försöker uppskatta tidsåtgången för ett fyrmannalag, kan man räkna med att varje löpare rör sig 3 rutsidor, enkel väg.<br>
-Fyra partier på 60 drag skulle innebära 60 * 3 * 100 meter = 18 km per spelare.<br>
-I praktiken borde denna sträcka bli kortare pga samordningsmöjligheter.</p>
-<p><em>Ju färre partier som pågår, desto fortare kan dragen utföras.<br>
-Detta pga att alla deltagare fortsätter avverka uppdrag tills alla partier är klara.</em></p>
+<h3 id="appen">Appen</h3>
+<p>Deltagarna behöver varsin mobil och varsin kompass.</p>
+<p>Appen visar ett schackbräde, samt en översiktsbild över var övriga lagmedlemmar befinner sig.<br>
+Man kan växla mellan dessa två bilder.<br>
+Schackdrag utförs genom att klicka på start och slutrutorna.<br>
+Uppdragen ges via röstkommandon, medtag hörlurar.</p>
+<ul>
+<li>Hörs en manlig röst säga &ldquo;ett åtta&rdquo; innebär det att gå i riktning 180, dvs rakt söderut. Ställ in kompassen på 180.</li>
+<li>Då man kommit ur kurs, kommer en ny bäring. Ställ in kompassen och fortsätt.</li>
+<li>Hörs en kvinnlig röst &ldquo;nittio&rdquo; innebär det att man har 90 meter till målet. Denna avstånd minskar förhoppnigsvis, tills man hör enstaka meter i slutet.</li>
+</ul>
+<p>Då man kommit inom två meter från målet anses uppdraget slutfört och man får ett nytt uppdrag automatiskt. Annars står man kvar och väntar.</p>
 
 	
 	</div>
