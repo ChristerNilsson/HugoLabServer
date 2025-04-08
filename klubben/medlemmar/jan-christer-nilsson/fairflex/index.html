@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FairFlex</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a>
+
+
+		<h1>FairFlex</h1>
+
+		
+		
+		<h1 id="introduktion">Introduktion</h1>
+<p>FairFlex bygger på FairPar.</p>
+<ul>
+<li>Man kan blanda olika tidsformat, t ex blixt, snabb och långparti</li>
+<li>Man kan även blanda Chess960 och vanligt schack i samma turnering</li>
+</ul>
+<p>Eftersom lottningen bygger enbart på elo-rating, lottar man alla ronder direkt.<br>
+Varje spelare får ett utskrivet formulär där han fyller i resultaten.</p>
+<p>Exempel:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Namn</th>
+          <th style="text-align: left">Tid</th>
+          <th style="text-align: left">Chess960</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Christer</td>
+          <td style="text-align: left">#7</td>
+          <td style="text-align: left">Ja</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Thomas</td>
+          <td style="text-align: left">#5</td>
+          <td style="text-align: left">Nej</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Anders</td>
+          <td style="text-align: left">#1</td>
+          <td style="text-align: left">Nej</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Vida</td>
+          <td style="text-align: left">#12</td>
+          <td style="text-align: left">Ja</td>
+      </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Rond 1 #6=12+8</th>
+          <th style="text-align: left">w</th>
+          <th style="text-align: left">b</th>
+          <th style="text-align: left">w</th>
+          <th style="text-align: left">b</th>
+          <th style="text-align: left">w</th>
+          <th style="text-align: left">b</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Christer</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left">1</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Thomas</td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0</td>
+      </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Rond 2 #4=18+12</th>
+          <th style="text-align: left">b</th>
+          <th style="text-align: left">w</th>
+          <th style="text-align: left">b</th>
+          <th style="text-align: left">w</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Christer</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">½</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Anders h</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left">½</td>
+      </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Rond 3 #9=6+4 960</th>
+          <th style="text-align: left">b</th>
+          <th style="text-align: left">w</th>
+          <th style="text-align: left">b</th>
+          <th style="text-align: left">w</th>
+          <th style="text-align: left">b</th>
+          <th style="text-align: left">w</th>
+          <th style="text-align: left">b</th>
+          <th style="text-align: left">w</th>
+          <th style="text-align: left">b</th>
+          <th style="text-align: left">w</th>
+          <th style="text-align: left">b</th>
+          <th style="text-align: left">w</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Christer</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Vida</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+          <td style="text-align: left">½</td>
+      </tr>
+  </tbody>
+</table>
+<h1 id="tidsformat">Tidsformat</h1>
+<p>Varje spelare anger vilket tidsformat han föredrar. Det kan variera mellan 3+2 och 90+30.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: right">Nr</th>
+          <th style="text-align: right">min</th>
+          <th style="text-align: right">antal</th>
+          <th style="text-align: center">förslag</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: right">#1</td>
+          <td style="text-align: right">120</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: center">90+30</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">#2</td>
+          <td style="text-align: right">60</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: center">36+24</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">#3</td>
+          <td style="text-align: right">40</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: center">24+16</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">#4</td>
+          <td style="text-align: right">30</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: center">18+12</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">#5</td>
+          <td style="text-align: right">24</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: center">15+10</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">#6</td>
+          <td style="text-align: right">20</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: center">12+8</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">#7</td>
+          <td style="text-align: right">15</td>
+          <td style="text-align: right">8</td>
+          <td style="text-align: center">9+6</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">#8</td>
+          <td style="text-align: right">12</td>
+          <td style="text-align: right">10</td>
+          <td style="text-align: center">7+5</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">#9</td>
+          <td style="text-align: right">10</td>
+          <td style="text-align: right">12</td>
+          <td style="text-align: center">6+4</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">#10</td>
+          <td style="text-align: right">8</td>
+          <td style="text-align: right">15</td>
+          <td style="text-align: center">5+3</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">#11</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">20</td>
+          <td style="text-align: center">4+2</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">#12</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">24</td>
+          <td style="text-align: center">3+2</td>
+      </tr>
+  </tbody>
+</table>
+<p>Gillar man långparti väljer man #1.<br>
+Gillar man blixt väljer man #12.<br>
+Om spelarna valt olika # beräknar man medelvärdet och avrundar neråt.<br>
+T ex #3 och #6 ger #4.<br>
+Uppdelningen mellan bastid och inkrement kan behöva justeras.<br>
+Man behöver inte spela alla partierna i en rond.<br>
+En klassisk spelares snabbaste parti blir 12+8<br>
+En blixtspelares långsammaste parti blir också 12+8</p>
+<p>Varje rond kommer att resultera i en vinstandel, t ex 3.5/6 = 0.5833<br>
+Rondernas vinstandelar summeras och används vid beräkning av Performance Rating.<br>
+(Christers vinstandelar i exemplet ovan: 3.5/6 + 2.5/4 + 6/12 = 1.7083)<br>
+Performance Rating avgör vilken placering spelaren får.</p>
+<h1 id="chess960">Chess960</h1>
+<p>Om båda spelarna har angett att de kan tänka sig att spela 960, väljs startställning så här:</p>
+<ul>
+<li>Tag bort tornen och kungarna</li>
+<li>Starta klockan</li>
+<li>Vit placerar ut damen och trycker på klockan</li>
+<li>Svart placerar ut en löpare och trycker på klockan</li>
+<li>Vit placerar ut en löpare och trycker på klockan</li>
+<li>Svart placerar ut en springare och trycker på klockan</li>
+<li>Vit placerar ut en springare och trycker på klockan</li>
+<li>Svart placerar ut torn och kung och trycker på klockan</li>
+<li>Vit placerar ut torn och kung och gör första draget</li>
+<li>Man placerar bara ut sina egna pjäser</li>
+<li>Pjäserna ska placeras spegelvänt</li>
+<li>Löparna ska stå på olikfärgade rutor</li>
+<li>Kungen ska stå mellan tornen</li>
+</ul>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>
