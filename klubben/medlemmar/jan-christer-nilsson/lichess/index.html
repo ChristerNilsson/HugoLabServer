@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/HugoLabServer/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=HugoLabServer/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LiChess</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a>
+
+
+		<h1>LiChess</h1>
+
+		
+		
+		<ul>
+<li><a href="https://en.wikipedia.org/wiki/Lichess">Wikipedia</a></li>
+<li>På server används Stockfish 17 NNUE</li>
+<li>Lokal motor finns också</li>
+<li>Analys av dina partier</li>
+<li>Spelöppningsdatabas</li>
+<li>Slutspelsdatabas (Syzygy: 7 pjäser)</li>
+<li>Pussel med egen rating</li>
+<li>Turneringar (Arena och Swiss)</li>
+<li>Stöd för DGT-bräde</li>
+<li>Gratis om man så vill.</li>
+<li><a href="https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation">FEN</a> - En enda ställning</li>
+<li><a href="https://en.wikipedia.org/wiki/Portable_Game_Notation">PGN</a> - Ett eller flera partier</li>
+</ul>
+<h2 id="demo">DEMO</h2>
+<ul>
+<li>Partier matas in för hand i Study</li>
+<li>Lokal Stockfish</li>
+<li>Spelöppningsdatabas</li>
+<li>Analys</li>
+<li>Evaluation Gauge</li>
+</ul>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/HugoLabServer/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=HugoLabServer/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Partier</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a>
+
+
+		<h1>Partier</h1>
+
+		
+		
+		<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Utvärdering</th>
+          <th style="text-align: left">Datum</th>
+          <th style="text-align: left">Vit</th>
+          <th style="text-align: left">Svart</th>
+          <th style="text-align: left">Resultat</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><img src="2024-11-14.png" alt=""></td>
+          <td style="text-align: left">2024-11-14</td>
+          <td style="text-align: left">1533 Christer Nilsson</td>
+          <td style="text-align: left">1795 Onni Aikio</td>
+          <td style="text-align: left"><a href="https://lichess.org/study/4D1Jqoe4/fJcNzxhn">0-1</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><img src="2024-11-06.png" alt=""></td>
+          <td style="text-align: left">2024-11-06</td>
+          <td style="text-align: left">1600 Christer Nilsson</td>
+          <td style="text-align: left">1637 Miroljub Zivic</td>
+          <td style="text-align: left"><a href="https://lichess.org/study/4D1Jqoe4/tL7lHUfn">1-0</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><img src="2024-04-01.png" alt=""></td>
+          <td style="text-align: left">2024-04-01</td>
+          <td style="text-align: left">1700 Victor Kämpe</td>
+          <td style="text-align: left">1600 Christer Nilsson</td>
+          <td style="text-align: left"><a href="https://lichess.org/study/KZNKuXZh/QKvdz66t">1-0</a></td>
+      </tr>
+  </tbody>
+</table>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

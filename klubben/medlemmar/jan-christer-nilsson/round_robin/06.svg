@@ -1,0 +1,78 @@
+<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1630 1140' >
+<defs>
+<g id="berger" >
+<style> text {font-family: Helvetica, sans-serif;}</style>
+<line x1="0" y1="0" x2="0" y2="262.5" stroke="black"/>
+<text font-size="1.667em" text-anchor="middle" x="25" y="28.125">Nr</text>
+<line x1="50" y1="0" x2="50" y2="262.5" stroke="black"/>
+<text font-size="1.667em" text-anchor="middle" x="150" y="28.125">Namn</text>
+<line x1="250" y1="0" x2="250" y2="262.5" stroke="black"/>
+<text font-size="1.667em" text-anchor="middle" x="275" y="28.125">1</text>
+<line x1="300" y1="0" x2="300" y2="262.5" stroke="black"/>
+<text font-size="1.667em" text-anchor="middle" x="325" y="28.125">2</text>
+<line x1="350" y1="0" x2="350" y2="262.5" stroke="black"/>
+<text font-size="1.667em" text-anchor="middle" x="375" y="28.125">3</text>
+<line x1="400" y1="0" x2="400" y2="262.5" stroke="black"/>
+<text font-size="1.667em" text-anchor="middle" x="425" y="28.125">4</text>
+<line x1="450" y1="0" x2="450" y2="262.5" stroke="black"/>
+<text font-size="1.667em" text-anchor="middle" x="475" y="28.125">5</text>
+<line x1="500" y1="0" x2="500" y2="262.5" stroke="black"/>
+<text font-size="1.667em" text-anchor="middle" x="550" y="28.125">Poäng</text>
+<line x1="600" y1="0" x2="600" y2="262.5" stroke="black"/>
+<text font-size="1.667em" text-anchor="middle" x="650" y="28.125">Plats</text>
+<line x1="700" y1="0" x2="700" y2="262.5" stroke="black"/>
+<line x1="0" y1="0" x2="700" y2="0" stroke="black"/>
+<line x1="0" y1="37.5" x2="700" y2="37.5" stroke="black"/>
+<line x1="0" y1="75" x2="700" y2="75" stroke="black"/>
+<line x1="0" y1="112.5" x2="700" y2="112.5" stroke="black"/>
+<line x1="0" y1="150" x2="700" y2="150" stroke="black"/>
+<line x1="0" y1="187.5" x2="700" y2="187.5" stroke="black"/>
+<line x1="0" y1="225" x2="700" y2="225" stroke="black"/>
+<line x1="0" y1="262.5" x2="700" y2="262.5" stroke="black"/>
+<text font-size="1.667em" text-anchor="middle" x="25" y="63.75">1</text>
+<text font-size="1.667em" text-anchor="middle" x="25" y="101.25">2</text>
+<text font-size="1.667em" text-anchor="middle" x="25" y="138.75">3</text>
+<text font-size="1.667em" text-anchor="middle" x="25" y="176.25">4</text>
+<text font-size="1.667em" text-anchor="middle" x="25" y="213.75">5</text>
+<text font-size="1.667em" text-anchor="middle" x="25" y="251.25">6</text>
+<text font-size="0.833em" text-anchor="end" x="297.5" y="48">1</text>
+<text font-size="0.833em" text-anchor="start" x="252.5" y="85.5">2</text>
+<text font-size="0.833em" text-anchor="end" x="297.5" y="123">3</text>
+<text font-size="0.833em" text-anchor="start" x="252.5" y="160.5">3</text>
+<text font-size="0.833em" text-anchor="end" x="297.5" y="198">2</text>
+<text font-size="0.833em" text-anchor="start" x="252.5" y="235.5">1</text>
+<text font-size="0.833em" text-anchor="start" x="302.5" y="48">2</text>
+<text font-size="0.833em" text-anchor="end" x="347.5" y="85.5">3</text>
+<text font-size="0.833em" text-anchor="start" x="302.5" y="123">3</text>
+<text font-size="0.833em" text-anchor="end" x="347.5" y="160.5">2</text>
+<text font-size="0.833em" text-anchor="start" x="302.5" y="198">1</text>
+<text font-size="0.833em" text-anchor="end" x="347.5" y="235.5">1</text>
+<text font-size="0.833em" text-anchor="end" x="397.5" y="48">3</text>
+<text font-size="0.833em" text-anchor="start" x="352.5" y="85.5">3</text>
+<text font-size="0.833em" text-anchor="end" x="397.5" y="123">2</text>
+<text font-size="0.833em" text-anchor="end" x="397.5" y="160.5">1</text>
+<text font-size="0.833em" text-anchor="start" x="352.5" y="198">2</text>
+<text font-size="0.833em" text-anchor="start" x="352.5" y="235.5">1</text>
+<text font-size="0.833em" text-anchor="start" x="402.5" y="48">3</text>
+<text font-size="0.833em" text-anchor="end" x="447.5" y="85.5">2</text>
+<text font-size="0.833em" text-anchor="start" x="402.5" y="123">1</text>
+<text font-size="0.833em" text-anchor="start" x="402.5" y="160.5">2</text>
+<text font-size="0.833em" text-anchor="end" x="447.5" y="198">3</text>
+<text font-size="0.833em" text-anchor="end" x="447.5" y="235.5">1</text>
+<text font-size="0.833em" text-anchor="end" x="497.5" y="48">2</text>
+<text font-size="0.833em" text-anchor="end" x="497.5" y="85.5">1</text>
+<text font-size="0.833em" text-anchor="start" x="452.5" y="123">2</text>
+<text font-size="0.833em" text-anchor="end" x="497.5" y="160.5">3</text>
+<text font-size="0.833em" text-anchor="start" x="452.5" y="198">3</text>
+<text font-size="0.833em" text-anchor="start" x="452.5" y="235.5">1</text>
+<text font-size="0.833em" text-anchor="start" x="0" y="277.5">Round Robin</text>
+<text font-size="0.833em" text-anchor="middle" x="350" y="277.5">Observera att placeringarna utgörs av BORDSNUMMER</text>
+<text font-size="0.833em" text-anchor="end" x="700" y="277.5">Christer Nilsson</text></g>
+</defs>
+<use href="#berger" x="0" y="0" transform="scale(1.0833333333333333 1.2666666666666666)" />
+<use href="#berger" x="0" y="300" transform="scale(1.0833333333333333 1.2666666666666666)" />
+<use href="#berger" x="0" y="600" transform="scale(1.0833333333333333 1.2666666666666666)" />
+<use href="#berger" x="750" y="0" transform="scale(1.0833333333333333 1.2666666666666666)" />
+<use href="#berger" x="750" y="300" transform="scale(1.0833333333333333 1.2666666666666666)" />
+<use href="#berger" x="750" y="600" transform="scale(1.0833333333333333 1.2666666666666666)" />
+</svg>

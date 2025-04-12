@@ -1,0 +1,15 @@
+FairPair Seniorschack 2025-03-26 4 ronder
+
+ id namn                 elo   1     2     3     4     pr
+  1 LAGERBORG Krister   2017   2b1   3w1   4b1   5w1 2266.7
+  3 LEHVONEN Jouko      1771   4w1   1b0   2w1   9w1 2010.7
+  5 ONNI Aikio          1745   6b1   7w1   8w1   1b0 1910.3
+  4 ANDERSSON Lars Owe  1756   3b0   2w1   1w0  12b1 1772.3
+  7 NILSSON Christer    1576   8w1   5b0   6w1  11b1 1771.5
+  9 RADON Vida          1426  10b=  11w1  12w1   3b0 1588.2
+  2 PERSSON Kjell       1838   1w0   4b0   3b0   6b1 1566.5
+ 12 WAHLSTEEN Bror      1400  11b1  10w1   9b0   4w0 1485.5
+  6 FRANZEN Anders      1606   5w0   8b1   7b0   2w0 1439.7
+ 11 SELDON Richard      1400  12w0   9b0  10b1   7w0 1251.8
+ 10 ROLLENHAGEN Carl    1400   9w=  12b0  11w0   8b= 1233.3
+  8 ELDIN Peter         1476   7b0   6w0   5b0  10w= 1211.6
