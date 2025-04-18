@@ -1,0 +1,16 @@
+FairPair  Seniorschack  2025-04-17 4 ronder
+
+ id namn                     elo   1     2     3     4      pr
+  2 LÖWGREN Björn           1896   1w1   4b0   3w1   6b1  2037.9
+  4 HEDLUND Lars OA         1800   3b0   2w1   1w1   9b1  2033.3
+ 12 RADON Vida              1426   9w1   F_1  11b1  10w1  1969.5
+  3 GUNNARSSON Lennart      1860   4w1   1b=   2b0   7w1  1936.0
+  5 KONSTANTINOV Dimiter    1776   6b1   7w1   8b0   1w0  1748.3
+  1 LÄNDIN Bo               1944   2b0   3w=   4b0   5b1  1742.6
+  8 NILSSON Christer        1569   7b0   6w0   5w1  11b1  1693.9
+  7 ANTONSSON Görgen        1728   8w1   5b0   6w=   3b0  1645.4
+  6 ANDERSSON Lars Owe      1756   5w0   8b1   7b=   2w0  1644.8
+  9 ROLLENHAGEN Carl        1500  12b0  11w1  10b1   4w0  1548.8
+ 10 SELDON Richard          1500  11w=  13b1   9w0  12b0  1193.8
+ 11 WAHLSTEEN Bror          1500  10b=   9b0  12w0   8w0  1155.2
+ 13 SILFVER Tomas           0     F_1  10w0   *_0   *_0     0.0
