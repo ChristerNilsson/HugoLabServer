@@ -55,239 +55,91 @@ setDefault('font','Helvetica')
 
 		
 		
-		<p>Detta är ett försök att kombinera schack med terränglöpning och få schack att bli en bättre lagsport, som bygger på samarbete.<br>
-Man kan se det som en stafett där alla deltagare springer samtidigt och varje lag har mellan noll och åtta stafettpinnar.</p>
-<p>Man skapar ett virtuellt schackbräde, t ex i skogen och där det gärna får finnas naturliga hinder i form av vattendrag, berg och sjöar.</p>
-<p>Varje schackruta är 100 x 100 meter. Hela brädet blir då 800 x 800 meter.</p>
-<p>Spelarna startar appen och beger sig till brädets mittpunkt.<br>
-Då alla anlänt, startas partierna.<br>
-De fyra vitspelarna utför sina drag och man beger sig direkt till start- och slutrutorna. Därefter skickas dragen till det svarta laget.<br>
-Varje drag ger upphov till två uppdrag, startruta och slutruta.<br>
-Startruta och slutruta kommer att ligga i samma kvadranter för det första draget.<br>
-Spelarna kommer att tilldelas dessa uppdrag direkt om dessa är de närmaste, annars kommer de att bli aktiva mål längre fram.<br>
-När både startruta och slutruta besökts, skickas draget till motståndaren och det plingar till i hans mobil.</p>
-<p>Detta upprepas tills partiet spelats klart.</p>
-<h1 id="uppdrag">Uppdrag</h1>
-<p>Fyra partier pågår samtidigt, precis som i en vanlig lagmatch.<br>
-Dock utförs inte dragen förrän start och slutruta besökts boots on the ground.<br>
-Varje drag delas upp i två uppdrag: startruta och slutruta.<br>
-Därefter fördelas de till en eller två kvadranter.<br>
-Spelare C kan t ex bestämma sig för ett drag, t ex löparen c1-g5, som sedan utförs av spelare A och D, kanske samtidigt.<br>
-Om spelarna redan befinner sig på dessa rutor, genomförs draget omedelbart.<br>
-Då båda uppdragen utförts, skickas draget till motståndaren.<br>
-Spelarna lämnar inte sina kvadranter, utan står kvar och väntar på nya uppdrag.<br>
-Eventuellt kan de röra sig mot mitten av sin kvadrant, ungefär som en tennisspelare, för att snabbt kunna nå alla bollar (rutor).<br>
-Då kommer de att ha ett maximalt avstånd på 1.5 * 141 = 212 meter i stället för 3 * 141 = 424.<br>
-Detta gäller om rutorna är 100 x 100 meter.</p>
-<table>
+		<table>
   <thead>
       <tr>
-          <th style="text-align: left">•</th>
-          <th style="text-align: left">a</th>
-          <th style="text-align: left">b</th>
-          <th style="text-align: left">c</th>
-          <th style="text-align: left">d</th>
-          <th style="text-align: left">e</th>
-          <th style="text-align: left">f</th>
-          <th style="text-align: left">g</th>
-          <th style="text-align: left">h</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">8</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">D</td>
-          <td style="text-align: left">D</td>
-          <td style="text-align: left">D</td>
-          <td style="text-align: left">D</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">7</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">D</td>
-          <td style="text-align: left">D</td>
-          <td style="text-align: left">D</td>
-          <td style="text-align: left">D</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">6</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">D</td>
-          <td style="text-align: left">D</td>
-          <td style="text-align: left">D</td>
-          <td style="text-align: left">D</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">5</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">C</td>
-          <td style="text-align: left">D</td>
-          <td style="text-align: left">D</td>
-          <td style="text-align: left">D</td>
-          <td style="text-align: left">D</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">4</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">B</td>
-          <td style="text-align: left">B</td>
-          <td style="text-align: left">B</td>
-          <td style="text-align: left">B</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">3</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">B</td>
-          <td style="text-align: left">B</td>
-          <td style="text-align: left">B</td>
-          <td style="text-align: left">B</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">2</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">B</td>
-          <td style="text-align: left">B</td>
-          <td style="text-align: left">B</td>
-          <td style="text-align: left">B</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">1</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">A</td>
-          <td style="text-align: left">B</td>
-          <td style="text-align: left">B</td>
-          <td style="text-align: left">B</td>
-          <td style="text-align: left">B</td>
-      </tr>
-  </tbody>
-</table>
-<p><a href="quadrants">Ansvarsfördelning</a></p>
-<p>I början av partiet, kan det tyckas som om vissa spelare inte får några uppdrag.<br>
-Dock pågår fyra partier samtidigt, och dessa är roterade.<br>
-Detta innebär att uppdragen kommer att spridas ut på olika deltagare.<br>
-Eftersom det handlar om schack, vet man inte var striderna kommer att äga rum.<br>
-Vissa deltagare kommer att få fler uppdrag än andra, det är ofrånkomligt.</p>
-<h1 id="simulator">Simulator</h1>
-<p><a href="https://christernilsson.github.io/2025/007-Terr%C3%A4ngschack">Prova simulatorn!</a></p>
-<p>Vid start samlas alla åtta deltagarna vid brädets mittpunkt.<br>
-Eftersom alla står i samma punkt, syns bara en spelare.<br>
-Därefter sätter man igång ett eller flera partier genom att klicka på A, B, C, och/eller D.<br>
-Tips: Börja med A. När du förstått hur det fungerar, titta på B. B är roterat. Först därefter A och B samtidigt.<br>
-Det blir ganska rörigt, pga att flera roterade partier pågår samtidigt.<br>
-I appen ser man bara ett oroterat parti. Uppdragen som dyker upp utför man utan att fundera närmare på dem.<br>
-Man har ingen information om vilket parti de tillhör och man vet inte var motståndarnas pjäser står.</p>
-<p>Observera att draget e2-e4 kan ibland utföras e4 först, därefter e2, beroende på var deltagaren befinner sig.</p>
-<p>De fyra partierna är vända åt fyra olika väderstreck.<br>
-Detta för att jämna ut geografiska orättvisor.</p>
-<ul>
-<li>A: Vit längst ner</li>
-<li>B: Vit till höger</li>
-<li>C: Vit högst upp</li>
-<li>D: Vit till vänster</li>
-</ul>
-<p>Partierna är hämtade från Lichess.<br>
-Därför är betänketiden noll sekunder.<br>
-Tiderna man ser går åt till spelarnas förflyttning.
-Varje spelare ansvarar enbart för sin kvadrant av brädet, t ex har A abcd1234.<br>
-Deltagarna antas börja på ett uppdrag så fort det dyker upp.<br>
-Det kan slumpa sig så att en spelare får åtta uppdrag med en gång.<br>
-I så fall börjar han med det närmaste, tar därefter nästa som nu är närmast, osv.<br>
-Ibland står de redan på start- eller stopprutan och då markeras uppdraget som klart.<br>
-Annars börjar de förflytta sig mot den ruta som är närmast, av alla uppdrag.<br>
-Dyker det upp ett nytt uppdrag, som är närmare än det pågående, byter man automatiskt till det.<br>
-Detta är en primitiv algoritm för att approximativt hitta en bra lösning.<br>
-Den perfekta lösningen går ej att finna, man känner ju inte till alla framtida drag.</p>
-<p>Det egna lagets deltagare är markerade med A-D, motståndarna E-H.<br>
-Den ruta man ska gå till är markerad med ett streck mellan den egna bokstaven och rutan.<br>
-Pågående/köade drag är markerade med röda punkter.<br>
-Start och slutruta är hopkopplade med ett streck.</p>
-<p>I simulatorn kan man även se motståndarlagets drag.<br>
-I appen kommer man inte att se någon deltagares position.</p>
-<h3 id="deltagarens-uppgifter">Deltagarens uppgifter</h3>
-<ol>
-<li>Sköta sitt eget parti. Undvika tidsnöd.</li>
-<li>Utföra uppdrag så fort som möjligt.</li>
-</ol>
-<h3 id="parallella-partier">Parallella partier</h3>
-<p>Precis som i en lagmatch möter varje lagmedlem en spelare i andra laget.<br>
-Samarbetet inom laget går ut på att man hjälps åt att utföra varandras drag.<br>
-De drag som behöver utföras fördelas på spelarnas kvadranter.<br>
-Partierna placeras så att varje spelare får ett väderstreck.<br>
-I varje lag finns spelarna N, S, E och W. Som i bridge.</p>
-<p>De fyra brädena är orienterade som nedan.<br>
-Tänk er brädena staplade på höjden.<br>
-N:g1 delar ruta med W:h7, E:a2 samt S:b8.<br>
-<em>Det behöver inte vara Fischer 960</em><br>
-En spelare ser bara sitt eget bräde (oroterat).</p>
-<table>
-  <thead>
-      <tr>
+          <th style="text-align: left"></th>
           <th style="text-align: left"></th>
           <th style="text-align: left"></th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">N <img src="N.png" alt="N"></td>
-          <td style="text-align: left">W <img src="W.png" alt="W"></td>
+          <td style="text-align: left">Svart: Christer Nilsson</td>
+          <td style="text-align: left">1631</td>
+          <td style="text-align: left">1:30:00</td>
       </tr>
       <tr>
-          <td style="text-align: left">E <img src="E.png" alt="E"></td>
-          <td style="text-align: left">S <img src="S.png" alt="S"></td>
+          <td style="text-align: left"><img src="N.png" alt=""></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Vit: Jouko Liistamo</td>
+          <td style="text-align: left">1650</td>
+          <td style="text-align: left">1:30:00</td>
       </tr>
   </tbody>
 </table>
-<h3 id="kartbild">Kartbild</h3>
-<p><em>Det kan vara lämpligt att placera första matchen på en stor gräsplan, t ex Gärdet!</em></p>
-<p>Det här <a href="https://minkarta.lantmateriet.se/plats/3006/v2.0/?e=681858&amp;n=6575132&amp;z=12&amp;mapprofile=karta&amp;layers=%5B%5B%223%22%5D%2C%5B%221%22%5D%5D">terrängavsnittet</a> kan tyckas lite extremt, men en varm sommardag kan det ge många tillfällen till bad.<br>
-Sandasjön är 650 meter lång och dess bredd varierar mellan 50 och 100 meter.<br>
-Vissa rutor kommer att hamna i vattnet, så det är lämpligt att ha ett vattentätt fodral till sin mobil.<br>
-<em>Självklart är grodfötter tillåtet, schack är ju en materialsport.</em></p>
-<p><img src="Screenshot.png" alt=""></p>
-<p>Fundering: Bör man rockera kort eller långt med denna topografi?</p>
-<p>Uppgiften att ta sig från ruta A till ruta B, blir en större utmaning om det finns naturliga hinder.<br>
-Ska man gå rakt på mål eller möjligen gå en omväg? Här har man hjälp av orienteringsvana.</p>
-<h3 id="appen">Appen</h3>
-<p>Deltagarna behöver varsin mobil och varsin kompass.</p>
-<p>Appen visar ett schackbräde.<br>
-Schackdrag utförs genom att klicka på start och slutrutorna.<br>
-Uppdragen ges via röstkommandon, medtag hörlurar.<br>
-Då man anlänt till ett mål, markeras det som utfört automatiskt och man får ett nytt mål.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: right"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: right">Bäring:</td>
+          <td style="text-align: left">60°</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">Avstånd:</td>
+          <td style="text-align: left">93m</td>
+      </tr>
+  </tbody>
+</table>
 <ul>
-<li>Hörs en manlig röst säga &ldquo;ett åtta&rdquo; innebär det att gå i riktning 180, dvs rakt söderut. Ställ in kompassen på 180.</li>
-<li>Då man kommit ur kurs, kommer en ny bäring, t ex 170 eller 190. Ställ in kompassen och fortsätt.</li>
-<li>Hörs en kvinnlig röst &ldquo;nittio&rdquo; innebär det att man har 90 meter kvar till målet.<br>
-Detta avstånd minskar förhoppningsvis, tills man hör enstaka meter i slutet.</li>
-</ul>
-<p>Då man kommit inom två meter från målet anses uppdraget slutfört och man får ett nytt uppdrag automatiskt. Annars står man kvar och väntar.</p>
-<h3 id="varianter">Varianter</h3>
+<li>Terrängschack spelas av två lag med vardera fyra deltagare</li>
+<li>Varje deltagare möter en annan deltagare</li>
+<li>För att ett drag ska gälla, måste både startruta och slutruta besökas
 <ul>
-<li>Deltagarna använder rullator. Kräver mindre bana</li>
-<li>Deltagarna använder cykel, häst eller kamel. Kräver större bana</li>
+<li>Deltagarna hjälper varandra med detta</li>
 </ul>
+</li>
+<li>För att ett lag ska vinna behöver deltagarna
+<ul>
+<li>springa snabbare än motståndarna</li>
+<li>välja bättre väg genom terrängen</li>
+<li>spela bra drag snabbare än motståndarna</li>
+<li>samarbeta bättre än motståndarlaget
+<ul>
+<li>genom att besöka rutorna så snabbt som möjligt</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Storleken på en schackruta kan t ex vara etthundra meter
+<ul>
+<li>Storleken på brädet blir då 400 meter</li>
+</ul>
+</li>
+<li>Varje spelare ansvarar för en kvadrant av brädet, dvs sexton rutor
+<ul>
+<li>abcd x 1234</li>
+<li>abcd x 5678</li>
+<li>efgh x 1234</li>
+<li>efgh x 5678</li>
+</ul>
+</li>
+<li>Varje deltagare behöver ha
+<ul>
+<li>en kompass</li>
+<li>en laddad mobil (eventuellt med fodral och headset)</li>
+</ul>
+</li>
+</ul>
+<p><a href="details">Detaljer</a></p>
 
 	
 	</div>
