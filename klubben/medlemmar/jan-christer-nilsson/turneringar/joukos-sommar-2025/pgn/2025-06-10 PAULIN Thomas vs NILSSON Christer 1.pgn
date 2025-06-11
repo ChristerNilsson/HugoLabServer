@@ -1,0 +1,18 @@
+[Event "PPP: Thomas Paulin vs Christer Nilsson"]
+[Date "2025-06-10"]
+[White "Thomas Paulin"]
+[Black "Christer Nilsson"]
+[Result "0-1"]
+[WhiteElo "1504"]
+[BlackElo "1653"]
+[Variant "Standard"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Leonardis Variation"]
+[StudyName "PPP"]
+[ChapterName "Thomas Paulin vs Christer Nilsson"]
+[Annotator "https://lichess.org/@/ChristerNilsson"]
+[ChapterURL "https://lichess.org/study/LtzvGeZk/FFovTYh5"]
+
+1. e4 { [%eval 0.18] } 1... e5 { [%eval 0.22] } 2. d3 { [%eval 0.0] } 2... Nf6 { [%eval 0.0] } 3. g3 { [%eval -0.35] } 3... Bc5 { [%eval 0.0] } 4. Nf3 { [%eval -0.28] } 4... Ng4 { [%eval 0.0] } 5. d4 { [%eval 0.0] } 5... exd4 { [%eval 0.0] } 6. Nxd4? { [%eval -1.54] } { Mistake. h3 was best. } (6. h3 Nf6 7. e5 Qe7 8. Bg2 d6 9. O-O dxe5 10. Nxe5 O-O) 6... Nxf2?! { [%eval -0.71] } { Inaccuracy. Qf6 was best. } (6... Qf6 7. Be3 Nxe3 8. fxe3 Nc6 9. c3 Ne5 10. Qe2 O-O 11. Nd2) 7. Kxf2 { [%eval -0.52] } 7... Qf6+ { [%eval -0.69] } 8. Kg2? { [%eval -2.43] } { Mistake. Ke3 was best. } (8. Ke3 Nc6 9. c3 d5 10. Bb5 O-O 11. Bxc6 bxc6 12. Qf3 Qg6) 8... Bxd4 { [%eval -2.48] } 9. c3?? { [%eval -11.36] } { Blunder. Bb5 was best. } (9. Bb5 Qf2+ 10. Kh3 c6 11. Rf1 d6+ 12. g4 h5 13. Rxf2 Bxg4+ 14. Kg2 Bxd1) 9... Qf2+ { [%eval -11.09] } 10. Kh3 { [%eval -10.31] } 10... d5+ { [%eval -9.68] } 11. g4? { [%eval #-5] } { Checkmate is now unavoidable. Qg4 was best. } (11. Qg4 Bxg4+ 12. Kxg4 h5+ 13. Kh3 h4 14. Kg4 hxg3 15. hxg3 Rxh1 16. Bb5+ c6) 11... Bf6?? { [%eval -4.27] } { Lost forced checkmate sequence. h5 was best. } (11... h5 12. Bb5+ c6 13. Bxc6+ bxc6 14. Bh6 hxg4+ 15. Qxg4 Rxh6#) 12. Qd2?? { [%eval #-1] } { Checkmate is now unavoidable. Qe2 was best. } (12. Qe2 Qh4+ 13. Kg2 Bxg4 14. Qe3 Be6 15. Be2 O-O 16. Nd2 Nc6 17. Qg3 dxe4) 12... Qf3# 0-1
+
+
