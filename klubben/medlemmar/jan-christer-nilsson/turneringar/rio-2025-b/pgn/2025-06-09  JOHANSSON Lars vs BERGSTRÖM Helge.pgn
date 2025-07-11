@@ -1,0 +1,16 @@
+[Event "JJJ: Lars Johansson vs Helge Bergström"]
+[Date "2025-06-09"]
+[White "Lars Johansson"]
+[Black "Helge Bergström"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "A46"]
+[Opening "Indian Defense: Spielmann-Indian"]
+[StudyName "JJJ"]
+[ChapterName "Lars Johansson vs Helge Bergström"]
+[Annotator "https://lichess.org/@/ChristerNilsson"]
+[ChapterURL "https://lichess.org/study/I94HPenc/tvMmj6b7"]
+
+1. d4 { [%eval 0.17] } 1... Nf6 { [%eval 0.19] } 2. Nf3 { [%eval 0.11] } 2... c5 { [%eval 0.39] } 3. g3?! { [%eval -0.3] } { Inaccuracy. d5 was best. } (3. d5 b5 4. Bg5 b4 5. Bxf6 exf6 6. Qd3 Ba6 7. Qb3 Qc7) 3... cxd4 { [%eval -0.35] } 4. Nxd4 { [%eval -0.69] } 4... e5 { [%eval -0.42] } 5. Nb3 { [%eval -0.46] } 5... d5 { [%eval -0.43] } 6. Bg2 { [%eval -0.57] } 6... Be6 { [%eval -0.39] } 7. O-O { [%eval -0.36] } 7... Qc7 { [%eval -0.13] } 8. N1d2?! { [%eval -0.99] } { Inaccuracy. f4 was best. } (8. f4 Nc6 9. fxe5 Qxe5 10. Bf4 Qh5 11. Nc3 Be7 12. Bf3 Ng4 13. Bxg4 Bxg4) 8... Bd6?! { [%eval -0.06] } { Inaccuracy. Be7 was best. } (8... Be7 9. c3 a5 10. a4 O-O 11. e4 dxe4 12. Nxe4 Nxe4 13. Bxe4 Na6 14. Nd2) 9. c3?! { [%eval -0.8] } { Inaccuracy. c4 was best. } (9. c4 d4) 9... O-O { [%eval -0.44] } 10. e4 { [%eval -0.51] } 10... Qc8? { [%eval 0.84] } { Mistake. dxe4 was best. } (10... dxe4 11. Nxe4) 11. Re1?! { [%eval -0.18] } { Inaccuracy. exd5 was best. } (11. exd5) 11... b6? { [%eval 1.32] } { Mistake. Rd8 was best. } (11... Rd8) 12. exd5 { [%eval 1.35] } 12... Bh3 { [%eval 1.65] } 13. Bh1?! { [%eval 0.58] } { Inaccuracy. Nc4 was best. } (13. Nc4 Bxg2 14. Nxd6 Qd7 15. Kxg2 Qxd6 16. c4 Nbd7 17. Be3 h6 18. Rc1 Rae8) 13... Ng4?? { [%eval 2.97] } { Blunder. Re8 was best. } (13... Re8) 14. Ne4 { [%eval 2.93] } 14... Qf5?! { [%eval 3.97] } { Inaccuracy. Rd8 was best. } (14... Rd8 15. Nxd6 Rxd6 16. Nd2 Nf6 17. Rxe5 Nbd7 18. Re1 Bg4 19. Qa4 Nc5 20. Qd4) 15. f3 { [%eval 3.73] } 15... Qg6 { [%eval 3.66] } 16. Nxd6 { [%eval 3.9] } 16... f5 { [%eval 4.04] } 17. Bg2 { [%eval 4.05] } 17... Bxg2 { [%eval 3.87] } 18. Kxg2 { [%eval 3.61] } 18... Nh6?! { [%eval 5.4] } { Inaccuracy. Nd7 was best. } (18... Nd7 19. fxg4 Qxd6 20. gxf5 Rxf5 21. Be3 Raf8 22. Nd2 Qg6 23. Qe2 e4 24. Bd4) 19. Nc4 { [%eval 5.25] } 19... Nd7 { [%eval 5.36] } 20. Nxe5 { [%eval 5.52] } 20... Nxe5 { [%eval 5.29] } 21. Rxe5 { [%eval 5.24] } 21... Nf7 { [%eval 5.55] } 22. Re6 { [%eval 5.54] } 22... Qh5 { [%eval 5.5] } 23. Qd3 { [%eval 5.48] } 23... Rad8 { [%eval 5.2] } 24. f4 { [%eval 5.0] } 24... Rd6 { [%eval 5.23] } 25. Rxd6 { [%eval 4.44] } 25... Nxd6 { [%eval 4.57] } 26. Qf3 { [%eval 4.54] } 26... Qe8 { [%eval 4.68] } 27. Nd2 { [%eval 4.16] } 27... Qb5 { [%eval 4.75] } 28. b3 { [%eval 4.69] } 28... Re8 { [%eval 4.57] } 29. c4 { [%eval 4.58] } 29... Qc5 { [%eval 5.4] } 30. Bb2 { [%eval 5.08] } 30... b5 { [%eval 5.28] } 31. Kf1 { [%eval 5.32] } 31... bxc4 { [%eval 5.04] } 32. Nxc4 { [%eval 4.88] } 32... Nxc4 { [%eval 4.83] } 33. bxc4 { [%eval 4.92] } 33... Re3 { [%eval 4.46] } 1-0
+
+
