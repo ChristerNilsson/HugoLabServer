@@ -1,6 +1,6 @@
 https://christernilsson.github.io/2025/013-FloatingBerger/
 
-?TITLE=RIO+2025+A
+?TITLE=2025+RIO+A
 &GAMES=1
 &ROUNDS=9
 &SORT=0
@@ -29,7 +29,7 @@ https://christernilsson.github.io/2025/013-FloatingBerger/
 &r9=0rxx0
 
 https://christernilsson.github.io/2025/013-FloatingBerger/
-?TITLE=RIO+2025+B
+?TITLE=2025+RIO+B
 &GAMES=2
 &ROUNDS=9
 &SORT=0
