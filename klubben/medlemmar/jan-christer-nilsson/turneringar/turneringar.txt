@@ -23,9 +23,9 @@ https://christernilsson.github.io/2025/013-FloatingBerger/
 &r3=10011
 &r4=01001
 &r5=01111
-&r6=rxxr1
+&r6=rx0r1
 &r7=11100
-&r8=xx01x
+&r8=xx011
 &r9=0rxx0
 
 https://christernilsson.github.io/2025/013-FloatingBerger/
