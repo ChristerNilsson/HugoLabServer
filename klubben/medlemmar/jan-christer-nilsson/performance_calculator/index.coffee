@@ -30,14 +30,10 @@ extrapolate = (a0, b0, elos) ->
     b + b - a
 
 performance = (pp,elos) -> 
-    n = elos.length
-    if n == 1
-        if pp == 0 then return extrapolate 0.50,0.25,elos
-        if pp == n then return extrapolate 0.50,0.75,elos
-    else
-        if pp == 0 then return extrapolate   1,  0.5,elos
-        if pp == n then return extrapolate n-1,n-0.5,elos
-    performance_rating pp,elos
+	n = elos.length
+	if pp == 0 then return extrapolate   0.5,  0.25,elos
+	if pp == n then return extrapolate n-0.5,n-0.25,elos
+	performance_rating pp,elos
 
 perf_fide = (elos, score, average) ->
     if score < 0 or elos.length < score then return ""
@@ -71,8 +67,8 @@ ass "1118", performance(0.0,[1500]).toFixed 0
 ass "1500", performance(0.5,[1500]).toFixed 0
 ass "1882", performance(1.0,[1500]).toFixed 0
 
-ass "1161", performance(0.0,[1500,1600]).toFixed 0
+ass "1058", performance(0.0,[1500,1600]).toFixed 0
 ass "1356", performance(0.5,[1500,1600]).toFixed 0
 ass "1550", performance(1.0,[1500,1600]).toFixed 0
 ass "1744", performance(1.5,[1500,1600]).toFixed 0
-ass "1939", performance(2.0,[1500,1600]).toFixed 0
+ass "2042", performance(2.0,[1500,1600]).toFixed 0
