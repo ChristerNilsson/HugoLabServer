@@ -1,0 +1,17 @@
+[Event "EEE: Christer Nilsson vs Roland Eriksson"]
+[Date "2025-11-05"]
+[White "Christer Nilsson"]
+[Black "Roland Eriksson"]
+[Result "1-0"]
+[WhiteElo "1650"]
+[Variant "Standard"]
+[ECO "C44"]
+[Opening "Scotch Game: Benima Defense"]
+[StudyName "EEE"]
+[ChapterName "Christer Nilsson vs Roland Eriksson"]
+[ChapterURL "https://lichess.org/study/INFRlKb1/4zv5JB9L"]
+[Annotator "https://lichess.org/@/ChristerNilsson"]
+
+1. e4 { [%eval 0.18] } 1... e5 { [%eval 0.22] } 2. Nf3 { [%eval 0.13] } 2... Nc6 { [%eval 0.21] } 3. d4 { [%eval 0.04] } 3... exd4 { [%eval 0.04] } 4. Bc4 { [%eval 0.0] } 4... Be7 { [%eval 0.4] } 5. Nxd4 { [%eval 0.29] } 5... Ne5 { [%eval 0.64] } 6. Nd2?! { [%eval 0.01] } { Inaccuracy. Be2 was best. } (6. Be2 Nf6 7. Nf5 O-O 8. Nxe7+ Qxe7 9. Nc3 Ng6 10. Qd4 c5) 6... d6 { [%eval 0.3] } 7. b3?! { [%eval -0.4] } { Inaccuracy. O-O was best. } (7. O-O Nxc4 8. Nxc4 Nf6 9. Ne3 O-O 10. Ndf5 Bxf5 11. Nxf5 Re8) 7... a6?! { [%eval 0.26] } { Inaccuracy. Nxc4 was best. } (7... Nxc4 8. Nxc4 Nf6 9. Qd3 O-O 10. Bb2 Nxe4 11. Qxe4 d5 12. Qf3 dxc4 13. O-O-O) 8. a4?! { [%eval -0.37] } { Inaccuracy. O-O was best. } (8. O-O Nf6 9. f4 Nxc4 10. bxc4 O-O 11. Qf3 c5 12. Ne2 b5 13. Bb2 Bg4) 8... Nf6 { [%eval 0.07] } 9. O-O { [%eval -0.08] } 9... O-O { [%eval 0.08] } 10. Bb2 { [%eval 0.04] } 10... Bd7 { [%eval 0.36] } 11. Nf5?! { [%eval -0.54] } { Inaccuracy. Re1 was best. } (11. Re1) 11... Nxc4 { [%eval 0.0] } 12. Nxc4 { [%eval 0.01] } 12... Re8?! { [%eval 0.71] } { Inaccuracy. Bxf5 was best. } (12... Bxf5) 13. Re1?! { [%eval -0.27] } { Inaccuracy. Nxe7+ was best. } (13. Nxe7+) 13... Bc6?? { [%eval 1.71] } { Blunder. Bxf5 was best. } (13... Bxf5) 14. e5? { [%eval 0.36] } { Mistake. Qf3 was best. } (14. Qf3) 14... dxe5 { [%eval 0.31] } 15. Bxe5 { [%eval 0.01] } 15... Bf8 { [%eval 0.43] } 16. Qxd8 { [%eval 0.42] } 16... Raxd8 { [%eval 0.46] } 17. Bxc7 { [%eval 0.51] } 17... Rxe1+ { [%eval 0.48] } 18. Rxe1 { [%eval 0.48] } 18... Rd7 { [%eval 0.5] } 19. Bd6 { [%eval 0.0] } 19... Bxd6?! { [%eval 0.8] } { Inaccuracy. Be4 was best. } (19... Be4 20. Bxf8 Bxf5 21. Ne3 Bxc2 22. Bxg7 Kxg7 23. Nxc2 Rd3 24. Ne3 Rxb3 25. Nf5+) 20. Ncxd6 { [%eval 0.85] } 20... g6 { [%eval 0.88] } 21. Ne7+ { [%eval 0.91] } 21... Kf8 { [%eval 0.84] } 22. Nxc6 { [%eval 0.87] } 22... Rxd6 { [%eval 0.87] } 23. Nb4 { [%eval 0.78] } 23... Nd5?? { [%eval 5.41] } { Blunder. Rd2 was best. } (23... Rd2 24. a5 Ne4 25. Kf1 f5 26. f3 Nc3 27. Re5 Rd1+ 28. Kf2 f4 29. Nd3) 24. Rd1 { [%eval 5.46] } 24... Ke7 { [%eval 5.8] } 25. Nxd5+ { [%eval 5.62] } 25... Kd8 { [%eval 5.75] } 26. Ne3 { [%eval 5.72] } 26... Rxd1+ { [%eval 5.65] } 27. Nxd1 { [%eval 5.68] } 27... Kd7 { [%eval 5.86] } 28. f4 { [%eval 5.76] } 28... f5 { [%eval 6.48] } 29. Kf2 { [%eval 6.22] } 29... h5 { [%eval 6.82] } 30. Ke3 { [%eval 7.07] } 30... Kd6 { [%eval 7.29] } 31. Kd4 { [%eval 7.16] } 31... b6 { [%eval 8.53] } 32. Nc3 { [%eval 7.88] } 32... Kc6 { [%eval 8.46] } 33. Nd5 { [%eval 7.84] } 33... b5 { [%eval 9.07] } 34. Nb4+ { [%eval 8.33] } 34... Kb6 { [%eval 8.69] } 35. Nd5+ { [%eval 9.34] } 35... Kc6 { [%eval 9.44] } 36. axb5+ { [%eval 9.24] } 36... axb5 { [%eval 9.25] } 37. Ne7+ { [%eval 8.76] } 1-0
+
+
