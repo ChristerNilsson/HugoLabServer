@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Om Klubben</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/lovable/">Lovable</a>
+
+
+		<h1>Om Klubben</h1>
+
+		
+		
+		<h2 id="vår-verksamhet">Vår Verksamhet</h2>
+<p>Seniorschack spelar på tisdagar, onsdagar och torsdagar i Schacksalongerna, samt på måndagar och fredagar på Rioträffen.</p>
+<p>Vi samlas till en trevlig och kamratlig samvaro med schackintresserade seniorer, där vi spelar många spännande schackpartier och utvecklande schackseminarier.</p>
+<h2 id="spelplatser">Spelplatser</h2>
+<h3 id="schacksalongerna">Schacksalongerna</h3>
+<ul>
+<li>Ringvägen 9C</li>
+<li>T-bana: Zinkensdamm</li>
+</ul>
+<h3 id="rioträffen">Rioträffen</h3>
+<ul>
+<li>Sandhamnsgatan 4</li>
+<li>T-bana: Gärdet</li>
+</ul>
+<p><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/jan-christer-nilsson/Lovable/om-klubben/_index.md">Source</a></p>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

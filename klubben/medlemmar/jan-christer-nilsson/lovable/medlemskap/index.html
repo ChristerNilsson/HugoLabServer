@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medlemskap</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/lovable/">Lovable</a>
+
+
+		<h1>Medlemskap</h1>
+
+		
+		
+		<p><em>Bli medlem i Sveriges mest aktiva schackklubb för seniorer</em></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Ordinarie medlem</th>
+          <th style="text-align: left">Huvudklubbsmedlem</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">För dig med annan huvudklubb</td>
+          <td style="text-align: left">Seniorschack som huvudklubb</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">440 kr/år</td>
+          <td style="text-align: left">800 kr/år (inkl. förbundsavgifter)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Tillgång till alla speldagar</td>
+          <td style="text-align: left">Alla förmåner från ordinarie</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Delta i klubbturneringar</td>
+          <td style="text-align: left">Inkluderar Stockholms Schackförbund</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Schackseminarier och simultanspel</td>
+          <td style="text-align: left">Inkluderar Sveriges Schackförbund och FIDE</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Trevlig social samvaro</td>
+          <td style="text-align: left">Officiell rating och tävlingsrättigheter</td>
+      </tr>
+  </tbody>
+</table>
+<p><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/jan-christer-nilsson/Lovable/medlemskap/_index.md">Source</a></p>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>
