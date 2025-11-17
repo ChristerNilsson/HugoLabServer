@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spelkalender</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/lovable/">Lovable</a>
+
+
+		<h1>Spelkalender</h1>
+
+		
+		
+		<p><em>Kommande aktiviteter</em></p>
+<h3 id="tisdagsspel">Tisdagsspel</h3>
+<ul>
+<li>tisdag 21 januari 2025</li>
+<li>10:00 - 16:00</li>
+<li>Ringvägen 9C (T-bana Zinkensdamm)</li>
+</ul>
+<p><em>Öppet spelande med schackintresserade seniorer</em></p>
+<h3 id="onsdagsspel-1100">Onsdagsspel 11:00</h3>
+<ul>
+<li>onsdag 22 januari 2025</li>
+<li>11:00 - 17:00</li>
+<li>Ringvägen 9C (T-bana Zinkensdamm)</li>
+</ul>
+<p><em>Trevlig samvaro med många spännande partier</em></p>
+<h3 id="torsdagsspel-1100">Torsdagsspel 11:00</h3>
+<ul>
+<li>torsdag 23 januari 2025</li>
+<li>11:00 - 17:00</li>
+<li>Ringvägen 9C (T-bana Zinkensdamm)</li>
+</ul>
+<p><em>Veckans avslutande speldag</em></p>
+<h3 id="klass-m---rond-3">Klass M - Rond 3</h3>
+<ul>
+<li>tisdag 28 januari 2025</li>
+<li>10:00</li>
+<li>Schacksalongerna (T-bana Zinkensdamm)</li>
+</ul>
+<p><em>Serietävling för mästarklassen</em></p>
+<p><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/jan-christer-nilsson/Lovable/spelkalender/_index.md">Source</a></p>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>
