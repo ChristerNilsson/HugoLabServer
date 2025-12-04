@@ -1,0 +1,18 @@
+[Event "KKK: Christer Nilsson vs Dimiter Konstantinov"]
+[Date "2025-12-02"]
+[White "Christer Nilsson"]
+[Black "Dimiter Konstantinov"]
+[Result "1-0"]
+[WhiteElo "1686"]
+[BlackElo "1700"]
+[Variant "Standard"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation"]
+[StudyName "KKK"]
+[ChapterName "Christer Nilsson vs Dimiter Konstantinov"]
+[ChapterURL "https://lichess.org/study/GekXVRi0/rPYgoW3K"]
+[Annotator "https://lichess.org/@/ChristerNilsson"]
+
+1. e4 { [%eval 0.18] } 1... e6 { [%eval 0.22] } 2. d4 { [%eval 0.29] } 2... d5 { [%eval 0.31] } 3. e5 { [%eval 0.25] } 3... c5 { [%eval 0.2] } 4. c3 { [%eval 0.18] } 4... Qb6 { [%eval 0.17] } 5. Qb3 { [%eval -0.26] } 5... c4?! { [%eval 0.49] } { Inaccuracy. Nc6 was best. } (5... Nc6 6. Nf3 Qxb3 7. axb3 cxd4 8. Nxd4 Nxe5 9. Nb5 Kd7 10. Rxa7) 6. Qxb6?! { [%eval -0.33] } { Inaccuracy. Qd1 was best. } (6. Qd1 Qa5 7. Be2 b5 8. Nf3 Nc6 9. Bd2 Rb8 10. O-O b4) 6... axb6 { [%eval -0.16] } 7. Nd2 { [%eval -0.18] } 7... b5 { [%eval -0.12] } 8. b4 { [%eval -0.19] } 8... Nd7 { [%eval 0.08] } 9. Nb1 { [%eval -0.13] } 9... Nb6 { [%eval -0.09] } 10. Be2 { [%eval -0.16] } 10... Na4 { [%eval 0.0] } 11. Kd2 { [%eval -0.42] } 11... g6 { [%eval 0.04] } 12. f4 { [%eval 0.17] } 12... Bh6 { [%eval 0.2] } 13. Kc2 { [%eval 0.26] } 13... Ne7 { [%eval 0.33] } 14. g4 { [%eval 0.29] } 14... Bd7 { [%eval 0.23] } 15. Nf3 { [%eval 0.11] } 15... Nb6 { [%eval 0.29] } 16. h4 { [%eval 0.01] } 16... Bg7 { [%eval 0.18] } 17. h5 { [%eval 0.05] } 17... O-O-O?? { [%eval 1.89] } { Blunder. gxh5 was best. } (17... gxh5 18. Rxh5) 18. h6?! { [%eval 1.14] } { Inaccuracy. Ng5 was best. } (18. Ng5) 18... Bf8 { [%eval 1.25] } 19. Ng5 { [%eval 1.32] } 19... Be8 { [%eval 1.42] } 20. Na3 { [%eval 1.14] } 20... Rg8?? { [%eval 3.97] } { Blunder. Kc7 was best. } (20... Kc7 21. Nxb5+ Bxb5 22. Nxf7 Ba4+ 23. Kb2 Rg8 24. Ng5 Bd7 25. Bd1 Ra8 26. a4) 21. Nxh7 { [%eval 3.95] } 21... Kc7 { [%eval 4.75] } 22. Nf6 { [%eval 4.55] } 22... Rh8 { [%eval 4.77] } 23. Nxe8+ { [%eval 4.67] } 23... Rxe8 { [%eval 4.85] } 24. Nxb5+ { [%eval 4.83] } 24... Kc6 { [%eval 4.85] } 25. Nd6 { [%eval 4.87] } 25... Ra8 { [%eval 4.89] } 26. Nxf7 { [%eval 4.7] } 26... Rh7 { [%eval 4.73] } 27. Ng5 { [%eval 4.74] } 27... Rxh6 { [%eval 4.75] } 28. Rxh6 { [%eval 4.65] } 28... Bxh6 { [%eval 4.64] } 29. Nxe6 { [%eval 4.74] } 29... Kd7 { [%eval 5.54] } 30. Nc5+ { [%eval 5.52] } 30... Kc6 { [%eval 5.55] } 31. a4 { [%eval 5.52] } 31... Nxa4 { [%eval 6.15] } 32. Rxa4 { [%eval 5.98] } 32... Rxa4 { [%eval 6.68] } 33. Nxa4 { [%eval 6.7] } 33... Kb5 { [%eval 6.75] } 34. Nc5 { [%eval 7.18] } 34... b6 { [%eval 8.35] } 35. Ne6 { [%eval 8.28] } 35... Kc6 { [%eval 8.22] } 36. g5 { [%eval 8.0] } 1-0
+
+

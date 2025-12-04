@@ -1,0 +1,65 @@
+T R I P P E L   T R E K A N T
+
+En trekant består av tre spelare med tre bräden som spelar tre partier samtidigt.
+
+T ex har Abbas vit mot Christer och svart mot Jouko. Samtidigt spelar Jouko svart mot Christer.
+Alla spelare spelar alltså simultant mot två andra spelare samtidigt.
+
+Denna turneringsvariant bygger på tre trekanter, benämnda A, B och C.
+
+Man spelar fyra ronder och möter då alla spelare en gång.
+
+Spelaren med bordets lägst nummer rapporterar alla resultat.
+
+Antal spelare är nio. Vill fler spela bildar de ett tvåmannalag med någon.
+Lagmedlemmarna spelar varannan rond. Ingen kommunikation är tillåten.
+
+Trevligast är att spela vid ett runt eller hexagonalt bord, cirka 1.3 m i diameter.
+Klockorna placeras i mitten.
+
+Dubbelrond åstadkommes genom att två godtyckliga spelare byter plats, för varje bord.
+
+                                                                     Alternativt schema:
+                      Bord: A B C                                    Platser: abc def ghi
+                                                              
+                           R o n d                                        R o n d
+                           1 2 3 4                                        1 2 3 4
+                      1    A A A A                                   1    a a a a
+                      2    A B B B                                   2    b d d d
+                      3    A C C C                                   3    c g g g
+                      4    B C B A                                   4    d h e b
+                      5    B A C B                                   5    e b h e
+                      6    B B A C                                   6    f e b h
+                      7    C C A B                                   7    g i c f
+                      8    C B C A                                   8    h f i c
+                      9    C A B C                                   9    i c f i
+                                        
+                           r1     r2     r3     r4                  r1     r2     r3     r4
+                        ┌──────┬──────┬──────┬──────┐            ┌──────┬──────┬──────┬──────┐ 
+                      1 │2    3│5    9│6    7│4    8│          1 │a     │a     │a     │a     │ 
+                        │      │      │      │      │            │      │      │      │      │ 
+                        ├──────┼──────┼──────┼──────┤            ├──────┼──────┼──────┼──────┤ 
+                      2 │3    1│6    8│4    9│5    7│          2 │b     │d     │d     │d     │ 
+                        │      │      │      │      │            │      │      │      │      │ 
+                        ├──────┼──────┼──────┼──────┤            ├──────┼──────┼──────┼──────┤ 
+                      3 │1    2│4    7│5    8│6    9│          3 │c     │g     │g     │g     │ 
+                        │      │      │      │      │            │      │      │      │      │ 
+                        ├──────┼──────┼──────┼──────┤            ├──────┼──────┼──────┼──────┤ 
+                      4 │5    6│7    3│9    2│8    1│          4 │d     │h     │e     │b     │ 
+                        │      │      │      │      │            │      │      │      │      │ 
+                        ├──────┼──────┼──────┼──────┤            ├──────┼──────┼──────┼──────┤ 
+                      5 │6    4│9    1│8    3│7    2│          5 │e     │b     │h     │e     │ 
+                        │      │      │      │      │            │      │      │      │      │ 
+                        ├──────┼──────┼──────┼──────┤            ├──────┼──────┼──────┼──────┤ 
+                      6 │4    5│8    2│7    1│9    3│          6 │f     │e     │b     │h     │ 
+                        │      │      │      │      │            │      │      │      │      │ 
+                        ├──────┼──────┼──────┼──────┤            ├──────┼──────┼──────┼──────┤ 
+                      7 │8    9│3    4│1    6│2    5│          7 │g     │i     │c     │f     │ 
+                        │      │      │      │      │            │      │      │      │      │ 
+                        ├──────┼──────┼──────┼──────┤            ├──────┼──────┼──────┼──────┤ 
+                      8 │9    7│2    6│3    5│1    4│          8 │h     │f     │i     │c     │ 
+                        │      │      │      │      │            │      │      │      │      │ 
+                        ├──────┼──────┼──────┼──────┤            ├──────┼──────┼──────┼──────┤ 
+                      9 │7    8│1    5│2    4│3    6│          9 │i     │c     │f     │i     │ 
+                        │      │      │      │      │            │      │      │      │      │ 
+                        └──────┴──────┴──────┴──────┘            └──────┴──────┴──────┴──────┘ 
