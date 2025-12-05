@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swiss Manager</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a>
+
+
+		<h1>Swiss Manager</h1>
+
+		
+		
+		<h2 id="installation-av-swissmanager">Installation av SwissManager</h2>
+<ul>
+<li><a href="https://swiss-manager.at/download.aspx?lan=0">SM Download</a></li>
+<li>Fick en nyckel av Björn.</li>
+<li>Starta SM</li>
+<li>Other | Install</li>
+<li>Display conditions for use</li>
+<li>Accept conditions for use</li>
+<li>Klistra in licensen, 16 tecken</li>
+<li>OK</li>
+</ul>
+<h2 id="hämtning-av-fides-ratingfil">Hämtning av FIDE:s ratingfil</h2>
+<ul>
+<li><a href="https://ratings.fide.com/download_lists.phtml">FIDE Download</a></li>
+<li>Rating Lists | Import rating lists</li>
+<li>Import rating list
+<ul>
+<li>FIDE</li>
+<li>Ange filen</li>
+<li>Start import</li>
+</ul>
+</li>
+<li>OK</li>
+</ul>
+<h2 id="skapande-av-turnering">Skapande av turnering</h2>
+<ul>
+<li>File | New tournament</li>
+<li>Swiss System</li>
+<li>Tournament name: KM</li>
+<li>Time Control: 90+30</li>
+<li>Federation: SWE</li>
+<li>Rounds: 10</li>
+<li>Time Control: Standard</li>
+<li>Rated FIDE: No</li>
+<li>Rated National: No</li>
+<li>OK</li>
+</ul>
+<h2 id="hämtning-av-deltagare">Hämtning av deltagare</h2>
+<ul>
+<li>Input | Enter players</li>
+<li>Input from List</li>
+<li>Rating List: FIDE</li>
+<li>Int. rating from 1400 to 2500</li>
+<li>Date of birth: 1901 to 1960</li>
+<li>Federation: SWE</li>
+<li>Start search</li>
+<li>(nu hittades 704 spelare)</li>
+</ul>
+<h2 id="urval-av-deltagare">Urval av deltagare</h2>
+<ul>
+<li>Name or Code: Nilsson</li>
+<li>Dubbelklick</li>
+<li>Toggla &ldquo;check presence of players&rdquo;</li>
+<li>Name or Code: Flardh</li>
+<li>När alla hittats: OK</li>
+</ul>
+<h2 id="inspektera-deltagarna">Inspektera deltagarna</h2>
+<ul>
+<li>Lists | Starting rank [ctrl-B]</li>
+</ul>
+<h2 id="lotta-nästa-rond">Lotta nästa rond</h2>
+<ul>
+<li>Pairings | Computer Pairings [F6]</li>
+<li>OK</li>
+<li>Start | OK</li>
+</ul>
+<h2 id="visa-bordslistan">Visa Bordslistan</h2>
+<ul>
+<li>Lists | Pairings [F10]</li>
+</ul>
+<h2 id="lägg-till-rating-för-båda-spelarna">Lägg till rating för båda spelarna</h2>
+<ul>
+<li>Print menu</li>
+<li>Define new list</li>
+<li>Gå ner till 10 Rtg.Int. show.</li>
+<li>Tryck på y</li>
+<li>Gå ner till 28 Rtg.Int. show.</li>
+<li>Tryck på y</li>
+<li>X End</li>
+<li>Stäng fönster (5)</li>
+<li>F10</li>
+<li>(nu ska rating visas för båda spelarna)</li>
+</ul>
+<h2 id="mata-in-resultat">Mata in resultat</h2>
+<ul>
+<li>Input | Enter results [F7]</li>
+<li><strong>Key</strong> = <strong>Button</strong></li>
+<li>0 = Empty</li>
+<li>1 = 1:0</li>
+<li>2 = remi</li>
+<li>3 = 0:1</li>
+<li>4 = 1F:0F</li>
+<li>5 = 0F:1F</li>
+<li>6 = 0F:0F</li>
+<li>7 = Adjourn</li>
+<li>(övriga via musklick)</li>
+<li>End</li>
+</ul>
+<h2 id="visa-ställning">Visa ställning</h2>
+<ul>
+<li>Lists | Standings [F5]</li>
+</ul>
+<h2 id="fortsätt">Fortsätt</h2>
+<ul>
+<li>Gå tillbaks till Lotta nästa rond</li>
+</ul>
+<h2 id="spara-turneringsfilen">Spara turneringsfilen</h2>
+<ul>
+<li>File | Save tournament</li>
+</ul>
+<h2 id="skapa-rapport-till-fide">Skapa rapport till FIDE</h2>
+<ul>
+<li>Other | FIDE Data Export TRF16</li>
+<li>OK</li>
+</ul>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>
