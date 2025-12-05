@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>member.schack.se</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/comparison/">Comparison</a>
+
+
+		<h1>member.schack.se</h1>
+
+		
+		
+		<pre tabindex="0"><code>TODO:
+  Behöver man skicka någon elo-rapport eller är den automatisk?
+</code></pre><h2 id="skapande-av-turnering">Skapande av turnering</h2>
+<ul>
+<li>Namn: KM</li>
+<li>Startdatum: 2025-12-05</li>
+<li>Slutdatum: 2025-12-15</li>
+<li>Antal ronder: 10</li>
+<li>Lottningssystem: FIDE Schweizer</li>
+<li>FIDE-registrerad: Ja</li>
+<li>[Nästa]</li>
+<li>Webanmälan: Nej</li>
+<li>Onlinespel: Nej</li>
+<li>[Nästa]</li>
+<li>Klicka</li>
+<li>(Redigera ronddatum)</li>
+<li>[Lägg till rond]</li>
+<li>(Ronduppgifter:)</li>
+<li>[Spara]</li>
+</ul>
+<h2 id="urval-av-deltagare">Urval av deltagare</h2>
+<ul>
+<li>Kryssa för de spelare som ska ingå</li>
+<li>[Spara]</li>
+<li>Klicka</li>
+</ul>
+<h2 id="lotta-nästa-rond">Lotta nästa rond</h2>
+<ul>
+<li>KM | Lottning</li>
+<li>Lottning KM | Lotta nästa rond</li>
+<li>Klicka</li>
+</ul>
+<h2 id="skriv-ut-bordslistan">Skriv ut Bordslistan</h2>
+<ul>
+<li>KM | Skriv ut | Lottning</li>
+</ul>
+<h2 id="mata-in-resultat">Mata in resultat</h2>
+<ul>
+<li>Klicka på Resultat</li>
+<li>1 = 1 - 0</li>
+<li>r = remi</li>
+<li>0 = 0 - 1</li>
+<li>(övriga väljs med musen)</li>
+<li>[Tillbaka]</li>
+</ul>
+<h2 id="visa-ställning">Visa ställning</h2>
+<ul>
+<li>[Visa Ställning]</li>
+</ul>
+<h2 id="skriv-ut-ställning">Skriv ut ställning</h2>
+<ul>
+<li>KM | Skriv ut | Ställning</li>
+</ul>
+<h2 id="fortsätt">Fortsätt</h2>
+<ul>
+<li>Gå tillbaks till Lotta nästa rond</li>
+</ul>
+<h2 id="skapa-rapport-till-fide">Skapa rapport till FIDE</h2>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>
