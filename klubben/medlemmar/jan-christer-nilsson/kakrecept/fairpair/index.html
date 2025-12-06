@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FairPair</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/kakrecept/">Kakrecept</a>
+
+
+		<h1>FairPair</h1>
+
+		
+		
+		<h3 id="skapande-av-turnering">Skapande av turnering</h3>
+<pre tabindex="0"><code>TITLE = KM
+ROUNDS = 10
+GAMES = 1
+</code></pre><h3 id="urval-av-deltagare">Urval av deltagare</h3>
+<pre tabindex="0"><code>Skriv in elo-rating samt namn
+1686 Christer Nilsson
+Upprepa för alla deltagare
+[Continue]
+</code></pre><h3 id="visa-bordslistan-b">Visa Bordslistan [B]</h3>
+<h3 id="mata-in-resultat">Mata in resultat</h3>
+<pre tabindex="0"><code>  [1]   = 1 - 0
+[space] = remi
+  [0]   = 0 - 1
+ [Del]  = Rensa
+</code></pre><h3 id="visa-ställning-a">Visa ställning [A]</h3>
+<h2 id="nästa-rond-">Nästa rond [→]</h2>
+<h2 id="skapa-rapport-till-fide-x">Skapa rapport till FIDE [X]</h2>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>
