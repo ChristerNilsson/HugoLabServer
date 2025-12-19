@@ -55,40 +55,39 @@ setDefault('font','Helvetica')
 
 		
 		
-		<p>Skriv in motståndarnas rating följt av din uppnådda partipoäng, separerade med mellanslag:</p>
+		<p>Enter the ratings of the opponents, followed by the score, separated by space:</p>
 <input type="text" id="INPUT" oninput="calculate()" size=65 value="2400 2500 2600 2.5" style="font-size:24px">
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">Metod</th>
+          <th style="text-align: left">Method</th>
           <th style="text-align: center">Performance Rating</th>
-          <th style="text-align: left">Kommentar</th>
+          <th style="text-align: left">Comment</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Medelvärde</td>
-          <td style="text-align: center"><span id="AVG">0</span></td>
+          <td style="text-align: left">Average</td>
+          <td style="text-align: center"><div id="AVG">0</div></td>
           <td style="text-align: left"></td>
       </tr>
       <tr>
-          <td style="text-align: left">Normalfördelning</td>
-          <td style="text-align: center"><span id="TRUEDEF">0</span></td>
-          <td style="text-align: left">Bygger på den exakta normalfördelningen och Horner</td>
+          <td style="text-align: left">Normal Distribution</td>
+          <td style="text-align: center"><div id="NORMDIST">0</div></td>
+          <td style="text-align: left">Error function and Horner</td>
       </tr>
       <tr>
-          <td style="text-align: left">Logistisk</td>
-          <td style="text-align: center"><span id="LOGISTIC">0</span></td>
-          <td style="text-align: left">Approximation med 1 / (1 + 10 ** gap/400)</td>
+          <td style="text-align: left">Logistic function</td>
+          <td style="text-align: center"><div id="LOGISTIC">0</div></td>
+          <td style="text-align: left">Approximation using 1 / (1 + 10 ^ (gap/400))</td>
       </tr>
       <tr>
-          <td style="text-align: left">FIDE (tabell)</td>
-          <td style="text-align: center"><span id="FIDE">0</span></td>
-          <td style="text-align: left">Tabelluppslagning utan interpolation</td>
+          <td style="text-align: left">FIDE Table</td>
+          <td style="text-align: center"><div id="FIDE">0</div></td>
+          <td style="text-align: left">Table lookup without interpolation</td>
       </tr>
   </tbody>
 </table>
-<!-- Kivij: <span id="KIVIJ">0</span> [Metod](http://www.hirmulintu.fi/juha/chess/en/performance_calculator.shtml) (Använder [erf](https://en.wikipedia.org/wiki/Error_function))<br> -->
 <script src="index.js"></script>
 
 	
