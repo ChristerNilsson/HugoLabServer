@@ -22,7 +22,7 @@ erf = (x) -> # Horner's method, ger 5-6 korrekta decimaler
 	if x >= 0 then res else -res
 
 search = (pp, ratings,func) ->
-	[lo,hi] = [0,4000]
+	[lo,hi] = [0,10000]
 	while Math.abs(hi - lo) > 0.00000001
 		guess = (lo + hi) / 2
 		[lo,hi] = if pp > func(ratings, guess) then [guess,hi] else [lo,guess]
