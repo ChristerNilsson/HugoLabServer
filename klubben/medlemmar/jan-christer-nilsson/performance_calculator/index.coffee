@@ -103,8 +103,8 @@ calculate = ->
 	elos = (parseFloat item for item in data)
 	average = summa(elos) / elos.length
 	document.getElementById("AVG").innerText = average.toFixed 0
-	document.getElementById("PR").innerText = performance(pp, elos).toFixed 3
-	# document.getElementById("KIVIJ").innerText = perf_correct(elos, 2 * pp).toFixed 0
+	document.getElementById("TRUEDEF").innerText = perf_correct(elos, 2 * pp).toFixed 0
+	document.getElementById("LOGISTIC").innerText = performance(pp, elos).toFixed 0
 	document.getElementById("FIDE").innerText = perf_fide(elos, pp, average).toFixed 0
 
 calculate()
