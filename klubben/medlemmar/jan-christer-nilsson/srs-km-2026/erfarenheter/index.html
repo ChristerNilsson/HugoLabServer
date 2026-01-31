@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/">Jan-Christer Nilsson</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/jan-christer-nilsson/srs-km-2026/">Seniorschack KM 2026</a>
+
+
+		<h1></h1>
+
+		
+		
+		<h2 id="hantering-av-deltagare-utan-fide-id">Hantering av deltagare utan FIDE-id</h2>
+<p>Dessa anges med id=0<br>
+Ange även födelsedag för att underlätta för FIDE att matcha<br>
+Innan du skicka nästa elorapport, kontrollera vilket id det blev<br>
+Mata in detta i Swiss Manager<br>
+Skicka rapporten<br>
+Om detta inte görs riskerar du att dubbla id skapas, som sedan måste mergas</p>
+<h2 id="hantering-av-personlig-frirond">Hantering av Personlig Frirond</h2>
+<p>Om man begär personlig frirond, belönas man med ½ poäng.<br>
+Det innebär att man inte lottas in.<br>
+Det måste ske innan lottning skett, dvs cirka en vecka för frironden.<br>
+Max två personliga frironder är tillåtna och de får inte ske de sista två ronderna.</p>
+<h2 id="hantering-av-uppskjutet-parti">Hantering av Uppskjutet parti</h2>
+<p>Dessa hanteras av Swiss Manager genom att de temporärt räknas som ½ - ½, lottningsmässigt.<br>
+Orsaken till detta är att spelarna annars lottas mot svagare spelare än förväntat.<br>
+Upprepningen nedan torde inte behövas om man nöjer sig med denna approximation ½ - ½.</p>
+<p>Björn Löwgren har förfinat/komplicerat detta genom Tendenslottning.<br>
+Det innebär att om det skiljer mer än 200 elo, ges 1 / 0 poäng istf ½ / ½ till den starkare / svagare spelaren.<br>
+Efter lottning måste denna poäng tas bort, för att poängen ska summeras korrekt.<br>
+För varje rond måste detta upprepas till partiet spelats.<br>
+Har man fem spelare med vardera tre uppskjutna partier blir det 5 * 3 * 4 == 60 justeringar för lottning
+och 60 justeringar efter lottning om man väntar i snitt fyra veckor med att spela partiet.</p>
+<p>Worst case scenario: 40 spelare, alla skjuter upp alla partier till sista veckan, tio ronder =&gt; 40 * 5 * 5 * 2 = 2000 justeringar.</p>
+<p>Om man istället låter Swiss Manager hantera remin, behövs inga resultatjusteringar alls.<br>
+Swiss bygger på att eloskillnaden maximeras, så det blir en del manuella justeringar.<br>
+I Berger och FairPair behövs inte tendenslottning, eftersom lottningen inte beror på poäng.</p>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>
