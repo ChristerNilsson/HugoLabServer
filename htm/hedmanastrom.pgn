@@ -1,0 +1,17 @@
+[Event "SM_2011"]
+[Site "?"]
+[Date "2011.07.08"]
+[Round "?"]
+[White "Erik Hedman"]
+[Black "Robert Åström"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "2rq1rk1/1b3pp1/p2ppn1p/1p6/4PP1Q/P1NB2R1/1PP3PP/5R1K b - - 0 1"]
+[PlyCount "8"]
+
+{600MB, Fritz11.ctg, Dell} 1... Nxe4 {hotar både dam och torn samtidigt och
+tvingar svart till något desperat som t.ex.} 2. Rxg7+ (2. Rh3 $2 Qxh4 3. Rxh4
+Nxc3 4. bxc3 Rxc3 5. Ra1 {och svarts ställning är överlägsen.}) 2... Kxg7 3.
+Qxd8 Rfxd8 4. Nxe4 Bxe4 5. Bxe4 {och svart är kvalitet över.} 0-1
+

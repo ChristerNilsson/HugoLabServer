@@ -1,0 +1,16 @@
+[Event "?"]
+[Site "?"]
+[Date "2012.09.30"]
+[Round "?"]
+[White "Persson, Kjell"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/6R1/7P/4p3/4r3/7k/5K2/8 w - - 0 1"]
+[PlyCount "15"]
+
+{600MB, Fritz11.ctg, Dell} 1. h7 {[%emt 0:00:00]} Rh4 2. Kg1 $1 e4 3. Rg2 $1 {
+och svart kan inte undgå den vinnande schacken på h2.} e3 4. Rh2+ Kg3 5. Rxh4
+Kxh4 6. h8=Q+ Kg3 7. Kf1 Kf3 8. Ke1 {med enkel vinst.} 1-0
+

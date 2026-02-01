@@ -1,0 +1,27 @@
+[Event "Seniorserien_VT2016"]
+[Site "Stockholm"]
+[Date "2016.02.03"]
+[Round "4"]
+[White "Miodrag Jeremic"]
+[Black "Jouko Liistamo"]
+[Result "1-0"]
+[ECO "B07"]
+[WhiteElo "1571"]
+[BlackElo "1394"]
+[Annotator "Persson,Kjell"]
+[PlyCount "105"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. d4 {[%emt 0:00:00]} d6 2. e4 Nd7 3. c4 e5 4. d5
+h6 5. Be3 Ne7 6. Nc3 Ng6 7. g3 Be7 8. Be2 O-O 9. h4 Re8 10. Nf3 Nc5 11. b4 Na6
+12. Rb1 Bg4 13. Nh2 Bxe2 14. Qxe2 Qd7 15. h5 Nf8 16. Qg4 Qxg4 17. Nxg4 Nh7 18.
+Ke2 Rf8 19. Nxh6+ gxh6 20. Bxh6 Rfe8 21. f4 Bf6 22. Kd3 Bg7 23. Bxg7 Kxg7 24.
+a4 Rg8 25. Ke3 Kf8 26. Kf3 exf4 27. gxf4 c6 28. b5 Nc5 29. Rbg1 Rxg1 30. Rxg1
+cxb5 31. axb5 Nd7 32. Ke3 a6 33. h6 Ke7 34. Kd4 Rh8 35. e5 dxe5+ 36. fxe5 Nhf8
+37. bxa6 bxa6 38. Ne4 Rxh6 39. d6+ Ke8 40. Rf1 Ne6+ 41. Kd5 Rh5 42. Nf6+ Nxf6+
+43. Rxf6 Rh4 44. c5 Rd4+ 45. Kc6 Nd8+ $2 (45... Rc4 $1 46. d7+ Ke7 $1 {
+och svart vinner.}) 46. Kb6 Rc4 47. Rf1 Kd7 $1 {och svart håller ställningen.}
+48. Ra1 Ke6 $4 (48... Rb4+ $1 49. Ka5 Rb5+ 50. Kxa6 Rxc5 $1 {
+med enkel vinst för svart.}) 49. Kc7 Rxc5+ 50. Kxd8 Rc6 51. d7 Kxe5 52. Ke7 Rd6
+$4 53. Re1+ {och svart ger upp.} 1-0
+

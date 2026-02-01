@@ -1,0 +1,15 @@
+[Event "Tastrup 2006"]
+[Site "?"]
+[Date "2006.04.23"]
+[Round "?"]
+[White "Thomassen"]
+[Black "Rasmussen"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "r1b1r1k1/pp3ppp/2P5/n7/Q1B5/8/PP1q1PPP/3R1K1R b - - 0 1"]
+[PlyCount "3"]
+
+{600MB, Fritz11.ctg, Dell} 1... Nxc4 $3 {Uppgivet. Det följer} 2. Qxc4 (2. Rxd2
+$2 Nxd2+ 3. Kg1 Re1#) (2. h3 $2 Qe2+ 3. Kg1 Nxb2) 2... Qxd1# 0-1
+

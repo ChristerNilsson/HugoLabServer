@@ -1,0 +1,25 @@
+Place Name                    Feder Rtg  Loc Score M-Buch. 
+
+  1   Johansson, Lennart            1940     7.5      37.0 
+  2   Svensson, Lars-Åke            1950     7        35.0 
+  3   Kyhle, Bo                     2150     6.5      37.5 
+ 4-5  Gustavsson, Veine             1740     6        31.0 
+      Hartzell, Ove                 1930     6        26.5 
+  6   Ländin, Bo                    1900     5.5      36.0 
+7-11  Samuelsson, Sven-Gunnar       2050     5        39.5 
+      Agrest, Roman                 2000     5        36.5 
+      Sundberg, Karl-Erik           1350     5        32.5 
+      Larsson, Christer             1500     5        30.5 
+      Löwgren, Björn                1730     5        29.0 
+12-17 Cederström, Jan-Olof          1370     4.5      34.0 
+      Malmgren, Jan                 1640     4.5      33.0 
+      Persson, Kjell                1650     4.5      29.5 
+      Axelius, Gunnar               1600     4.5      25.5 
+      Liistamo, Jouko               1400     4.5      24.0 
+      Bergsten, Mats                1850     4.5      22.0 
+ 18   Hörling, Lars                 1490     4        37.0 
+19-20 Dillen, Sten                  1590     3        34.0 
+      Weström, Hans                 1750     3        32.0 
+ 21   Zivic, Miroljub               1630     2.5      30.5 
+22-23 Strid, Erik                   1390     2        30.5 
+      Sjöstrand, Tommy              1660     2        29.5 

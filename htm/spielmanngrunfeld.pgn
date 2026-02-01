@@ -1,0 +1,17 @@
+[Event "Karlsbad"]
+[Site "?"]
+[Date "1929.10.31"]
+[Round "?"]
+[White "Rudolf Spielmann"]
+[Black "Grünfeld"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "r4rk1/1q2nppp/p1b1p3/1p5P/3BP3/1BP1Q1P1/P4P2/R2R2K1 w - - 0 1"]
+[PlyCount "7"]
+
+{600MB, Fritz11.ctg, Dell} 1. Bxg7 Kxg7 ({Svart kan klara sig längre genom att
+inte anta offret, men då avgör vits materiella övervikt. T.ex.} 1... f6 2. Qh6
+Rf7 3. Bxe6 $1) 2. Qg5+ Ng6 ({På} 2... Kh8 {följer} 3. Qf6+ Kg8 4. h6 Nf5 5.
+exf5 exf5 6. Qg7#) 3. h6+ Kg8 4. Qf6 {och matt i nästa drag.} 0-1
+

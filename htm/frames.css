@@ -1,0 +1,220 @@
+BODY {
+	background-color : white;
+	}
+
+.pgob {
+	}
+
+.pgb {
+	}
+
+.pgbb {
+	border-color : black;
+	border-style : double;
+	border-width : 4px;
+	}
+
+.pt {
+	font-family : Georgia, "Times New Roman", Serif;
+	font-size : 12pt;
+	font-weight : bold;
+	text-align : center;
+	white-space : pre;
+	}
+
+DIV.pgi P {
+	color : black;
+	font-family : Georgia, "Times New Roman", Serif;
+	margin : 0px;
+	padding : 6pt;
+	}
+
+.pgib {
+	background-color : white;
+	border-color : brown;
+	border-style : double;
+	border-width : 4px;
+	}
+
+.popen {
+	color : black;
+	font-size : 10pt;
+	font-style : italic;
+	font-weight : bold;
+	text-align : left;
+	}
+
+.peco {
+	color : black;
+	font-size : 10pt;
+	font-style : italic;
+	font-weight : bold;
+	text-align : right;
+	}
+
+.ptitle {
+	color : black;
+	font-size : 10pt;
+	font-style : normal;
+	font-weight : normal;
+	}
+
+.pplay {
+	color : black;
+	font-size : 11pt;
+	font-style : normal;
+	font-weight : bold;
+	}
+
+.pelo {
+	font-size : 10pt;
+	font-style : normal;
+	font-weight : normal;
+	}
+
+.pevent {
+	color : black;
+	font-size : 10pt;
+	font-style : italic;
+	font-weight : normal;
+	text-align : center;
+	}
+
+DIV.pgm P {
+	color : black;
+	font-family : Georgia, "Times New Roman", Serif;
+	margin : 0pt;
+	padding : 0em;
+	}
+
+.pintro {
+	}
+
+.pm {
+	color : black;
+	font-size : 10pt;
+	font-weight : bold;
+	line-height : 14pt;
+	text-align : justify;
+	}
+
+.pc {
+	color : darkgreen;
+	font-family : Georgia, "Times New Roman", Serif;
+	font-size : 10pt;
+	font-style : normal;
+	font-weight : normal;
+	}
+
+.pc2 {
+	}
+
+.pf {
+	font-family : LinaresFigurine, ZurichFigurine, "Zurich New", HastingsFigurine;
+	font-style : normal;
+	}
+
+.panno {
+	font-size : 10pt;
+	font-style : normal;
+	font-weight : normal;
+	}
+
+.ianno {
+	color : darkgreen;
+	}
+
+.pclock {
+	}
+
+DIV.pgm A:link {
+	color : black;
+	text-decoration : none;
+	}
+
+DIV.pgm A:visited {
+	color : black;
+	text-decoration : none;
+	}
+
+DIV.pgm A:hover {
+	color : blue;
+	text-decoration : none;
+	}
+
+DIV.pgm A:active {
+	text-decoration : none;
+	}
+
+DIV.pgm .pc A:link {
+	color : darkgreen;
+	text-decoration : none;
+	}
+
+DIV.pgm .pc A:visited {
+	color : darkgreen;
+	text-decoration : none;
+	}
+
+DIV.pgm .pc A:hover {
+	color : blue;
+	text-decoration : none;
+	}
+
+DIV.pgm .pc A:active {
+	color : blue;
+	text-decoration : none;
+	}
+
+DIV.pgm .pc2 A:link {
+	color : darkgreen;
+	text-decoration : none;
+	}
+
+DIV.pgm .pc2 A:visited {
+	color : darkgreen;
+	text-decoration : none;
+	}
+
+DIV.pgm .pc2 A:hover {
+	color : blue;
+	text-decoration : none;
+	}
+
+DIV.pgm .pc2 A:active {
+	color : blue;
+	text-decoration : none;
+	}
+
+DIV.pgm SPAN.pc A:link {
+	}
+
+DIV.pgm SPAN.pc A:visited {
+	}
+
+DIV.pgm SPAN.pc A:hover {
+	}
+
+DIV.pgm SPAN.pc A:active {
+	}
+
+DIV.pgm SPAN.pc2 A:link {
+	}
+
+DIV.pgm SPAN.pc2 A:visited {
+	}
+
+DIV.pgm SPAN.pc2 A:hover {
+	}
+
+DIV.pgm SPAN.pc2 A:active {
+	}
+
+DIV.pgm .pc EM {
+	}
+
+DIV.pgm .pc2 EM {
+	}
+
+DIV.pgm IMG {
+	}

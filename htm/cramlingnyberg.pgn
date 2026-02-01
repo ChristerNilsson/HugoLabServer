@@ -1,0 +1,15 @@
+[Event "?"]
+[Site "?"]
+[Date "2012.09.14"]
+[Round "?"]
+[White "Kjell Persson"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "3qr1k1/7p/2R3p1/5p2/r2Bpb2/4P2Q/6PP/3R2K1 w - - 0 1"]
+[PlyCount "17"]
+
+{600MB, Fritz11.ctg, Dell} 1. Rxg6+ hxg6 2. Qh8+ Kf7 3. Qg7+ Ke6 4. Qxg6+ Kd5
+5. Bb6+ Kc4 6. Qc6+ Kb3 7. Rb1+ Ka2 8. Qc2+ Ka3 9. Qb3# 1-0
+

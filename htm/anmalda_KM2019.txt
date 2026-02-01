@@ -1,0 +1,18 @@
+ 1	Welam Welamsson
+ 2	Lars-Owe Andersson
+ 3	Arne Jansson
+ 4	Dan Israel
+ 5	Peter Silins
+
+ 6	Leif Sjölund
+ 7	Svante Wedin
+ 8	Veine Gustavsson
+ 9	Clas Örjan Spång ?
+10	Vida Radon
+
+11	Lasse Åberg
+12	Björn Löwgren
+13	Christer Larsson
+14	Stefan Engström
+15	Lennart B Johansson
+

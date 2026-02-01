@@ -1,0 +1,17 @@
+[Event "Studie 1921"]
+[Site "?"]
+[Date "1921.04.23"]
+[Round "?"]
+[White "dedrle"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/8/5k2/8/p7/8/1PK5/8 w - - 0 1"]
+[PlyCount "13"]
+
+{600MB, Fritz11.ctg, Dell} 1. Kb1 $1 {enda draget.} ({Om vit försöker} 1. Kc3 {
+blir det bara remi.} a3 $1 2. b4 (2. bxa3 $2 {ger vit en värdelös kantbonde.})
+2... Ke6 3. Kb3 Kd6 4. Kxa3 Kc6 5. Ka4 Kb6 {med remi.}) 1... Ke6 2. Ka2 $1 Kd6
+3. Ka3 $1 Kc5 4. Kxa4 Kc4 5. b4 Kd5 6. Kb5 Kd6 7. Kb6 {o.s.v.} 1-0
+

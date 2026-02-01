@@ -1,0 +1,20 @@
+[Event "Senior_KM_2014"]
+[Site "Stockholm"]
+[Date "2014.03.13"]
+[Round "?"]
+[White "Göran Fant"]
+[Black "Onni Aikio"]
+[Result "0-1"]
+[ECO "B06"]
+[Annotator "Persson,Kjell"]
+[PlyCount "24"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. f4 g6 2. e4 e5 3. fxe5 $4 {
+Katastrof, leder nästan direkt till förlust.} ({Rätt drag är} 3. d3 d6 4. Nf3 {
+med normal utveckling.}) 3... Qh4+ 4. Ke2 (4. g3 Qxe4+ 5. Qe2 Qxh1 {
+och vit kan kämpa vidare trots materiell förlust.}) 4... Qxe4+ 5. Kf2 Bc5+ 6.
+d4 Bxd4+ 7. Kg3 Bxe5+ 8. Kf2 Bd4+ 9. Kg3 Nf6 10. Be2 Qf5 11. Bf3 $2 (11. Qxd4 {
+är nödvändigt.}) 11... Ne4+ 12. Bxe4 ({På} 12. Kh4 {följer} Bf6+ 13. Bg5 Bxg5#)
+12... Bf2# 0-1
+

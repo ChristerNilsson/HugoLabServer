@@ -1,0 +1,14 @@
+[Event "Elitserien"]
+[Site "?"]
+[Date "2012.10.09"]
+[Round "?"]
+[White "Erik Malmstig"]
+[Black "Emanuel Berg"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "6k1/4pp2/3p2p1/2qPn2p/4P3/4RP2/P4QPP/1r2B1K1 b - - 0 1"]
+[PlyCount "3"]
+
+{600MB, Fritz11.ctg, Dell} 1... Nd3 {[%emt 0:00:00]} 2. Rxd3 Rxe1# 0-1
+

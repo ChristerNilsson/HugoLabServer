@@ -1,0 +1,16 @@
+[Event "Varna 1962"]
+[Site "?"]
+[Date "1962.04.17"]
+[Round "?"]
+[White "Unzicker"]
+[Black "Fisher"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "2r3k1/q4pp1/3p3p/1p1QpPb1/4P3/1NP3PP/rP6/R3RK2 b - - 0 1"]
+[PlyCount "10"]
+
+{600MB, Fritz11.ctg, Dell} 1... Rxc3 $3 {och vit gav upp.} {Om t.ex.} 2. Nd4
+Rxa1 3. bxc3 exd4 4. Qxd4 Rxe1+ 5. Kxe1 Qxd4 6. cxd4 {
+och svart vinner på sin materiella övervikt.} 0-1
+

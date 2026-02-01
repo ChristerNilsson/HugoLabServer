@@ -1,0 +1,17 @@
+[Event "tornslutspel"]
+[Site "?"]
+[Date "2016.04.08"]
+[Round "?"]
+[White "Roman"]
+[Black "Fritz 11"]
+[Result "1/2-1/2"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/R5K1/8/8/8/3b2k1/3P3p/8 w - - 0 1"]
+[PlyCount "12"]
+
+{600MB, Fritz11.ctg, Dell} 1. Ra1 Kg2 2. Kh8 $1 (2. Kh6 $1 {
+håller remi på liknande sätt.} Bf1 3. Ra5 h1=Q+ 4. Rh5 {o.s.v.}) (2. Rc1 {
+och Re1} Bf1 3. Rc6 {alt. Re6} h1=Q 4. Rh6 Qg1 5. Rg6+) 2... Bf1 3. Ra7 h1=Q+
+4. Rh7 Qg1 5. Rg7+ Kf2 6. Rxg1 Kxg1 {och ställningen är remi.} 1/2-1/2
+

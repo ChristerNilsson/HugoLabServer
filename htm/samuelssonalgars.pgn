@@ -1,0 +1,31 @@
+[Event "SeniorDM_HT2013"]
+[Site "Stockholm"]
+[Date "2013.11.21"]
+[Round "9"]
+[White "Sven-Gunnar Samuelsson"]
+[Black "Olle Ålgars"]
+[Result "1-0"]
+[ECO "B13"]
+[WhiteElo "2025"]
+[BlackElo "1988"]
+[Annotator "Sven-Gunnar Samuelsson"]
+[PlyCount "39"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. d4 Nf6 2. c4 c5 3. e3 {
+Här tänkte min motståndare i 20 minuter.} cxd4 4. exd4 d5 5. Nc3 Nc6 6. Bg5 {
+Vi har hamnat i Panov-varianten i Caro-Kann efter en del dragomkastningar.
+Vits senaste drag härstammar från Botvinik som vann flera glänsande partier på
+30-talet, till exempel mot Spielmann i Moskva 1935.} dxc4 ({
+Botvinik vann i elva drag efter} 6... Qb6 7. cxd5 Qxb2 8. Rc1 Nb4 9. Na4 $3 {
+och svarts dam blir instängd.} {t.ex.} Qa3 10. Rc3 Qxa2 11. Bc4 Nc2+ 12. Qxc2)
+7. d5 Ne5 8. Bxc4 Nxc4 9. Qa4+ Bd7 10. Qxc4 Qb6 11. Nf3 Rc8 ({
+Att ta den s.k. testamentesbonden på b2 är ingen bra affär} 11... Qxb2 {
+Damen blir jagad av de vita pjäserna och svart förlorar tid.} 12. Rb1 Qa3 13.
+Nb5 Bxb5 14. Qxb5+) 12. Qe2 h6 13. Bxf6 Qxf6 14. Ne5 Qd6 15. O-O a6 16. Rfe1
+Rd8 17. Qh5 $3 g6 18. Ne4 $1 {
+Vit spelar på de svarta tangenterna d.v.s. Hawaiischack.} Qxd5 $4 ({
+Enda möjligheten att förlänga partiet var} 18... gxh5 19. Nxd6+ exd6 20. Ng6+
+Be6 21. Nxh8 Bg7 22. Nxf7 Kxf7 23. dxe6+ Ke7 {och svart förlorar.}) 19. Nf6+
+exf6 20. Nxd7+ {och svart ger upp.} 1-0
+

@@ -1,0 +1,15 @@
+[Event "Tiblisi 1973"]
+[Site "?"]
+[Date "1973.04.17"]
+[Round "?"]
+[White "Georgadze"]
+[Black "Kuindzhi"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/7p/6pk/1P4r1/2P2QBK/R6P/6r1/6q1 b - - 0 1"]
+[PlyCount "7"]
+
+{600MB, Fritz11.ctg, Dell} 1... Qf2+ $1 2. Qg3 (2. Qxf2 $2 Rh5+ 3. Bxh5 g5#)
+2... Rh5+ 3. Bxh5 g5+ 4. Kg4 Qf4# 0-1
+

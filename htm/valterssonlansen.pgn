@@ -1,0 +1,29 @@
+[Event "Seniorserien_VT2013"]
+[Site "Stockholm"]
+[Date "2013.04.24"]
+[Round "11"]
+[White "Ivana Valtersson"]
+[Black "Sven-Erik Lansén"]
+[Result "1-0"]
+[ECO "C42"]
+[WhiteElo "1126"]
+[BlackElo "990"]
+[Annotator "Persson,Kjell"]
+[PlyCount "91"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 {[%emt 0:00:00]} e5 2. Nf3 Nf6 3. Nc3 d6 4.
+Bc4 c5 5. d3 (5. Ng5 $1 Be6 6. Nxe6 fxe6 7. Bxe6 {och vit vinner bonde.}) 5...
+Be7 6. Ng5 d5 $2 (6... O-O {och f7-bonden är garderad.}) 7. exd5 O-O 8. Qe2 Bg4
+9. Qxe5 Qd6 10. Qe3 Re8 11. Nge4 Qe5 12. f3 Bh5 13. Bd2 {
+Vit förbereder lång rockad.} Bd6 14. O-O-O Qd4 15. Nb5 (15. Nxf6+ Qxf6 16.
+Qxe8+ {är en ännu bättre fortsättning för vit.} Bf8) 15... Qxe3 16. Bxe3 Na6 $2
+{Svart glömmer bort, att löparen på d6 hänger.} 17. Nbxd6 Red8 18. Nxb7 Rd7 19.
+Nbxc5 Nxe4 20. Nxd7 Nd6 21. Bxa6 {och vit har ett förkrossande övertag.} f5 22.
+Bf4 Nf7 23. Rde1 h6 24. Bc4 a5 25. d6 Kh7 26. Be6 Kg6 27. Bd5 Ra6 28. Re6+ (28.
+Nf8+ Kf6 29. Re6# {är en snabbare väg till matt.}) 28... Kh7 29. Rhe1 g5 30.
+Nf6+ Kg6 31. Ne8+ Kh7 32. Bg3 f4 33. Be4+ Kh8 34. Bf2 Nxd6 35. Rxh6+ Kg8 36.
+Bd5+ Bf7 37. Nf6+ Kg7 38. Ng4 Bxd5 39. Re7+ Bf7 40. Bd4+ Kf8 41. Rd7 Ke8 42.
+Nf6+ {Den svarta kungen är fångad i ett mattnät.} Kf8 43. Rh8+ Kg7 44. Ng4+ Kg6
+45. Rh6+ Kf5 46. Rf6# 1-0
+

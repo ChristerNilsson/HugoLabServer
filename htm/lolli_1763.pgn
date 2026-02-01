@@ -1,0 +1,18 @@
+[Event "Studie 1763"]
+[Site "Stockholm"]
+[Date "2018.02.27"]
+[Round "?"]
+[White "Lolli"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/KQ6/8/8/8/8/p7/k7 w - - 0 1"]
+[PlyCount "17"]
+[TimeControl "40/2400:40/2400:2400"]
+
+{600MB, Fritz11.ctg, Dell} 1. Kb6 Kb1 2. Kc5+ Kc1 (2... Ka1 $2 3. Kb4 $1 Kb2 (
+3... Kb1 $2 4. Kc3+ Kc1 5. Qh1#) 4. Qg2+ Kb1 5. Kb3 a1=N+ 6. Kc3 Nc2 7. Qxc2+
+Ka1 8. Qb2#) 3. Qa6 Kb1 4. Qb5+ Kc1 5. Qa4 Kb1 6. Qd1+ Kb2 7. Kb4 a1=Q 8. Qd2+
+Kb1 9. Kb3 {och svart ger upp.} 1-0
+

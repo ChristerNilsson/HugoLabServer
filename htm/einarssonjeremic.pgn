@@ -1,0 +1,27 @@
+[Event "Senior_KM_VT2013"]
+[Site "Stockholm"]
+[Date "2013.04.28"]
+[Round "7"]
+[White "Hans Einarsson"]
+[Black "Miodrag Jeremic"]
+[Result "0-1"]
+[ECO "B08"]
+[WhiteElo "1405"]
+[BlackElo "1765"]
+[Annotator "Persson,Kjell"]
+[PlyCount "92"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 {[%emt 0:00:00]} d6 2. d4 Nf6 3. Nc3 g6 4. Nf3
+Bg7 5. Be2 c6 6. a4 {Vit vill förhindra b5.} Nbd7 7. O-O O-O 8. h3 e5 9. dxe5
+Nxe5 (9... dxe5 10. Be3 Qc7 {är teori.}) 10. Nxe5 dxe5 11. Be3 Be6 12. a5 Qc7
+13. Bd3 b5 14. axb6 axb6 15. b3 c5 16. Qe2 Qc6 17. Kh2 (17. Bb5 Qb7 18. f3 {
+är bättre för vit.}) 17... Nd7 18. Bc4 Nf6 19. Bd5 $4 {förlorar bonde.} (19. f3
+{är bättre för vit.}) 19... Nxd5 20. exd5 Bxd5 21. Nxd5 Qxd5 22. Rad1 Qe6 23.
+c4 f5 24. Rd5 Rfd8 25. Rfd1 Rxd5 26. Rxd5 e4 27. Bf4 Bf8 28. Qd2 Re8 29. Rd7
+Be7 30. Bc7 Bg5 $1 31. Qd5 Qxd5 32. Rxd5 Re6 {Svart kan nu försvara c6-bonden.}
+33. Rd6 $4 Rxd6 (33... Bf4+ 34. Kg1 Bxd6 {och vit förlorar tornet.}) 34. Bxd6
+Bd8 $1 {och slutspelet bör vinnas av svart.} 35. Kg1 Kf7 36. Be5 Ke6 37. Bc3
+Bc7 38. Kf1 Be5 39. Bd2 f4 40. Ke2 g5 41. Be1 Kf5 42. f3 h5 43. Kd2 g4 44. Ke2
+exf3+ 45. gxf3 g3 46. Bd2 Bd4 {Uppgivet.} 0-1
+

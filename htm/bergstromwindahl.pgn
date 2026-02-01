@@ -1,0 +1,26 @@
+[Event "Seniorserien_VT2013"]
+[Site "Stockholm"]
+[Date "2013.01.30"]
+[Round "3"]
+[White "Helge Bergström"]
+[Black "Roland Windahl"]
+[Result "0-1"]
+[ECO "C41"]
+[WhiteElo "1319"]
+[BlackElo "1267"]
+[Annotator "Persson,Kjell"]
+[PlyCount "66"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 {[%emt 0:00:00]} e5 2. Nf3 d6 3. d4 exd4 4.
+Bc4 Bg4 5. c3 Nf6 6. cxd4 Nxe4 $2 (6... Nc6 7. O-O Be7 {
+är en säkrare fortsättning här.}) 7. O-O $2 (7. Bd5 {vinner kvalitet.} f5 8.
+Bxb7 Nd7 9. Bxa8 Qxa8 10. O-O) 7... Be7 8. Qb3 {med dubbelhot mot b7 och f7.}
+b6 9. Bd5 (9. Bxf7+ Kf8 10. Bd5 {är förstås starkare.}) 9... Be6 10. Bxe6 fxe6
+11. Qxe6 Nf6 12. Ng5 $1 Qd7 13. Qf7+ Kd8 14. Re1 Nc6 15. Ne6+ Kc8 16. d5 $2 (
+16. Qxg7 $1 Rg8 17. Qf7) 16... Ne5 $1 17. Qxg7 Rg8 $1 18. Qh6 Rg6 (18... Nf3+
+$1 19. Kf1 Nxe1 {vinner kvalitet.}) 19. Qh3 Kb7 20. Nc5+ $2 bxc5 21. Qxd7 Nfxd7
+{och svart är pjäs över.} 22. Nc3 Rag8 (22... Nf3+ {vinner kvalitet!}) 23. Kf1
+Rxg2 24. Ke2 Bh4 $1 25. Nd1 Rxh2 26. b3 Ng4 27. Be3 Nxe3 28. Nxe3 Bxf2 29. Kf3
+Bxe1 30. Rxe1 Ne5+ 31. Ke4 Rh4+ 32. Kf5 Rf8+ 33. Kg5 Nf3# 0-1
+

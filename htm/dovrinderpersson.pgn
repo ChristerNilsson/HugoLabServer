@@ -1,0 +1,38 @@
+[Event "Schack_SM 2013"]
+[Site "Stockholm"]
+[Date "2013.07.12"]
+[Round "7"]
+[White "Bengt Dovrinder"]
+[Black "Kjell Persson"]
+[Result "1/2-1/2"]
+[ECO "D85"]
+[WhiteElo "1905"]
+[BlackElo "1874"]
+[Annotator "Persson,Kjell"]
+[PlyCount "74"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3
+6. bxc3 Bg7 7. Nf3 O-O 8. Bc4 c5 9. O-O Nc6 10. Be3 Bg4 11. e5 (11. Bd5 Bxf3
+12. Qxf3 cxd4 13. cxd4 Nxd4 {och svart har vunnit en bonde.} {Men efter} 14.
+Bxd4 Bxd4 15. Rab1 e6 16. Bxb7 {vinner vit tillbaka bonden.} Rb8 17. Rfd1 e5 {
+med lika spel.}) (11. d5 Ne5 12. Be2 Nxf3+ 13. Bxf3 Bxf3 14. Qxf3 Bxc3 15. Rab1
+b6 16. Bxc5 $1 {anses bäst för vit.}) 11... cxd4 12. cxd4 Bxf3 13. gxf3 ({Även
+} 13. Qxf3 {är spelbart.} Nxd4 14. Qe4 ({Om} 14. Qxb7 Bxe5 {
+tyckte jag såg vanskligt ut, men efter} 15. Rad1 Rc8 16. Bb3 Qc7 17. Qxc7 Ne2+
+18. Kh1 Rxc7 {kan springaren räddas via c3.})) 13... Na5 14. Bd3 Rc8 15. Be4 b6
+16. Rc1 Nc4 $2 (16... Rxc1 17. Qxc1 Qd7 {
+och svart har full kontroll på c-linjen.}) 17. Qa4 $1 Nxe3 18. fxe3 Rc7 (18...
+Rxc1 19. Rxc1 f6 {är bättre för svart.}) 19. f4 e6 20. Rc6 Qb8 (20... Qd7 21.
+Rfc1 Rfc8 22. Rxc7 Qxa4 23. Rxc8+ Bf8 {är ett alternativ för svart.}) 21. Rfc1
+Rfc8 22. d5 exd5 23. Bxd5 Rxc6 24. Rxc6 Rxc6 25. Qxc6 a5 $2 (25... Bxe5 $1 26.
+fxe5 Qxe5 27. e4 Qd4+ {och svart har remischackar.}) 26. Qd7 Qf8 27. Qc7 h6 28.
+Qxb6 $2 {vit spelar bort hela sin fördel.} (28. Kf2 g5 29. f5 Qe8 30. e6 fxe6
+31. Bxe6+ Kh8 32. Qxb6 {och vit har vinstspel.}) 28... Qb4 $1 29. Qd8+ (29.
+Qxb4 axb4 30. Kf2 Kf8 31. Ke2 f6 32. e6 Ke7 33. Kd3 f5 34. e4 fxe4+ 35. Kxe4 {
+leder till remi på grund av olikfärgade löpare.}) 29... Bf8 30. Kf1 {
+vit kan inte undgå svarts remischackar med damen.} Qb1+ 31. Kf2 Qc2+ 32. Kg3
+Qc1 33. Qb6 {hotar Dxg6 med forcerad matt.} Qg1+ 34. Bg2 (34. Kh3 h5 {
+med matthot.}) 34... Qe1+ 35. Kf3 Qd1+ 36. Kg3 Qe1+ 37. Kf3 Qd1+ {
+och spelarna enades om remi.} 1/2-1/2
+

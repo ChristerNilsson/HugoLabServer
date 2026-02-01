@@ -1,0 +1,17 @@
+[Event "Slutspel_PO_1_HT2016"]
+[Site "?"]
+[Date "2016.09.11"]
+[Round "?"]
+[White "Vit"]
+[Black "Svart"]
+[Result "1/2-1/2"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/8/8/3kB3/8/p1P5/4K3/8 w - - 0 1"]
+[PlyCount "8"]
+
+{600MB, Fritz11.ctg, Dell} 1. Kd3 $1 {enda draget som håller remi.} Kxe5 $1 (
+1... a2 $4 2. Bd4 $1 a1=Q 3. c4+ {och vit vinner.}) 2. Kc2 {
+och vit är inne i kvadraten.} a2 3. Kb2 a1=Q+ 4. Kxa1 Kd5 {
+och ställningen är remi.} 1/2-1/2
+

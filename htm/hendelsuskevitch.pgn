@@ -1,0 +1,15 @@
+[Event "?"]
+[Site "?"]
+[Date "1956.09.30"]
+[Round "?"]
+[White "Hendel"]
+[Black "Suskevitch"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "1r4r1/1np1kp2/2pp4/p1b2P1p/P1B1P2P/2QR2Bq/5P2/5RK1 b - - 0 1"]
+[PlyCount "5"]
+
+{600MB, Fritz11.ctg, Dell} 1... Rxg3+ 2. Rxg3 Rg8 {
+och vit är tvungen att ge dam för torn.} 3. Rxg8 Qxc3 {med enkel vinst.} 0-1
+

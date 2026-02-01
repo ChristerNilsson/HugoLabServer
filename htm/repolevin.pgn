@@ -1,0 +1,22 @@
+[Event "?"]
+[Site "?"]
+[Date "2015.11.26"]
+[Round "11"]
+[White "Arto, Repo"]
+[Black "Lennart, Levin"]
+[Result "0-1"]
+[ECO "B30"]
+[Annotator "Levin,Lennart"]
+[PlyCount "52"]
+[TimeControl "240+2"]
+
+{600MB, Fritz11.ctg} 1. e4 c5 2. c4 {
+Ett ovanligt drag i sicilianskt, som ger svart ett lungt spel.} Nc6 3. Nf3 d6
+4. Be2 Nf6 5. d3 g6 6. Nc3 Bg7 7. O-O O-O 8. h3 e5 9. Nh2 Nd4 10. f4 Nxe2+ 11.
+Nxe2 exf4 12. Nxf4 Nd7 13. Nf3 Ne5 14. Rb1 Nxf3+ 15. Qxf3 f5 16. exf5 Bxf5 17.
+Qd5+ Kh8 18. Ne6 $4 {
+Vit ser en möjlighet att vinna b7-bonden efter diverse avbyten.} (18. Bd2 {
+är nödvändigt om vit ska överleva.}) 18... Bxe6 19. Rxf8+ Qxf8 20. Qxe6 Re8 $1
+{med elakartade konsekvenser.} 21. Qg4 Re1+ 22. Kh2 Be5+ 23. Bf4 Qxf4+ 24. Qxf4
+Bxf4+ 25. g3 Bxg3+ 26. Kxg3 Rxb1 {Uppgivet.} 0-1
+

@@ -1,0 +1,16 @@
+[Event "Amsterdam, 1971"]
+[Site "?"]
+[Date "1971.11.02"]
+[Round "?"]
+[White "Gligoric"]
+[Black "Smyslov"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/6pk/2b2q2/pp5p/2p1P2P/2Pr1P2/P3Q1K1/2R1B3 b - - 0 1"]
+[PlyCount "5"]
+
+{600MB, Fritz11.ctg, Dell} 1... Qf4 $3 {
+och vit gav upp, eftersom varje torndrag besvaras med Rxf3} 2. Rd1 Rxf3 3. Qxf3 (3.
+Kg1 $2 Bxe4 4. Rd2 b4 5. cxb4 axb4 {och svarts bönder avgör.}) 3... Bxe4 {med damförlust.} 0-1
+

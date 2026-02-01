@@ -1,0 +1,43 @@
+[Event "SrS-GbgVet"]
+[Site "?"]
+[Date "2022.05.03"]
+[Round "?"]
+[White "Löwgren, Björn"]
+[Black "Berg, Roy"]
+[Result "1-0"]
+[ECO "B15"]
+[Annotator "Löwgren,Bjorn"]
+[PlyCount "60"]
+[SourceVersionDate "2022.05.03"]
+
+{[%evp 0,60,19,31,75,52,70,40,34,5,53,-3,-12,-9,44,34,62,46,40,45,33,57,57,54,
+54,47,47,41,58,45,66,71,61,86,65,62,62,33,4,18,46,-61,-46,-73,-10,-128,-150,
+-138,-149,-149,-162,-223,-231,-231,-145,-167,-164,-147,-159,-134,-57,-69,-69]} 
+{Seniorschack Stockholm och Göteborgs Veteraner ...} 1. e4 (1. d4 d5 2. e4
+dxe4 3. Nc3 Nf6 (3... c6 4. f3 e5 5. dxe5 Qxd1+ 6. Nxd1 exf3 7. Nxf3 Bc5 8. Be3
+Nd7 9. Bc4) 4. f3 exf3 5. Nxf3) 1... c6 2. Nc3 d5 3. d4 dxe4 4. f3 {Den s.k.
+Fantasy-varianten i Caro-Kann. Ställningen kan även uppstå i
+Blackmar-Diemer gambit, en öppning jag gärna spelar med viss framgång.} e5
+5. dxe5 Qxd1+ 6. Nxd1 exf3 7. Nxf3 Bg4 8. Bf4 Ne7 9. Ne3 Ng6 10. Bg3 Bxf3 11.
+gxf3 Nd7 12. f4 Bc5 13. Nf5 O-O 14. O-O-O Nb6 15. Bg2 Rfe8 16. Rhe1 (16. Nd6 $1
+Bxd6 17. exd6 $18) 16... Rad8 17. Rxd8 ({Vit står bättre och hade med} 17. a3
+{kunnat få avgörande fördel. I stället spelade jag 17.Txd8, gav bort
+d-linjen och alla fördelar.}) 17... Rxd8 18. h4 $6 (18. c3) 18... Nf8 19. h5
+Ne6 20. Rf1 $2 (20. Nd6 $1) 20... Nc4 21. Bh3 Nd4 $2 (21... g6 $1 $19) 22. Nxd4
+$2 (22. Re1) 22... Bxd4 23. c3 Be3+ 24. Kc2 Rd2+ 25. Kb3 b5 26. Rb1 Bf2 27.
+Bxf2 Rxf2 {[#]} {Vit har spelat bort alla tidigare fördelar och står på
+klar förlust. Enda chansen till motspel i den ömsesidiga tidsnöden är} 28.
+Kb4 $1 {Vit spanar in bonden på c6.} Rxf4 $1 (28... Rxb2+ 29. Rxb2 Nxb2 {
+ger vit vinstchanser efter} 30. Bf5 g6 31. hxg6 {följt av 32.Le4}) ({Och efter
+} 28... Nxb2 29. Kc5 {är det chansrikt spel åt båda håll.}) 29. e6 {
+Inget tacksamt drag att få emot sig i tidsnöd! Hinner svart med att ta
+tornet efter en springarschack på d2?} fxe6 $2 (29... Nd2+ 30. Kc5 Nxb1 31. e7
+$1 Re4 32. Kd6 Nd2 33. Kd7 g6 34. hxg6 hxg6 35. e8=Q+ Rxe8 36. Kxe8 f5) 30.
+Bxe6+ Kf8 {[#] Här slutade både min motståndare och jag att föra protokolI
+och därmed besparar vi för omvärlden upplevelsen av ett antal mindre exakta
+drag. I detta läge var alla andra partier färdigspelade och Göteborg ledde
+med 10-9. Jag var alltså tvungen att vinna för ett oavgjort resultat. I den
+våldsamma tidsnöden och 18 åskådare hängande över bordet lyckades jag -
+med god hjälp av min motståndare - baxa ner h-bonden till g8 och därmed
+vinna partiet. Stockholm - Göteborg 10-10!} 1-0
+

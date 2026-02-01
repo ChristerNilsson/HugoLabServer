@@ -1,0 +1,22 @@
+[Event "Studie"]
+[Site "?"]
+[Date "2015.12.29"]
+[Round "?"]
+[White "Anna Rudolf"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "5b2/2k2p2/2p1pPp1/2p1P3/1pP1K1P1/1P2B3/P7/8 w - - 0 1"]
+[PlyCount "31"]
+
+{600MB, Fritz11.ctg, Dell} 1. Kf3 Kd7 2. Kg3 Kc7 3. Kh4 Kd7 4. Kg5 Kc8 5. Bc1 (
+{Om} 5. Bxc5 $2 {vinner svart} Bxc5 6. Kh6 Bf8+ 7. Kh7 Kd8 8. Kg8 Ke8 $3) 5...
+Kc7 6. a4 Kc8 (6... bxa3 7. Bxa3 Kc8 8. Bb2 Kb7 9. Bc3 Kb6 10. Kf4 Kb7 11. g5
+Kb6 12. Ke3 Kb7 13. Kd2 Kc7 14. Kc2 Kb6 15. Kb2 Kc7 16. Ka3 Kb7 17. Ka4 Kc7 18.
+Ba5+ Kb7 19. Bd8 Kc8 20. Bb6 ({Även} 20. Be7 {leder till vinst.} Bxe7 21. fxe7
+Kd7 22. b4 cxb4 23. Kxb4 Kxe7 24. Kc5 Kd7 25. Kb6 c5 26. Kxc5 Kc7 27. Kb5)
+20... Kb7 21. Ka5 Kc8 22. Ka6 Kb8 23. Bd8 Kc8 24. Be7) 7. Be3 Kc7 8. a5 Kb7 9.
+Bxc5 Bxc5 10. Kh6 Kc7 11. Kg7 Kd7 12. Kxf7 Bd4 13. Kxg6 Bxe5 14. g5 Bd6 15. Kf7
+Bf4 16. g6 {och vit vinner.} 1-0
+

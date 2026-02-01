@@ -1,0 +1,21 @@
+[Event "Senior_DM_HT2014"]
+[Site "Stockholm"]
+[Date "2014.10.01"]
+[Round "5"]
+[White "Åke Green"]
+[Black "Anders Öhnedahl"]
+[Result "0-1"]
+[ECO "C44"]
+[WhiteElo "1434"]
+[BlackElo "1340"]
+[Annotator "Persson,Kjell"]
+[PlyCount "52"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 Nf6 2. d3 e5 3. Nf3 Nc6 4. Bg5 Be7 5. Be2 O-O
+6. O-O d5 7. Bxf6 Bxf6 8. exd5 Qxd5 9. Nc3 Qe6 10. Ne4 Kh8 11. Nfg5 Qe7 12.
+Nxf6 gxf6 $1 {Svart öppnar g-linjen för angrepp mot den vita rockaden.} 13. Ne4
+Rg8 14. Kh1 f5 15. Nc3 Be6 16. Bf3 Rg6 17. Bxc6 bxc6 18. Rg1 Rag8 19. Qe2 f6
+20. f3 f4 21. Ne4 Qg7 22. c4 Qh6 23. Nf2 Qh4 24. Ng4 $4 (24. h3 Rh6 25. Rab1 {
+och vit klarar sig.}) 24... Bxg4 25. fxg4 Qxh2+ 26. Kxh2 Rh6# 0-1
+

@@ -1,0 +1,17 @@
+[Event "Slutspel_torn-bonde"]
+[Site "?"]
+[Date "2017.02.02"]
+[Round "?"]
+[White "Vit"]
+[Black "Svart"]
+[Result "1/2-1/2"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "2R5/7K/8/1k6/2p5/8/8/8 b - - 0 1"]
+[PlyCount "25"]
+
+{600MB, Fritz11.ctg, Dell} 1... Kb4 2. Kg6 Kc3 3. Kf5 Kd3 4. Rd8+ Ke3 $1 ({Även
+} 4... Ke2 {håller remi.} 5. Ke4 c3 6. Rc8 Kd2 7. Kd4 c2 $1) 5. Rc8 Kd3 6. Ke5
+c3 7. Rd8+ Ke3 8. Rc8 Kd2 9. Kd4 c2 10. Rh8 c1=Q 11. Rh2+ Kd1 12. Rh1+ Kd2 13.
+Rxc1 Kxc1 1/2-1/2
+

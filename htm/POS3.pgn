@@ -1,0 +1,13 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "2016.02.01"]
+[Round "?"]
+[White "POS3"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/k7/4P3/4K3/5B2/P7/8/r7 w - - 0 0"]
+[PlyCount "5"]
+
+1. Be3+ Kb7 2. e7 Rxa3 3. Ba7 *
+

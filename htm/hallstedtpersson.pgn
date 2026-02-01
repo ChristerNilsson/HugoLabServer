@@ -1,0 +1,34 @@
+[Event "Senior_DM_2017"]
+[Site "Stockholm"]
+[Date "2017.11.16"]
+[Round "9"]
+[White "Leif Hållstedt"]
+[Black "Kjell Persson"]
+[Result "0-1"]
+[ECO "D93"]
+[WhiteElo "1454"]
+[BlackElo "1824"]
+[Annotator "Persson,Kjell"]
+[PlyCount "92"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. d4 {[%emt 0:00:00]} Nf6 2. Nf3 g6 3. c4 Bg7 4.
+Bf4 O-O 5. e3 d5 (5... d6 6. h3 Nc6 {är vanligare här.}) 6. Nc3 c6 (6... c5 7.
+dxc5 Qa5 8. Rc1 dxc4 9. Bxc4 Qxc5 10. Bb3 Nc6 {med lika spel.}) 7. Qc2 Bf5 8.
+Bd3 Bxd3 9. Qxd3 Nbd7 10. cxd5 Nxd5 11. Nxd5 cxd5 12. O-O Qb6 13. b3 Rac8 14.
+Rac1 Rc6 15. Qb1 Rfc8 16. Rxc6 Rxc6 (16... Qxc6 17. e4 Nf6 18. Rc1 Qd7 19. e5
+Ne4 {med lika spel.}) 17. Rc1 f6 18. h4 e5 19. dxe5 fxe5 20. Rxc6 Qxc6 (20...
+bxc6 {är likvärdigt.}) 21. Bg3 Qc3 22. Ne1 $2 {Nu får vit en passivställning.}
+(22. Qd1 Qc6 23. h5 {ger vit lika spel.}) 22... Nf6 23. Kf1 (23. Qd1 {
+med lika spel.}) 23... Ne4 {och svart har en liten fördel +0.8} 24. Qd1 Nxg3+
+25. fxg3 d4 (25... Qc5 26. Nf3 b5 27. a4 b4 {behåller svarts fördel.}) 26. exd4
+exd4 27. Qd3 Be5 {hotar slag på g3.} 28. Qxc3 $2 {ger svart en farlig fribonde.
+} (28. Qe4 Qc7 29. g4 {ger lika spel.}) 28... dxc3 29. g4 Kf7 30. Ke2 Ke6 31.
+h5 g5 $2 (31... gxh5 32. gxh5 Kf5 $1) 32. Nf3 Kd5 33. Nxe5 $4 {I normala fall
+är löparen starkare än springaren, när det finns bönder på båda sidor, men i
+detta fall bör svart behålla springaren.} (33. Nxg5 c2 34. Kd2 c1=Q+ 35. Kxc1
+Bf4+ {vinner.}) 33... Kxe5 {och svart har ett vunnet slutspel.} 34. Kd3 Kf4 35.
+Kxc3 Kxg4 36. h6 Kg3 37. Kd3 Kxg2 38. Ke4 g4 39. Kf5 g3 {och vit ger upp.} {
+Det kan följa} 40. Kf6 Kf2 41. Kg7 g2 42. Kxh7 g1=Q 43. a3 Ke3 44. Kh8 Qg6 45.
+h7 Qf7 46. a4 Qf8# 0-1
+
