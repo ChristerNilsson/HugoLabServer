@@ -72,26 +72,44 @@ setDefault('font','Helvetica')
 <li>åäö</li>
 </ul>
 </li>
-<li>Alla md-filer heter _index.md
+<li>Orsak
 <ul>
-<li>De ska alltid innehålla ett inledande egenskapsblock</li>
+<li>Filnamn i Windows skiljer inte på versaler och gemener. a == A</li>
+<li>Filnamn i Linux skiljer på versaler och gemener. a != A</li>
+</ul>
+</li>
+<li>Alla kataloger innehåller en <em>markdown</em>-fil som heter <em>_index.md</em>
+<ul>
+<li>Den ska alltid innehålla ett inledande egenskapsblock</li>
 </ul>
 <pre tabindex="0"><code>---
 title: &lt;Här Är Alla Tecken Tillåtna ëéçüàáçíñΩß osv&gt;
 ---
 </code></pre><ul>
-<li>auto: true anges om man vill skapa en meny automatiskt</li>
+<li><code>auto: true</code> anges om man vill skapa en meny automatiskt
+<ul>
+<li>Denna egenskap har lagts till av mig, Christer Nilsson</li>
+</ul>
+</li>
+<li><code>hidden: true</code> anges om man vill dölja en katalog</li>
 </ul>
 </li>
 <li>Ändra aldrig i <em>public</em>. Den katalogen skapas av Hugo
 <ul>
-<li>Du kan ta bort allt innehåll i <em>public</em></li>
+<li>Du kan ta bort allt innehåll i <em>public</em>. Det återskapas av Hugo</li>
+<li>Alla ändringar du gör i denna katalog kastas bort.</li>
 </ul>
 </li>
 </ul>
-<h1 id="uppgifter-xxx">Uppgifter xxx</h1>
+<h1 id="uppgifter">Uppgifter</h1>
+<ul>
+<li>Inställningar (sparas i din dators <em>localstorage</em>)
 <ul>
 <li>Växla mellan ljust och mörkt tema</li>
+<li>Byt font</li>
+<li>Byt fontstorlek</li>
+</ul>
+</li>
 <li>Externa länkar: FairPair =&gt; fairpair.se</li>
 <li>Svenska schackbutiken =&gt; Svenska Schackbutiken</li>
 <li>Schackelina saknas</li>
@@ -103,13 +121,15 @@ title: &lt;Här Är Alla Tecken Tillåtna ëéçüàáçíñΩß osv&gt;
 </li>
 <li>Klubben | Styrelse: Uppdatera</li>
 <li>Kontakt | Byt avgifter till de vi har idag</li>
+<li>Klubben | Medlemmar | Christer Nilsson | Citat : Lägg till citat!</li>
 <li>Startsidan: uppdatera turneringarna</li>
 <li>Arkiv | Dokument | 2025 saknas</li>
 <li>Resultat 2025 saknas</li>
 <li>Klubben | Blanketter: Snyggare namn på alla fyra</li>
 <li>Klubben | Medlemmar: Lägg in ett foto på dig själv</li>
 <li>Webkarta: Är den ok?</li>
-<li>assets | styles.css: Ändra tabellernas bakgrundsfärg</li>
+<li>Web Assistant
+Bryt upp den i två sidor: Råd och Uppgifter</li>
 <li>data (yaml)
 <ul>
 <li>föreläsningar</li>
@@ -118,6 +138,7 @@ title: &lt;Här Är Alla Tecken Tillåtna ëéçüàáçíñΩß osv&gt;
 <li>meddelanden
 <ul>
 <li>Meddelanden: Uppdatera Årsmöte. Semla!</li>
+<li>Ändra datum till ett passerat datum.</li>
 </ul>
 </li>
 <li>turneringar</li>
@@ -128,6 +149,7 @@ title: &lt;Här Är Alla Tecken Tillåtna ëéçüàáçíñΩß osv&gt;
 <li>lägg ut texten HEADER och FOOTER på varje sida.</li>
 </ul>
 </li>
+<li>assets | styles.css: Ändra länkarnas färg (yellow) till något annat</li>
 </ul>
 
 	
