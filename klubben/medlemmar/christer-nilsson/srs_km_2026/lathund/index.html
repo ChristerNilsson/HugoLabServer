@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lathund</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/srs_km_2026/">Seniorschack KM 2026</a>
+
+
+		<h1>Lathund</h1>
+
+		
+		
+		<ol>
+<li>Gå in på Seniorschack Stockholm: <a href="https://www.seniorschackstockholm.se/">Seniorschack</a></li>
+<li>Klicka på KM för att se aktuell ställning</li>
+</ol>
+<p><img src="Screenshot_2026-01-29_210152.png" alt=""></p>
+<p>Du ser nu den senaste korstabellen.</p>
+<ol start="3">
+<li><strong>Bordsresultat</strong> Klicka på den rond du vill se Bordsresultatet för.</li>
+</ol>
+<p><img src="Screenshot_2026-01-29_210716.png" alt=""></p>
+<ol start="4">
+<li><strong>Ställning efter</strong> Klicka på den rond du vill se Ställningen för.</li>
+</ol>
+<p><img src="Screenshot_2026-01-29_211005.png" alt=""></p>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

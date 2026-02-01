@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill Jordan</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/datorkalkylering/">Datorkalkylering</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/datorkalkylering/3_mittspel/">3 Mittspel</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/datorkalkylering/3_mittspel/piece_square_table/">Piece Square Table</a>
+
+
+		<h1>Bill Jordan</h1>
+
+		
+		
+		<p><a href="https://christernilsson.github.io/JavaScript-Chess/">Try it!</a></p>
+<p>Bill Jordans program finns på <a href="https://github.com/billjordanchess/JavaScript-Chess">github</a> och även som en <a href="https://www.amazon.com/How-Write-JavaScript-Chess-Engine/dp/B08L3ZWHXN">bok</a>.<br>
+Det består av 1796 rader <a href="https://github.com/billjordanchess/JavaScript-Chess/blob/master/engine2.js">Javascriptkod</a>.</p>
+<p>Programmet använder sig av följande tekniker:</p>
+<ul>
+<li>Draggenerering</li>
+<li>Iterativ fördjupning
+<ul>
+<li>en nivå, två nivåer, osv</li>
+</ul>
+</li>
+<li>Minimax med alpha beta
+<ul>
+<li>Alpha-Beta ger ca ett halvdrag extra, med samma tid.</li>
+</ul>
+</li>
+<li>Dragsortering
+<ul>
+<li>Hjälper alpha-beta att kapa grenar</li>
+</ul>
+</li>
+<li>Hashtabeller
+<ul>
+<li>Hanterar dragomkastning</li>
+</ul>
+</li>
+<li>Piece Square Tables</li>
+</ul>
+<h2 id="mitt-omdöme">Mitt omdöme</h2>
+<ul>
+<li>
+<p>Jordans bok innehåller mest kod + kommentarer. Koden saknade indentering och blev därmed svårare att läsa. Bill har lyssnat på min kritik och detta åtgärdas i en kommande upplaga.</p>
+</li>
+<li>
+<p>Programmets spelstyrka känns helt ok. Starkare spelare tvingas dock öka sökdjupet och då blir programmet långsammare.</p>
+</li>
+<li>
+<p>KRK löses mha fem nivåer, utan slutspelsdatabas. Den kortaste lösningen enligt Syzygy hittas oftast inte, men uppgiften löses. Även KQK, KBBK och KBNK löses. KQKR löstes dock ej.</p>
+</li>
+</ul>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fischer64k</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+		<h1>Fischer64k</h1>
+
+		
+		
+		<p>Detta är en generalisering av Fischer960.</p>
+<p>Schackklockan startas, vit börjar med att placera ut kungarna.<br>
+Därefter turas spelarna om att placera ut par av pjäserna dam, torn, löpare och springare, en av varje färg.<br>
+Lämpligen har man fyra schackspel tillgängliga plus tre extra damer.</p>
+<p>Om spelarna så vill kan de hamna i en av Fischer960:s utgångsställningar eller t o m den vanliga missionärsställningen,<br>
+den sönderteoretiserade nummer 518.</p>
+<p>Men, de kan även välja t ex sju löpare, sju springare, sju torn eller sju damer.</p>
+<p>Andra exempel:</p>
+<pre tabindex="0"><code>QQRRBBNK
+RQRQKNNN
+NKNNNNNN
+BBBKBBBB
+RRRRRKRR
+QQQQQQQK
+</code></pre><p>Totalt blir det 4 ** 8 = 65536 = 64k.</p>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

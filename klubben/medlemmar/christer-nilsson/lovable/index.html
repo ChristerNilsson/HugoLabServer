@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seniorschack Stockholm</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+		<h1>Seniorschack Stockholm</h1>
+
+		
+		
+		<p>Välkommen till Sveriges mest aktiva schackklubb för seniorer</p>
+<p>📆 3 speldagar/vecka<br>
+👯 200+ medlemmar<br>
+🏆 Flera turneringsklasser</p>
+<ul>
+<li><a href="nyheter-och-aktuellt">Nyheter &amp; Aktuellt</a></li>
+<li><a href="aktuella-turneringar">Aktuella Turneringar</a></li>
+<li><a href="spelkalender">Spelkalender</a></li>
+<li><a href="https://christernilsson.github.io/HugoLabServer/rating/">Rating</a></li>
+<li><a href="medlemskap">Medlemskap</a></li>
+<li><a href="om-klubben">Om Klubben</a></li>
+</ul>
+<br>
+<hr>
+<p><em>Detta är en reproduktion (med 70 rader markdown) av Björn Löwgrens <a href="https://chess-connect-pro.lovable.app/">implementation</a> i Lovable som skapar <a href="lovable.js">19.000 rader javascriptkod</a> med ai. (Sök med ctrl-F på Senior)</em></p>
+<ul>
+<li><em>Inte lika snygg, men mycket enklare att underhålla!</em></li>
+<li><em>Kostar noll kronor. Zero, Zilch, Nada, Meijo, Gar Nichts. Rien</em></li>
+<li><em>Virusfritt</em></li>
+<li><em>Inga ständiga uppdateringar</em></li>
+<li><em>Inga tillkommande <a href="https://lovable.dev/pricing">ai-kostnader</a></em></li>
+<li><em>Klicka på source för att se hur sidornas original ser ut</em></li>
+</ul>
+<p><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/jan-christer-nilsson/Lovable/_index.md">source</a></p>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>
