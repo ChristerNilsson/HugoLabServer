@@ -3,14 +3,6 @@ tr = (s,attrs="") -> "<tr #{attrs}>#{s}</tr>\n"
 td = (s,attrs="") -> "<td #{attrs}>#{s}</td>"
 th = (s,attrs="") -> "<th #{attrs}>#{s}</th>"
 
-turneringar = {
-	14507: "Klass M",
-	14508: "Klass 1",
-	14509: "Klass 2",
-	14510: "Klass 3",
-	14512: "Klass 4",
-}
-
 process = (data_t, data_r, tid, pid) ->
 
 	console.log data_t
@@ -67,7 +59,7 @@ process = (data_t, data_r, tid, pid) ->
 	app = document.getElementById 'app'
 	statistik = document.getElementById 'statistik'
 
-	turnering.innerHTML = "<a href='https://member.schack.se/ShowTournamentServlet?id=#{tid}'>#{turneringar[tid]}</a>"
+	turnering.innerHTML = "<a href='https://member.schack.se/ShowTournamentServlet?id=#{tid}'>#{tid}</a>"
 	spelare.innerText = "Spelare: " + players[pid]
 	app.innerHTML = table stable
-	statistik.innerText = "#{played} av #{finalized} partier spelade i turneringen. (#{(100*played/finalized).toFixed 1}%). Ej ännu spelade: #{n-finalized}"
+	# statistik.innerText = "#{played} av #{finalized} partier spelade i turneringen. (#{(100*played/finalized).toFixed 1}%). Ej ännu spelade: #{n-finalized}"
