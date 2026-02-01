@@ -1,0 +1,47 @@
+[Event "Rilton_2012/13"]
+[Site "Stockholm"]
+[Date "2013.01.01"]
+[Round "4"]
+[White "Kjell Persson"]
+[Black "Lisa Fredholm"]
+[Result "0-1"]
+[ECO "B22"]
+[WhiteElo "1736"]
+[BlackElo "1446"]
+[Annotator "Persson,Kjell"]
+[PlyCount "74"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 c5 2. d4 cxd4 3. c3 Nf6 {Lisa berättade efter
+partiet, att hon själv brukar spela Morra gambit som vit och valde därför det
+drag som hon tycker är svårast att möta.} 4. e5 Nd5 5. cxd4 (5. Nf3 Nc6 6. cxd4
+{är en vanligare dragföljd.}) 5... Nc6 6. Bc4 Nb6 7. Bb3 d6 8. exd6 (8. Nf3
+dxe5 9. d5 Na5 10. Nc3 {är teori, men ger svart en liten fördel.}) 8... e6 {
+Det är ingen brådska med att slå d6-bonden.} 9. Nf3 Bxd6 {
+Bonden slås med samtidig utveckling av löparen.} 10. Nc3 O-O 11. O-O Re8 12. a3
+h6 13. Qd3 Ne7 {Springaren behövs till försvaret av kungsställningen.} 14. Bc2
+{Vit laddar kanonen.} Ng6 15. h4 Bc7 (15... Nxh4 $2 16. Qh7+ Kf8 17. Ne5 $1 {
+med stor fördel för vit.}) 16. h5 Nf8 {
+och h7-punkten är försvarad till priset av en passiv springare.} 17. Bd2 {
+Löparen ska tll b4 för att ev. slå bort springaren på f8.} Nd5 18. Nxd5 Qxd5
+19. g4 $4 {Jag trodde att det här var enda sättet att försvara h5-bonden, men
+det leder i stället till en allvarlig försvagning av kungsställningen.} ({
+Ett listigare sätt att försvara bonden är} 19. Rac1 $1 Qxh5 $2 20. Ba4 Re7 21.
+Bb4 $1 {och svart förlorar kvalitet.}) 19... b6 (19... e5 $1 {
+leder till fördel för svart t.ex.} 20. dxe5 Qxd3 21. Bxd3 Bxg4 $1) 20. Bb3 Qd6
+21. Qe3 (21. Ne5 $1 {är starkare för vit.}) 21... Bb7 {
+svarts löparpar pekar olycksbådande mot den vita kungsställningen!} 22. Ne5 f6
+23. Bb4 Qd8 24. Ng6 $2 {Ett förhastat drag.} (24. Nd3 f5 25. gxf5 Qh4 26. f4 $1
+{med lika spel.}) 24... Nxg6 25. hxg6 f5 26. Qh3 (26. gxf5 $4 Qh4 $3 {
+och vit förlorar snabbt.}) 26... Qxd4 $2 (26... Qg5 27. Qh5 Qf4 $1 {
+är bättre än att slå bonden.}) 27. gxf5 Qf4 28. Qg3 {
+Svart hotade Dg5+ och vit förlorar damen.} Qe4 29. Qh3 (29. f4 $2 Qxf5 $1)
+29... Rad8 {Svart hämtar mera krut.} 30. Rad1 Qf4 31. Bxe6+ $2 (31. Qg3 Qe4 32.
+Qh3 {leder till remi genom dragupprepning.}) 31... Kh8 32. f3 $4 {
+Leder till snabb förlust!} (32. Rxd8 Rxd8 33. Qg3 {håller emot bättre.}) 32...
+Qe3+ 33. Kg2 Rxd1 34. Bc3 {Ett sista desperat försök. Om damen lämnar
+garderingen av h6, följer Dxh6 matt, men Lisa har full kontroll.} (34. Rxd1
+Qe2+) 34... Rxf1 35. Kxf1 Qxf3+ 36. Qxf3 Bxf3 37. Kf2 Bb7 {Imponerande bra
+spelat av en 11-åring! Lois Couso passerade brädet och tog partiet till
+kommentatorsrummet, där Ulf Andersson kommenterade partiet.} 0-1
+

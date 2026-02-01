@@ -1,0 +1,16 @@
+[Event "Korrespondens 1950"]
+[Site "?"]
+[Date "1950.11.03"]
+[Round "?"]
+[White "Bryntze"]
+[Black "Eriksen"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "5rk1/pp3ppp/8/2PN4/P2Q2n1/8/1PP1PR2/4Kbq1 w - - 0 1"]
+[PlyCount "9"]
+
+{600MB, Fritz11.ctg, Dell} 1. Ne7+ $3 Kh8 2. Rxf7 {
+och svart gav upp. Det följer} Bg2+ 3. Qxg1 Rxf7 4. Qxg2 Rxe7 5. Qxg4 {
+med enkel vinst för vit.} 1-0
+

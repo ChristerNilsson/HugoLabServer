@@ -1,0 +1,25 @@
+[Event "Senior_KM_VT2013"]
+[Site "Stockholm"]
+[Date "2013.04.11"]
+[Round "7"]
+[White "Christer Hultin"]
+[Black "Miodrag Jeremic"]
+[Result "0-1"]
+[ECO "C01"]
+[WhiteElo "1628"]
+[BlackElo "1765"]
+[Annotator "Persson,Kjell"]
+[PlyCount "72"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 e6 2. d4 g6 $5 {ett ovanligt drag.} (2... d5
+3. e5 c5 {är teori.}) 3. c3 $2 (3. Nf3 Bg7 4. Nc3 {
+är en starkare fortsättning för vit.}) 3... Bg7 4. Bd3 Ne7 5. Nf3 d5 6. e5 O-O
+7. O-O Nd7 8. b4 $1 {förhindrar tilsvidare c5.} a6 9. a4 b6 10. Ba3 c6 11. Nbd2
+Bb7 12. Re1 Re8 13. Nf1 a5 14. bxa5 Rxa5 15. Bb4 Ra7 16. Qb3 $4 {
+Vit förlorar pjäs.} (16. Ba3 {och ställningen är lika.}) 16... c5 $3 17. dxc5
+bxc5 18. Bb5 cxb4 19. cxb4 Bc6 20. Bd3 Qb8 21. b5 Nxe5 $1 {
+Vit kan inte slå löparen på c6.} 22. Nxe5 Bxe5 23. Rab1 Rb7 24. Qd1 Bd7 25. g3
+Bc3 26. Re2 e5 27. Rc2 d4 28. Bc4 Bf5 29. Bd3 e4 30. Bc4 Qe5 31. Rb3 Kg7 32.
+Ne3 h5 33. Bf1 Rd8 34. Nc4 Qc5 35. Qc1 e3 $1 36. Rcxc3 exf2+ {Uppgivet.} 0-1
+

@@ -1,0 +1,17 @@
+[Event "Elitserien"]
+[Site "?"]
+[Date "2012.09.25"]
+[Round "?"]
+[White "Berggren"]
+[Black "Fransson"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "r3k2r/pbqn1p2/1p2p3/2p1n1B1/2P3P1/2N5/PP2QPB1/R2R2K1 b kq - 0 1"]
+[PlyCount "7"]
+
+{600MB, Fritz11.ctg, Dell} 1... Nf3+ 2. Qxf3 {
+bästa draget, men vit förlorar damen.} (2. Bxf3 $4 {med snar matt.} Qh2+ 3. Kf1
+Qh1+ 4. Bxh1 Rxh1#) (2. Kf1 $2 Nxg5 $1 {och svart är pjäs över.}) 2... Bxf3 3.
+Bxf3 Qh2+ 4. Kf1 Rc8 {och svarts materiella övertag är avgörande.} 0-1
+

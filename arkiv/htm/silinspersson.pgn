@@ -1,0 +1,36 @@
+[Event "Seniorserien_HT2010"]
+[Site "Stockholm"]
+[Date "2012.11.14"]
+[Round "9"]
+[White "Peter Silins"]
+[Black "Kjell Persson"]
+[Result "0-1"]
+[ECO "C14"]
+[WhiteElo "1748"]
+[BlackElo "1736"]
+[Annotator "Persson,Kjell"]
+[PlyCount "78"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 e6 2. d4 d5 3. Nc3 Nf6 (3... Bb4 4. e5 c5 {
+med avsikten att slå på c3 är vanligare här.}) 4. Bg5 Be7 (4... dxe4 5. Nxe4
+Be7 6. Bxf6 Bxf6 {är en annan spelbar variant för svart.}) 5. e5 Nfd7 6. Bxe7
+Qxe7 7. Qd2 a6 8. f4 c5 9. Nf3 Nc6 10. dxc5 Qxc5 {Enligt Keres ska man slå med
+damen, om man spelar på vinst! Sxc5 leder till mer remibetonat spel.} 11. O-O-O
+b5 {Med rockad åt varsitt håll gäller det att snabbt gå till atack.} 12. Kb1 b4
+13. Ne2 a5 14. Ned4 Nxd4 15. Nxd4 Ba6 $2 (15... O-O 16. h4 a4 {
+är en bättre fortsättning för svart.}) 16. Bxa6 Rxa6 17. Qd3 Rb6 18. Nb3 Qb5 (
+18... Qc7 $1 {Svart kan offra a-bonden} 19. Nxa5 O-O 20. Nb3 Ra8 {
+och ändå stå något bättre.}) 19. Qd4 $2 (19. Qxb5 Rxb5 20. Nd4 Rb8 21. f5 {
+har vit lika spel.}) 19... a4 {Nu pressas vit bakåt.} 20. Nc1 Nc5 21. f5 O-O {
+Äntligen kommer svart till rockad.} 22. f6 Ne4 23. Rd3 Rc8 24. Rg3 $4 {
+Vit sätter bort kvalitet. Svarts rockadställning går att gardera i alla lägen.}
+Nxg3 25. hxg3 (25. Qg4 $4 Nf5 $1 {och g7 är garderad.}) 25... Qc5 26. Qd3 g6
+27. Qd2 Qf8 {förhindrar Dh6.} 28. Rh6 $4 {Vits tanke är nu att flytta damen
+till h-linjen för att sedan slå med tornet på h7, men det hinns inte med.} Rbc6
+29. Nd3 Rxc2 $1 {och vit är i praktiken förlorad.} 30. Qf4 Rxg2 {
+hotar Tg1 med vinst.} 31. Rh1 Rcc2 32. Qh4 h5 33. Qg5 Rh2 (33... Qc8 $3 {
+räcker som försvar av kungsställningen.}) 34. Rd1 Kh7 35. Rc1 Qc8 $1 36. Rf1
+Qc4 (36... Rxb2+ $1 37. Ka1 Rxa2+ 38. Kb1 Qc2# {är en snabbare väg till matt.})
+37. Qe3 Rxb2+ 38. Nxb2 Qc2+ 39. Ka1 Qxb2# 0-1
+

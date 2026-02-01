@@ -1,0 +1,25 @@
+No  Name                    Feder Rtg   1    2    3    4    5    6    7    8    9  
+
+1.  Kyhle, Bo                     2150 12:W 10:W  4:W  3:D  2:D  7:D  5:L 19:W 18:W
+2.  Samuelsson, Sven-Gunnar       2050 13:W 17:W  5:D  7:D  1:D  3:W  4:L 18:D 10: 
+3.  Agrest, Roman                 2000 14:W 18:W  9:W  1:D  5:L  2:L  7:D  6:L 19:W
+4.  Svensson, Lars-Åke            1950 15:W 19:W  1:L  5:L 13:W 11:W  2:W  7:W 23:W
+5.  Johansson, Lennart            1940 16:W 22:W  2:D  4:W  3:W 23:W  1:W 10:W  6:L
+6.  Hartzell, Ove                 1930 17:L 13:L 12:W 22:W 19:L 21:W 14:W  3:W  5:W
+7.  Ländin, Bo                    1900 18:L 14:W 19:W  2:D 10:W  1:D  3:D  4:L 22:W
+8.  Bergsten, Mats                1850 19:L 15:L 14:L 20:W 16:D 12:W 22:L 21:W  9:W
+9.  Weström, Hans                 1750 20:W 23:W  3:L 11:L 17:L 18:L 13:L   :W  8:L
+10. Gustavsson, Veine             1740 21:W  1:L 20:W 13:W  7:L 17:W 23:W  5:L 17:W
+11. Löwgren, Björn                1730 22:L 16:W 18:W  9:W 23:L  4:L 19:L 17:W 14:W
+12. Sjöstrand, Tommy              1660  1:L 20:L  6:L   :W 21:L  8:L 16:L 15:W 13:L
+13. Persson, Kjell                1650  2:L  6:W 21:W 10:L  4:L 20:D  9:W 23:L 12:W
+14. Malmgren, Jan                 1640  3:L  7:L  8:W 18:D 22:W 19:W  6:L 20:W 11:L
+15. Zivic, Miroljub               1630  4:L  8:W 22:D 23:L 18:L 16:L   :W 12:L 20:L
+16. Axelius, Gunnar               1600  5:L 11:L   :W 19:L  8:D 15:W 12:W 22:L 21:W
+17. Dillen, Sten                  1590  6:W  2:L 23:L 21:W  9:W 10:L 18:L 11:L 10:L
+18. Larsson, Christer             1500  7:W  3:L 11:L 14:D 15:W  9:W 17:W  2:D  1:L
+19. Hörling, Lars                 1490  8:W  4:L  7:L 16:W  6:W 14:L 11:W  1:L  3:L
+20. Liistamo, Jouko               1400  9:L 12:W 10:L  8:L   :W 13:D 21:W 14:L 15:W
+21. Strid, Erik                   1390 10:L   :W 13:L 17:L 12:W  6:L 20:L  8:L 16:L
+22. Cederström, Jan-Olof          1370 11:W  5:L 15:D  6:L 14:L   :W  8:W 16:W  7:L
+23. Sundberg, Karl-Erik           1350   :W  9:L 17:W 15:W 11:W  5:L 10:L 13:W  4:L

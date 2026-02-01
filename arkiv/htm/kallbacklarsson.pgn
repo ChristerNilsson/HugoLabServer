@@ -1,0 +1,27 @@
+[Event "Seniorserien_VT2013"]
+[Site "Stockholm"]
+[Date "2013.01.23"]
+[Round "2"]
+[White "Olle Källbäck"]
+[Black "Christer Larsson"]
+[Result "0-1"]
+[ECO "C50"]
+[WhiteElo "1484"]
+[BlackElo "1814"]
+[Annotator "Persson,Kjell"]
+[PlyCount "68"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O d6 5. h3 h6 (
+5... Nf6 6. d3 h6 {är teori.}) 6. Nc3 Nf6 7. a3 O-O 8. d3 Nh7 9. Nd5 Ne7 10.
+Be3 Bb6 11. Bxb6 axb6 12. c3 Ng6 13. Qd2 c6 14. Ne3 Nf4 15. Kh2 Ng5 $1 16. Nxg5
+Qxg5 {Svarts dam intar en aktiv position.} 17. Rg1 Kh8 18. d4 f5 19. f3 $2 (19.
+exf5 Bxf5 20. dxe5 {med lika spel.}) 19... fxe4 20. fxe4 Rf6 21. Be2 $2 {
+hjälper svart.} (21. Raf1 {är bättre.}) 21... h5 (21... Nxe2 22. Qxe2 exd4 23.
+cxd4 Qf4+ 24. g3 Qxe4 {och svart står överlägset.}) 22. Bf3 Be6 23. d5 Bd7 24.
+c4 c5 (24... Nxh3 $3 {är mycket starkt här.} 25. gxh3 Qf4+ 26. Kh1 Qxf3+ $1)
+25. Qf2 Raf8 26. Qg3 {inbjuder till dambyte, men svart vill inte.} Qh6 27. Qf2
+g5 (27... Nxh3 $3 28. Qe1 Nxg1 {och svart vinner kvalitet.}) 28. Qf1 g4 $3 {
+och vits ställning är hopplös.} 29. Be2 Nxh3 {återigen det starkaste draget.}
+30. Nf5 Bxf5 31. gxh3 Bxe4 32. Qe1 Rf2+ 33. Kg3 h4+ 34. Kxg4 Rg8# 0-1
+

@@ -1,0 +1,34 @@
+[Event "Senior_DM_HT2012"]
+[Site "Stockholm"]
+[Date "2012.11.16"]
+[Round "8"]
+[White "Onni Aikio"]
+[Black "Roman Agrest"]
+[Result "1/2-1/2"]
+[ECO "B81"]
+[WhiteElo "1815"]
+[BlackElo "1992"]
+[Annotator "Persson,Kjell"]
+[PlyCount "69"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6
+6. Be3 e6 7. g4 Be7 (7... h6 8. f4 Nc6 9. h3 Qc7 {är en vanligare variant.}) 8.
+g5 Nfd7 9. Rg1 Nc6 10. Qd2 {Vit förbereder lång rockad.} Qc7 (10... O-O {
+är nog att föredra här.}) 11. f4 b5 12. a3 Bb7 13. f5 Nde5 14. Qf2 (14. fxe6 $4
+{förlorar direkt efter} Nxd4 15. exf7+ Kf8 {
+och nu följer en springargaffel på f3.} {T.ex.} 16. Bxd4 Nf3+ $3) 14... Nxd4
+15. Bxd4 exf5 16. Qxf5 Bc8 17. Qf2 Be6 18. Rg3 Qb7 19. Nd5 Bd8 (19... Bxd5 20.
+exd5 Qxd5 $4 {håller inte p.g.a.} 21. Bg2 $1 {och svart förlorar kvalitet.})
+20. h4 Rc8 21. Bh3 O-O 22. O-O-O Rc4 23. Nf6+ $1 gxf6 24. gxf6+ Kh8 $2 (24...
+Ng6 25. h5 Qxe4 26. hxg6 hxg6 27. c3 {är inte mycket bättre för svart.}) 25.
+Qf4 Ng6 26. Qh6 {med matthot på g7.} (26. Rxg6 $1 fxg6 27. Qxd6 {
+med dubbelhot på löpare och torn.}) 26... Rg8 27. Rg5 $1 {
+Nu hotar Qxh7+, Kxh7. Rh5#} {Men det finns en räddning för svart.} Rxc2+ 28.
+Kb1 (28. Kxc2 $4 {fungerar ej p.g.a.} Qxe4+ 29. Kc3 Qe2 {och h5 är garderad.})
+28... Rc5 29. Bxc5 $2 {Förhastat} (29. Bf5 Rxf5 30. exf5 Bxf5+ 31. Ka1 Qf3 32.
+Rdg1 {och vit vinner.}) 29... Qxe4+ 30. Ka1 Bxf6 $1 {
+skapar en flyktruta för kungen på g7.} (30... Bxh3 $4 31. Qxh7+ Kxh7 32. Rh5#)
+31. Rh5 Rg7 32. Bxe6 dxc5 33. Bf5 Qf3 34. Rd3 Qe2 35. Rd2 {
+och vits angrepp ebbar ut i remi.} 1/2-1/2
+

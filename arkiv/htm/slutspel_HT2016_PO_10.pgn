@@ -1,0 +1,18 @@
+[Event "slutspel_PO_10"]
+[Site "Stockholm"]
+[Date "2016.11.11"]
+[Round "?"]
+[White "Vit"]
+[Black "Svart"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/8/7p/p7/k1P2K2/8/P7/8 w - - 0 1"]
+[PlyCount "27"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. a3 $1 {Enda draget som vinner.} Kxa3 2. c5 Kb2 3.
+c6 a4 4. c7 a3 5. c8=Q a2 6. Qb7+ Kc1 (6... Ka1 $4 7. Qb3 h5 8. Qc2 h4 9. Qc1#)
+7. Qa6 Kb1 8. Qb5+ Kc1 9. Qa4 Kb2 10. Qb4+ Kc2 11. Qa3 Kb1 12. Qb3+ Ka1 13. Qc2
+h5 14. Qc1# 1-0
+

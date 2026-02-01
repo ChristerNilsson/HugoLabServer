@@ -1,0 +1,16 @@
+[Event "Wien 1958"]
+[Site "?"]
+[Date "1958.03.30"]
+[Round "?"]
+[White "Grager"]
+[Black "Dorn"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "4r1k1/5ppp/r1q2n2/p1pNnQ2/PpP1P3/1P4R1/2B3PP/3R2K1 w - - 0 1"]
+[PlyCount "7"]
+
+{600MB, Fritz11.ctg, Dell} 1. Ne7+ Rxe7 (1... Kf8 $2 2. Nxc6 {med enkel vinst.}
+) 2. Qxf6 Qxf6 (2... Ng6 $2 3. Rd8+ Re8 4. Qxc6 Rxc6 5. Rxe8+ Nf8 {
+och vit vinner lätt.}) 3. Rd8+ Re8 4. Rxe8# 1-0
+

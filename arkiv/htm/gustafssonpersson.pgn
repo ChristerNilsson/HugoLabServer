@@ -1,0 +1,34 @@
+[Event "Senior_KM_VT2013"]
+[Site "Stockholm"]
+[Date "2013.03.14"]
+[Round "8"]
+[White "Veine Gustafsson"]
+[Black "Kjell Persson"]
+[Result "0-1"]
+[ECO "E06"]
+[WhiteElo "1868"]
+[BlackElo "1687"]
+[Annotator "Persson,Kjell"]
+[PlyCount "74"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. d4 Nf6 2. Nf3 e6 3. g3 d5 4. c4 c6 5. Bg2 Be7 6.
+O-O O-O 7. Nc3 Na6 (7... Nbd7 {är teori för att förhindra Se5.}) 8. Ne5 Ne8 {
+Svarts springarplaceringar ser aviga ut, men tanken är att först skrämma bort
+vits e5-springare och därefter placera speingarna på d6 resp. c7.} 9. b3 f6 10.
+Nf3 Nd6 11. Nd2 Nf5 12. e3 Nc7 {och springarna är på plats.} 13. Bb2 e5 $2 {
+bondeframstöten är för tidig.} (13... b5 14. cxb5 Nxb5 15. Nxb5 cxb5 {
+med lika spel.}) 14. dxe5 fxe5 15. cxd5 cxd5 16. e4 dxe4 17. Bxe4 {
+och svart har en isolani på e-linjen, som ger vit en liten fördel.} Nd4 18. Qh5
+$6 (18. Nc4 Bf5 19. Bxb7 Rb8 20. Bg2 {och vit behåller sinfördel.}) 18... Bf5
+$1 19. Bxb7 Rb8 20. Be4 g6 21. Qd1 {
+Vit är visserligen bonde över, men svart har aktivare pjässpel.} Bg5 $2 (21...
+Bb4 22. Bxf5 Rxf5 23. Nc4 Nce6 {är bättre för svart.}) 22. Bxf5 Rxf5 23. Kg2
+Nd5 24. Nce4 Be7 25. Bxd4 (25. Nc4 $1) 25... exd4 26. Nf3 $2 d3 $1 {
+bonden kan inte slås p.g.a. Sf4+ och damförlust.} 27. Kg1 Nb4 28. Nfd2 Qd4 29.
+a4 Nc2 30. Rc1 Ba3 31. Rb1 $4 (31. Rxc2 dxc2 32. Qxc2 {var nödvändigt.}) 31...
+Bb4 $1 {och svart har tagig över partiet.} 32. Kg2 $4 Rxf2+ 33. Rxf2 Ne3+ 34.
+Kh1 Nxd1 35. Rxd1 Bxd2 {
+och vit ger upp. På Sxd2 följer Dxf2 och på Txd2 följer Dxe4+} {Även} 36. Nf6+
+Kg7 37. Rfxd2 Qxf6 {är utsiktslöst för vit.} 0-1
+

@@ -1,0 +1,19 @@
+Place Name                    Feder Rtg  Loc Score M-Buch. Buch. Progr.
+
+  1   Bergsten, Mats                1857     6.5      20.0  26.5   26.0
+  2   Samuelsson, Sven-Gunnar       1956     5.5      20.0  29.5   21.5
+  3   Aikio, Onni                   1733     4.5      14.5  21.0   16.0
+ 4-8  Ländin, Bo                    1885     4        21.0  30.5   19.0
+      Silins, Peter                 1708     4        20.5  28.0   17.5
+      Liistamo, Jouko               1458     4        19.0  27.5   16.0
+      Dillén, Sten                  1527     4        18.0  25.5   16.0
+      Åhlin, Per                    1570     4        14.5  22.0   15.0
+9-10  Löwgren, Björn                1728     3.5      18.0  25.5   15.0
+      Ivanyuhin, Valeri             1550     3.5      13.5  18.0    8.5
+ 11   Sjöstrand, Tommy              1615     3        18.0  24.5   16.0
+ 12   Schmidt, Heinz                1428     2.5      17.0  22.0    6.5
+13-14 Sjölund, Leif                 1245     2        16.0  21.5   10.0
+      Sundberg, Karl-Erik           1376     2        15.5  21.0    7.0
+15-17 Strid, Erik                   1409     1        15.0  20.0    6.0
+      Jansson, Arne                 1519     1        14.5  22.0    3.0
+      Konstantinov, Dimiter         1563     1         2.5   9.0    1.0

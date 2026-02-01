@@ -1,0 +1,15 @@
+[Event "Youtube_1"]
+[Site "?"]
+[Date "2016.12.01"]
+[Round "?"]
+[White "Vit"]
+[Black "Svart"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "B7/P7/P7/k6K/8/8/7p/r7 w - - 0 1"]
+[PlyCount "13"]
+
+{600MB, Fritz11.ctg, Dell} 1. Bh1 $1 Rxh1 2. a8=Q Rd1 3. Qh1 $1 Rxh1 4. a7 Kb6
+5. a8=Q Rd1 6. Qb8+ Kc6 7. Qxh2 1-0
+

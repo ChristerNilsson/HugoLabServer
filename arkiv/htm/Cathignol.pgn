@@ -1,0 +1,24 @@
+[Event "Studie"]
+[Site "?"]
+[Date "1981.12.14"]
+[Round "?"]
+[White "P-A Cathignol"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "5k2/8/pppppppp/8/PPPPPPPP/8/8/5K2 w - - 0 1"]
+[PlyCount "31"]
+
+{600MB, Fritz11.ctg, Dell} 1. d5 (1. a5 $2 bxa5 2. bxa5 {leder till remi.}) (1.
+b5 cxb5 2. cxb5 $11) (1. c5 dxc5 2. dxc5 $11) (1. e5 fxe5 2. fxe5 $11) (1. g5
+fxg5 2. fxg5 $11) 1... exd5 2. exd5 cxd5 (2... c5 3. a5 $1 bxa5 4. b5 $1 axb5
+5. cxb5 Ke7 6. b6 Kd7 7. b7 Kc7 8. g5 fxg5 (8... hxg5 9. f5) 9. h5 {
+och vit vinner.}) 3. a5 $1 bxa5 4. b5 axb5 5. cxb5 Ke7 {
+Svart måste stoppa b-bonden.} 6. b6 Kd7 7. b7 Kc7 8. g5 $1 {
+och vit vinner med ett klassiskt bondegenombrott.} ({Om} 8. b8=Q+ $4 {
+förlorar vit.} Kxb8 9. g5 fxg5 10. h5 gxh5 11. f5 Kc8 {
+och svart stoppar f-bonden.}) 8... fxg5 9. h5 gxh5 10. f5 a4 $1 {
+ett bra försök.} 11. f6 a3 12. f7 a2 13. b8=Q+ $1 Kxb8 14. f8=Q+ Kb7 15. Qg7+
+Kc6 16. Qb2 {och vit vinner.} 1-0
+

@@ -1,0 +1,17 @@
+[Event "studie_1929"]
+[Site "?"]
+[Date "2017.03.24"]
+[Round "?"]
+[White "Cohn"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/5P1k/5Q2/7q/8/6K1/8/8 w - - 0 1"]
+[PlyCount "7"]
+
+{600MB, Fritz11.ctg, Dell} 1. f8=N+ (1. f8=Q $2 Qg4+ (1... Qg6+ $4 2. Qxg6+
+Kxg6 3. Kg4 Kh7 4. Kf4 Kg6 5. Qe7 Kh6 6. Kf5 Kh5 7. Qg5#) 2. Kf2 Qe2+ 3. Kg3
+Qg4+ {med evig schack.}) 1... Kg8 2. Ne6 Qf7 (2... Qh7 $4 3. Qf8#) 3. Qd8+ Kh7
+4. Ng5+ {vinner dam och parti.} 1-0
+

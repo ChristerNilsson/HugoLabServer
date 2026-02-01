@@ -1,0 +1,19 @@
+[Event "slutspel_2016_PO12"]
+[Site "?"]
+[Date "2016.11.17"]
+[Round "?"]
+[White "Vit"]
+[Black "Svart"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/1p6/1p6/8/PPP5/5k2/8/7K w - - 0 1"]
+[PlyCount "21"]
+
+{600MB, Fritz11.ctg, Dell} 1. c5 (1. a5 $4 bxa5 2. bxa5 Ke4 3. c5 Kd5 $1 {
+och svart vinner.}) 1... Ke4 (1... bxc5 $2 2. bxc5 Ke4 3. c6 $1 bxc6 {
+och vits tornbonde hinner först med schack!} 4. a5 c5 5. a6 c4 6. a7 c3 7.
+a8=Q+ Kd3 8. Qd5+ Kc2 9. Kg2 Kb2 10. Qd4 Kb3 11. Kf2 c2 12. Qa1 Kc4 13. Qc1) 2.
+cxb6 Kd5 3. a5 Kc6 4. Kg2 Kb5 5. Kf3 Ka6 (5... Kxb4 $4 6. a6 $1) 6. Ke4 Kb5 7.
+Kd5 Ka6 8. Kd6 Kb5 9. Kc7 Ka6 10. Kb8 Kb5 11. Kxb7 {och vit vinner.} 1-0
+

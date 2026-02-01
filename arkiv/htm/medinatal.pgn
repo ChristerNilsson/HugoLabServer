@@ -1,0 +1,15 @@
+[Event "Mallorca 1966"]
+[Site "?"]
+[Date "1966.05.11"]
+[Round "?"]
+[White "Medina"]
+[Black "Tal"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "6k1/5pp1/8/B2n4/5P2/P4QPp/4K3/7q b - - 0 1"]
+[PlyCount "3"]
+
+{600MB, Fritz11.ctg, Dell} 1... Qxf3+ 2. Kxf3 Ne3 $1 {
+och vit gav upp. Svarts h-bonde går i dam.} 0-1
+

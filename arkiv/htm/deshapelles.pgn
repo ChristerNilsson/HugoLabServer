@@ -1,0 +1,16 @@
+[Event "Franrike, 1914"]
+[Site "?"]
+[Date "1914.10.16"]
+[Round "?"]
+[White "Deshapelles"]
+[Black "La Bourdonnais"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "1r4k1/1b2K1pp/7b/2pp3P/6NB/2Q2pp1/4p3/5r2 w - - 0 1"]
+[PlyCount "9"]
+
+{600MB, Fritz11.ctg, Dell} 1. Nxh6+ gxh6 (1... Kh8 {leder också till matt.} 2.
+Nf7+ Kg8 3. Qxg7+ $1 Kxg7 4. Bf6+ Kg8 5. Nh6#) 2. Qh8+ Kxh8 3. Kf7 Rf8+ 4. Kxf8
+e1=Q 5. Bf6# 1-0
+

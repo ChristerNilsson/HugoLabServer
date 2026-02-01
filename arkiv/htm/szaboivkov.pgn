@@ -1,0 +1,15 @@
+[Event "Bath 1973"]
+[Site "?"]
+[Date "2012.09.03"]
+[Round "?"]
+[White "Szabo"]
+[Black "Ivkov"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "5rk1/pp5p/2pR2p1/4nr2/2q5/2B5/PPQ2PPP/5RK1 b - - 0 1"]
+[PlyCount "5"]
+
+{600MB, Fritz11.ctg, Dell} 1... Nf3+ 2. gxf3 (2. Kh1 Qxf1#) 2... Rg5+ 3. Kh1
+Qxf1# 0-1
+

@@ -1,0 +1,15 @@
+[Event "USA  1973"]
+[Site "?"]
+[Date "2012.11.03"]
+[Round "?"]
+[White "Reshevsky"]
+[Black "Byrne"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "6rk/p5bp/1p1Q4/2p1B3/2P5/1P2R2P/q5PK/8 b - - 0 1"]
+[PlyCount "5"]
+
+{600MB, Fritz11.ctg, Dell} 1... Qxg2+ $3 2. Kxg2 Bxe5+ 3. Kf3 Bxd6 {
+med enkel vinst för svart.} 0-1
+

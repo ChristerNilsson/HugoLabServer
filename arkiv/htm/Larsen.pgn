@@ -1,0 +1,18 @@
+[Event "Köpenhamn 1902"]
+[Site "?"]
+[Date "1902.11.14"]
+[Round "?"]
+[White "P.A. Larsen"]
+[Black "Någon"]
+[Result "1/2-1/2"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "6B1/8/1p1k4/1p1P4/1K6/7p/8/8 w - - 0 1"]
+[PlyCount "10"]
+
+{600MB, Fritz11.ctg, Dell} 1. Bh7 {Den svarta h-bonden kan endast stoppas, om
+löparen kan komma in på diagonalen a8-h1.} Kxd5 (1... Ke5 2. d6 h2 3. d7 h1=Q
+4. d8=Q Qxh7 (4... Qe1+ 5. Kb3 Qe3+ 6. Bd3 {och svart kan inte vinna.}) 5. Qxb6
+{med remi.}) 2. Bf5 $1 h2 3. Bc8 $1 Kc6 {garderar bönderna och förhindrar Lb7.}
+4. Bg4 $1 {Vit ger inte upp.} h1=Q 5. Bf3+ Qxf3 {Patt.} 1/2-1/2
+

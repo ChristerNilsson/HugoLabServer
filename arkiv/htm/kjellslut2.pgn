@@ -1,0 +1,17 @@
+[Event "Tornslutspel"]
+[Site "?"]
+[Date "2008.02.23"]
+[Round "?"]
+[White "Kjell Persson"]
+[Black "Fritz 11"]
+[Result "*"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "R7/6k1/P7/8/3K4/8/8/r7 w - - 0 1"]
+[PlyCount "29"]
+
+{600MB, Fritz11.ctg, Dell} 1. Kc5 {[%emt 0:00:00]} Kf7 2. Kb6 Rb1+ 3. Ka7 Ke7
+4. Rb8 Ra1 5. Kb7 Rb1+ 6. Ka8 Ra1 7. a7 Kd7 8. Kb7 Rb1+ 9. Ka6 Ra1+ 10. Kb6
+Rb1+ 11. Kc5 Rc1+ 12. Kd4 Rd1+ 13. Kc3 Rc1+ 14. Kb2 Rh1 15. a8=Q {
+och vit vinner.} *
+

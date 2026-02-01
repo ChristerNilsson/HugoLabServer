@@ -1,0 +1,19 @@
+[Event "Seniorserien_HT2013"]
+[Site "Stockholm"]
+[Date "2013.12.04"]
+[Round "12"]
+[White "Lennart Levin"]
+[Black "Per Eklund"]
+[Result "*"]
+[ECO "A80"]
+[WhiteElo "1701"]
+[BlackElo "1597"]
+[Annotator "Persson,Kjell"]
+[PlyCount "13"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. d4 f5 2. h3 Nf6 3. g4 fxg4 4. hxg4 Nxg4 $2 {
+litet väl girigt.} (4... d5 {är bättre för svart.}) 5. Qd3 Nf6 $4 (5... g6 {
+är nödvändigt.}) 6. Rxh7 $3 Kf7 {Det hotade Dg6 #.} 7. Rxh8 {
+Svart ger upp och glömmer säkerligen inte denna förrädiska variant.} *
+

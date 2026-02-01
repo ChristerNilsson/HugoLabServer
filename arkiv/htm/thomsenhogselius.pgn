@@ -1,0 +1,26 @@
+[Event "Seniorserien_HT2013"]
+[Site "Stockholm"]
+[Date "2013.09.04"]
+[Round "1"]
+[White "Allan Thomsen"]
+[Black "Lars Högselius"]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "1444"]
+[BlackElo "1491"]
+[Annotator "Persson,Kjell"]
+[PlyCount "63"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. d4 Nf6 2. Nc3 e6 3. e4 c6 $2 (3... d5 4. Bg5 dxe4
+5. Nxe4 Be7 {är teori.}) 4. e5 Nd5 5. Nxd5 cxd5 6. Nf3 a6 7. Bd3 b5 8. O-O Be7
+9. Bd2 O-O 10. c3 Nc6 11. Qc2 h6 12. h3 Bb7 13. Nh2 $2 {litet för passivt.} (
+13. a3 Qb6 14. Rfe1 {är mer aktivt.}) 13... Rc8 14. Qd1 b4 15. Qh5 (15. Qg4 $1
+{med hotet Lxh6.} Kh8 16. Nf3 Qb6 17. Rac1 {och vit står aningen bättre.})
+15... Bg5 16. f4 g6 $4 (16... Be7 {är nödvändigt, men det följer} 17. Ng4 f5
+18. exf6 Rxf6 19. Nxf6+ Bxf6 20. Qg6 {med materiell fördel för vit.}) 17. Bxg6
+$3 {och vit står på vinst.} fxg6 18. Qxg6+ Kh8 19. fxg5 Qe7 20. Qxh6+ Kg8 21.
+Ng4 Qg7 22. Rxf8+ Rxf8 23. Nf6+ Rxf6 24. Qxg7+ Kxg7 25. gxf6+ Kg6 26. Rf1 Nd8
+27. cxb4 Bc6 28. g4 Bb5 29. Rf2 Nf7 30. h4 d6 31. h5+ Kh7 32. g5 {
+och svart ger upp.} 1-0
+

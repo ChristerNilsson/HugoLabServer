@@ -1,0 +1,17 @@
+[Event "uppgift_14"]
+[Site "?"]
+[Date "2017.02.23"]
+[Round "?"]
+[White "Vit"]
+[Black "Svart"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "6K1/8/P7/8/8/7B/4k1N1/5r2 w - - 0 1"]
+[PlyCount "7"]
+
+{600MB, Fritz11.ctg, Dell} 1. Nf4+ $3 (1. Bc8 $2 {räcker bara till remi.} Ra1 (
+1... Rg1 $2 2. a7 Rxg2+ $4 3. Kf7 Rf2+ 4. Ke7 {
+och den svarta kungen står i vägen för Ta2.}) 2. a7 Rxa7 {med remi.}) 1... Rxf4
+2. Bd7 $1 Rd4 3. a7 Rxd7 4. a8=Q {och vit vinner.} 1-0
+

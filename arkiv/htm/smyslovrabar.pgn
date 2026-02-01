@@ -1,0 +1,15 @@
+[Event "Helsingfors 1952"]
+[Site "?"]
+[Date "1952.11.03"]
+[Round "?"]
+[White "Smyslov"]
+[Black "Rabar"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "5rn1/p3rqk1/3Rp1pp/1p1nP3/2pQN3/8/PPB2PPP/3R2K1 w - - 0 1"]
+[PlyCount "3"]
+
+{600MB, Fritz11.ctg, Dell} 1. Rxd5 exd5 2. e6+ {och svarts dam går förlorad.}
+1-0
+
