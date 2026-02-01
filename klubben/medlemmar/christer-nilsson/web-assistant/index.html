@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Assistant</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a> • 
+<a href="/HugoLabServer/klubben/">Klubben</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+		<h1>Web Assistant</h1>
+
+		
+		
+		<h1 id="råd">Råd</h1>
+<ul>
+<li>Katalognamn och filnamn i <em>content</em> ska bara innehålla
+<ul>
+<li>a-z dvs gemener</li>
+<li>0-9 dvs siffror</li>
+<li>bindestreck</li>
+<li>underscore</li>
+</ul>
+</li>
+<li>Undvik
+<ul>
+<li>versaler</li>
+<li>mellanslag</li>
+<li>åäö</li>
+</ul>
+</li>
+<li>Alla md-filer heter _index.md
+<ul>
+<li>De ska alltid innehålla ett inledande egenskapsblock</li>
+</ul>
+<pre tabindex="0"><code>---
+title: &lt;Här Är Alla Tecken Tillåtna ëéçüàáçíñΩß osv&gt;
+---
+</code></pre><ul>
+<li>auto: true anges om man vill skapa en meny automatiskt</li>
+</ul>
+</li>
+<li>Ändra aldrig i <em>public</em>. Den katalogen skapas av Hugo
+<ul>
+<li>Du kan ta bort allt innehåll i <em>public</em></li>
+</ul>
+</li>
+</ul>
+<h1 id="uppgifter-xxx">Uppgifter xxx</h1>
+<ul>
+<li>Växla mellan ljust och mörkt tema</li>
+<li>Externa länkar: FairPair =&gt; fairpair.se</li>
+<li>Svenska schackbutiken =&gt; Svenska Schackbutiken</li>
+<li>Schackelina saknas</li>
+<li>Bildbank =&gt; bildbank.schack.se</li>
+<li>Ranking =&gt; Rating
+<ul>
+<li>Tag bort dubletten</li>
+</ul>
+</li>
+<li>Klubben | Styrelse: Uppdatera</li>
+<li>Kontakt | Byt avgifter till de vi har idag</li>
+<li>Startsidan: uppdatera turneringarna</li>
+<li>Arkiv | Dokument | 2025 saknas</li>
+<li>Resultat 2025 saknas</li>
+<li>Klubben | Blanketter: Snyggare namn på alla fyra</li>
+<li>Klubben | Medlemmar: Lägg in ett foto på dig själv</li>
+<li>Webkarta: Är den ok?</li>
+<li>assets | styles.css: Ändra tabellernas bakgrundsfärg</li>
+<li>data (yaml)
+<ul>
+<li>föreläsningar</li>
+<li>inbjudningar</li>
+<li>lagturneringar</li>
+<li>meddelanden
+<ul>
+<li>Meddelanden: Uppdatera Årsmöte. Semla!</li>
+</ul>
+</li>
+<li>turneringar</li>
+</ul>
+</li>
+<li>layouts:
+<ul>
+<li>lägg ut texten HEADER och FOOTER på varje sida.</li>
+</ul>
+</li>
+</ul>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>
