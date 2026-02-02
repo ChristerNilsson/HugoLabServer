@@ -60,7 +60,7 @@ setDefault('font','Helvetica')
 <li><em>content</em>
 <ul>
 <li>löpande text</li>
-<li>bilder</li>
+<li>pdf, bilder och andra filer</li>
 </ul>
 </li>
 <li><em>data</em> (tabeller)
@@ -146,11 +146,40 @@ Det förutsätter att filernas namn är någorlunda begripliga.</p>
 <p>Denna katalog är inte nödvändig, men förenklar hanteringen av tabeller.<br>
 Tabeller kan skapas på tre sätt:</p>
 <ul>
-<li>HTML, dvs med taggarna <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code> och <code>&lt;td&gt;</code></li>
-<li>Markdown, dvs med tecknena <code>| - :</code></li>
-<li>YAML. Detta är en del av Hugo.</li>
+<li>HTML</li>
 </ul>
-<p>yaml indenteras med mellanslag.<br>
+<pre tabindex="0"><code>&lt;table&gt;
+	&lt;theader&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Namn&lt;/th&gt;
+			&lt;th&gt;Elo&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/theader&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Christer Nilsson&lt;/td&gt;
+		&lt;td&gt;1694&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Björn Löwgren&lt;/td&gt;
+		&lt;td&gt;1964&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</code></pre><ul>
+<li>Markdown</li>
+</ul>
+<pre tabindex="0"><code>|Namn|Elo|
+|-|-|
+|Christer Nilsson|1694|
+|Björn Löwgren   |1964|
+</code></pre><ul>
+<li>YAML</li>
+</ul>
+<pre tabindex="0"><code>row:
+  - namn: Christer Nilsson
+    elo: 1694
+  - namn: Björn Löwgren
+    elo: 1964
+</code></pre><p>yaml indenteras med mellanslag.<br>
 Här är ett litet <em>meddelande</em>, som visas med röd text:</p>
 <pre tabindex="0"><code>rows:
   - datum: 2026-03-03 11.00
@@ -170,28 +199,83 @@ Assistenten ansvarar för att de tas bort.</p>
 <li>Byt fontstorlek</li>
 </ul>
 </li>
-<li>Externa länkar: FairPair =&gt; fairpair.se</li>
+<li>Externa länkar:
+<ul>
+<li>FairPair =&gt; fairpair.se</li>
 <li>Svenska schackbutiken =&gt; Svenska Schackbutiken</li>
 <li>Schackelina saknas</li>
 <li>Bildbank =&gt; bildbank.schack.se</li>
+</ul>
+</li>
 <li>Ranking =&gt; Rating
 <ul>
 <li>Tag bort dubletten</li>
 </ul>
 </li>
-<li>Klubben | Styrelse: Uppdatera</li>
-<li>Kontakt | Byt avgifter till de vi har idag</li>
-<li>Klubben | Medlemmar | Christer Nilsson | Citat : Lägg till ett citat!</li>
-<li>Klubben | Medlemmar: Lägg till din privata katalog</li>
-<li>Webkarta: utöka den med din egen katalog</li>
-<li>Home: uppdatera turneringarna</li>
-<li>Arkiv | Dokument : Lägg till 2025</li>
-<li>Resultat 2025 saknas</li>
-<li>Klubben | Blanketter: Snyggare namn på alla fyra</li>
-<li>Klubben | Medlemmar: Lägg in ett foto på dig själv</li>
+<li>Klubben
+<ul>
+<li>Styrelse: Uppdatera</li>
+</ul>
+</li>
+<li>Kontakt
+<ul>
+<li>Byt avgifter till de vi har idag</li>
+</ul>
+</li>
+<li>Klubben
+<ul>
+<li>Medlemmar
+<ul>
+<li>Christer Nilsson
+<ul>
+<li>Citat
+<ul>
+<li>Lägg till ett citat!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Lägg till din privata katalog</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Webkarta
+<ul>
+<li>utöka den med din egen katalog</li>
+</ul>
+</li>
+<li>Home
+<ul>
+<li>uppdatera turneringarna</li>
+</ul>
+</li>
+<li>Arkiv
+<ul>
+<li>Dokument
+<ul>
+<li>Lägg till 2025</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Resultat
+<ul>
+<li>2025 saknas</li>
+</ul>
+</li>
+<li>Klubben
+<ul>
+<li>Blanketter: Snyggare namn på alla fyra</li>
+<li>Medlemmar: Lägg in ett foto på dig själv</li>
+</ul>
+</li>
 <li>Web Assistant
-Bryt upp den i två sidor: Råd och Uppgifter</li>
-<li>data (yaml)
+<ul>
+<li>Bryt ut Uppgifter till en egen sida och länka till den</li>
+</ul>
+</li>
+<li>data
 <ul>
 <li>föreläsningar</li>
 <li>inbjudningar</li>
@@ -207,10 +291,10 @@ Bryt upp den i två sidor: Råd och Uppgifter</li>
 </li>
 <li>layouts:
 <ul>
-<li>lägg ut texten HEADER och FOOTER på varje sida.</li>
+<li>lägg ut texten HEADER och FOOTER på varje sida. (överkurs)</li>
 </ul>
 </li>
-<li>assets | styles.css: Ändra länkarnas färg (yellow) till något annat</li>
+<li>assets | styles.css: Ändra länkarnas färg (yellow) till något annat (överkurs)</li>
 </ul>
 
 	
