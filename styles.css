@@ -2,6 +2,9 @@ body {
   display: grid;
   min-height: 100vh; }
 
+code {
+  font-size: 18px; }
+
 table {
   border-collapse: collapse; }
 
