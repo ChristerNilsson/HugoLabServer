@@ -43,6 +43,8 @@ body[theme="dark"] {
     background-color: #888; }
   body[theme="dark"] .old {
     color: #bbb; }
+  body[theme="dark"] .new {
+    color: red; }
 
 body[theme="light"] {
   background-color: white;
