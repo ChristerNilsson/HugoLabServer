@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,53 +55,113 @@ setDefault('font','Helvetica')
 
 		
 		
-		<h1 id="råd">Råd</h1>
+		<p>Assistenten ansvarar för innehållet i två kataloger:</p>
 <ul>
-<li>Katalognamn och filnamn i <em>content</em> ska bara innehålla
+<li><em>content</em>
 <ul>
-<li>a-z dvs gemener</li>
-<li>0-9 dvs siffror</li>
-<li>bindestreck</li>
-<li>underscore</li>
+<li>löpande text</li>
+<li>bilder</li>
+</ul>
+</li>
+<li><em>data</em> (tabeller)
+<ul>
+<li>föreläsningar</li>
+<li>inbjudningar</li>
+<li>lagturneringar</li>
+<li>meddelanden</li>
+<li>turneringar</li>
+</ul>
+</li>
+</ul>
+<h2 id="web-master">Web Master</h2>
+<p>Webmastern ansvarar för:</p>
+<ul>
+<li>alla andra kataloger, bl a
+<ul>
+<li>assets</li>
+<li>layouts</li>
+<li>static</li>
+</ul>
+</li>
+<li>utbildning av assistenten</li>
+<li>ny funktionalitet</li>
+<li>felsökning</li>
+</ul>
+<p>På sikt kommer assistenten att överta webmasterns roll, om intresse och fallenhet finns.</p>
+<h2 id="katalogen-content">Katalogen <em>content</em></h2>
+<p>I denna katalog används <a href="../markdown">markdown</a> (<a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/christer-nilsson/markdown/_index.md">source</a>) i filer med namnet <em>_index.md</em>.<br>
+Markdown används eftersom det är enklare än <em>HTML</em>.<br>
+Räcker inte Markdown, kan man blanda Markdown och HTML.<br>
+Varje fil med namnet <em>_index.md</em> ligger i en egen katalog.<br>
+De enklaste katalogerna är:</p>
+<ul>
+<li>Externa Länkar</li>
+<li>Inställningar</li>
+<li>Kontakt</li>
+<li>Rating</li>
+</ul>
+<p>Övriga kataloger innehåller fler kataloger, men följer samma princip.</p>
+<h2 id="namngivning">Namngivning</h2>
+<p>Windows och Linux har olika standard när det gäller katalognamn (och filnamn).</p>
+<ul>
+<li>Filnamn i Windows skiljer inte på versaler och gemener. a == A</li>
+<li>Filnamn i Linux skiljer på versaler och gemener. a != A</li>
+</ul>
+<p>Katalognamnen används även när Hugo skapar <em>URL</em>:er.
+URL:er förbjuder vissa tecken.<br>
+Exempel på URL: <a href="https://www.seniorschackstockholm.se/htmfiler/program_VT26.htm">https://www.seniorschackstockholm.se/htmfiler/program_VT26.htm</a></p>
+<ul>
+<li>Katalognamn i <em>content</em> får bara innehålla
+<ul>
+<li><code>a-z</code> dvs gemener</li>
+<li><code>0-9</code> dvs siffror</li>
+<li><code>-</code> bindestreck</li>
+<li><code>_</code> underscore</li>
 </ul>
 </li>
 <li>Undvik
 <ul>
 <li>versaler</li>
 <li>mellanslag</li>
-<li>åäö</li>
+<li><code>åäöÅÄÖ</code></li>
+<li>Specialtecken: ```+,./:?&amp;=&lt;&gt;`` osv</li>
 </ul>
 </li>
-<li>Orsak
-<ul>
-<li>Filnamn i Windows skiljer inte på versaler och gemener. a == A</li>
-<li>Filnamn i Linux skiljer på versaler och gemener. a != A</li>
 </ul>
-</li>
-<li>Alla kataloger innehåller en <em>markdown</em>-fil som heter <em>_index.md</em>
-<ul>
-<li>Den ska alltid innehålla ett inledande egenskapsblock</li>
-</ul>
+<h2 id="markdown">Markdown</h2>
+<p>Det interna namnet, dvs katalognamnet, t ex &ldquo;externa-lankar&rdquo; kan snyggas till genom att lägga in följande rader i md-filen:</p>
 <pre tabindex="0"><code>---
-title: &lt;Här Är Alla Tecken Tillåtna ëéçüàáçíñΩß osv&gt;
+title: Externa Länkar
 ---
-</code></pre><ul>
-<li><code>auto: true</code> anges om man vill skapa en meny automatiskt
+</code></pre><p>Användaren ser i princip bara det snyggare, externa namnet.<br>
+Enda undantaget är url:erna, dvs länkarna.<br>
+Detta är bra, eftersom man då kan snygga till namn utan att länkarna pekar fel.</p>
+<h3 id="egenskapen-auto">Egenskapen <em>auto</em></h3>
+<p>Om man önskar att innehåll skapas automatiskt, kan man även ange <code>auto: true</code> under title.<br>
+<code>auto</code> infördes av mig, Christer Nilsson, och ingår inte i Hugo.<br>
+<code>auto</code> är inte nödvändigt, men praktiskt ibland.<br>
+Det innebär att resten av md-filen kan lämnas tom.<br>
+Det förutsätter att filernas namn är någorlunda begripliga.</p>
+<h2 id="katalogen-data">Katalogen <em>data</em></h2>
+<p>Denna katalog är inte nödvändig, men förenklar hanteringen av tabeller.<br>
+Tabeller kan skapas på tre sätt:</p>
 <ul>
-<li>Denna egenskap har lagts till av mig, Christer Nilsson</li>
+<li>HTML, dvs med taggarna <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code> och <code>&lt;td&gt;</code></li>
+<li>Markdown, dvs med tecknena <code>| - :</code></li>
+<li>YAML. Detta är en del av Hugo.</li>
 </ul>
-</li>
-<li><code>hidden: true</code> anges om man vill dölja en katalog</li>
-</ul>
-</li>
-<li>Ändra aldrig i <em>public</em>. Den katalogen skapas av Hugo
-<ul>
-<li>Du kan ta bort allt innehåll i <em>public</em>. Det återskapas av Hugo</li>
-<li>Alla ändringar du gör i denna katalog kastas bort.</li>
-</ul>
-</li>
-</ul>
-<h1 id="uppgifter">Uppgifter</h1>
+<p>yaml indenteras med mellanslag.<br>
+Här är ett litet <em>meddelande</em>, som visas med röd text:</p>
+<pre tabindex="0"><code>rows:
+  - datum: 2026-03-03 11.00
+    meddelande: Årsmöte
+</code></pre><p>Raderna sorteras inte automatiskt.<br>
+Förslagsvis läggs nya meddelanden överst.<br>
+Utgångna meddelanden syns, men är utgråade.<br>
+Assistenten ansvarar för att de tas bort.</p>
+<h2 id="public"><em>public</em></h2>
+<p>Denna katalog skapas av Hugo. Ändra ingenting i denna.</p>
+<h2 id="uppgifter">Uppgifter</h2>
 <ul>
 <li>Inställningar (sparas i din dators <em>localstorage</em>)
 <ul>
