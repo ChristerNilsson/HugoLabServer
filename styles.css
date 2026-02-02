@@ -44,7 +44,7 @@ body[theme="dark"] {
   body[theme="dark"] .old {
     color: #bbb; }
   body[theme="dark"] .new {
-    color: red; }
+    color: white; }
 
 body[theme="light"] {
   background-color: white;
