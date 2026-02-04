@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Templates</title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body>
+	<main>
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a>
+ • 
+<a href="/HugoLabServer/klubben/">Klubben</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+
+		<h1>Templates</h1>
+
+		
+		
+		<p>Exempel: Hugo och Go</p>
+<h2 id="fördelar">Fördelar</h2>
+<h2 id="nackdelar">Nackdelar</h2>
+<ul>
+<li>Myt: templates behöver ingen programmering. Det är ju huvudsakligen HTML
+<ul>
+<li>Hugo innehåller loopar, if, funktioner osv. Ett fullständigt språk.</li>
+</ul>
+</li>
+<li>Detta språk är svårt att läsa pga alla dubbelmustacher</li>
+</ul>
+<pre tabindex="0"><code>	{{ if eq a b }}
+		Lika
+	{{ else }}
+		Olika
+	{{ end }}
+</code></pre><ul>
+<li>Den genererade HTML-filen innehåller fyra onödiga radmatningar och två tabbar om man inte tar bort dessa i templaten. Ger svårläst kod!</li>
+</ul>
+<pre tabindex="0"><code>	{{ if eq a b }}Lika{{ else }}Olika{{ end }}
+</code></pre><ul>
+<li>operatorer är en akilleshäl i hugo. Ersatt med funktioner, dvs prefix istf infix.</li>
+</ul>
+<pre tabindex="0"><code>	a &lt; b versus lt a b
+	a - b versus sub a b
+	a == b versus eq a b
+</code></pre><h2 id="alternativ">Alternativ</h2>
+<ul>
+<li>Python</li>
+<li>FastHTML</li>
+</ul>
+<p>Python är ett språk som är mycket större än Go och ffa Hugos templates.</p>
+<p>Med FastHTML skapar man HTML.<br>
+Detta är inversen av Hugos templates.</p>
+<pre tabindex="0"><code>Div(class=&#34;old&#34;, &#34;Årsmöte&#34;)
+
+skapar
+
+&lt;div class=&#34;old&#34;&gt;
+	Årsmöte
+&lt;/div&gt;
+</code></pre>
+	
+	</div>
+</main>
+	 
+</body>
+</html>

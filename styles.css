@@ -1,6 +1,6 @@
 body {
   display: grid;
-  min-height: 100vh; }
+  min-height: calc(100vh - 40px); }
 
 code {
   font-size: 18px; }
@@ -65,31 +65,31 @@ body[theme="light"] {
 a:hover {
   cursor: pointer; }
 
-body[fontsize="12"] {
+body[fontsize="12px"] {
   font-size: 12px; }
 
-body[fontsize="14"] {
+body[fontsize="14px"] {
   font-size: 14px; }
 
-body[fontsize="16"] {
+body[fontsize="16px"] {
   font-size: 16px; }
 
-body[fontsize="18"] {
+body[fontsize="18px"] {
   font-size: 18px; }
 
-body[fontsize="20"] {
+body[fontsize="20px"] {
   font-size: 20px; }
 
-body[fontsize="22"] {
+body[fontsize="22px"] {
   font-size: 22px; }
 
-body[fontsize="24"] {
+body[fontsize="24px"] {
   font-size: 24px; }
 
-body[fontsize="26"] {
+body[fontsize="26px"] {
   font-size: 26px; }
 
-body[fontsize="28"] {
+body[fontsize="28px"] {
   font-size: 28px; }
 
 body[font='Helvetica'] {
@@ -140,7 +140,8 @@ old {
 
 @media screen {
   body {
-    margin: 20px; } }
+    margin: 0;
+    padding: 20px; } }
 
 @media print {
   body {
