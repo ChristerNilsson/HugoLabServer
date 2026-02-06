@@ -5,6 +5,10 @@ body {
 code {
   font-size: 18px; }
 
+img {
+  margin-left: 0px;
+  margin-top: 0px; }
+
 table {
   border-collapse: collapse; }
 
@@ -22,6 +26,18 @@ ul {
 
 li {
   margin: 0.5em 0; }
+
+.home-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 1.25em;
+  padding-left: 0; }
+
+.home-menu li {
+  margin: 0; }
+
+.home-menu li::marker {
+  content: ""; }
 
 a {
   text-decoration: none;
@@ -141,7 +157,9 @@ old {
 @media screen {
   body {
     margin: 0;
-    padding: 20px; } }
+    padding: 20px; }
+  body.home {
+    padding-top: 0; } }
 
 @media print {
   body {
