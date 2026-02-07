@@ -1,0 +1,32 @@
+[Event "Srs DM"]
+[Site "?"]
+[Date "2018.10.11"]
+[Round "5"]
+[White "Svante Wedin, Tyresö SK"]
+[Black "Bo Kyhle, SK Rockaden, Sthlm"]
+[Result "1-0"]
+[ECO "C03"]
+[WhiteElo "1972"]
+[BlackElo "2122"]
+[Annotator "Fritz 12 (70s)"]
+[PlyCount "77"]
+
+{C03: Franskt Tarrasch: Ovanliga svarta tredjedrag} 1. e4 e6 2. d4 d5 3. Nd2 a6 4.
+c3 c5 5. exd5 Qxd5 6. Ngf3 Nf6 7. Bc4 Qh5 $146 (7... Qd7 8. Bd3 $16) 8. Be2 $16
+cxd4 9. Nxd4 (9. cxd4 Qd5 $16) 9... Qc5 $14 10. O-O Be7 11. Bf3 (11. Qc2 O-O
+$14) 11... O-O (11... e5 12. N4b3 Qc7 13. Ne4 $11) 12. N2b3 (12. Qe2 $5 $14 {
+kanske var bättre?}) 12... Qc7 $11 13. Bg5 e5 14. Nc2 Be6 15. Ne3 Rd8 16. Qc2
+Nbd7 17. Nd2 h6 18. Bh4 g6 {Förhindrar intrång via f5+h5} 19. b3 {Täcker c4}
+Rac8 20. c4 Nc5 21. Bxf6 Bxf6 22. Ne4 Nxe4 23. Bxe4 Rd4 24. Rad1 Rcd8 25. Qb1
+Bg7 26. Nd5 Qc5 27. Rxd4 exd4 {Svart fick en fribonde, men den blockeras.} 28.
+Qd3 (28. Nf4 Bc8 $11) 28... a5 (28... b5 $5 $15 {direkt är intressant.}) 29.
+Nf4 $14 Bc8 30. Bd5 {Åh, vilken bra löpare!} Bf5 31. Qf3 Kh7 (31... Qe7 $5 $11
+{borde svart ha gjort.}) 32. g4 Bc8 $2 (32... Bc2 $142 $5 33. Rc1 d3 34. Nxd3
+Bxd3 35. Qxd3 Qe7 $16) 33. Bxf7 $18 Rd6 34. Qe4 (34. Nd5 $142 $5 b5 35. h4 bxc4
+36. h5 $18) 34... Qg5 $16 35. h3 (35. Be6 $5 Bxe6 36. Nxe6 $16) 35... Bf5 (
+35... Bxg4 $5 36. hxg4 Qxg4+ 37. Kh2 Qh4+ 38. Kg2 Qg4+ 39. Kh1 Qh4+ 40. Kg2
+Qg4+ 41. Kh2 Qh4+ 42. Kg2 $11) 36. Qe8 $14 h5 $4 (36... Rd8 $142 {funderade
+jag på, men Se6 är starkt då.} 37. Ne6 Bxe6 38. Qxe6 d3 $14) 37. Qg8+ $18 Kh6
+38. Nxh5 $1 {Med matthot!} gxh5 (38... gxh5 39. f4 {Nu hotar vit matt med Qxg7, eller
+damförlust.}) 39. f4 1-0
+

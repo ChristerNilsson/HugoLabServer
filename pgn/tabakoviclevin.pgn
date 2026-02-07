@@ -1,0 +1,30 @@
+[Event "SeniorKM_VT2012"]
+[Site "Stockholm"]
+[Date "2012.05.11"]
+[Round "13"]
+[White "Vojin Tabakovic"]
+[Black "Lennart Levin"]
+[Result "0-1"]
+[ECO "C05"]
+[WhiteElo "1711"]
+[BlackElo "1662"]
+[Annotator "Persson,Kjell"]
+[PlyCount "78"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. c3 c5 6.
+Ngf3 Nc6 7. Bb5 {Vit lämnar den gängse öppningsteorin.} (7. Bd3 Be7 8. O-O {
+är normaldragen i denna öppning.}) 7... Be7 8. O-O O-O 9. Re1 h6 10. Nf1 cxd4
+11. cxd4 a6 12. Ba4 Nb6 13. Bxc6 (13. Bc2 {är bättre än avslag på c6.}) 13...
+bxc6 14. b3 Bb7 15. Be3 Bb4 16. Re2 Ba3 {
+Svart vill förhindra torndubblering på c-linjen.} 17. Rc2 a5 18. Qd2 Kh7 19. h3
+f5 20. exf6 Rxf6 21. Ne5 Rc8 22. Nh2 $2 (22. Qxa5 $1 {
+vinner bonde och tvingar svartlöparen till reträtt.}) 22... Nd7 23. Nhg4 Rf5
+24. Qd3 {Fängslar tornet på f5.} Nf6 $4 25. Nxf6+ gxf6 26. Nf7 $1 Qe8 27. Nxh6
+$1 Qg6 28. Nxf5 exf5 29. Bd2 Ra8 30. Re1 Rg8 31. g3 Kh8 32. Bxa5 Bd6 33. Bd2
+Qh5 34. Kg2 f4 35. g4 Rxg4+ 36. Kf1 $4 {
+Draget som vänder partiet till svarts fördel.} (36. hxg4 Qxg4+ 37. Kf1 {
+och vit klarar sig. T.ex.} f3 38. Re8+ Kg7 39. Rd8 Qg2+ 40. Ke1 Be7 41. Rd7
+Qg1+ 42. Qf1 {och vit har en förkrossande materiell övervikt.}) 36... f3 37.
+Rec1 Qxh3+ 38. Ke1 Rg1+ 39. Qf1 Rxf1# 0-1
+

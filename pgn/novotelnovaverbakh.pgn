@@ -1,0 +1,15 @@
+[Event "Moskva 1951"]
+[Site "?"]
+[Date "1951.12.17"]
+[Round "?"]
+[White "Novotelnov"]
+[Black "Averbakh"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "4r1k1/p4pp1/1p6/3r4/P1Nb2q1/6Pp/1P1R1P1P/3R1QK1 b - - 0 1"]
+[PlyCount "7"]
+
+{600MB, Fritz11.ctg, Dell} 1... Bxf2+ 2. Qxf2 (2. Kxf2 $2 Rf5+) 2... Qxd1+ 3.
+Rxd1 Rxd1+ 4. Qf1 Ree1 {och vit gav upp.} 0-1
+

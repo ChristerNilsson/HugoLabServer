@@ -1,0 +1,19 @@
+[Event "slutspel"]
+[Site "Stockholm"]
+[Date "2017.02.17"]
+[Round "?"]
+[White "Persson, Kjell"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/1N5K/8/4k3/8/p7/P7/8 w - - 0 1"]
+[PlyCount "27"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. Kg6 Ke4 (1... Kd4 2. Kf5 Kc3 3. Ke4 Kb2 4. Kd3
+Kxa2 5. Kc2 Ka1 6. Nc5 (6. Na5 {fungerar också, men tar längre tid.} Ka2 7. Nc6
+Ka1 8. Nd4 Ka2 9. Ne2 Ka1 10. Nc1 a2 11. Nb3#) 6... Ka2 7. Nd3 Ka1 8. Nc1 a2 9.
+Nb3#) 2. Kg5 Ke5 3. Na5 Kd4 4. Kf4 Kd3 5. Nc6 Kc3 6. Ke3 Kc2 7. Kd4 Kb2 8. Kd3
+Kb1 9. Kc3 Kxa2 10. Kc2 Ka1 11. Nd4 Ka2 12. Ne2 Ka1 13. Nc1 a2 14. Nb3# 1-0
+

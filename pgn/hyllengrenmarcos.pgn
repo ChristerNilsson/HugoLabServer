@@ -1,0 +1,48 @@
+[Event "?"]
+[Site "Stockholm"]
+[Date "2012.05.12"]
+[Round "?"]
+[White "Anders Hyllengren"]
+[Black "José Marcos"]
+[Result "*"]
+[ECO "A34"]
+[Annotator "Persson,Kjell"]
+[PlyCount "107"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. c4 Nf6 2. Nc3 e6 3. e4 c5 4. Nf3 Nc6 5. Be2 d5 6.
+e5 Ne4 ({I partiet Bologan - Cramling, Gibraltar 2006 följde} 6... Nd7 7. cxd5
+exd5 8. Bb5 a6 9. Bxc6 bxc6 10. d3 Be7 11. O-O Nf8 12. Na4 Bg4 {
+och Pia kunde vara nöjd.}) 7. O-O Be7 8. Bd3 Nxc3 9. dxc3 dxc4 10. Bxc4 Qxd1
+11. Rxd1 b6 12. h3 Bb7 13. Be3 Bd8 {Det är e5-bonden som har fångat löparens
+intresse. Alternativet är att genast neutralisera vits spel på d-linjen med
+Td8.} 14. Rd2 Bc7 15. Rad1 O-O ({Svart bör lämna e5-bonden i fred, t.ex.} 15...
+Bxe5 16. Rd7 Bc8 17. R7d3 Bc7 18. Bb5 Bb7 19. Rd7 Rc8 20. Bf4 Bxf4 21. Rxb7 O-O
+22. Bxc6 Rxc6 23. Rxa7 {och vit har klar fördel.}) (15... Nxe5 $2 16. Nxe5 Bxe5
+17. Bb5+ {och vit vinner pjäs.}) 16. Rd7 Rad8 17. Kf1 Rxd7 18. Rxd7 Rc8 19. Bf4
+h6 {Innan kungen drar sig mot e8 försäkrar sig svart om att det inte dykar upp
+en inkräktare på g5.} 20. h4 Kf8 21. h5 Ke8 22. Bxe6 $5 {Med ens blir det
+klart vad h-bonden hade i kikaren, när den ryckte fram. Den hade högre
+ambitioner än att ta terräng och hålla tillbaka svarts bönder. Nu måste svarts
+pjäser snabbt engagera sig på kungsflygeln.} fxe6 23. Rxg7 a5 {det ser ut som
+ett iskallt väntedrag. Dt skulle kunna vara så att svart håller inne med Se7
+för att behålla trycket mot e5, och låta vits torn hugga in på h6. I
+partifortsättningen blir sedan Kd7 följt av Se7 och Tg8 möjligt. Kanske kan
+det också vara så att svart i händelse av två slag på e5 i något läge inte
+vill att a7-bonden ska hänga.} 24. Rh7 Ba6+ 25. Ke1 Bd3 26. Rxh6 Kd7 27. Rf6
+Ne7 28. Rf7 Rg8 29. Bg5 Bd8 30. h6 Ke8 31. Rg7 Rxg7 32. hxg7 Bh7 {Svart tycks
+ha neutraliserat den första vågen. På sikt är det bondemajoriteten på
+kungsflygeln som ska kompensera pjäsen med råge.} 33. Kd2 {
+Det är läge att börja aktivera kungen.} Bc7 34. Bxe7 Kxe7 35. Ng5 {Springaren
+ommer lyckligtvis till g5 med tempo. Svart hotade att spela Lg8 följt av Kg7.}
+Bg8 36. f4 Bd8 37. Kd3 b5 38. a4 $1 {Vit lyckas försvaga svarts bondestruktur
+och skapar hot på båda flyglar. I den kampen har löparparet inte mycket att
+komma med.} c4+ 39. Ke4 bxa4 40. Kd4 Bb6+ 41. Kxc4 Be3 42. g3 Bd2 ({Eller} 
+42... Bf2 43. Ne4 Be3 (43... Be1 {och löparen fångas.}) (43... Bb6 44. Kb5 Bd8
+45. c4 {och löparparet är patetiskt.}) 44. Kb5 Kf7 45. c4 {och vit vinner.})
+43. Ne4 Bc1 44. Kb5 Kf7 ({Eller} 44... Bxb2 45. Kxa4 Kf7 46. c4 Kxg7 47. c5 {
+och c-bonden ordnar vinsten.}) 45. c4 {
+När g7-bonden tackar för sig anmäler sig en ny fribonde till tjänst.} Kxg7 46.
+c5 Bh7 47. Ng5 Bxb2 48. Kxa4 Bg6 49. Kxa5 Be8 50. Kb6 Kf8 51. c6 Bd4+ 52. Kb7
+Bxc6+ 53. Kxc6 Ke7 54. Nh3 {Uppgivet.} *
+

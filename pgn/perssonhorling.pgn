@@ -1,0 +1,18 @@
+[Event "Senior_KM_VT2013"]
+[Site "?"]
+[Date "2013.01.31"]
+[Round "3"]
+[White "Kjell Persson"]
+[Black "Lars Hörling"]
+[Result "1/2-1/2"]
+[WhiteElo "1687"]
+[BlackElo "1503"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "1k3r2/p6p/1p2p1b1/2nqP3/1Q1P4/P5P1/1P3P1P/R3R1K1 b - - 0 1"]
+[PlyCount "3"]
+
+{600MB, Fritz11.ctg, Dell} 1... Rxf2 {hotar Dg2#} ({I partiet spelades} 1...
+Qf3 2. dxc5 Qxf2+ 3. Kh1 Qf3+ {och svart tog ut remi genom evig schack.}) 2.
+Kxf2 Nd3+ {och vit förlorar damen.} 1/2-1/2
+

@@ -1,0 +1,19 @@
+[Event "Elitserien 2013"]
+[Site "?"]
+[Date "2013.11.20"]
+[Round "?"]
+[White "M. de Verdier"]
+[Black "H. Tikkanen"]
+[Result "*"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "r1r3k1/1p2q1pp/1Q1bp3/2Np4/2bPpP2/P3P2P/1B4P1/2R1R1K1 b - - 0 1"]
+[PlyCount "13"]
+
+{600MB, Fritz11.ctg, Dell} 1... Rxc5 $1 2. dxc5 Bxc5 $1 {
+och vits dam blir instängd.} 3. Bf6 {
+vit tvingas offra löparen för att ge damen en flyktväg.} gxf6 4. Qb2 Bxa3 5.
+Qa1 Ra6 $1 {
+och vit gav upp eftersom löparparet är starkare än ett torn. Vits bästa drag är
+} 6. Rxc4 dxc4 7. Qd4 b5 {och svart är pjäs över.} *
+

@@ -1,0 +1,26 @@
+[Event "SenKM"]
+[Site "?"]
+[Date "2015.04.30"]
+[Round "11"]
+[White "Gunnarsson, Leif"]
+[Black "Hartzell, Ove"]
+[Result "0-1"]
+[ECO "A21"]
+[WhiteElo "1786"]
+[BlackElo "1863"]
+[Annotator "Persson,Kjell"]
+[PlyCount "84"]
+[EventDate "2015.??.??"]
+
+1. c4 e5 2. Nc3 g6 3. g3 Bg7 4. Bg2 Ne7 5. d3 O-O 6. Nf3 d6 7. h3 c6 8. O-O d5
+9. cxd5 Nxd5 10. Bd2 Na6 11. Re1 h6 12. Kh2 Be6 13. a3 Kh7 14. b4 Nac7 15. Ne4
+Rc8 16. Nc5 b6 17. Nxe6 Nxe6 18. Qb3 Qd6 19. e4 Ne7 20. Be3 c5 21. Red1 Rfd8
+22. b5 ({Med} 22. bxc5 bxc5 23. Qc4 {
+splittras de svarta bönderna på damflygeln.}) 22... f5 23. Ne1 f4 $1 {
+inleder ett vasst angrepp på den vita rockaden.} 24. Bd2 Nd4 25. Qb2 g5 26. Bc3
+Ng6 27. Bxd4 exd4 28. Qe2 Be5 29. Qg4 Rf8 30. Nf3 Rc7 31. Rh1 Rcf7 32. Kg1 {
+Vit försöker öppna h-linjen för att få motspel, men det är för sent.} fxg3 33.
+fxg3 Bxg3 34. Rf1 Bh4 35. e5 Nxe5 36. Nxe5 Rxf1+ 37. Bxf1 Qxe5 38. Bg2 Qe3+ $4
+(38... Bf2+ 39. Kf1 Qe1#) 39. Kh2 Qf4+ 40. Qxf4 Rxf4 41. Be4+ Kg7 42. Re1 $4
+Bxe1 0-1
+

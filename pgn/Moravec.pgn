@@ -1,0 +1,15 @@
+[Event "1925"]
+[Site "?"]
+[Date "1925.11.19"]
+[Round "?"]
+[White "J. Moravec"]
+[Black "Studie"]
+[Result "1/2-1/2"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "4b2k/7P/4NK2/5P2/8/8/8/8 b - - 0 1"]
+[PlyCount "5"]
+
+{600MB, Fritz11.ctg, Dell} 1... Bg6 2. Ng5 Bxf5 3. Kxf5 Kg7 {
+och ställningen är remi.} 1/2-1/2
+

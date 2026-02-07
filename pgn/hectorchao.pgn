@@ -1,0 +1,17 @@
+[Event "Sigeman 2012"]
+[Site "?"]
+[Date "2012.04.07"]
+[Round "?"]
+[White "Johny Hector"]
+[Black "Li Chao"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "6k1/pb3p1p/8/6KB/8/1PN1r3/P5nP/2R5 b - - 0 1"]
+[PlyCount "7"]
+
+{600MB, Fritz11.ctg, Dell} 1... Kg7 $1 {hotar h6+ följt av Lc8 #} 2. Bg4 {
+förhindrar Lc8, men} {Li Chao spelade} f6+ {
+varpå Johny Hector gav upp. Det följer} 3. Kh5 (3. Kf5 $2 Re5#) 3... Re5+ 4.
+Bf5 Bf3# 0-1
+

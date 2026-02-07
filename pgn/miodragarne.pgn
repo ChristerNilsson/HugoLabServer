@@ -1,0 +1,24 @@
+[Event "Senior_DM_HT2014"]
+[Site "Stockholm"]
+[Date "2014.10.23"]
+[Round "7"]
+[White "Miodrag Jeremic"]
+[Black "Arne Jansson"]
+[Result "1-0"]
+[ECO "E18"]
+[WhiteElo "1583"]
+[BlackElo "1537"]
+[Annotator "Persson,Kjell"]
+[PlyCount "89"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. c4 Nf6 2. d4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6.
+Nc3 O-O 7. O-O d6 8. b4 Nbd7 9. a4 Ne4 10. Bb2 Ndf6 11. Qc2 Nxc3 12. Qxc3 Ne4
+13. Qd3 d5 14. c5 a5 15. cxb6 axb4 16. bxc7 Qxc7 17. Rfc1 Qa5 18. Qb5 Qxb5 19.
+axb5 Bd6 20. Ne5 Bxe5 21. dxe5 Rfc8 22. Bxe4 dxe4 23. e3 Rxc1+ 24. Rxc1 Rc8 25.
+Rb1 Rc5 26. b6 Rb5 27. Bd4 b3 28. Kf1 Bd5 29. Ke1 Bc4 30. Kd2 b2 31. Rxb2 Rxb2+
+32. Bxb2 Bd5 33. Kc3 Kf8 34. Ba3+ Ke8 35. Bd6 Kd7 36. Kb4 Kc6 37. Bc7 Kb7 $2 {
+Svart går åt fel håll med kungen.} (37... Kd7 38. Kb5 Bb7 $1 {håller remi.})
+38. Kc5 g5 39. Kd6 Kc8 40. Ke7 g4 41. Kxf7 Kd7 42. Kg7 h5 43. Kg6 Ke7 44. Bd6+
+Ke8 45. Kxh5 {och svart ger upp.} 1-0
+

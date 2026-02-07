@@ -1,0 +1,15 @@
+[Event "Problem"]
+[Site "?"]
+[Date "2017.04.29"]
+[Round "?"]
+[White "Dam+3bönder"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/5Q2/1PPPK1pp/6k1 w - - 0 1"]
+[PlyCount "21"]
+
+{600MB, Fritz11.ctg, Dell} 1. Qe3+ Kh1 2. Qe4 Kg1 3. Qd4+ Kh1 4. Qd5 Kg1 5.
+Qc5+ Kh1 6. Qc6 Kg1 7. Qb6+ Kh1 8. Qb7 Kg1 9. Qa7+ Kh1 10. Qa8 Kg1 11. Qa1# 1-0
+

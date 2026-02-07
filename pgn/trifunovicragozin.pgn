@@ -1,0 +1,16 @@
+[Event "Moskva"]
+[Site "?"]
+[Date "1947.04.29"]
+[Round "?"]
+[White "Trifunovic"]
+[Black "Ragozin"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "5rk1/1p4pp/3p1qb1/2pPr3/pPP3R1/P4P2/3QP3/2KR3B b - - 0 1"]
+[PlyCount "5"]
+
+{600MB, Fritz11.ctg, Dell} 1... Rxe2 2. Qxe2 (2. Rxg6 Qa1+ 3. Kc2 Qa2+ 4. Kd3
+Rxd2+ 5. Rxd2 Qb1+ 6. Ke2 Qxg6 {ser inte heller så roligt ut för svart.}) 2...
+Qc3+ $1 3. Qc2 Qxc2# 0-1
+

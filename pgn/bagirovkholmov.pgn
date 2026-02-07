@@ -1,0 +1,15 @@
+[Event "Baku"]
+[Site "?"]
+[Date "1961.05.20"]
+[Round "?"]
+[White "Bagirov"]
+[Black "Kholmov"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "6k1/p5p1/1p3q2/2ppr2p/4r3/1PQ4P/P1P2PP1/3RR1K1 b - - 0 1"]
+[PlyCount "3"]
+
+{600MB, Fritz11.ctg, Dell} 1... Rxe1+ 2. Rxe1 Re2 $3 {
+och vit gav upp inför dubbelhotet på c3 och f2.} 0-1
+

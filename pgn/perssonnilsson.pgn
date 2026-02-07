@@ -1,0 +1,16 @@
+[Event "Rilton Open"]
+[Site "?"]
+[Date "2003.10.16"]
+[Round "?"]
+[White "Sven Nilsson"]
+[Black "Kjell Persson"]
+[Result "1/2-1/2"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "1q5k/r2P4/4PpQp/2P2P1P/6R1/r4PP1/6K1/8 b - - 0 1"]
+[PlyCount "12"]
+
+{600MB, Fritz11.ctg, Dell} {Vit hotar Dxh6#, så goda råd är dyra.} 1... Ra2+ 2.
+Kh3 Rh2+ 3. Kxh2 Ra2+ 4. Kh3 Rh2+ 5. Kxh2 Qb2+ 6. Kh3 Qh2+ 7. Kxh2 {med patt!}
+1/2-1/2
+

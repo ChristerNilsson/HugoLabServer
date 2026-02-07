@@ -1,0 +1,28 @@
+[Event "Senior_DM_HT12"]
+[Site "Stockholm"]
+[Date "2012.12.26"]
+[Round "7"]
+[White "Börje Ericson"]
+[Black "Arne Jansson"]
+[Result "1/2-1/2"]
+[ECO "C02"]
+[WhiteElo "1456"]
+[BlackElo "1625"]
+[Annotator "Persson,Kjell"]
+[PlyCount "61"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6.
+b3 (6. Bd3 cxd4 7. cxd4 Bd7 8. O-O Nxd4 9. Nxd4 Qxd4 10. Nc3 a6 11. Qe2 Ne7 12.
+Kh1 {är teori.}) 6... cxd4 7. cxd4 Bb4+ 8. Bd2 Nxd4 9. Nxd4 Qxd4 10. Bb5+ Bd7
+11. Bxd7+ Kxd7 {och svart står bäst i kraft av merbonden.} 12. Bxb4 Qxe5+ $2 ({
+Här bör svart slå tornet.} 12... Qxa1 13. O-O Qxe5 {
+och svart har kvalitet + två bönder.}) 13. Qe2 {
+Nu kan tornet inte slås p.g.a. Lc3 och damen är fångad.} Qxe2+ 14. Kxe2 Rc8 15.
+Rd1 Nf6 16. Bc3 Ne4 17. Bd4 b6 18. f3 Nd6 19. Kf1 (19. Nc3 $1 {
+Vit har pjäs över och bör använda sig av den.}) 19... Nf5 20. Bf2 Rc6 21. g4
+Nd6 22. Bd4 f6 23. Na3 Rhc8 24. Kg2 e5 $1 {Svart tar terräng i centrum.} 25.
+Be3 d4 26. Bf2 a5 27. Kg3 b5 28. f4 Ne4+ 29. Kf3 Nxf2 30. Kxf2 Rc5 31. Kf3 {
+och spelarna enades om remi. Vits merpjäs uppvägs av svarts aktiva spel.}
+1/2-1/2
+

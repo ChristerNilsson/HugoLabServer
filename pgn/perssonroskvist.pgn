@@ -1,0 +1,18 @@
+[Event "Seniorserien_2012"]
+[Site "?"]
+[Date "2012.09.20"]
+[Round "?"]
+[White "Kjell Persson"]
+[Black "Gunnar Roskvist"]
+[Result "1/2-1/2"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/8/8/2k5/p3K3/P7/1P6/8 w - - 0 1"]
+[PlyCount "11"]
+
+{600MB, Fritz11.ctg, Dell} 1. Ke5 $1 {enda draget som vinner.} ({
+I partiet spelades} 1. Kd3 $2 Kd5 2. Kc3 Kc5 3. b4+ axb3 4. Kxb3 Kb5 {
+och vit fick nöja sig med remi.}) 1... Kc4 2. Kd6 Kb3 (2... Kb5 3. Kd5 Ka5 4.
+Kc5 Ka6 5. Kb4 Kb6 6. Kxa4 {med enkel vinst.}) 3. Kc5 Kxb2 4. Kb4 Ka2 5. Kxa4
+Kb2 6. Kb4 {och a-bonden går i dam.} 1/2-1/2
+

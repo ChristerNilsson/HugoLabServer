@@ -1,0 +1,15 @@
+[Event "Moskva 1947"]
+[Site "?"]
+[Date "2012.12.10"]
+[Round "?"]
+[White "Chekover"]
+[Black "Sokolsky"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "2b2rk1/2P5/1p5p/p2Pp3/1P2P1n1/P4B2/4QB1q/4RK2 b - - 0 1"]
+[PlyCount "7"]
+
+{600MB, Fritz11.ctg, Dell} 1... Ba6 $1 2. b5 Bxb5 $1 {Uppgivet!} 3. Bxb6 Qh1+
+4. Bg1 Rxf3# 0-1
+

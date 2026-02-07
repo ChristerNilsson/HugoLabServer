@@ -1,0 +1,30 @@
+[Event "Senior_KM_2015"]
+[Site "?"]
+[Date "2015.02.29"]
+[Round "2"]
+[White "Eriksson, Bo"]
+[Black "Ring, Lars"]
+[Result "0-1"]
+[ECO "C45"]
+[WhiteElo "1728"]
+[BlackElo "1617"]
+[Annotator "Persson,Kjell"]
+[PlyCount "90"]
+[EventDate "2015.??.??"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 {Vit väljer Skotskt parti.} Bc5 5. c3 (
+5. Nxc6 Qf6 6. Qd2 dxc6 7. Nc3 {är en vanligare fortsättning.}) 5... Qf6 6. Be3
+Nge7 7. Be2 O-O 8. O-O d6 9. Qd2 h6 10. Nb5 Qg6 11. Nxc7 Bh3 12. Bf3 Ne5 13.
+Qe2 Rac8 14. Bxc5 dxc5 15. Nb5 $4 (15. Nd5 {är nödvändigt här.} Nxd5 16. exd5
+Rfe8 17. Nd2 {med lika spel.}) 15... Rcd8 16. Kh1 Rd3 (16... Nxf3 17. Qxf3 (17.
+gxh3 Qh5 18. Rg1 Qxh3 19. Rg2 Ng6 20. N1a3 Nf4 21. Qf1 Rfe8 22. Nc4 Re6 23.
+Rxg7+ Kxg7 24. Qxh3 Nxh3 25. Kg2 Nhg5) 17... Rd3 {vinner snabbt för svart.} {
+T.ex.} 18. Qxh3 Rxh3 19. gxh3) 17. gxh3 Rxf3 18. Nd2 Rxh3 19. Rg1 Qf6 20. Rg3
+Qh4 21. Rxh3 Qxh3 22. Rg1 Qd3 23. Qxd3 Nxd3 24. Nxa7 $4 {
+bjuder in svart via a-linjen.} Ra8 25. Nb5 Rxa2 26. Rb1 Nxb2 27. Nb3 Nd3 28.
+Nd6 Nxf2+ {svart fortsätter att plocka bönder.} 29. Kg1 Nh3+ 30. Kh1 b6 31. Nc1
+Rc2 32. c4 Ng6 33. Rxb6 {Desperation, men vit är redan förlorad.} Ne5 34. Rb3 {
+Det hotade -, Sf3 med snar matt.} Rxc1+ 35. Kg2 Nf4+ 36. Kg3 Ne6 37. Rb8+ Kh7
+38. Rb7 Nd4 39. Re7 Nxc4 40. Nxf7 Rf1 41. Nd8 Rf3+ 42. Kh4 Ne3 43. Nb7 Kg6 44.
+Nxc5 Ng2+ 45. Kg4 h5# 0-1
+

@@ -1,0 +1,17 @@
+[Event "SeniorDM_HT2013"]
+[Site "?"]
+[Date "2013.12.12"]
+[Round "11"]
+[White "Christer Larsson"]
+[Black "Kjell Persson"]
+[Result "0-1"]
+[WhiteElo "1358"]
+[BlackElo "1878"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/p7/1p3rk1/7p/8/2P4P/PP1QpqP1/4R2K b - - 0 1"]
+[PlyCount "1"]
+
+{600MB, Fritz11.ctg, Dell} 1... Qxe1+ {och vit gav upp.} (1... Qf1+ $2 2. Kh2
+Rf2 3. Qd6+ {och vit får remischackar med damen.}) 0-1
+

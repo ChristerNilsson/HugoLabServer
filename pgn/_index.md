@@ -1,0 +1,4 @@
+---
+title: PGN
+auto: true
+---

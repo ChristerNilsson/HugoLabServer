@@ -1,0 +1,21 @@
+[Event "?"]
+[Site "?"]
+[Date "2018.04.12"]
+[Round "?"]
+[White "Troitzky1916"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "k2K4/8/6P1/2B5/5P2/p7/4p2b/8 w - - 0 1"]
+[PlyCount "13"]
+
+{600MB, Fritz11.ctg, Dell} 1. g7 (1. Bb4 a2 2. g7 a1=Q 3. g8=Q Qa7 4. Qd5+ Qb7
+5. Qa2+ Qa7 6. Qxe2 Bxf4 7. Qf3+ Qb7 8. Qxf4 Qb8+ 9. Qxb8+ Kxb8 {med remi.})
+1... e1=Q 2. g8=Q Kb7 (2... Qd2+ $4 3. Kc7+ Qd8+ 4. Qxd8#) (2... Qh4+ $4 3.
+Kc7+ Qd8+ 4. Qxd8#) (2... Qg3 $4 3. Qd5+ Kb8 4. Qd6+ Kb7 5. Qb6+ Ka8 6. Qa7#)
+3. Qb3+ Kc6 4. Qb6+ Kd5 5. Qb5 $3 {
+ett stillsamt drag som hotar damvinst i alla varianter.} Qd1 (5... Qh4+ 6. Be7+
+Ke4 7. Bxh4) (5... Qe6 6. Qb3+ Kxc5 7. Qxe6) (5... Qh1 6. Qb7+ Kxc5 7. Qxh1) (
+5... Qa1 6. Bd4+ Kxd4 7. Qe5+ Kd3 8. Qxa1) 6. Qd7+ Kxc5 7. Qxd1 1-0
+

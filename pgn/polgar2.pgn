@@ -1,0 +1,15 @@
+[Event "HT2017_pos_2"]
+[Site "?"]
+[Date "2017.06.25"]
+[Round "?"]
+[White "Polgar"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "3N4/3R4/4p1p1/4k3/q5P1/P4P2/3P2K1/8 w - - 0 1"]
+[PlyCount "5"]
+
+{600MB, Fritz11.ctg, Dell} 1. f4+ Kxf4 (1... Qxf4 2. Rd4 Qxd4 3. Nc6+ $3) (1...
+Ke4 2. Nxe6 Qxd7 3. Nc5+ $3) (1... Kf6 2. Rf7#) 2. Rd4+ Qxd4 3. Nxe6+ $3 1-0
+

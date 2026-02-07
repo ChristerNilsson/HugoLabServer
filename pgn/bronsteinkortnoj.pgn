@@ -1,0 +1,17 @@
+[Event "Damslutspel"]
+[Site "?"]
+[Date "2016.01.01"]
+[Round "?"]
+[White "Bronstein"]
+[Black "Korschnoi"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "1Q2R3/6pk/7p/8/6P1/1p3q2/1P1r2PK/8 w - - 0 1"]
+[PlyCount "9"]
+
+{600MB, Fritz11.ctg, Dell} 1. Rh8+ Kg6 2. Rxh6+ $1 Kxh6 (2... gxh6 3. Qg8+ $1
+Kf6 4. Qf8+ {och vit vinner.}) (2... Kf7 3. Qc7+ Kg8 4. Qc8+ Qf8 5. Rh8+ $1 {
+och vit vinner.}) (2... Kg5 $2 3. Qe5+ Kxg4 4. Rg6+ Kh4 5. Qg5#) 3. Qh8+ Kg6 4.
+Qh5+ Kf6 5. g5+ $1 {följt av Qxf3 och vit vinner.} 1-0
+

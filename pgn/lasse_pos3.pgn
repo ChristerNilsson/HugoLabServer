@@ -1,0 +1,37 @@
+[Event "?"]
+[Site "?"]
+[Date "2016.03.16"]
+[Round "?"]
+[White "POS3"]
+[Black "?"]
+[Result "*"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "6bk/8/5P2/p3PP2/8/8/3K4/8 w - - 0 1"]
+[PlyCount "13"]
+[EventDate "2016.??.??"]
+
+1. e6 a4 2. Kd1 $1 (2. Kc3 $2 {leder till remi.} a3 3. Kb3 Bh7 4. e7 Bg8+ 5.
+Kxa3 Bf7 6. Kb4 Kh7 7. Kc5 Kh6 8. Kd6 Kg5 9. Ke5 Kg4 10. Kd6 Kxf5 11. Kd7) 2...
+a3 3. Kc1 Kh7 4. Kb1 Kh6 5. Ka1 Kh7 6. Ka2 Kh6 7. Kxa3 *
+
+[Event "?"]
+[Site "?"]
+[Date "2016.03.16"]
+[Round "?"]
+[White "POS3"]
+[Black "?"]
+[Result "*"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "6bk/8/5P2/p3PP2/8/8/3K4/8 w - - 0 1"]
+[PlyCount "13"]
+[EventDate "2016.??.??"]
+
+1. e6 $1 {enda draget.} a4 2. Kd1 $1 {enda draget.} (2. Kc3 $2 {
+leder till remi.} a3 3. Kb3 Bh7 4. e7 Bg8+ 5. Kxa3 Bf7 6. Kb4 Be8 7. Kc5 Kg8 8.
+Kd6 Kf7) 2... a3 3. Kc1 $1 {enda draget.} Kh7 4. Kb1 (4. Kc2 {är likvärdigt.})
+4... Kh6 5. Ka1 $1 {enda draget.} (5. Ka2 $2 {leder till remi.} Bh7 6. e7 (6.
+f7 Kg7 7. f6+ Kf8 8. e7+ Kxf7) 6... Bg8+ 7. Kxa3 Bf7) 5... Kh7 6. Ka2 Kh6 7.
+Kxa3 *
+

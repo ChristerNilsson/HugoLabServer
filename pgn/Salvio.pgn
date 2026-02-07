@@ -1,0 +1,16 @@
+[Event "SALVIO"]
+[Site "?"]
+[Date "2016.09.29"]
+[Round "?"]
+[White "Salvio"]
+[Black "Fritz 11"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "7k/4K1p1/6Pp/5N1P/8/8/8/8 w - - 0 1"]
+[PlyCount "11"]
+
+{600MB, Fritz11.ctg, Dell} 1. Nd6 {[%emt 0:00:00]} (1. Nxh6 $4 gxh6 2. Kf6 Kg8
+3. g7 Kh7 4. g8=Q+ Kxg8 5. Kg6 Kh8 6. Kxh6 {och vit får bara remi.}) 1... Kg8 {
+[%emt 0:00:00]} 2. Ne8 Kh8 3. Nf6 gxf6 4. Kf7 f5 5. g7+ Kh7 6. g8=Q# 1-0
+

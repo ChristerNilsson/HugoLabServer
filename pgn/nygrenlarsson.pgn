@@ -1,0 +1,15 @@
+[Event "Elitserien"]
+[Site "?"]
+[Date "2012.09.17"]
+[Round "?"]
+[White "David Nygren"]
+[Black "V. Larsson"]
+[Result "0-1"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "5nk1/5ppp/1r6/2qP4/3Q4/1P3P1P/P1r3P1/1K1R3R b - - 0 1"]
+[PlyCount "5"]
+
+{600MB, Fritz11.ctg, Dell} 1... Rc1+ 2. Kb2 (2. Rxc1 $2 Qxd4 $1) 2... Qxd4+ 3.
+Rxd4 Rxh1 {och svart vinner.} 0-1
+

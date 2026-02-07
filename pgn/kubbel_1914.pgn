@@ -1,0 +1,21 @@
+[Event "Kubbel 1914"]
+[Site "?"]
+[Date "2016.11.25"]
+[Round "?"]
+[White "Vit"]
+[Black "Svart"]
+[Result "1-0"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "8/8/4N3/8/7p/3K1k2/7P/8 w - - 0 1"]
+[PlyCount "25"]
+
+{600MB, Fritz11.ctg, Dell} 1. h3 $1 {Enda draget som leder till vinst.} (1.
+Ng5+ $4 Kg4 {och svart håller lätt remi.}) 1... Kg3 2. Ng5 Kf4 3. Ne4 Kf3 4.
+Kd4 Kf4 (4... Kg2 $2 {förlorar snabbt.} 5. Ng5 Kg3 6. Ke3 Kg2 7. Kf4 Kh2 8. Kg4
+{och vit vinner.}) 5. Kd5 Kf5 6. Nc3 $1 (6. Nf2 $2 {räcker bara till remi.} Kf4
+7. Kd4 Kg3 8. Ke3 Kg2 9. Kf4 Kxf2 10. Kg4 Ke3 $1 11. Kxh4 Kf4 $1 {
+och den vita kungen blir instängd vid kanten.}) 6... Kf4 7. Ne2+ Kf3 8. Ng1+ $1
+Kg2 9. Ke4 Kxg1 10. Kf3 Kf1 11. Kg4 Kf2 12. Kxh4 Kf3 13. Kg5 {och vit vinner.}
+1-0
+

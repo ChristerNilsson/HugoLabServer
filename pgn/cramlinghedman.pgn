@@ -1,0 +1,17 @@
+[Event "SM_2011"]
+[Site "?"]
+[Date "2011.07.10"]
+[Round "?"]
+[White "Dan Cramling"]
+[Black "Erik Hedman"]
+[Result "*"]
+[Annotator "Persson,Kjell"]
+[SetUp "1"]
+[FEN "r1bq3k/1p1n2b1/p2pQ1pp/2pP1P2/P4P2/2N2N1P/1Pn3P1/1RB2BK1 b - - 0 1"]
+[PlyCount "5"]
+
+{600MB, Fritz11.ctg, Dell} 1... Ne5 $1 {Den vita damen har ingen reträttväg.}
+2. fxe5 (2. Nxe5 $1 Bxe6 3. Nxg6+ Kh7 4. dxe6 {
+och vit kan kämpa några drag till, men är i det långa loppet förlorad.}) 2...
+Bxe6 3. fxe6 Nd4 {och vit gav upp efter ytterligare några drag.} *
+

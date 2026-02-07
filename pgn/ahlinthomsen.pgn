@@ -1,0 +1,42 @@
+[Event "Seniorserien_VT2013"]
+[Site "Stockholm"]
+[Date "2013.02.27"]
+[Round "6"]
+[White "Per Åhlin"]
+[Black "Allan Thomsen"]
+[Result "0-1"]
+[ECO "B23"]
+[WhiteElo "1535"]
+[BlackElo "1471"]
+[Annotator "Persson,Kjell"]
+[PlyCount "140"]
+[TimeControl "40/7200:20/3600:1800"]
+
+{600MB, Fritz11.ctg, Dell} 1. e4 {[%emt 0:00:00]} c5 2. Nc3 Nc6 3. f4 d6 4. Nf3
+e6 5. Bb5 a6 6. Bxc6+ bxc6 7. d3 Be7 8. O-O Nf6 9. b3 d5 10. Qe1 d4 $2 {
+Med detta drag ger svart upp en del av centrum. Det var bättre att stå kvar på
+d5.} 11. Na4 Nd7 12. Bd2 ({Med} 12. c3 {kan vit börja bryta upp svarts centrum.
+}) 12... a5 13. Qg3 O-O 14. Rac1 Ba6 15. Ne1 Bb5 16. c3 Nf6 17. Nb2 a4 18. c4 (
+18. bxa4 {Bättre är} Bxa4 19. e5 Nd5 20. cxd4 cxd4 21. f5) 18... a3 19. Nd1 Ba6
+20. Nf2 h6 21. Ng4 {hotar Sxh6} Nxg4 22. Qxg4 f5 23. Qf3 Qd7 24. Nc2 fxe4 25.
+Qxe4 Bb7 26. Rce1 Bc8 27. Re2 Qc7 28. Bc1 Bd6 29. h3 Bd7 30. Rf3 {
+och ställningen är helt jämn.} Rae8 31. Rf1 Re7 32. Ref2 Ref7 33. Nxa3 Qa5 34.
+Nb1 {Vit har skaffat sig en merbonde, men de lätta pjäserna är ganska passiva.}
+Qd8 35. a4 Qb6 36. Nd2 Qb4 37. g4 Be7 38. Qe2 Bh4 39. Rf3 g5 $4 {
+öppnar för ett farligt angrepp mot kungen.} (39... Be7 40. Qe5 Ra8 {
+ger lika spel.}) 40. fxg5 Bxg5 41. Rxf7 Rxf7 42. Rxf7 Be3+ $4 {ett onödigt
+mellandrag, som ger vit möjlighet att ändra tornförlusten till en
+kvalitetsförlust.} 43. Kf1 $4 ({Det rätta draget var ju förstås.} 43. Rf2 Bxf2+
+44. Qxf2 {och vit är pjäs över.}) 43... Kxf7 44. Qd1 Qb8 45. Ba3 Qf4+ 46. Nf3
+Qg3 $2 (46... h5 47. Qe2 hxg4 48. hxg4 e5 {ger svart klar fördel.}) 47. Qe2
+Qxh3+ 48. Qg2 Qxg2+ 49. Kxg2 Bf4 50. Bxc5 e5 51. Kh3 (51. a5 $1) 51... h5 52.
+Kh4 hxg4 $1 53. Ng1 $4 (53. Ne1 {är nödvändigt för att gardera d3-bonden.})
+53... Kg6 {och svart står bättre.} 54. a5 g3 ({Här kan svart bryta igenom med} 
+54... e4 $3 55. dxe4 d3 56. a6 d2 57. a7 d1=Q 58. a8=Q {
+den vita damen kommer för sent.} Qe1+ 59. Bf2 Qxf2#) 55. a6 $1 {
+binder upp svarts vitfältslöpare till försvar} Bc8 56. a7 Bb7 57. Ne2 g2 58.
+Kh3 g1=N+ 59. Nxg1 Be3 60. Nf3 Kf5 61. Kg3 Bf4+ 62. Kf2 Kg4 63. Ke2 Kf5 64. Ne1
+{och vit står på vinst.} Ke6 65. Nc2 Kd7 66. Kf3 Bh6 67. Ke4 Ke6 68. Ne1 $2 ({
+Vinstvägen för vit är} 68. Nb4 Bd2 69. Na6 $3) 68... Bg7 69. Nf3 Bh8 70. Bb6 $4
+{Möjliggör den vackra matten} c5# 0-1
+
