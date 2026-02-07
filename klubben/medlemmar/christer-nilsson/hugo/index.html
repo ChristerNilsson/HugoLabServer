@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hugo</title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body class=""><main>
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/HugoLabServer/">Home</a>
+ • 
+<a href="/HugoLabServer/klubben/">Klubben</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+
+		<h1>Hugo</h1>
+
+		
+		
+		<h2 id="uppsnabbning-av-kommandot-a">Uppsnabbning av kommandot ./a</h2>
+<p>Man bör flytta så många filer som möjligt till static.<br>
+Detta eftersom Hugo söker igenom alla filer i content.<br>
+Vilket innebär att ./a kan ta uppemot en minut initialt.<br>
+Jag provade att flytta dokument. Det föll på att .md-filer inte får ligga i static.<br>
+Ska en flytt ske måste den alltså vara smartare. Bara flytta över pdf-er, inte .md.<br>
+Kanske får man överge auto för dokument.<br>
+Det är bara webmaster som drabbas av denna minut, inte användarna.</p>
+<h2 id="horisontell-vs-vertikal-meny">Horisontell vs vertikal meny</h2>
+<p>På iPad syns asterisker framför menyvalen på startsidan.<br>
+Jag skapar nu menyn för startsidan manuellt.</p>
+
+	
+	</div>
+</main></body>
+</html>
