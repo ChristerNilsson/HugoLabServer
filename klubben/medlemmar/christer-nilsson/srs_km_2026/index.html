@@ -54,51 +54,57 @@ setDefault('font','Helvetica')
       <tr>
           <th style="text-align: center">Rond</th>
           <th style="text-align: center">Bord</th>
+          <th style="text-align: left">Vit</th>
+          <th style="text-align: left">Svart</th>
           <th style="text-align: center">Tendens</th>
-          <th style="text-align: left">Spelare</th>
-          <th style="text-align: left">Resultat</th>
+          <th style="text-align: center">Resultat</th>
       </tr>
   </thead>
   <tbody>
       <tr>
           <td style="text-align: center">2</td>
           <td style="text-align: center">9</td>
-          <td style="text-align: center">1/2</td>
-          <td style="text-align: left">Viklund-Ornstein</td>
+          <td style="text-align: left">Viklund</td>
+          <td style="text-align: left">ORNSTEIN</td>
+          <td style="text-align: center">½</td>
           <td style="text-align: left"></td>
       </tr>
       <tr>
           <td style="text-align: center">3</td>
           <td style="text-align: center">11</td>
-          <td style="text-align: center">1/2</td>
-          <td style="text-align: left">Hellman-Pettersson</td>
+          <td style="text-align: left">Hellman</td>
+          <td style="text-align: left">PETTERSSON</td>
+          <td style="text-align: center">½</td>
           <td style="text-align: left"></td>
       </tr>
   </tbody>
 </table>
-<p>Före lottning: sätt alla tendenser enligt ovan<br>
-Efter lottning: sätt alla tendenser till Empty</p>
-<p>Ange det verkliga resultatet i sista kolumnen</p>
+<p>Tendens: eloskillnad &lt;= 200 ger remi<br>
+Före lottning: sätt resultat = tendens<br>
+Efter lottning: sätt resultat = Empty<br>
+Versaler: Spelaren som initierade uppskjutandet<br>
+Efter verkligt parti: Stryk Tendens och ange Resultat<br>
+Enda acceptabla orsak: Sjukdom<br>
+Partiet måste spelas inom en vecka.</p>
 <h3 id="personlig-frirond">Personlig frirond</h3>
-<p>0.5 poäng delas ut efter att ronden spelats.</p>
 <table>
   <thead>
       <tr>
           <th style="text-align: center">Rond</th>
           <th style="text-align: left">Spelare</th>
-          <th style="text-align: left">Status</th>
+          <th style="text-align: center">Bonus</th>
       </tr>
   </thead>
   <tbody>
       <tr>
           <td style="text-align: center">1</td>
           <td style="text-align: left">Johansson</td>
-          <td style="text-align: left">ok</td>
+          <td style="text-align: center">½</td>
       </tr>
       <tr>
           <td style="text-align: center">2</td>
           <td style="text-align: left">Karlsson</td>
-          <td style="text-align: left">ok</td>
+          <td style="text-align: center">½</td>
       </tr>
       <tr>
           <td style="text-align: center">4</td>
@@ -117,6 +123,10 @@ Efter lottning: sätt alla tendenser till Empty</p>
       </tr>
   </tbody>
 </table>
+<p>½ poäng delas ut efter att ronden spelats.<br>
+Max två frironder per spelare.<br>
+Orsak behöver ej anges.<br>
+Sista två ronderna accepteras Personlig frirond ej.</p>
 <h2 id="inledning">Inledning</h2>
 <ul>
 <li><a href="lathund">Lathund</a></li>
