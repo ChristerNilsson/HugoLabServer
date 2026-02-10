@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Setup</title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body class=""><main>
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+	<div>
+		
+
+<a href="/HugoLabServer/">Home</a>
+
+
+		<h1>Setup</h1>
+		<h3 id="tema">Tema</h3>
+<ul>
+<li><a onclick="setStorage('theme','light')">Ljust</a></li>
+<li><a onclick="setStorage('theme','dark')">Mörkt</a></li>
+</ul>
+<h3 id="font">Font</h3>
+<ul>
+<li><a onclick="setStorage('font','Helvetica')">Helvetica</a></li>
+<li><a onclick="setStorage('font','Courier New')">Courier New</a></li>
+<li><a onclick="setStorage('font','Times New Roman')">Times New Roman</a></li>
+</ul>
+<h3 id="fontstorlek">Fontstorlek</h3>
+<ul>
+<li><a onclick="setStorage('fontsize','14')">14</a></li>
+<li><a onclick="setStorage('fontsize','16')">16</a></li>
+<li><a onclick="setStorage('fontsize','18')">18</a></li>
+<li><a onclick="setStorage('fontsize','20')">20</a></li>
+<li><a onclick="setStorage('fontsize','22')">22</a></li>
+<li><a onclick="setStorage('fontsize','24')">24</a></li>
+<li><a onclick="setStorage('fontsize','26')">26</a></li>
+<li><a onclick="setStorage('fontsize','28')">28</a></li>
+</ul>
+
+		
+	</div>
+</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/setup/_index.md">Source</a></p></body>
+</html>
