@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Äldre meddelanden</title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body class=""><main>
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+	<div>
+		
+
+<a href="/HugoLabServer/">Home</a>
+
+
+		<h1>Äldre meddelanden</h1>
+		
+
+
+
+<span>2026-02-05 11:00 &bull; rond 3 Schweizer KM</span><br>
+
+
+
+<span>2026-02-10 10:00 &bull; Möte Christer Nilsson och Henrik Strömbäck</span><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	</div>
+</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/meddelanden/_index.md">Source</a></p></body>
+</html>
