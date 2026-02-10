@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historik</title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body class=""><main>
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+	<div>
+		
+
+<a href="/HugoLabServer/">Home</a>
+ • 
+<a href="/HugoLabServer/klubben/">Klubben</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+		<h1>Historik</h1>
+		<p><a href="https://s3.chess-results.com/tnr1316880.aspx?art=1">2026 VT KM</a> • <a href="https://s3.chess-results.com/tnr1316880.aspx?art=2">Bord</a></p>
+<p><a href="https://member.schack.se/ShowTournamentServlet?id=17774">2026 VT Klass 1</a></p>
+<p><a href="https://member.schack.se/ShowTournamentServlet?id=16854">2025 HT Klass 1</a></p>
+<p><a href="https://member.schack.se/ShowTournamentServlet?id=15530">2025 VT Klass 1</a></p>
+<p><a href="https://member.schack.se/ShowTournamentServlet?id=14509">2024 HT Klass 2</a></p>
+<p><a href="https://member.schack.se/ShowTournamentServlet?id=13633">2024 VT Klass 4</a></p>
+
+		
+	</div>
+</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/christer-nilsson/historik/_index.md">Source</a></p></body>
+</html>
