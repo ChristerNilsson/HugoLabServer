@@ -41,7 +41,17 @@ setDefault('font','Helvetica')
 
 
 		<h1>Seniorschack KM 2026</h1>
-		<h3 id="uppskjutna-partier">Uppskjutna partier</h3>
+		<ol>
+<li>Mata in resultat</li>
+<li>Ange personliga frironder</li>
+<li>Före lottning: sätt resultat = tendens</li>
+<li>Lottning</li>
+<li>Efter lottning: sätt resultat = Empty</li>
+<li>Utskrift av Ställning och Bordslista</li>
+<li>Ladda upp till Chess Results</li>
+<li>Spara turneringen</li>
+</ol>
+<h3 id="uppskjutna-partier">Uppskjutna partier</h3>
 <table>
   <thead>
       <tr>
@@ -64,6 +74,14 @@ setDefault('font','Helvetica')
       </tr>
       <tr>
           <td style="text-align: center">3</td>
+          <td style="text-align: center">1</td>
+          <td style="text-align: left">JOVIC</td>
+          <td style="text-align: left">Hedin</td>
+          <td style="text-align: center">½</td>
+          <td style="text-align: center">Spelas 26/3</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">3</td>
           <td style="text-align: center">11</td>
           <td style="text-align: left">Hellman</td>
           <td style="text-align: left">PETTERSSON</td>
@@ -81,12 +99,11 @@ setDefault('font','Helvetica')
   </tbody>
 </table>
 <p>Tendens: eloskillnad &lt;= 200 ger remi<br>
-Före lottning: sätt resultat = tendens<br>
-Efter lottning: sätt resultat = Empty<br>
 Versaler: Spelaren som initierade uppskjutandet<br>
 Efter verkligt parti: Stryk Tendens och ange Resultat<br>
-Enda acceptabla orsak: Sjukdom<br>
-Partiet måste spelas inom en vecka.</p>
+Acceptabel orsak: Huvudsakligen sjukdom</p>
+<p>Printa Bordlista och Ställning <strong>efter att</strong> tendensen nollställts.<br>
+(Ska överenstämma med Chess Results)</p>
 <h3 id="personlig-frirond">Personlig frirond</h3>
 <table>
   <thead>
@@ -99,18 +116,18 @@ Partiet måste spelas inom en vecka.</p>
   <tbody>
       <tr>
           <td style="text-align: center">1</td>
-          <td style="text-align: left">Johansson</td>
+          <td style="text-align: left">LB Johansson</td>
           <td style="text-align: center">½</td>
       </tr>
       <tr>
           <td style="text-align: center">2</td>
-          <td style="text-align: left">Karlsson</td>
+          <td style="text-align: left">SÅ Karlsson</td>
           <td style="text-align: center">½</td>
       </tr>
       <tr>
           <td style="text-align: center">4</td>
-          <td style="text-align: left">Pettersson</td>
-          <td style="text-align: left"></td>
+          <td style="text-align: left">LÅ Pettersson</td>
+          <td style="text-align: center">½</td>
       </tr>
       <tr>
           <td style="text-align: center">5</td>
@@ -128,6 +145,10 @@ Partiet måste spelas inom en vecka.</p>
 Max två frironder per spelare.<br>
 Orsak behöver ej anges.<br>
 Sista två ronderna accepteras Personlig frirond ej.</p>
+<p>Pairings | Exclude Player&hellip;<br>
+Klicka på spelaren<br>
+Klicka på ronden som ska avmarkeras<br>
+OK</p>
 <h2 id="inledning">Inledning</h2>
 <ul>
 <li><a href="lathund">Lathund</a></li>
