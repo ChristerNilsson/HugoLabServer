@@ -44,14 +44,40 @@ setDefault('font','Helvetica')
 
 		<h1>Sortering</h1>
 		<ul>
-<li>Steg 0: skapa gruppskyltar</li>
-<li>Inför varje rond måste namnskyltarna placeras ut.</li>
+<li>Bordsnummer underlättar för de som har lättare att komma ihåg spelöppningar än ansikten
+<ul>
+<li>De underlättar för nya klubbmedlemmar att komma in i gemenskapen</li>
+<li>De minskar risken att man spelar vid fel bord</li>
+</ul>
+</li>
+<li>Namnskyltar är inte nödvändiga, men brukar uppskattas av deltagarna
+<ul>
+<li>De minskar risken att man spelar vid fel bord eller med fel färg</li>
+<li>De underlättar också att skriva rätt namn och elo på motståndaren</li>
+</ul>
+</li>
+</ul>
+<p>Namnskyltar används endast för långpartier.<br>
+Räkna med 15 sekunder per skylt och ledare för att placera ut skyltarna, per rond.<br>
+40 skyltar tar cirka tio minuter.</p>
+<ul>
+<li>Steg 0: skapa gruppskyltar. Görs bara en gång</li>
+<li>Inför varje rond måste namnskyltarna placeras ut</li>
 <li>Steg 1: Sortera dem på efternamnet</li>
-<li>Steg 2: Preparera</li>
+<li>Steg 2: Preparera grupperna</li>
 <li>Steg 3: Placera ut dem vid brädena</li>
 <li>Steg 4: Efter varje partislut</li>
 </ul>
 <h2 id="steg-0---skapa-gruppskyltar">Steg 0 - skapa gruppskyltar</h2>
+<p>Detta steg görs bara en gång för hela turneringen.<br>
+Gruppskyltar snabbar upp sorteringen om man har ont om utrymme<br>
+Personer inom en grupp kan sorteras, men det behövs inte.</p>
+<ul>
+<li>B : Berg Bergström</li>
+<li>C : Cederfeldt</li>
+<li>L : Ländin Liistamo Lindblad Löwgren Lundberg Lundquist</li>
+<li>osv</li>
+</ul>
 <table>
   <thead>
       <tr>
@@ -98,36 +124,49 @@ setDefault('font','Helvetica')
       </tr>
   </tbody>
 </table>
-<ul>
-<li>Vi skapar fem grupper, så jämnstora som möjligt.</li>
-<li>Börja med den största L6. Lägg den i grupp I</li>
-<li>Därefter kommer S6. Lägg den i grupp II</li>
-<li>Därefter J5. Lägges i III</li>
-<li>H4 i IV</li>
-<li>K4 i V</li>
-<li>Nu har alla grupperna påbörjats</li>
-<li>Nästa är B2. Den läggs i minsta gruppen, dvs IV</li>
-<li>osv</li>
-</ul>
-<p>Slutresultat: COS BFHV EGKW JPR samt LÅN. Alla exakt åtta personer stora.</p>
-<h2 id="steg-1---sortera-på-efternamnet">Steg 1 - sortera på efternamnet</h2>
+<pre tabindex="0"><code>Vi skapar fem grupper, så jämnstora som möjligt.
+Tag den vanligaste bokstaven - lägg i första minsta grupp
+Start 0 0 0 0 0
+L6 =&gt; 6 0 0 0 0  L
+S6 =&gt; 6 6 0 0 0  L S
+J5 =&gt; 6 6 5 0 0  L S J
+H4 =&gt; 6 6 5 4 0  L S J H
+K4 =&gt; 6 6 5 4 4  L S J H K
+B2 =&gt; 6 6 5 6 4  L S J HB K
+E2 =&gt; 6 6 5 6 6  L S J HB KE
+R2 =&gt; 6 6 7 6 6  L S JR HB KE
+C1 =&gt; 7 6 7 6 6  LC S JR HB KE
+F1 =&gt; 7 7 7 6 6  LC SF JR HB KE
+G1 =&gt; 7 7 7 7 6  LC SF JR HBG KE
+N1 =&gt; 7 7 7 7 7  LC SF JR HBG KEN
+O1 =&gt; 8 7 7 7 7  LCO SF JR HBG KEN
+P1 =&gt; 8 8 7 7 7  LCO SFP JR HBG KEN
+V1 =&gt; 8 8 8 7 7  LCO SFP JRV HBG KEN
+W1 =&gt; 8 8 8 8 7  LCO SFP JRV HBGW KEN
+Å1 =&gt; 8 8 8 8 8  LCO SFP JRV HBGW KENÅ
+Kontroll LCO =&gt; 6 + 1 + 1 = 8
+Kontroll SFP =&gt; 6 + 1 + 1 = 8
+Kontroll JRV =&gt; 5 + 2 + 1 = 8
+Kontroll HBGW =&gt; 4 + 2 + 1 + 1 = 8
+Kontroll KENÅ =&gt; 4 + 2 + 1 + 1 = 8
+</code></pre><h2 id="steg-1---sortera-på-efternamnet">Steg 1 - sortera på efternamnet</h2>
 <ul>
 <li>Tag fram traven med 40 namnskyltar.</li>
-<li>Placera Nilsson i gruppen LÅN</li>
-<li>Placera Sahlin i gruppen COS</li>
+<li>Placera Nilsson i gruppen KENÅ</li>
+<li>Placera Sahlin i gruppen SFP</li>
 <li>osv</li>
 </ul>
 <h2 id="steg-2---preparera">Steg 2 - Preparera</h2>
 <p>Borden står i grupper om fyra.</p>
 <ul>
 <li>Utgå från bordslistan</li>
-<li>För bord 17 18 19 20
+<li>För bord 20 19 18 17
 <ul>
 <li>Hämta svart och vit spelare</li>
 </ul>
 </li>
 <li>Wrappa med en A4 märkt 17 18 19 20</li>
-<li>För bord 13 14 15 16
+<li>För bord 16 15 14 13
 <ul>
 <li>Hämta svart och vit spelare</li>
 </ul>
@@ -136,26 +175,45 @@ setDefault('font','Helvetica')
 <li>osv</li>
 </ul>
 <h2 id="steg-3---placera-ut-skyltarna">Steg 3 - Placera ut skyltarna</h2>
-<pre tabindex="0"><code>Schacksalongerna
-
+<p>Placera ut alla bordsnummer initialt</p>
+<pre tabindex="0"><code>Schacksalongerna, förslag
+     R 
 1 5    9    13
 2 6     10    14
 3 7   11    15
 4 8     12    16
-
      17 18 19 20
+R = Resultatbord
 </code></pre><ul>
-<li>Se till att brädena alla har vit åt samma håll</li>
-<li>Ställ även klockorna</li>
-<li>Kontrollera att pjäserna står rätt</li>
+<li>Se till att brädena alla har vit åt samma håll och har koordinater
+<ul>
+<li>Att ha svart och sakna HGFEDCBA är ingen fördel när man för protokoll under tidsnöd</li>
+<li>Det finns 25 nyinköpta bräden utan koordinater, med pjäser med bottenbula. Undvik dem, de är från Temu</li>
+</ul>
+</li>
+<li>Placera ut skyltarna</li>
+<li>Ställ klockorna på rätt tid
+<ul>
+<li>Sätt klockan på ON</li>
+<li>Ställ in tid nr 17, dvs 90 + 30
+<ul>
+<li>Använd + och - vid behov</li>
+</ul>
+</li>
+<li>Bekräfta med höger knapp</li>
+</ul>
+</li>
+<li>Kontrollera att pjäserna står rätt och att de står stabilt</li>
+<li>Även om ett bord saknar spelare, packa inte. Bord 20 ska alltid vara samma bord</li>
+<li>Om tid finns, fixa lösa skruvar på stolar och bord. Med insexnyckel och kryssmejsel</li>
 </ul>
 <h2 id="steg-4---efter-varje-partislut">Steg 4 - Efter varje partislut</h2>
 <ul>
 <li>Vinnaren fyller i resultatet på bordslistan</li>
-<li>Tag de två skyltarna samt bordsnumret och flytta dem till resultatbordet</li>
+<li>Ledaren tar de två skyltarna samt bordsnumret och flyttar dem till resultatbordet R</li>
 <li>Kontrollera att resultatet fyllts i</li>
-<li>Om ej - leta upp de två spelarna, t ex i Analysrummet</li>
-<li>Se till att antal resultat och antal bordsnummer är lika</li>
+<li>Om ej - leta upp de två spelarna, t ex i Analysrummet eller kaféet.</li>
+<li>Se till att antal resultat och antal insamlade bordsnummer är lika</li>
 </ul>
 
 		
