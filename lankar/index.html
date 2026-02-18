@@ -26,6 +26,46 @@ setDefault('theme','dark')
 setDefault('fontsize','20px')
 setDefault('font','Helvetica')
 
+function updateRelativeTimes() {
+	const roots = document.querySelectorAll('[data-lastmod]')
+	const units = [
+		{ seconds: 365 * 24 * 60 * 60, label: "year" },
+		{ seconds: 30 * 24 * 60 * 60, label: "month" },
+		{ seconds: 24 * 60 * 60, label: "day" },
+		{ seconds: 60 * 60, label: "hour" },
+		{ seconds: 60, label: "minute" },
+	]
+
+	for (const root of roots) {
+		const lastmodUnix = Number(root.dataset.lastmod || 0)
+		if (!Number.isFinite(lastmodUnix) || lastmodUnix <= 0) continue
+
+		const nowUnix = Math.floor(Date.now() / 1000)
+		const diffSeconds = Math.max(0, nowUnix - lastmodUnix)
+
+		let value = 0
+		let label = "minute"
+
+		for (const unit of units) {
+			if (diffSeconds >= unit.seconds) {
+				value = Math.floor(diffSeconds / unit.seconds)
+				label = unit.label
+				break
+			}
+		}
+
+		const suffix = value === 1 ? "" : "s"
+		const target = root.querySelector('.relative-time-value')
+		if (target) target.textContent = `${value} ${label}${suffix}`
+	}
+}
+
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', updateRelativeTimes)
+} else {
+	updateRelativeTimes()
+}
+
 </script>
 
 	<div>
@@ -60,21 +100,9 @@ setDefault('font','Helvetica')
 
 		
 
-		
-
-
-
-
-
-
-
-
-
-<p class="meta">
-Uppdaterad:
-
-    8 dagar sedan
-
+		<p class="meta" id="relative-time" data-lastmod="1770744772">
+  Uppdaterad:
+  <span class="relative-time-value">0 minutes</span>
 </p>
 
 		
