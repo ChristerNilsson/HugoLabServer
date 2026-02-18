@@ -29,11 +29,11 @@ setDefault('font','Helvetica')
 function updateRelativeTimes() {
 	const roots = document.querySelectorAll('[data-lastmod]')
 	const units = [
-		{ seconds: 365 * 24 * 60 * 60, label: "year" },
-		{ seconds: 30 * 24 * 60 * 60, label: "month" },
-		{ seconds: 24 * 60 * 60, label: "day" },
-		{ seconds: 60 * 60, label: "hour" },
-		{ seconds: 60, label: "minute" },
+		{ seconds: 365 * 24 * 60 * 60, singular: "år", plural: "år" },
+		{ seconds: 30 * 24 * 60 * 60, singular: "månad", plural: "månader" },
+		{ seconds: 24 * 60 * 60, singular: "dag", plural: "dagar" },
+		{ seconds: 60 * 60, singular: "timme", plural: "timmar" },
+		{ seconds: 60, singular: "minut", plural: "minuter" },
 	]
 
 	for (const root of roots) {
@@ -44,19 +44,18 @@ function updateRelativeTimes() {
 		const diffSeconds = Math.max(0, nowUnix - lastmodUnix)
 
 		let value = 0
-		let label = "minute"
+		let unitText = "minuter"
 
 		for (const unit of units) {
 			if (diffSeconds >= unit.seconds) {
 				value = Math.floor(diffSeconds / unit.seconds)
-				label = unit.label
+				unitText = value === 1 ? unit.singular : unit.plural
 				break
 			}
 		}
 
-		const suffix = value === 1 ? "" : "s"
 		const target = root.querySelector('.relative-time-value')
-		if (target) target.textContent = `${value} ${label}${suffix}`
+		if (target) target.textContent = `${value} ${unitText}`
 	}
 }
 
@@ -432,9 +431,9 @@ Men, det går att med tämligen enkla medel tillhandahålla trädet på Wordpres
 
 		
 
-		<p class="meta" id="relative-time" data-lastmod="1769955241">
+		<p class="meta" id="relative-time" data-lastmod="1736729865">
   Uppdaterad:
-  <span class="relative-time-value">0 minutes</span>
+  <span class="relative-time-value">0 minuter</span>
 </p>
 
 		
