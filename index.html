@@ -30,11 +30,11 @@ setDefault('font','Helvetica')
 function updateRelativeTimes() {
 	const roots = document.querySelectorAll('[data-lastmod]')
 	const units = [
-		{ seconds: 365 * 24 * 60 * 60, singular: "år", plural: "år" },
-		{ seconds: 30 * 24 * 60 * 60, singular: "månad", plural: "månader" },
-		{ seconds: 24 * 60 * 60, singular: "dag", plural: "dagar" },
-		{ seconds: 60 * 60, singular: "timme", plural: "timmar" },
-		{ seconds: 60, singular: "minut", plural: "minuter" },
+		{ seconds: 365 * 24 * 60 * 60, singular: "ett år", plural: "år" },
+		{ seconds: 30 * 24 * 60 * 60, singular: "en månad", plural: "månader" },
+		{ seconds: 24 * 60 * 60, singular: "en dag", plural: "dagar" },
+		{ seconds: 60 * 60, singular: "en timme", plural: "timmar" },
+		{ seconds: 60, singular: "en minut", plural: "minuter" },
 	]
 
 	for (const root of roots) {
@@ -45,18 +45,18 @@ function updateRelativeTimes() {
 		const diffSeconds = Math.max(0, nowUnix - lastmodUnix)
 
 		let value = 0
-		let unitText = "minuter"
+		let text = "nyss"
 
 		for (const unit of units) {
 			if (diffSeconds >= unit.seconds) {
 				value = Math.floor(diffSeconds / unit.seconds)
-				unitText = value === 1 ? unit.singular : unit.plural
+				text = value === 1 ? unit.singular : `${value} ${unit.plural}`
 				break
 			}
 		}
 
 		const target = root.querySelector('.relative-time-value')
-		if (target) target.textContent = `${value} ${unitText}`
+		if (target) target.textContent = text === "nyss" ? text : `för ${text} sedan`
 	}
 }
 
@@ -227,6 +227,6 @@ if (document.readyState === 'loading') {
 </table>
 
 </p>
-</div><old style="font-size: 1em">Uppdaterad 2026-02-18 21:52 av Christer Nilsson</old>
+</div><old style="font-size: 1em">Uppdaterad 2026-02-19 08:12 av Christer Nilsson</old>
 </main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/_index.md">Source</a></p></body>
 </html>
