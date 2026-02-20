@@ -259,10 +259,24 @@ Detta pga att spelarna flyter mellan klasserna.<br>
 56/2*11=308 partier =&gt; ett bortfall på 5.5/308 = 1.8%</p>
 <p>Som en bonus, skulle förväntat antal partier/spelare för Klass 4 öka från 6.8 till 10.5</p>
 <p><strong>Om man använt FairPair istället, hade man sänkt bortfallet från 15.9% till 1.8%.</strong></p>
+<h3 id="hur-fairpair-lottar-n-spelare">Hur FairPair lottar N spelare</h3>
+<ul>
+<li>Sortera personer enligt fallande elotal</li>
+<li>Beräkna alla positiva elodifferenser</li>
+<li>Det blir N * N värden</li>
+<li>Lägg in dem i en matris</li>
+<li>Tag bort alla celler där spelarna möter sig själva</li>
+<li>Tag bort alla celler där spelarna redan mötts</li>
+<li>Tag bort alla celler som inte är tillåtna pga färgregler</li>
+<li>Observera att matrisen blir symmetrisk kring huvuddiagonalen</li>
+<li>Placera ut N torn så att de inte kan nå varandra. Observera symmetrin</li>
+<li>Summan av cellerna som tornen står på ska minimeras</li>
+<li>Upprepa för övriga ronder</li>
+</ul>
 
 		
 
-		<p class="meta" id="relative-time" data-lastmod="1744810796">
+		<p class="meta" id="relative-time" data-lastmod="1771605755">
   Uppdaterad <span class="relative-time-value">nyss</span>
 </p>
 
