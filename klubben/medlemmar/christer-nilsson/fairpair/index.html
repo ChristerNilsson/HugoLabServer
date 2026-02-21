@@ -273,10 +273,228 @@ Detta pga att spelarna flyter mellan klasserna.<br>
 <li>Summan av cellerna som tornen står på ska minimeras</li>
 <li>Upprepa för övriga ronder</li>
 </ul>
+<h3 id="lottning-av-fyra-spelare">Lottning av fyra spelare</h3>
+<ul>
+<li>Sortera spelarna</li>
+<li>Lägg in absoluta elo differenserna i matrisen</li>
+<li>Stryk följande celler:
+<ul>
+<li>Spelaren möter sig själv</li>
+<li>Spelarna har redan mötts</li>
+<li>Färgregler bryts</li>
+</ul>
+</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: right"></th>
+          <th style="text-align: right"></th>
+          <th style="text-align: right"></th>
+          <th style="text-align: right"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: right">1800</td>
+          <td style="text-align: right">1700</td>
+          <td style="text-align: right">1600</td>
+          <td style="text-align: right">1500</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1800</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">100</td>
+          <td style="text-align: right">200</td>
+          <td style="text-align: right">300</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1700</td>
+          <td style="text-align: right">100</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">100</td>
+          <td style="text-align: right">200</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1600</td>
+          <td style="text-align: right">200</td>
+          <td style="text-align: right">100</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">100</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1500</td>
+          <td style="text-align: right">300</td>
+          <td style="text-align: right">200</td>
+          <td style="text-align: right">100</td>
+          <td style="text-align: right">•</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="rond-1-summa--400">Rond 1 (summa = 400)</h4>
+<ul>
+<li>Placera ut fyra torn, de ska ej kunna slå varandra.</li>
+<li>Välj den tornplacering som ger minsta summan</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: right"></th>
+          <th style="text-align: right"></th>
+          <th style="text-align: right"></th>
+          <th style="text-align: right"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: right">1800</td>
+          <td style="text-align: right">1700</td>
+          <td style="text-align: right">1600</td>
+          <td style="text-align: right">1500</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1800</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">100</td>
+          <td style="text-align: right"></td>
+          <td style="text-align: right"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1700</td>
+          <td style="text-align: right">100</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right"></td>
+          <td style="text-align: right"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1600</td>
+          <td style="text-align: right"></td>
+          <td style="text-align: right"></td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">100</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1500</td>
+          <td style="text-align: right"></td>
+          <td style="text-align: right"></td>
+          <td style="text-align: right">100</td>
+          <td style="text-align: right">•</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="rond-2-alternativ-1">Rond 2 alternativ 1</h4>
+<p>summa = 800<br>
+kvadratsumma = 1x1 + 1x1 + 3x3 + 3x3 = 1 + 1 + 9 + 9 = 20</p>
+<ul>
+<li>Kvadratsumman ger ett jämnare resultat.</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: right"></th>
+          <th style="text-align: right"></th>
+          <th style="text-align: right"></th>
+          <th style="text-align: right"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: right">1800</td>
+          <td style="text-align: right">1700</td>
+          <td style="text-align: right">1600</td>
+          <td style="text-align: right">1500</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1800</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right"></td>
+          <td style="text-align: right">300</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1700</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">100</td>
+          <td style="text-align: right"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1600</td>
+          <td style="text-align: right"></td>
+          <td style="text-align: right">100</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">•</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1500</td>
+          <td style="text-align: right">300</td>
+          <td style="text-align: right"></td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">•</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="rond-2-alternativ-2">Rond 2 alternativ 2</h4>
+<p>summa = 800<br>
+kvadratsumma = 2x2 + 2x2 + 2x2 + 2x2 = 4 + 4 + 4 + 4 = 16</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: right"></th>
+          <th style="text-align: right"></th>
+          <th style="text-align: right"></th>
+          <th style="text-align: right"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: right">1800</td>
+          <td style="text-align: right">1700</td>
+          <td style="text-align: right">1600</td>
+          <td style="text-align: right">1500</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1800</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">200</td>
+          <td style="text-align: right"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1700</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right"></td>
+          <td style="text-align: right">200</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1600</td>
+          <td style="text-align: right">200</td>
+          <td style="text-align: right"></td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">•</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1500</td>
+          <td style="text-align: right"></td>
+          <td style="text-align: right">200</td>
+          <td style="text-align: right">•</td>
+          <td style="text-align: right">•</td>
+      </tr>
+  </tbody>
+</table>
 
 		
 
-		<p class="meta" id="relative-time" data-lastmod="1771605755">
+		<p class="meta" id="relative-time" data-lastmod="1771689510">
   Uppdaterad <span class="relative-time-value">nyss</span>
 </p>
 
