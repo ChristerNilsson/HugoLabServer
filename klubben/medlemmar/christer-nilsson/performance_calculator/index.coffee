@@ -1,5 +1,7 @@
 echo = console.log 
 
+# OBS: LASK-räknaren använder tabell, inte logistic, vilket FIDE numera använder.
+
 ass = (a,b) ->
 	if a != b 
 		console.log 'assert failure'
@@ -56,15 +58,20 @@ calculate = ->
 	input = input.replaceAll ',',' '
 	data = input.trim().split ' '
 	if data.length <= 1 then return
-	own_rating = parse_float data.pop()
+	own_rating = parseFloat data.pop()
 	pp = parseFloat data.pop()
 	elos = (parseFloat item for item in data)
-	average = summa(elos) / elos.length
-	echo elos,pp,own_rating
+	n = elos.length
+	average = summa(elos) / n
+	echo ''
+	echo elos
+	echo pp
+	echo own_rating
+	K = 20
 	document.getElementById("AVG").innerText      = average.toFixed 0
 	document.getElementById("NORMDIST").innerText = performance(pp, elos, expected_horner).toFixed 0
 	document.getElementById("LOGISTIC").innerText = performance(pp, elos, expected_score).toFixed 0
 	document.getElementById("FIDE").innerText     = perf_fide(elos, pp, average).toFixed 0
-	document.getElementById("RATING").innerText   = (pp * expected_score(elos, own_rating)).toFixed 0
+	document.getElementById("RATING").innerText = (K * (pp - expected_score(elos, own_rating))).toFixed 1
 
 calculate()
