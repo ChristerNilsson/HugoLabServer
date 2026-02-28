@@ -80,8 +80,13 @@ if (document.readyState === 'loading') {
 
 
 		<h1>Performance Calculator</h1>
-		<p>Enter the ratings of the opponents, followed by the score, separated by space:</p>
-<input type="text" id="INPUT" oninput="calculate()" size=65 value="2400 2500 2600 2.5" style="font-size:24px">
+		<p>Enter, separated by spaces</p>
+<ul>
+<li>the ratings of your opponents</li>
+<li>your score</li>
+<li>[ your own rating ]</li>
+</ul>
+<input type="text" id="INPUT" oninput="calculate()" size=65 value="2400 2500 2600 2.5 2550" style="font-size:24px">
 <table>
   <thead>
       <tr>
@@ -111,13 +116,18 @@ if (document.readyState === 'loading') {
           <td style="text-align: center"><div id="NORMDIST">0</div></td>
           <td style="text-align: left"><a href="https://en.wikipedia.org/wiki/Error_function">Error function</a></td>
       </tr>
+      <tr>
+          <td style="text-align: left">Your new rating</td>
+          <td style="text-align: center"><div id="RATING">0</div></td>
+          <td style="text-align: left"></td>
+      </tr>
   </tbody>
 </table>
 <script src="index.js"></script>
 
 		
 
-		<p class="meta" id="relative-time" data-lastmod="1766394104">
+		<p class="meta" id="relative-time" data-lastmod="1772298567">
   Uppdaterad <span class="relative-time-value">nyss</span>
 </p>
 
