@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hemsidan</title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body class=""><main>
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+function updateRelativeTimes() {
+	const roots = document.querySelectorAll('[data-lastmod]')
+	const units = [
+		{ seconds: 365 * 24 * 60 * 60, singular: "ett år", plural: "år" },
+		{ seconds: 30 * 24 * 60 * 60, singular: "en månad", plural: "månader" },
+		{ seconds: 24 * 60 * 60, singular: "en dag", plural: "dagar" },
+		{ seconds: 60 * 60, singular: "en timme", plural: "timmar" },
+		{ seconds: 60, singular: "en minut", plural: "minuter" },
+	]
+
+	for (const root of roots) {
+		const lastmodUnix = Number(root.dataset.lastmod || 0)
+		if (!Number.isFinite(lastmodUnix) || lastmodUnix <= 0) continue
+
+		const nowUnix = Math.floor(Date.now() / 1000)
+		const diffSeconds = Math.max(0, nowUnix - lastmodUnix)
+
+		let value = 0
+		let text = "nyss"
+
+		for (const unit of units) {
+			if (diffSeconds >= unit.seconds) {
+				value = Math.floor(diffSeconds / unit.seconds)
+				text = value === 1 ? unit.singular : `${value} ${unit.plural}`
+				break
+			}
+		}
+
+		const target = root.querySelector('.relative-time-value')
+		if (target) target.textContent = text === "nyss" ? text : `för ${text} sedan`
+	}
+}
+
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', updateRelativeTimes)
+} else {
+	updateRelativeTimes()
+}
+
+</script>
+
+	<div>
+		
+
+<a href="/HugoLabServer/">Home</a>
+ • 
+<a href="/HugoLabServer/klubben/">Klubben</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+		<h1>Hemsidan</h1>
+		<h3 id="2025-11">2025-11</h3>
+<p>Styrelsen beslöt att vi kommer att betala för nuvarande hemsida under 2026.
+Styrelsen beslöt också att KS ersätter AF som styrelsens representant
+(projektägare) i projektet med framtagande av en ny hemsida för klubben.</p>
+<h3 id="2025-10">2025-10</h3>
+<p>AF redogjorde för arbetet med en ny hemsida. Styrelsen beslöt att ajournera
+frågan.</p>
+<h4 id="övriga-frågor">Övriga frågor</h4>
+<p>Begäran om åtkomst till Sveriges Schackförbunds medlemsregister
+(AF)
+Christer Nilsson har önskat att Seniorschack Stockholm ska begära
+åtkomst för honom till Sveriges Schackförbunds medlemsregister.
+Styrelsen beslöt att avslå hans önskemål.</p>
+<p><em>Det handlar inte om att få tillgång till medlemsdata. Det handlar om att kunna arrangera Berger och Swiss-turneringar. Men, det är ju praktiskt att det är integrerat med medlemsregistret.</em></p>
+<h3 id="2025-09">2025-09</h3>
+<p>DI redogjorde för nuvarande situation med vår hemsida. Vår nuvarande
+webadministratör LJA har meddelat att han önskar bli ersatt. Hans son
+(Nicolas) kan tills vidare ersätta honom. Vi skickar uppdateringar av hemsidan
+som vanligt till LJA.
+AF ska ta kontakt med Roslagens webbyrå och rapportera status på vårt
+samarbete med dem.
+AF ska sammankalla till ett möte om hemsidan där AF, DÖ, LJA och hans son
+Nicolas deltar. Det ska ske innan nästa möte.</p>
+<h3 id="2025-08">2025-08</h3>
+<p>BS har fått inbjudan från det så kallade Schackeriet om vi vill använda deras
+webbplattform. Den är gratis och är en plattform som är under utveckling. Vi
+beslöt att avvakta med att ansluta oss.
+Vår nuvarande webbmaster Lars-Johan Andersson har meddelat att han önskar
+sluta som webbmaster. Han har skrivit att hans son skulle kunna ersätta
+honom. Vi beslöt att bjuda in Lars-Johan och hans son till nästa styrelsemöte
+för att diskutera webbsidans framtid.</p>
+<h3 id="2025-07">2025-07</h3>
+<p>Arbetet med att skapa en ny hemsida har försenats. Björn Löwgren har inte
+möjlighet att fortsätta som samordnare och en ersättare behövs. AF
+sammankallar SrS referensgrupp och kontaktar även Anders Eriksson
+(nuvarande konsult) för diskussion om hur arbetet kan fortsätta.</p>
+<h3 id="2025-06">2025-06</h3>
+<p>Arbetet med hemsidan går just nu långsamt.</p>
+<h3 id="2025-05">2025-05</h3>
+<p>Arbetet med hemsidan fortskrider.</p>
+<h3 id="2025-04">2025-04</h3>
+<p>AF berättade att vi inväntar en ny prototyp av hemsidan. Då kan styrelsen ta
+beslut om hur vi vill att den ska se ut.</p>
+<h3 id="2025-03">2025-03</h3>
+<p>AF, som är sammankallande i den grupp som styrelsen tillsatt för att få fram en
+bättre hemsida, redogjorde för dess arbete. Det återstår ett antal månaders arbete
+för att få den klar</p>
+<h3 id="2025-02">2025-02</h3>
+<p>AF, som är sammankallande i den grupp som styrelsen tillsatt för att få fram en
+bättre hemsida, redogjorde för dess arbete. Det återstår ett antal månaders arbete
+för att få den klar</p>
+<h3 id="2025-01">2025-01</h3>
+<p>Arbetet fortgår med framförallt överföring och konvertering av information från
+den gamla hemsidan till den nya. Det konstaterades att två av
+styrelsemedlemmarna som har Iphone har problem med att läsa nuvarande text
+på den nya hemsidan.</p>
+<h3 id="2024-10">2024-10</h3>
+<p>Arbetet med prototypen för den nya hemsidan fortgår. Anders Eriksson
+(RoslagensWebbyrå) har satt upp miljön i WordPress, och Björn Löwgren har satt upp
+strukturen för den första prototypen. Anders F. återkommer via e-post med mer
+information i ärendet.
+Vårt avtal med leverantören (One.com) till vår nuvarande hemsida gäller fram till den 15
+mars 2025.</p>
+<h3 id="2024-09">2024-09</h3>
+<p>AF, som är sammankallande i den grupp som styrelsen tillsatt för att få fram en
+bättre hemsida, redogjorde för dess arbete.
+Styrelsen beslöt att inrikta sig på ett förslag som bygger på plattformen
+Wordpress. Detta av två skäl:</p>
+<ol>
+<li>Det är väl beprövat och lätt att underhålla och</li>
+<li>det ger minskat personberoende.</li>
+</ol>
+<p>Styrelsen är också positiv till ett samarbete med Roslagens webbyrå. Ett förslag
+till avtal med Roslagen webbyrå har lämnats till styrelsen Avtalstexten har
+lämnats i remiss till styrelsen. Om någon i styrelsen har synpunkter på förslaget
+så ska dessa lämnas till AF innan veckans slut.</p>
+<p><em>Om 1. och 2. råder det delade meningar.</em></p>
+<h3 id="2024-08">2024-08</h3>
+<h4 id="arbetet-med-ny-hemsida">Arbetet med ny hemsida.</h4>
+<p>AF: AF är projektledare för arbetet med en ny hemsida för föreningen.
+Christer Nilsson tar hand om den tekniska delen och Björn Löwgren tar hand
+om den grafiska designen. De ska ha nästa möte den 30 oktober. Gruppen har
+skickat ut en skrivelse till föreningens medlemmar för att berätta:</p>
+<ol>
+<li>vad de gör,</li>
+<li>för att hitta personer med kompetenser inom föreningen som kan bidra
+till projektet och</li>
+<li>se om det finns personer som vill hjälpa. En referensgrupp
+på fyra personer har bildats. Nuvarande hemsida har vi till den 15 mars 2025.
+Den nya hemsidan beräknas bli tagen i drift då.
+Styrelsen godkänner att projektgruppen förfogar upp till 8000 kronor för
+utvecklingskostnader av hemsidan (se ovan under punkt 6. Ekonomi).</li>
+</ol>
+<p><em>Dessa 8.000 kronor disponeras av Björn Löwgren, inte Christer Nilsson</em></p>
+<h4 id="ny-ansvarig-för-hemsidan">Ny ansvarig för hemsidan.</h4>
+<p>Christer Nilsson blir ny webmaster från 1 november. Styrelsen tackar
+nuvarande webmaster Lars-Johan Andersson för ett utmärkt arbete under flera
+år.</p>
+<h3 id="2024-07">2024-07</h3>
+<p>AF kommer att kalla arbetsgruppen för modernisering av hemsidan till ett möte
+senare under hösten.</p>
+<h3 id="2024-06">2024-06</h3>
+<p>Hemsidan. På förra mötet tillsattes en arbetsgrupp för den nya hemsidan. Dags att
+sammankalla gruppen?
+Det beslutades att till nästa möte ska arbetsgruppen presentera en rapport. Det
+beslutades även att LBJ kontaktar Svenska schackförbundets ordförande Håkan
+Jalling om det finns tankar om att etablera någon form av gemensam struktur för
+landets schackklubbar. Han ska även lyssna med Håkan om möjligheten att lagra
+inspelningar från till exempel utbildningar</p>
+<h3 id="2024-05">2024-05</h3>
+<p>Till denna punkt var CN och BL särskilt inbjudna som sakkunniga.
+Styrelsen var enig om att nuvarande hemsida behöver förbättras och att det behövs en
+ny plattform för den.
+Styrelsen beslutade att tillsätta en arbetsgrupp som ska diskutera hemsidans framtid
+och vilket innehåll den ska ha. Arbetsgruppen består av: AF (sammankallande), BL,
+CN och LJA.</p>
+<h3 id="2024-04-17-april">2024-04 (17 april)</h3>
+<p>Lars-Johan Andersson är webbansvarig. Vi bjuder in Christer Nilsson till nästa möte som är
+IT-kunnig och har idéer om utveckling av webbsidan. DI bjuder Christer och Lars-Johan till
+nästa styrelsemöte. Protokollen ligger under “Klubben” på hemsidan. Vi återupptar rutinen att
+lägga upp protokoll på webben.</p>
+
+		
+
+		<p class="meta" id="relative-time" data-lastmod="1772483153">
+  Uppdaterad <span class="relative-time-value">nyss</span>
+</p>
+
+		
+	</div>
+</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/christer-nilsson/hemsidan/_index.md">Source</a></p></body>
+</html>
