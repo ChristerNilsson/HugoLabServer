@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body class=""><main>
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+function updateRelativeTimes() {
+	const roots = document.querySelectorAll('[data-lastmod]')
+	const units = [
+		{ seconds: 365 * 24 * 60 * 60, singular: "ett år", plural: "år" },
+		{ seconds: 30 * 24 * 60 * 60, singular: "en månad", plural: "månader" },
+		{ seconds: 24 * 60 * 60, singular: "en dag", plural: "dagar" },
+		{ seconds: 60 * 60, singular: "en timme", plural: "timmar" },
+		{ seconds: 60, singular: "en minut", plural: "minuter" },
+	]
+
+	for (const root of roots) {
+		const lastmodUnix = Number(root.dataset.lastmod || 0)
+		if (!Number.isFinite(lastmodUnix) || lastmodUnix <= 0) continue
+
+		const nowUnix = Math.floor(Date.now() / 1000)
+		const diffSeconds = Math.max(0, nowUnix - lastmodUnix)
+
+		let value = 0
+		let text = "nyss"
+
+		for (const unit of units) {
+			if (diffSeconds >= unit.seconds) {
+				value = Math.floor(diffSeconds / unit.seconds)
+				text = value === 1 ? unit.singular : `${value} ${unit.plural}`
+				break
+			}
+		}
+
+		const target = root.querySelector('.relative-time-value')
+		if (target) target.textContent = text === "nyss" ? text : `för ${text} sedan`
+	}
+}
+
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', updateRelativeTimes)
+} else {
+	updateRelativeTimes()
+}
+
+</script>
+
+	<div>
+		
+
+<a href="/HugoLabServer/">Home</a>
+ • 
+<a href="/HugoLabServer/klubben/">Klubben</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/srs_km_2026/">Seniorschack KM 2026</a>
+
+
+		<h1></h1>
+		<table>
+  <thead>
+      <tr>
+          <th style="text-align: right">#</th>
+          <th style="text-align: left">Namn</th>
+          <th style="text-align: left">1</th>
+          <th style="text-align: left">2</th>
+          <th style="text-align: left">3</th>
+          <th style="text-align: left">4</th>
+          <th style="text-align: left">5</th>
+          <th style="text-align: left">6</th>
+          <th style="text-align: left">7</th>
+          <th style="text-align: left">8</th>
+          <th style="text-align: left">9</th>
+          <th style="text-align: left">10</th>
+          <th style="text-align: center">TT</th>
+          <th style="text-align: right">Totalt</th>
+          <th style="text-align: right">BH/M1</th>
+          <th style="text-align: left">PR</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: right">1</td>
+          <td style="text-align: left">Jovic</td>
+          <td style="text-align: left">•</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">?</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">1</td>
+          <td style="text-align: right">4.0</td>
+          <td style="text-align: right">9.0</td>
+          <td style="text-align: left">2650</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">2</td>
+          <td style="text-align: left">Lindblad</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">•</td>
+          <td style="text-align: left">=</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">=</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">1</td>
+          <td style="text-align: right">4.0</td>
+          <td style="text-align: right">9.0</td>
+          <td style="text-align: left">2129</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">3</td>
+          <td style="text-align: left">Berg</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">=</td>
+          <td style="text-align: left">•</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">=</td>
+          <td style="text-align: center">1</td>
+          <td style="text-align: right">4.0</td>
+          <td style="text-align: right">8.0</td>
+          <td style="text-align: left">2066</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">4</td>
+          <td style="text-align: left">Silins</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">•</td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: center">1</td>
+          <td style="text-align: right">4.0</td>
+          <td style="text-align: right">7.5</td>
+          <td style="text-align: left">2081</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">5</td>
+          <td style="text-align: left">Strömbäck</td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">•</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">2</td>
+          <td style="text-align: right">3.5</td>
+          <td style="text-align: right">10.5</td>
+          <td style="text-align: left">2059</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">6</td>
+          <td style="text-align: left">Johansson</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left">•</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: right">3.5</td>
+          <td style="text-align: right">8.5</td>
+          <td style="text-align: left">2069</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">7</td>
+          <td style="text-align: left">Ålgars</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">•</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">0</td>
+          <td style="text-align: right">3.5</td>
+          <td style="text-align: right">8.0</td>
+          <td style="text-align: left">1990</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">8</td>
+          <td style="text-align: left">Evertsson</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">•</td>
+          <td style="text-align: left">=</td>
+          <td style="text-align: left">=</td>
+          <td style="text-align: center">1</td>
+          <td style="text-align: right">3.5</td>
+          <td style="text-align: right">7.5</td>
+          <td style="text-align: left">1919</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">9</td>
+          <td style="text-align: left">Hedin</td>
+          <td style="text-align: left">?</td>
+          <td style="text-align: left">=</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">=</td>
+          <td style="text-align: left">•</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">2</td>
+          <td style="text-align: right">3.0</td>
+          <td style="text-align: right">10.5</td>
+          <td style="text-align: left">2104</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">10</td>
+          <td style="text-align: left">Engström</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">=</td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">=</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">•</td>
+          <td style="text-align: center">1</td>
+          <td style="text-align: right">3.0</td>
+          <td style="text-align: right">9.5</td>
+          <td style="text-align: left">1929</td>
+      </tr>
+  </tbody>
+</table>
+<p>BH/M1: Motståndarnas poäng minus lägsta</p>
+
+		
+
+		<p class="meta" id="relative-time" data-lastmod="1772652140">
+  Uppdaterad <span class="relative-time-value">nyss</span>
+</p>
+
+		
+	</div>
+</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/christer-nilsson/srs_km_2026/top-ten/_index.md">Source</a></p></body>
+</html>
