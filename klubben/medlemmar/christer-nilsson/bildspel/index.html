@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head><script src="/HugoLabServer/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=HugoLabServer/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bildspel</title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body class=""><main>
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+function updateRelativeTimes() {
+	const roots = document.querySelectorAll('[data-lastmod]')
+	const units = [
+		{ seconds: 365 * 24 * 60 * 60, singular: "ett år", plural: "år" },
+		{ seconds: 30 * 24 * 60 * 60, singular: "en månad", plural: "månader" },
+		{ seconds: 24 * 60 * 60, singular: "en dag", plural: "dagar" },
+		{ seconds: 60 * 60, singular: "en timme", plural: "timmar" },
+		{ seconds: 60, singular: "en minut", plural: "minuter" },
+	]
+
+	for (const root of roots) {
+		const lastmodUnix = Number(root.dataset.lastmod || 0)
+		if (!Number.isFinite(lastmodUnix) || lastmodUnix <= 0) continue
+
+		const nowUnix = Math.floor(Date.now() / 1000)
+		const diffSeconds = Math.max(0, nowUnix - lastmodUnix)
+
+		let value = 0
+		let text = "nyss"
+
+		for (const unit of units) {
+			if (diffSeconds >= unit.seconds) {
+				value = Math.floor(diffSeconds / unit.seconds)
+				text = value === 1 ? unit.singular : `${value} ${unit.plural}`
+				break
+			}
+		}
+
+		const target = root.querySelector('.relative-time-value')
+		if (target) target.textContent = text === "nyss" ? text : `för ${text} sedan`
+	}
+}
+
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', updateRelativeTimes)
+} else {
+	updateRelativeTimes()
+}
+
+</script>
+
+	<div>
+		
+
+<a href="/HugoLabServer/">Home</a>
+ • 
+<a href="/HugoLabServer/klubben/">Klubben</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+		<h1>Bildspel</h1>
+		<iframe id="frame" width="1800" height="1000"></iframe>
+<script>
+let pages = [
+  "https://christernilsson.github.io/HugoLabServer/",
+  "https://christernilsson.github.io/HugoLabServer/klubben/",
+  "https://christernilsson.github.io/HugoLabServer/klubben/medlemmar/",
+  "https://christernilsson.github.io/HugoLabServer/klubben/medlemmar/christer-nilsson/",
+  "https://christernilsson.github.io/HugoLabServer/klubben/medlemmar/christer-nilsson/partier/",
+  "https://christernilsson.github.io/HugoLabServer/klubben/medlemmar/christer-nilsson/partier/2026-vt/",
+  "https://member.schack.se/ShowTournamentServlet?id=17774"
+]
+
+let i = 0
+
+function next() {
+  document.getElementById("frame").src = pages[i]
+  i = (i + 1) % pages.length
+}
+
+setInterval(next, 5000)
+next()
+</script>
+		
+
+		<p class="meta" id="relative-time" data-lastmod="1772743477">
+  Uppdaterad <span class="relative-time-value">nyss</span>
+</p>
+
+		
+	</div>
+</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/christer-nilsson/bildspel/_index.md">Source</a></p></body>
+</html>
