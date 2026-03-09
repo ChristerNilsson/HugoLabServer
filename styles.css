@@ -65,7 +65,7 @@ body[theme="dark"] {
   background-color: black;
   color: white; }
   body[theme="dark"] a {
-    color: yellow; }
+    color: darkorange; }
   body[theme="dark"] th, body[theme="dark"] td {
     border: 1px solid #fff; }
   body[theme="dark"] th {
