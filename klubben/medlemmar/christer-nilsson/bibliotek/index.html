@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliotek</title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body class=""><main>
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+function updateRelativeTimes() {
+	const roots = document.querySelectorAll('[data-lastmod]')
+	const units = [
+		{ seconds: 365 * 24 * 60 * 60, singular: "ett år", plural: "år" },
+		{ seconds: 30 * 24 * 60 * 60, singular: "en månad", plural: "månader" },
+		{ seconds: 24 * 60 * 60, singular: "en dag", plural: "dagar" },
+		{ seconds: 60 * 60, singular: "en timme", plural: "timmar" },
+		{ seconds: 60, singular: "en minut", plural: "minuter" },
+	]
+
+	for (const root of roots) {
+		const lastmodUnix = Number(root.dataset.lastmod || 0)
+		if (!Number.isFinite(lastmodUnix) || lastmodUnix <= 0) continue
+
+		const nowUnix = Math.floor(Date.now() / 1000)
+		const diffSeconds = Math.max(0, nowUnix - lastmodUnix)
+
+		let value = 0
+		let text = "nyss"
+
+		for (const unit of units) {
+			if (diffSeconds >= unit.seconds) {
+				value = Math.floor(diffSeconds / unit.seconds)
+				text = value === 1 ? unit.singular : `${value} ${unit.plural}`
+				break
+			}
+		}
+
+		const target = root.querySelector('.relative-time-value')
+		if (target) target.textContent = text === "nyss" ? text : `för ${text} sedan`
+	}
+}
+
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', updateRelativeTimes)
+} else {
+	updateRelativeTimes()
+}
+
+</script>
+
+	<div>
+		
+
+<a href="/HugoLabServer/">Home</a>
+ • 
+<a href="/HugoLabServer/klubben/">Klubben</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+		<h1>Bibliotek</h1>
+		<p>Det finns massor av böcker och tidskrifter på Salongerna.
+Dessa tillhör distriktet, kan man förmoda.</p>
+<p>Hur som helst, det borde finnas en förteckning över dessa böcker och ett sätt att hitta dem om man vill läsa.<br>
+Förslagsvis sorteras på författarnamnet i första hand.<br>
+Hyllorna får märkas upp med en insticksflik.</p>
+<p>Dessutom behöver olika kategorier införas:</p>
+<ul>
+<li>Böcker
+<ul>
+<li>Partiböcker</li>
+<li>Monografier</li>
+<li>Folianter</li>
+</ul>
+</li>
+<li>Tidskrifter</li>
+</ul>
+<p>Mitt förslag är att man åtminstone gör en textfil tillgängling på stockholmsschack.</p>
+<p>Denna kan sökas mha ctrl-f.</p>
+<h2 id="exempel">Exempel</h2>
+<h3 id="d">D</h3>
+<p>Robert <u>Danielsson</u> och Michael Wiander: Drakens Schackskola</p>
+<h3 id="h">H</h3>
+<p><u>Hörberg</u> och Westberg: Capablanca</p>
+<h3 id="k">K</h3>
+<p><u>Kasparov</u> och Keene: Batsford Chess Openings 2. 1989</p>
+<h3 id="l">L</h3>
+<p>Emanuel <u>Lasker</u>: Sunt förnuft i schack. 1924<br>
+<u>Lundahl</u> och Westman: Historiska schackpartier. Från Philidor till Keres. 1967</p>
+<h3 id="p">P</h3>
+<p>Ludek <u>Pachman</u>: Attack and Defence in Modern Chess Tactics. 1964</p>
+<h3 id="r">R</h3>
+<p>Kurt <u>Richter</u>: Schackkavalkad. 1985</p>
+
+		
+
+		<p class="meta" id="relative-time" data-lastmod="1773247218">
+  Uppdaterad <span class="relative-time-value">nyss</span>
+</p>
+
+		
+	</div>
+</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/christer-nilsson/bibliotek/_index.md">Source</a></p></body>
+</html>
