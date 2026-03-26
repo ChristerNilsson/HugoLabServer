@@ -8,9 +8,6 @@
     <loc>https://christernilsson.github.io/HugoLabServer/klubben/medlemmar/christer-nilsson/lovable/nyheter-och-aktuellt/tyst-l%C3%A4ge/</loc>
     <lastmod>2025-11-17T18:15:43+01:00</lastmod>
   </url><url>
-    <loc>https://christernilsson.github.io/HugoLabServer/klubben/medlemmar/christer-nilsson/srs_km_2026/intro/</loc>
-    <lastmod>2026-02-14T19:48:24+01:00</lastmod>
-  </url><url>
     <loc>https://christernilsson.github.io/HugoLabServer/program/klubbmasterskap/</loc>
     <lastmod>2025-01-13T01:57:45+01:00</lastmod>
   </url><url>
@@ -182,10 +179,13 @@
     <lastmod>2026-02-10T20:59:36+01:00</lastmod>
   </url><url>
     <loc>https://christernilsson.github.io/HugoLabServer/</loc>
-    <lastmod>2026-03-26T20:52:56+01:00</lastmod>
+    <lastmod>2026-03-26T21:58:19+01:00</lastmod>
   </url><url>
     <loc>https://christernilsson.github.io/HugoLabServer/klubben/medlemmar/christer-nilsson/hugo/</loc>
     <lastmod>2026-02-08T10:18:12+01:00</lastmod>
+  </url><url>
+    <loc>https://christernilsson.github.io/HugoLabServer/klubben/medlemmar/christer-nilsson/srs_km_2026/intro/</loc>
+    <lastmod>2026-03-26T21:55:45+01:00</lastmod>
   </url><url>
     <loc>https://christernilsson.github.io/HugoLabServer/klubben/medlemmar/christer-nilsson/kakrecept/</loc>
     <lastmod>2025-12-06T12:17:05+01:00</lastmod>
@@ -312,6 +312,9 @@
   </url><url>
     <loc>https://christernilsson.github.io/HugoLabServer/program/schacktraning/</loc>
     <lastmod>2025-01-13T01:57:45+01:00</lastmod>
+  </url><url>
+    <loc>https://christernilsson.github.io/HugoLabServer/senaste/</loc>
+    <lastmod>2026-03-26T21:58:19+01:00</lastmod>
   </url><url>
     <loc>https://christernilsson.github.io/HugoLabServer/klubben/medlemmar/christer-nilsson/srs_km_2026/</loc>
     <lastmod>2026-03-26T18:33:32+01:00</lastmod>

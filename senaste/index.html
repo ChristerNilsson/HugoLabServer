@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senaste</title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body class=""><main>
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+function updateRelativeTimes() {
+	const roots = document.querySelectorAll('[data-lastmod]')
+	const units = [
+		{ seconds: 365 * 24 * 60 * 60, singular: "ett år", plural: "år" },
+		{ seconds: 30 * 24 * 60 * 60, singular: "en månad", plural: "månader" },
+		{ seconds: 24 * 60 * 60, singular: "en dag", plural: "dagar" },
+		{ seconds: 60 * 60, singular: "en timme", plural: "timmar" },
+		{ seconds: 60, singular: "en minut", plural: "minuter" },
+	]
+
+	for (const root of roots) {
+		const lastmodUnix = Number(root.dataset.lastmod || 0)
+		if (!Number.isFinite(lastmodUnix) || lastmodUnix <= 0) continue
+
+		const nowUnix = Math.floor(Date.now() / 1000)
+		const diffSeconds = Math.max(0, nowUnix - lastmodUnix)
+
+		let value = 0
+		let text = "nyss"
+
+		for (const unit of units) {
+			if (diffSeconds >= unit.seconds) {
+				value = Math.floor(diffSeconds / unit.seconds)
+				text = value === 1 ? unit.singular : `${value} ${unit.plural}`
+				break
+			}
+		}
+
+		const target = root.querySelector('.relative-time-value')
+		if (target) target.textContent = text === "nyss" ? text : `för ${text} sedan`
+	}
+}
+
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', updateRelativeTimes)
+} else {
+	updateRelativeTimes()
+}
+
+</script>
+
+	<div>
+		
+
+<a href="/HugoLabServer/">Home</a>
+
+
+		<h1>Senaste</h1>
+		<h3 id="30-senaste-sidorna">30 senaste sidorna</h3>
+
+
+
+
+
+	<ul>
+		
+			
+			<li><old>2026-03-26</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/srs_km_2026/intro/">Intro</a></li>
+		
+			
+			<li><old>2026-03-26</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/srs_km_2026/">Seniorschack KM 2026</a></li>
+		
+			
+			<li><old>2026-03-26</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/turneringar/">Turneringar</a></li>
+		
+			
+			<li><old>2026-03-25</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/performance_calculator/">Performance Calculator</a></li>
+		
+			
+			<li><old>2026-03-23</old> <a href="/HugoLabServer/rating/">Rating</a></li>
+		
+			
+			<li><old>2026-03-19</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/cyklister/">Cyklister</a></li>
+		
+			
+			<li><old>2026-03-18</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/partier/2026-vt/">2026 VT</a></li>
+		
+			
+			<li><old>2026-03-17</old> <a href="/HugoLabServer/klubben/medlemmar/dan-israel/">Dan Israel</a></li>
+		
+			
+			<li><old>2026-03-11</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/bibliotek/">Bibliotek</a></li>
+		
+			
+			<li><old>2026-03-09</old> <a href="/HugoLabServer/setup/">Setup</a></li>
+		
+			
+			<li><old>2026-03-07</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/kalender-srs/">Kalender SRS</a></li>
+		
+			
+			<li><old>2026-03-06</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/dgt-2010-cheat-sheet-2/">DGT 2010 - Cheat Sheet 2</a></li>
+		
+			
+			<li><old>2026-03-06</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/dgt-2010/">DGT 2010</a></li>
+		
+			
+			<li><old>2026-03-06</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/partier/">Partier</a></li>
+		
+			
+			<li><old>2026-03-04</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/srs_km_2026/top-ten/">Top Ten</a></li>
+		
+			
+			<li><old>2026-03-02</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/hemsidan/">Hemsidan</a></li>
+		
+			
+			<li><old>2026-03-01</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/blossom/">Blossom</a></li>
+		
+			
+			<li><old>2026-02-27</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/dgt-2010-cheat-sheet/">DGT 2010 - Cheat Sheet</a></li>
+		
+			
+			<li><old>2026-02-27</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/citat/">Citat</a></li>
+		
+			
+			<li><old>2026-02-24</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/handikapp/">Handikapp</a></li>
+		
+			
+			<li><old>2026-02-23</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/performance_calculators/">Performance Calculators</a></li>
+		
+			
+			<li><old>2026-02-21</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/fairpair/">FairPair</a></li>
+		
+			
+			<li><old>2026-02-20</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/srs_km_2026/erfarenheter/">Erfarenheter</a></li>
+		
+			
+			<li><old>2026-02-19</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/salongerna/">Salongerna</a></li>
+		
+			
+			<li><old>2026-02-18</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/tfs/">Tidskrift för Schack</a></li>
+		
+			
+			<li><old>2026-02-17</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/markdown/">Markdown</a></li>
+		
+			
+			<li><old>2026-02-16</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/fischer16k/">Fischer16k</a></li>
+		
+			
+			<li><old>2026-02-16</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/srs_km_2026/sortering/">Sortering</a></li>
+		
+			
+			<li><old>2026-02-13</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/partier/2025-vt/">2025 VT</a></li>
+		
+			
+			<li><old>2026-02-13</old> <a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/partier/2025-ht/">2025 HT</a></li>
+		
+	</ul>
+
+
+
+
+		
+
+		<p class="meta" id="relative-time" data-lastmod="1774558699">
+  Uppdaterad <span class="relative-time-value">nyss</span>
+</p>
+
+		
+	</div>
+</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/senaste/_index.md">.md</a></p></body>
+</html>
