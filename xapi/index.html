@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cyklister</title> 
+  <title>Turnering</title> 
   
   <link rel="stylesheet" href="/HugoLabServer/styles.css">
 </head>
@@ -71,28 +71,41 @@ if (document.readyState === 'loading') {
 		
 
 <a href="/HugoLabServer/">Home</a>
- • 
-<a href="/HugoLabServer/klubben/">Klubben</a>
- • 
-<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a>
- • 
-<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
 
 
-		<h1>Cyklister</h1>
-		<p>Det finns ett tydligt samband mellan ålder och avstånd.</p>
-<p>Thomas Paulin 1944 (6.2 km)</p>
-<p><img src="johan-sterner.JPEG" alt="">Johan Sterner 1946 (7.3 km)</p>
-<p>Christer Nilsson 1954 (9.1 km)</p>
-<p>Görgen Antonsson 1958 (15.3 km)</p>
+		<h1>Turnering</h1>
+		<div id="turnering"></div>
+<div id="spelare"></div>
+<div id="app"></div>
+<div id="statistik"></div>
+<script src="sketch.js"></script>
+<script>
+
+const urlParams = new URLSearchParams(window.location.search)
+const tid = parseInt(urlParams.get("tid"))
+const pid = parseInt(urlParams.get("pid").toString())
+
+const api_t = 'https://member.schack.se/public/api/v1/tournamentresults/table/id/'
+const api_r = 'https://member.schack.se/public/api/v1/tournamentresults/roundresults/id/'
+
+Promise.all([
+  fetch(api_t + tid).then(response => response.json()),
+  fetch(api_r + tid).then(response => response.json())
+])
+  .then(([data_t, data_r]) => {
+    process(data_t,data_r,tid,pid)
+  })
+  .catch(error => console.error('Fel vid hämtning av filer:', error));
+
+</script>
 
 		
 
-		<p class="meta" id="relative-time" data-lastmod="1773940545">
+		<p class="meta" id="relative-time" data-lastmod="1736729865">
   Uppdaterad <span class="relative-time-value">nyss</span>
 </p>
 
 		
 	</div>
-</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/christer-nilsson/cyklister/_index.md">.md</a></p></body>
+</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/xapi/_index.md">.md</a></p></body>
 </html>
