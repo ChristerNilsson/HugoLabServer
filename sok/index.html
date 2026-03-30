@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sök</title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body class=""><main data-pagefind-body>
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+function updateRelativeTimes() {
+	const roots = document.querySelectorAll('[data-lastmod]')
+	const units = [
+		{ seconds: 365 * 24 * 60 * 60, singular: "ett år", plural: "år" },
+		{ seconds: 30 * 24 * 60 * 60, singular: "en månad", plural: "månader" },
+		{ seconds: 24 * 60 * 60, singular: "en dag", plural: "dagar" },
+		{ seconds: 60 * 60, singular: "en timme", plural: "timmar" },
+		{ seconds: 60, singular: "en minut", plural: "minuter" },
+	]
+
+	for (const root of roots) {
+		const lastmodUnix = Number(root.dataset.lastmod || 0)
+		if (!Number.isFinite(lastmodUnix) || lastmodUnix <= 0) continue
+
+		const nowUnix = Math.floor(Date.now() / 1000)
+		const diffSeconds = Math.max(0, nowUnix - lastmodUnix)
+
+		let value = 0
+		let text = "nyss"
+
+		for (const unit of units) {
+			if (diffSeconds >= unit.seconds) {
+				value = Math.floor(diffSeconds / unit.seconds)
+				text = value === 1 ? unit.singular : `${value} ${unit.plural}`
+				break
+			}
+		}
+
+		const target = root.querySelector('.relative-time-value')
+		if (target) target.textContent = text === "nyss" ? text : `för ${text} sedan`
+	}
+}
+
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', updateRelativeTimes)
+} else {
+	updateRelativeTimes()
+}
+
+</script>
+
+	<div>
+		
+
+<a href="/HugoLabServer/">Home</a>
+
+
+		<h1>Sök</h1>
+		<p>Sök i hela webbplatsens textinnehåll.</p>
+<div class="search-panel" data-pagefind-ignore="all">
+  <div id="pagefind-search"></div>
+  <p id="pagefind-status" class="search-status">Sökindex laddas.</p>
+</div>
+<script>
+(() => {
+  const stylesheet = document.querySelector('link[href$="styles.css"]');
+  const baseUrl = stylesheet
+    ? stylesheet.getAttribute("href").replace(/styles\.css$/, "")
+    : "/";
+  const bundlePath = `${baseUrl.replace(/\/?$/, "/")}pagefind/`;
+  const scriptUrl = `${bundlePath}pagefind-ui.js`;
+  const cssUrl = `${bundlePath}pagefind-ui.css`;
+
+  function ensureCss() {
+    if (document.querySelector(`link[href="${cssUrl}"]`)) return;
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = cssUrl;
+    document.head.appendChild(link);
+  }
+
+  function ensureScript() {
+    if (window.PagefindUI) return Promise.resolve();
+    if (window.__pagefindUiPromise) return window.__pagefindUiPromise;
+
+    window.__pagefindUiPromise = new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = scriptUrl;
+      script.onload = resolve;
+      script.onerror = () => reject(new Error("Pagefind UI kunde inte laddas."));
+      document.head.appendChild(script);
+    });
+
+    return window.__pagefindUiPromise;
+  }
+
+  function init() {
+    const mount = document.getElementById("pagefind-search");
+    const status = document.getElementById("pagefind-status");
+    if (!mount || mount.dataset.pagefindReady === "true") return;
+
+    mount.dataset.pagefindReady = "true";
+    status.hidden = true;
+
+    new window.PagefindUI({
+      element: "#pagefind-search",
+      baseUrl,
+      showSubResults: true,
+      excerptLength: 20,
+      resetStyles: false,
+      translations: {
+        placeholder: "Sök på webbplatsen",
+        clear_search: "Rensa sökningen",
+        load_more: "Visa fler resultat",
+        search_label: "Sök",
+        zero_results: "Inga träffar för [SEARCH_TERM]",
+        many_results: "[COUNT] träffar för [SEARCH_TERM]",
+        one_result: "[COUNT] träff för [SEARCH_TERM]",
+        alt_search: "Sökresultat för [SEARCH_TERM]"
+      }
+    });
+  }
+
+  function fail() {
+    const status = document.getElementById("pagefind-status");
+    if (!status) return;
+    status.hidden = false;
+    status.textContent = "Sökindex finns inte i den här previewn ännu. Kör publiceringsbygget för att skapa Pagefind-indexet.";
+  }
+
+  function boot() {
+    ensureCss();
+    ensureScript().then(init).catch(fail);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot, { once: true });
+  } else {
+    boot();
+  }
+})();
+</script>
+
+
+		
+
+		<p class="meta" id="relative-time" data-lastmod="1774868561">
+  Uppdaterad <span class="relative-time-value">nyss</span>
+</p>
+
+		
+	</div>
+</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/sok/_index.md">.md</a></p>
+</body>
+</html>
