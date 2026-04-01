@@ -212,7 +212,14 @@ if (document.readyState === 'loading') {
   async function ensurePagefind() {
     if (pagefind) return pagefind;
     pagefind = await ensureScript();
-    await pagefind.options({ excerptLength: 0 });
+    await pagefind.options({
+      excerptLength: 0,
+      baseUrl,
+      bundlePath
+    });
+    if (typeof pagefind.init === "function") {
+      await pagefind.init();
+    }
     return pagefind;
   }
 
@@ -264,9 +271,10 @@ if (document.readyState === 'loading') {
       renderResults(loaded, terms);
       setStatus(`${loaded.length} träffar`);
     } catch (error) {
+      console.error("Pagefind search failed", error);
       if (currentToken !== searchToken) return;
       renderResults([], terms);
-      setStatus("Sökindex finns inte i den här previewn ännu. Kör publiceringsbygget för att skapa Pagefind-indexet.");
+      setStatus(`Sökfel: ${error?.message || "okänt fel"}`);
     }
   }
 
