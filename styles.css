@@ -312,13 +312,6 @@ blockquote {
   border-radius: var(--radius-medium);
   background: rgba(127, 127, 127, 0.06); }
 
-.search-label {
-  display: block;
-  margin-bottom: 0.45rem;
-  font-family: var(--font-ui);
-  font-size: 0.9rem;
-  font-weight: 700; }
-
 .search-input {
   width: 100%;
   box-sizing: border-box;
