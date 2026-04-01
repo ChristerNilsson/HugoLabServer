@@ -338,13 +338,21 @@ blockquote {
   border-top: 1px solid var(--panel-border); }
 
 .pagefind-ui__result-link {
+  display: block;
   color: var(--link);
-  font-weight: 700; }
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 .pagefind-ui__message,
 .pagefind-ui__result-excerpt,
 .pagefind-ui__button {
   color: inherit; }
+
+.pagefind-ui__result-excerpt,
+.pagefind-ui__result-nested {
+  display: none; }
 
 .pagefind-ui__button {
   border-radius: 999px;
