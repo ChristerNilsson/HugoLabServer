@@ -140,6 +140,15 @@ if (document.readyState === 'loading') {
     return label;
   }
 
+  function matchesTermPrefix(text, term) {
+    const haystack = (text || "").toLocaleLowerCase("sv");
+    const needle = (term || "").toLocaleLowerCase("sv");
+    if (!needle) return false;
+    return haystack
+      .split(/[^0-9\p{L}_-]+/u)
+      .some((word) => word && word.startsWith(needle));
+  }
+
   function resolveUrl(result, data) {
     const rawUrl = data?.url || data?.meta?.url || result?.url || "";
     if (!rawUrl) return "";
@@ -278,21 +287,37 @@ if (document.readyState === 'loading') {
       const loaded = await Promise.all(
         Array.from(merged.values()).map(async ({ result, mask, rank }) => {
           const data = await result.data();
+          const searchableText = [
+            data.url,
+            data.meta?.title,
+            data.content,
+            data.excerpt
+          ].filter(Boolean).join(" ");
+
+          let verifiedMask = 0;
+          for (let termIndex = 0; termIndex < terms.length; termIndex += 1) {
+            const bit = 1 << (terms.length - termIndex - 1);
+            if ((mask & bit) && matchesTermPrefix(searchableText, terms[termIndex])) {
+              verifiedMask |= bit;
+            }
+          }
 
           return {
             index: rank,
             url: resolveUrl(result, data),
             meta: data.meta || {},
-            mask,
+            mask: verifiedMask,
             termCount: terms.length,
-            comboLabel: labelForMask(mask, terms)
+            comboLabel: labelForMask(verifiedMask, terms)
           };
         })
       );
 
       if (currentToken !== searchToken) return;
 
-      loaded.sort((left, right) => {
+      const filtered = loaded.filter((result) => result.mask !== 0);
+
+      filtered.sort((left, right) => {
         const countDiff = popcount(right.mask) - popcount(left.mask);
         if (countDiff !== 0) return countDiff;
 
@@ -302,8 +327,8 @@ if (document.readyState === 'loading') {
         return left.index - right.index;
       });
 
-      renderResults(loaded);
-      setStatus(`${loaded.length} träffar`);
+      renderResults(filtered);
+      setStatus(`${filtered.length} träffar`);
     } catch (error) {
       console.error("Pagefind search failed", error);
       if (currentToken !== searchToken) return;
