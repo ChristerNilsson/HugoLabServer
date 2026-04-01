@@ -74,8 +74,7 @@ if (document.readyState === 'loading') {
 
 
 		<h1>Sök</h1>
-		<p>Sök i hela webbplatsens textinnehåll.</p>
-<div class="search-panel" data-pagefind-ignore="all">
+		<div class="search-panel" data-pagefind-ignore="all">
   <input
     id="pagefind-search-input"
     class="search-input"
@@ -250,7 +249,7 @@ if (document.readyState === 'loading') {
     renderLegend(terms);
 
     if (!query.trim()) {
-      setStatus("Skriv ett eller flera ord för att söka.");
+      setStatus("");
       renderResults([]);
       return;
     }
@@ -342,7 +341,7 @@ if (document.readyState === 'loading') {
 
     const initialQuery = getQueryFromLocation();
     input.value = initialQuery;
-    setStatus("Skriv ett eller flera ord för att söka.");
+    setStatus("");
 
     if (initialQuery.trim()) {
       suppressHistoryUpdate = true;
@@ -392,7 +391,7 @@ if (document.readyState === 'loading') {
 
 		
 
-		<p class="meta" id="relative-time" data-lastmod="1774868561">
+		<p class="meta" id="relative-time" data-lastmod="1775044387">
   Uppdaterad <span class="relative-time-value">nyss</span>
 </p>
 
