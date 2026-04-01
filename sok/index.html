@@ -89,7 +89,7 @@ if (document.readyState === 'loading') {
   <div id="pagefind-legend" class="search-legend" hidden></div>
   <ol id="pagefind-results" class="search-results" hidden></ol>
 </div>
-<script>
+<script type="module">
 (() => {
   const stylesheet = document.querySelector('link[href$="styles.css"]');
   const baseUrl = stylesheet
@@ -101,17 +101,14 @@ if (document.readyState === 'loading') {
   let pagefind;
   let searchToken = 0;
   let debounceTimer;
-
-  function normalize(text) {
-    return (text || "").toLocaleLowerCase("sv");
-  }
+  let suppressHistoryUpdate = false;
 
   function splitTerms(query) {
     const seen = new Set();
     const terms = [];
 
     for (const part of query.trim().split(/\s+/)) {
-      const term = normalize(part);
+      const term = (part || "").toLocaleLowerCase("sv");
       if (!term || seen.has(term)) continue;
       seen.add(term);
       terms.push(term);
@@ -131,16 +128,6 @@ if (document.readyState === 'loading') {
     return count;
   }
 
-  function maskForTerms(text, terms) {
-    let mask = 0;
-    for (let index = 0; index < terms.length; index += 1) {
-      if (text.includes(terms[index])) {
-        mask |= 1 << (terms.length - index - 1);
-      }
-    }
-    return mask;
-  }
-
   function labelForMask(mask, terms) {
     if (!mask) return "";
     let label = "";
@@ -151,6 +138,15 @@ if (document.readyState === 'loading') {
       }
     }
     return label;
+  }
+
+  function resolveUrl(result, data) {
+    const rawUrl = data?.url || data?.meta?.url || result?.url || "";
+    if (!rawUrl) return "";
+    if (/^https?:\/\//.test(rawUrl)) return rawUrl;
+    if (rawUrl.startsWith(baseUrl)) return rawUrl;
+    if (rawUrl.startsWith("/")) return `${baseUrl.replace(/\/$/, "")}${rawUrl}`;
+    return `${baseUrl.replace(/\/?$/, "/")}${rawUrl.replace(/^\//, "")}`;
   }
 
   function renderLegend(terms) {
@@ -169,7 +165,7 @@ if (document.readyState === 'loading') {
       .join("");
   }
 
-  function renderResults(results, terms) {
+  function renderResults(results) {
     const list = document.getElementById("pagefind-results");
     if (!list) return;
 
@@ -179,13 +175,17 @@ if (document.readyState === 'loading') {
       return;
     }
 
+    const showCombos = results.some((result) => result.termCount > 1);
+
     list.hidden = false;
     list.innerHTML = results.map((result) => {
-      const combo = result.comboLabel
+      const combo = showCombos && result.comboLabel
         ? `<span class="search-combo">${result.comboLabel}</span>`
         : "";
-      const title = result.meta.title || result.url.replace(baseUrl, "/");
-      return `<li class="search-result">${combo}<a href="${result.url}">${title}</a></li>`;
+      const href = result.url || "#";
+      const fallbackTitle = href ? href.replace(baseUrl, "/") : "(utan titel)";
+      const title = result.meta.title || fallbackTitle;
+      return `<li class="search-result">${combo}<a href="${href}">${title}</a></li>`;
     }).join("");
   }
 
@@ -194,16 +194,27 @@ if (document.readyState === 'loading') {
     if (status) status.textContent = text;
   }
 
+  function getQueryFromLocation() {
+    const url = new URL(window.location.href);
+    return url.searchParams.get("q") || "";
+  }
+
+  function updateHistory(query) {
+    if (suppressHistoryUpdate) return;
+    const url = new URL(window.location.href);
+    if (query.trim()) {
+      url.searchParams.set("q", query);
+    } else {
+      url.searchParams.delete("q");
+    }
+    window.history.replaceState({}, "", url);
+  }
+
   function ensureScript() {
-    if (window.pagefind) return Promise.resolve(window.pagefind);
     if (window.__pagefindPromise) return window.__pagefindPromise;
 
-    window.__pagefindPromise = new Promise((resolve, reject) => {
-      const script = document.createElement("script");
-      script.src = scriptUrl;
-      script.onload = () => resolve(window.pagefind);
-      script.onerror = () => reject(new Error("Pagefind kunde inte laddas."));
-      document.head.appendChild(script);
+    window.__pagefindPromise = import(scriptUrl).catch(() => {
+      throw new Error("Pagefind kunde inte laddas.");
     });
 
     return window.__pagefindPromise;
@@ -226,12 +237,13 @@ if (document.readyState === 'loading') {
   async function search(query) {
     const currentToken = ++searchToken;
     const terms = splitTerms(query);
+    updateHistory(query);
 
     renderLegend(terms);
 
     if (!query.trim()) {
       setStatus("Skriv ett eller flera ord för att söka.");
-      renderResults([], terms);
+      renderResults([]);
       return;
     }
 
@@ -239,20 +251,40 @@ if (document.readyState === 'loading') {
 
     try {
       const api = await ensurePagefind();
-      const resultSet = await api.search(query);
+      const searches = await Promise.all(terms.map((term) => api.search(term)));
+      const merged = new Map();
+
+      searches.forEach((resultSet, termIndex) => {
+        const bit = 1 << (terms.length - termIndex - 1);
+
+        resultSet.results.forEach((result, resultIndex) => {
+          const id = result.id || `${termIndex}:${resultIndex}`;
+          const existing = merged.get(id);
+
+          if (existing) {
+            existing.mask |= bit;
+            existing.rank = Math.min(existing.rank, resultIndex);
+            return;
+          }
+
+          merged.set(id, {
+            result,
+            mask: bit,
+            rank: resultIndex
+          });
+        });
+      });
+
       const loaded = await Promise.all(
-        resultSet.results.map(async (result, index) => {
+        Array.from(merged.values()).map(async ({ result, mask, rank }) => {
           const data = await result.data();
-          const searchableText = normalize(
-            [data.meta?.title, data.excerpt, data.content, result.url].filter(Boolean).join(" ")
-          );
-          const mask = maskForTerms(searchableText, terms);
 
           return {
-            index,
-            url: data.meta?.url || result.url,
+            index: rank,
+            url: resolveUrl(result, data),
             meta: data.meta || {},
             mask,
+            termCount: terms.length,
             comboLabel: labelForMask(mask, terms)
           };
         })
@@ -263,17 +295,19 @@ if (document.readyState === 'loading') {
       loaded.sort((left, right) => {
         const countDiff = popcount(right.mask) - popcount(left.mask);
         if (countDiff !== 0) return countDiff;
-        const maskDiff = right.mask - left.mask;
-        if (maskDiff !== 0) return maskDiff;
+
+        const labelDiff = left.comboLabel.localeCompare(right.comboLabel, "sv");
+        if (labelDiff !== 0) return labelDiff;
+
         return left.index - right.index;
       });
 
-      renderResults(loaded, terms);
+      renderResults(loaded);
       setStatus(`${loaded.length} träffar`);
     } catch (error) {
       console.error("Pagefind search failed", error);
       if (currentToken !== searchToken) return;
-      renderResults([], terms);
+      renderResults([]);
       setStatus(`Sökfel: ${error?.message || "okänt fel"}`);
     }
   }
@@ -282,8 +316,38 @@ if (document.readyState === 'loading') {
     const input = document.getElementById("pagefind-search-input");
     if (!input) return;
 
-    input.focus();
+    const initialQuery = getQueryFromLocation();
+    input.value = initialQuery;
     setStatus("Skriv ett eller flera ord för att söka.");
+
+    if (initialQuery.trim()) {
+      suppressHistoryUpdate = true;
+      search(initialQuery).finally(() => {
+        suppressHistoryUpdate = false;
+      });
+    }
+
+    window.addEventListener("pageshow", () => {
+      const restoredQuery = getQueryFromLocation();
+      if (input.value !== restoredQuery) {
+        input.value = restoredQuery;
+      }
+      suppressHistoryUpdate = true;
+      search(restoredQuery).finally(() => {
+        suppressHistoryUpdate = false;
+      });
+    });
+
+    window.addEventListener("popstate", () => {
+      const restoredQuery = getQueryFromLocation();
+      input.value = restoredQuery;
+      suppressHistoryUpdate = true;
+      search(restoredQuery).finally(() => {
+        suppressHistoryUpdate = false;
+      });
+    });
+
+    input.focus();
 
     input.addEventListener("input", () => {
       clearTimeout(debounceTimer);
