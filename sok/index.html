@@ -97,6 +97,57 @@ if (document.readyState === 'loading') {
     document.head.appendChild(link);
   }
 
+  function ensureOverrides() {
+    if (document.getElementById("pagefind-overrides")) return;
+    const style = document.createElement("style");
+    style.id = "pagefind-overrides";
+    style.textContent = `
+      #pagefind-search .pagefind-ui__drawer {
+        margin-top: 0.75rem !important;
+      }
+      #pagefind-search .pagefind-ui__results-area {
+        margin-top: 0.2rem !important;
+      }
+      #pagefind-search .pagefind-ui__results {
+        margin-top: 0 !important;
+        padding: 0 !important;
+      }
+      #pagefind-search .pagefind-ui__result {
+        display: block !important;
+        padding: 0.28rem 0 !important;
+        gap: 0 !important;
+      }
+      #pagefind-search .pagefind-ui__result:last-of-type {
+        border-bottom: 0 !important;
+      }
+      #pagefind-search .pagefind-ui__result-thumb,
+      #pagefind-search .pagefind-ui__result-excerpt,
+      #pagefind-search .pagefind-ui__result-nested {
+        display: none !important;
+      }
+      #pagefind-search .pagefind-ui__result-inner {
+        margin-top: 0 !important;
+        display: block !important;
+      }
+      #pagefind-search .pagefind-ui__result-title {
+        display: block !important;
+        margin: 0 !important;
+        font-size: 1rem !important;
+        font-weight: 600 !important;
+        line-height: 1.25 !important;
+      }
+      #pagefind-search .pagefind-ui__result-link {
+        display: block !important;
+        color: var(--link) !important;
+        text-decoration: none !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
   function ensureScript() {
     if (window.PagefindUI) return Promise.resolve();
     if (window.__pagefindUiPromise) return window.__pagefindUiPromise;
@@ -123,6 +174,7 @@ if (document.readyState === 'loading') {
     new window.PagefindUI({
       element: "#pagefind-search",
       baseUrl,
+      showImages: false,
       showSubResults: false,
       resetStyles: false,
       translations: {
@@ -147,6 +199,7 @@ if (document.readyState === 'loading') {
 
   function boot() {
     ensureCss();
+    ensureOverrides();
     ensureScript().then(init).catch(fail);
   }
 
