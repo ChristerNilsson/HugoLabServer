@@ -331,16 +331,17 @@ blockquote {
   color: var(--muted); }
 
 .pagefind-ui__drawer {
-  margin-top: 1rem; }
+  margin-top: 0.75rem; }
 
 .pagefind-ui__result {
-  padding: 1rem 0;
+  padding: 0.32rem 0;
   border-top: 1px solid var(--panel-border); }
 
 .pagefind-ui__result-link {
   display: block;
   color: var(--link);
-  font-weight: 700;
+  font-weight: 600;
+  line-height: 1.25;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
@@ -353,6 +354,12 @@ blockquote {
 .pagefind-ui__result-excerpt,
 .pagefind-ui__result-nested {
   display: none; }
+
+.pagefind-ui__results {
+  margin-top: 0.25rem; }
+
+.pagefind-ui__result-title {
+  margin: 0; }
 
 .pagefind-ui__button {
   border-radius: 999px;
