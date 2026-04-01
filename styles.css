@@ -312,68 +312,68 @@ blockquote {
   border-radius: var(--radius-medium);
   background: rgba(127, 127, 127, 0.06); }
 
+.search-label {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  font-weight: 700; }
+
+.search-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.7rem 0.95rem;
+  border: 1px solid var(--panel-border);
+  border-radius: 999px;
+  background: var(--panel-bg);
+  color: inherit;
+  font: inherit; }
+
+.search-input::placeholder {
+  color: var(--muted); }
+
 .search-status {
   margin: 0.8rem 0 0;
   color: var(--muted);
   font-size: 0.95em; }
 
-.pagefind-ui {
+.search-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 0.9rem;
+  margin-top: 0.7rem;
+  color: var(--muted);
   font-family: var(--font-ui);
-  color: inherit; }
+  font-size: 0.88rem; }
 
-.pagefind-ui__search-input {
-  border-radius: 999px;
-  border: 1px solid var(--panel-border);
-  background: var(--panel-bg);
-  color: inherit; }
+.search-results {
+  margin: 0.7rem 0 0;
+  padding: 0;
+  list-style: none; }
 
-.pagefind-ui__search-input::placeholder {
-  color: var(--muted); }
-
-.pagefind-ui__drawer {
-  margin-top: 0.75rem; }
-
-.pagefind-ui__result {
-  padding: 0.32rem 0;
+.search-result {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.65rem;
+  align-items: baseline;
+  padding: 0.28rem 0;
   border-top: 1px solid var(--panel-border); }
 
-.pagefind-ui__result-link {
-  display: block;
-  color: var(--link);
-  font-weight: 600;
-  line-height: 1.25;
-  white-space: nowrap;
+.search-result a {
+  min-width: 0;
   overflow: hidden;
-  text-overflow: ellipsis; }
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: var(--font-ui);
+  font-weight: 600; }
 
-.pagefind-ui__message,
-.pagefind-ui__result-excerpt,
-.pagefind-ui__button {
-  color: inherit; }
-
-.pagefind-ui__result-excerpt,
-.pagefind-ui__result-nested {
-  display: none; }
-
-.pagefind-ui__results {
-  margin-top: 0.25rem; }
-
-.pagefind-ui__result-title {
-  margin: 0; }
-
-.pagefind-ui__button {
-  border-radius: 999px;
-  border: 1px solid var(--panel-border);
-  background: var(--link-soft); }
-
-.pagefind-ui__button:hover {
-  background: var(--link); }
-
-body[theme="dark"] .pagefind-ui__button:hover {
-  color: #111; }
-
-body[theme="light"] .pagefind-ui__button:hover {
-  color: #fffaf4; }
+.search-combo {
+  min-width: 2.6rem;
+  color: var(--muted);
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em; }
 
 @media screen {
   body {
