@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check Mates</title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body class=""><main data-pagefind-body>
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+function updateRelativeTimes() {
+	const roots = document.querySelectorAll('[data-lastmod]')
+	const units = [
+		{ seconds: 365 * 24 * 60 * 60, singular: "ett år", plural: "år" },
+		{ seconds: 30 * 24 * 60 * 60, singular: "en månad", plural: "månader" },
+		{ seconds: 24 * 60 * 60, singular: "en dag", plural: "dagar" },
+		{ seconds: 60 * 60, singular: "en timme", plural: "timmar" },
+		{ seconds: 60, singular: "en minut", plural: "minuter" },
+	]
+
+	for (const root of roots) {
+		const lastmodUnix = Number(root.dataset.lastmod || 0)
+		if (!Number.isFinite(lastmodUnix) || lastmodUnix <= 0) continue
+
+		const nowUnix = Math.floor(Date.now() / 1000)
+		const diffSeconds = Math.max(0, nowUnix - lastmodUnix)
+
+		let value = 0
+		let text = "nyss"
+
+		for (const unit of units) {
+			if (diffSeconds >= unit.seconds) {
+				value = Math.floor(diffSeconds / unit.seconds)
+				text = value === 1 ? unit.singular : `${value} ${unit.plural}`
+				break
+			}
+		}
+
+		const target = root.querySelector('.relative-time-value')
+		if (target) target.textContent = text === "nyss" ? text : `för ${text} sedan`
+	}
+}
+
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', updateRelativeTimes)
+} else {
+	updateRelativeTimes()
+}
+
+</script>
+
+	<div>
+		
+
+<a href="/HugoLabServer/">Home</a>
+ • 
+<a href="/HugoLabServer/klubben/">Klubben</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+		<h1>Check Mates</h1>
+		<p>21 mönster - chessmage</p>
+<p>Titta på en video med tre mönster.<br>
+Träna på <a href="https://lichess.org/practice">Lichess Practice</a></p>
+<p><a href="https://www.youtube.com/watch?v=SwLqIK46QL4&amp;list=PLbRzRRbeU9Bp8rJCTsRNmqbnNh_mInm95&amp;index=9">1</a>
+<a href="https://www.youtube.com/watch?v=DHeCB0Qf72Q&amp;list=PLbRzRRbeU9Bp8rJCTsRNmqbnNh_mInm95&amp;index=8">2</a>
+<a href="https://www.youtube.com/watch?v=tEygt0tOCbQ&amp;list=PLbRzRRbeU9Bp8rJCTsRNmqbnNh_mInm95&amp;index=7">3</a>
+<a href="https://www.youtube.com/watch?v=kmdk7xE-uxY&amp;list=PLbRzRRbeU9Bp8rJCTsRNmqbnNh_mInm95&amp;index=5">4</a>
+<a href="https://www.youtube.com/watch?v=7mCIhO55ZfI&amp;list=PLbRzRRbeU9Bp8rJCTsRNmqbnNh_mInm95&amp;index=3">5</a>
+<a href="https://www.youtube.com/watch?v=AdNfkMdjQeE&amp;list=PLbRzRRbeU9Bp8rJCTsRNmqbnNh_mInm95&amp;index=2">6</a>
+<a href="https://www.youtube.com/watch?v=0Ff1Ja_sDho&amp;list=PLbRzRRbeU9Bp8rJCTsRNmqbnNh_mInm95&amp;index=1">7</a></p>
+<p>Sista pjäsen används att matta med.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Nr</th>
+          <th style="text-align: left">Namn</th>
+          <th style="text-align: left">Pjäser</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">Back Rank Mate</td>
+          <td style="text-align: left">R</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">Boden Mate</td>
+          <td style="text-align: left">B+B</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">Arabian Mate</td>
+          <td style="text-align: left">N+R</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">Anastasias Mate</td>
+          <td style="text-align: left">N+R</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">Smothered Mate</td>
+          <td style="text-align: left">N</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">Opera&rsquo;s Mate</td>
+          <td style="text-align: left">B+R</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">Epaulette Mate</td>
+          <td style="text-align: left">Q</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">Dovetail Mate</td>
+          <td style="text-align: left">Q</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">Lolli&rsquo;s Mate</td>
+          <td style="text-align: left">P+Q</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">Pawn&rsquo;s Mate</td>
+          <td style="text-align: left">P+P</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">Legal&rsquo;s Mate</td>
+          <td style="text-align: left">B+N+N</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">Vukovic&rsquo;s Mate</td>
+          <td style="text-align: left">N+B+R</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">5</td>
+          <td style="text-align: left">Morphy&rsquo;s Mate</td>
+          <td style="text-align: left">R+B</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">5</td>
+          <td style="text-align: left">Damiano&rsquo;s Mate</td>
+          <td style="text-align: left">P+Q</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">5</td>
+          <td style="text-align: left">Greco&rsquo;s Mate</td>
+          <td style="text-align: left">R+B</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">6</td>
+          <td style="text-align: left">Blind Swine&rsquo;s Mate</td>
+          <td style="text-align: left">R+R</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">6</td>
+          <td style="text-align: left">Fool&rsquo;s Mate</td>
+          <td style="text-align: left">Q</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">6</td>
+          <td style="text-align: left">Hook Mate</td>
+          <td style="text-align: left">N+R</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">Railroad (Triangle) Mate</td>
+          <td style="text-align: left">Q+R</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">Reti&rsquo;s Mate</td>
+          <td style="text-align: left">R+B</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">Max Lange&rsquo;s Mate</td>
+          <td style="text-align: left">B+Q</td>
+      </tr>
+  </tbody>
+</table>
+
+		
+
+		<p class="meta" id="relative-time" data-lastmod="1777466098">
+  Uppdaterad <span class="relative-time-value">nyss</span>
+</p>
+
+		
+	</div>
+</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/christer-nilsson/checkmates/_index.md">.md</a></p>
+</body>
+</html>
