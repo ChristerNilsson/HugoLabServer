@@ -80,11 +80,36 @@ if (document.readyState === 'loading') {
 
 
 		<h1>Bookmarklets</h1>
-		<p><a href="sm-2026-klass-iii.pdf">SM 2026 Klass III</a></p>
+		<p>För alla dessa gäller att du måste stå på en korrekt sida.<br>
+Eventuella parametrar skrivs i slutet av urlen.</p>
+<h3 id="bbs-indelning-i-berger-grupper--en-schweizer-på-slutet">BBS (Indelning i Berger-grupper + en Schweizer på slutet)</h3>
+<p><code>javascript:(()=&gt;{const s=document.createElement('script');s.src='https://christernilsson.github.io/2026/119-BBS/sketch.js';document.head.appendChild(s)})()</code></p>
+<ul>
+<li>&amp;n=8: grupper om åtta deltagare (8=default)</li>
+<li>&amp;filter saknas: Alla tas med (default)</li>
+<li>&amp;filter=1: Avprickad</li>
+<li>&amp;filter=2: Betalt</li>
+<li>&amp;filter=3: Avprickad och Betalt</li>
+</ul>
+<p><a href="https://member.schack.se/ShowTournamentServlet?id=16696&amp;n=6&amp;filter=2">Exempel</a><br>
+<a href="sm-2026-klass-iii.pdf">Exempel pdf</a></p>
+<h3 id="namnlista-sorterad-alfabetisk-lista-alternativ-till-bordslistan">Namnlista (Sorterad alfabetisk lista, alternativ till bordslistan)</h3>
+<p>Fungerar med Schweizer, normal tabell, i medlemssystemet.</p>
+<p><code>+</code> : Ökar antalet kolumner<br>
+<code>-</code> : Minskar antalet kolumner</p>
+<p><code>javascript:(()=&gt;{const s=document.createElement('script');s.src='https://christernilsson.github.io/2026/117-NameList/sketch.js';document.head.appendChild(s)})()</code></p>
+<p><a href="https://member.schack.se/ShowTournamentServlet?id=17760&amp;listingtype=1">Exempel</a><br>
+<a href="Tyres%C3%B6-Open-2026-namnlista.pdf">Exempel pdf</a></p>
+<h3 id="matris-vem-möter-vem-i-vilken-rond">Matris (vem möter vem, i vilken rond)</h3>
+<p>Fungerar med Schweizer, detaljerad tabell, i medlemssystemet.</p>
+<p><a href="https://member.schack.se/ShowTournamentServlet?id=17760&amp;listingtype=2">Exempel</a><br>
+<code>javascript:(()=&gt;{const s=document.createElement('script');s.src='https://christernilsson.github.io/2026/118-Matrix-MS/sketch.js';document.head.appendChild(s)})()</code></p>
+<p><a href="X_Schweizer_78.png">Schweizer-78</a><br>
+<a href="X_FairPair_78.png">FairPair-78</a></p>
 
 		
 
-		<p class="meta" id="relative-time" data-lastmod="1780062824">
+		<p class="meta" id="relative-time" data-lastmod="1780222722">
   Uppdaterad <span class="relative-time-value">nyss</span>
 </p>
 
