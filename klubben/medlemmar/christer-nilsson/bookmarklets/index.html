@@ -80,20 +80,19 @@ if (document.readyState === 'loading') {
 
 
 		<h1>Bookmarklets</h1>
-		<p>För alla dessa gäller att du måste stå på en korrekt sida.<br>
-Eventuella parametrar skrivs i slutet av urlen.</p>
+		<p>För alla dessa gäller att du måste stå på en korrekt sida.</p>
 <h3 id="bbs-indelning-i-berger-grupper--en-schweizer-på-slutet">BBS (Indelning i Berger-grupper + en Schweizer på slutet)</h3>
 <p><code>javascript:(()=&gt;{const s=document.createElement('script');s.src='https://christernilsson.github.io/2026/119-BBS/sketch.js';document.head.appendChild(s)})()</code></p>
+<p>Kommandon:</p>
 <ul>
-<li>&amp;n=8: grupper om åtta deltagare (8=default)</li>
-<li>&amp;filter saknas: Alla tas med (default)</li>
-<li>&amp;filter=1: Avprickad</li>
-<li>&amp;filter=2: Betalt</li>
-<li>&amp;filter=3: Avprickad och Betalt</li>
+<li><code>+</code> : Öka gruppstorleken med 2</li>
+<li><code>-</code> : Minska gruppstorleken med 2</li>
+<li><code>B</code> : Toggla Betalat</li>
+<li><code>A</code> : Toggla Avprickad</li>
 </ul>
-<p><a href="https://member.schack.se/ShowTournamentServlet?id=16696&amp;n=6&amp;filter=2">Exempel</a><br>
+<p><a href="https://member.schack.se/ShowTournamentServlet?id=16696">Exempel</a><br>
 <a href="sm-2026-klass-iii.pdf">Exempel pdf</a></p>
-<p><a href="instructions.md">Instruktioner</a></p>
+<p><a href="instruktioner">Instruktioner</a></p>
 <h3 id="namnlista-sorterad-alfabetisk-lista-alternativ-till-bordslistan">Namnlista (Sorterad alfabetisk lista, alternativ till bordslistan)</h3>
 <p>Fungerar med Schweizer, normal tabell, i medlemssystemet.</p>
 <p><code>+</code> : Ökar antalet kolumner<br>
@@ -110,7 +109,7 @@ Eventuella parametrar skrivs i slutet av urlen.</p>
 
 		
 
-		<p class="meta" id="relative-time" data-lastmod="1780248869">
+		<p class="meta" id="relative-time" data-lastmod="1780249452">
   Uppdaterad <span class="relative-time-value">nyss</span>
 </p>
 
