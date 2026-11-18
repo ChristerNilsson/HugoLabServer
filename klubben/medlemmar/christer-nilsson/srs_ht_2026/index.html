@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seniorschack HT 2026</title> 
+  
+  <link rel="stylesheet" href="/HugoLabServer/styles.css">
+</head>
+<body class=""><main data-pagefind-body>
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+function updateRelativeTimes() {
+	const roots = document.querySelectorAll('[data-lastmod]')
+	const units = [
+		{ seconds: 365 * 24 * 60 * 60, singular: "ett år", plural: "år" },
+		{ seconds: 30 * 24 * 60 * 60, singular: "en månad", plural: "månader" },
+		{ seconds: 24 * 60 * 60, singular: "en dag", plural: "dagar" },
+		{ seconds: 60 * 60, singular: "en timme", plural: "timmar" },
+		{ seconds: 60, singular: "en minut", plural: "minuter" },
+	]
+
+	for (const root of roots) {
+		const lastmodUnix = Number(root.dataset.lastmod || 0)
+		if (!Number.isFinite(lastmodUnix) || lastmodUnix <= 0) continue
+
+		const nowUnix = Math.floor(Date.now() / 1000)
+		const diffSeconds = Math.max(0, nowUnix - lastmodUnix)
+
+		let value = 0
+		let text = "nyss"
+
+		for (const unit of units) {
+			if (diffSeconds >= unit.seconds) {
+				value = Math.floor(diffSeconds / unit.seconds)
+				text = value === 1 ? unit.singular : `${value} ${unit.plural}`
+				break
+			}
+		}
+
+		const target = root.querySelector('.relative-time-value')
+		if (target) target.textContent = text === "nyss" ? text : `för ${text} sedan`
+	}
+}
+
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', updateRelativeTimes)
+} else {
+	updateRelativeTimes()
+}
+
+</script>
+
+	<div>
+		
+
+<a href="/HugoLabServer/">Home</a>
+ • 
+<a href="/HugoLabServer/klubben/">Klubben</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/">Medlemmar</a>
+ • 
+<a href="/HugoLabServer/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+		<h1>Seniorschack HT 2026</h1>
+		<h3 id="dukning">Dukning</h3>
+<ol>
+<li><a href="sortering">Sortera</a> skyltarna enligt bordslistan</li>
+<li>Lägg ut bordsnummer</li>
+<li>Placera ut skyltarna enligt bordslistan. Obs Vit-Svart</li>
+<li>Ställ klockorna på #17</li>
+<li>Flytta Stolov. Klocka 1:30 - 1:45</li>
+<li>Flytta Ornstein</li>
+</ol>
+<h3 id="arbetsgång">Arbetsgång</h3>
+<ol>
+<li>Mata in resultat</li>
+<li>Ange personliga frironder (0.5p)</li>
+<li>Utskrift av Ställning</li>
+<li>Ladda upp till Chess Results (Standings)</li>
+<li>Före lottning: sätt resultat = tendens</li>
+<li>Exkludera spelare med personlig frirond</li>
+<li>Lottning</li>
+<li>Efter lottning: sätt resultat = Empty</li>
+<li>Utskrift av Bordslista</li>
+<li>Ladda upp till Chess Results (Lottning)</li>
+<li>Spara turneringen</li>
+</ol>
+<h3 id="uppskjutna-partier">Uppskjutna partier</h3>
+<p>R = Rond<br>
+B = Bord<br>
+T = Tendens</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">R</th>
+          <th style="text-align: right">B</th>
+          <th style="text-align: left">Vit</th>
+          <th style="text-align: left">Svart</th>
+          <th style="text-align: left">T</th>
+          <th style="text-align: center">Res</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">2</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: left">Viklund</td>
+          <td style="text-align: left">ORNSTEIN</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">½</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: left">JOVIC</td>
+          <td style="text-align: left">Hedin</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: right">11</td>
+          <td style="text-align: left">Hellman</td>
+          <td style="text-align: left">PETTERSSON</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">1</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">4</td>
+          <td style="text-align: right">13</td>
+          <td style="text-align: left">Ring</td>
+          <td style="text-align: left">STUMPF</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">½</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">5</td>
+          <td style="text-align: right">10</td>
+          <td style="text-align: left">Löwgren</td>
+          <td style="text-align: left">CEDERFELDT</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">1wo</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">5</td>
+          <td style="text-align: right">19</td>
+          <td style="text-align: left">Jansson</td>
+          <td style="text-align: left">BERGSTRÖM</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">6</td>
+          <td style="text-align: right">10</td>
+          <td style="text-align: left">Ring</td>
+          <td style="text-align: left">LÄNDIN</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">7</td>
+          <td style="text-align: right">12</td>
+          <td style="text-align: left">KARLSSON M</td>
+          <td style="text-align: left">Ring</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">½</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">7</td>
+          <td style="text-align: right">14</td>
+          <td style="text-align: left">Ornstein</td>
+          <td style="text-align: left">JOHANSSON C</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">0wo</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">7</td>
+          <td style="text-align: right">15</td>
+          <td style="text-align: left">Pettersson</td>
+          <td style="text-align: left">SAHLIN</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">1</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">8</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: left">Löwgren</td>
+          <td style="text-align: left">LUNDQUIST</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">½</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">8</td>
+          <td style="text-align: right">10</td>
+          <td style="text-align: left">Kaminski</td>
+          <td style="text-align: left">Cederfeldt</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">8</td>
+          <td style="text-align: right">13</td>
+          <td style="text-align: left">JOHANSSON C</td>
+          <td style="text-align: left">Hellman</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">9</td>
+          <td style="text-align: right">18</td>
+          <td style="text-align: left">Jansson</td>
+          <td style="text-align: left">LIISTAMO</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: center">0</td>
+      </tr>
+  </tbody>
+</table>
+<p>Tendens: eloskillnad &lt;= 200 ger remi<br>
+Versaler: Spelaren som initierade uppskjutandet<br>
+Efter verkligt parti: Stryk Tendens och ange Resultat<br>
+Acceptabel orsak: Huvudsakligen sjukdom</p>
+<p>Printa Bordlista och Ställning <strong>efter att</strong> tendensen nollställts.<br>
+(Ska överenstämma med Chess Results)</p>
+<h3 id="personlig-frirond">Personlig frirond</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">Rond</th>
+          <th style="text-align: left">Spelare</th>
+          <th style="text-align: center">Bonus</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">1</td>
+          <td style="text-align: left">Berg Susanna</td>
+          <td style="text-align: center">½</td>
+      </tr>
+  </tbody>
+</table>
+<p>½ poäng delas ut efter att ronden spelats.<br>
+Max två frironder per spelare.<br>
+Orsak behöver ej anges.<br>
+Sista två ronderna accepteras Personlig frirond ej.</p>
+<p>Pairings | Exclude Player&hellip;<br>
+Klicka på spelaren<br>
+Klicka på ronden som ska avmarkeras<br>
+OK</p>
+<h2 id="inledning">Inledning</h2>
+<ul>
+<li><a href="lathund">Lathund</a></li>
+<li><a href="erfarenheter">Erfarenheter</a></li>
+<li><a href="intro">Intro</a></li>
+</ul>
+<h3 id="chess-results">Chess Results</h3>
+<ul>
+<li><a href="https://s3.chess-results.com/tnr1316880.aspx?art=2">Bord      </a></li>
+<li><a href="https://s3.chess-results.com/tnr1316880.aspx?art=1">Ställning </a></li>
+<li><a href="https://s3.chess-results.com/tnr1316880.aspx?art=4">Korstabell</a></li>
+<li><a href="https://s3.chess-results.com/tnr1316880.aspx?art=14">Spelschema</a></li>
+</ul>
+<p><a href="SrS_KM_2026.TUNx">Swiss Manager - TUNx</a></p>
+<h3 id="hämta-månatlig-rating-från-fide">Hämta månatlig rating från FIDE</h3>
+<ul>
+<li>Rating Lists</li>
+<li>Import Rating Lists</li>
+<li>Import Rating List</li>
+<li>FIDE</li>
+<li>Start import</li>
+<li>Ok</li>
+</ul>
+<h3 id="uppdatera-spelarnas-rating">Uppdatera spelarnas rating</h3>
+<ul>
+<li>Other</li>
+<li>Update ratings/data</li>
+<li>Rating International</li>
+<li>Updating of = the actual tournament from the selected ratinglist (key=FIDE-identnumber)</li>
+<li>Start test</li>
+<li>Start update</li>
+<li>Close</li>
+</ul>
+<h3 id="spara-och-skriv-ut">Spara och skriv ut.</h3>
+<ul>
+<li>Internet | Upload tournament to Chess-Results</li>
+<li>Skriv ut Ställning och Bordslista</li>
+</ul>
+<h3 id="månatlig-elo-rapport">Månatlig ELO Rapport</h3>
+<p>Observera att filen måste skickas minst tre dagar före månadsskiftet.</p>
+<ul>
+<li>Ställ dig på näst sista ronden</li>
+<li>Other | FIDE Data Export TRF16</li>
+<li>Välj inte datum</li>
+<li>Kolla <a href="https://ratings.fide.com/rated_tournaments.phtml?country=SWE">https://ratings.fide.com/rated_tournaments.phtml?country=SWE</a> vilka ronder som ska skickas
+<ul>
+<li>Sök med ctrl-f Seniorschack</li>
+</ul>
+</li>
+<li>OK</li>
+<li>C:\Users\janch\Documents\SwissManagerUniCode\Listen\FIDE_Export_SrS_KM_2026.txt</li>
+<li>FIDE_Export_Logfile.txt (innehåller åäö =&gt; aao)</li>
+<li>Skicka filen till rating.schack.se</li>
+</ul>
+<h3 id="datumhantering">Datumhantering</h3>
+<p>Gäller partier som skulle spelats tidigare månad.</p>
+<ul>
+<li>Välj rond</li>
+<li>Input | Enter dates for players pairing
+<ul>
+<li>yyyy-mm-dd</li>
+</ul>
+</li>
+<li>Other | FIDE Data Export TRF16</li>
+<li>Selection of games according to date
+<ul>
+<li>Sätt 2026-02-01 to 2026-02-28</li>
+</ul>
+</li>
+</ul>
+<h3 id="visa-ronder-innehållande-uppskjutna-partier">Visa ronder innehållande uppskjutna partier</h3>
+<p>Reports | Tournament status</p>
+<h3 id="ta-bort-senast-lottad-rond">Ta bort senast lottad rond</h3>
+<ul>
+<li>Se till att rätt rond är vald</li>
+<li>Other | Options | Delete Rounds</li>
+</ul>
+<h3 id="google-docs">Google Docs</h3>
+<ul>
+<li><a href="https://docs.google.com/document/d/1ygzOxCDGPUWJw1MctKtiasam3eEZz2t4Q04uavzIO4Q/edit?tab=t.0">Inbjudan</a></li>
+<li><a href="https://docs.google.com/document/d/10NY87FKrG2XX4h89H4CFGv_oaV-YtXW6/edit">Tävlingsregler</a></li>
+<li><a href="https://docs.google.com/document/d/1N9JX0I_xYSLlITu6je8avszK2bzwBLOpKMCQTsUFHIE/edit?usp=sharing">Lathund</a></li>
+<li><a href="https://docs.google.com/document/d/1Nj0Tr92Be0e7E34j3X67LCtVonf1dLlN8l56YGNnpzQ/edit?tab=t.0">Anmälan Eloregistrering</a></li>
+</ul>
+<h3 id="google-sheets">Google Sheets</h3>
+<p><a href="https://docs.google.com/spreadsheets/d/1nN1lvE0DtTPAjAJgLc3COxFrvk2XUoPD/edit?gid=1119122091#gid=1119122091">Ordna KM</a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1a0WsZ3VMIfdtGnJ8je8hE8GKW1EL8oZxtDBgjDTUghI/edit?gid=1744888930#gid=1744888930">Deltagarlista (för deltagarna)</a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1Sl9-PBjsJ-vhOB6BLbXhPSB_GdNzLPDzUgQySkccxi4/edit?gid=1744888930#gid=1744888930">Deltagarlista (för ledarna)</a></p>
+<h3 id="namnskyltar">Namnskyltar</h3>
+<p><a href="Namnskyltar.pdf">PDF</a></p>
+<p><a href="https://github.com/ChristerNilsson/2026/tree/main/003-namnskyltar">Källkod</a></p>
+<p><a href="sortering">Sortering</a></p>
+<h3 id="fairpair">FairPair</h3>
+<p><a href="https://christernilsson.github.io/2025/035-FairPair/?TITLE=&amp;CITY=&amp;FED=SWE&amp;ARB=&amp;GAMES=1&amp;ROUNDS=11&amp;currSort=%23&amp;currRound=0&amp;ONE=1&amp;A=1&amp;B=1&amp;C=1&amp;p=1899%7CWFM+Susanna+Berg+Laachiri%7C1786911&amp;p=1753%7CVeine+Gustavsson%7C1786911&amp;p=1977%7CTomas+Lindblad%7C1786911&amp;p=1842%7CSven-%C3%85ke+Karlsson%7C1786911&amp;p=1729%7CSten+Hellman%7C1786911&amp;p=1977%7CStefan+Engstr%C3%B6m%7C1786911&amp;p=1915%7CRune+Evertsson%7C1786911&amp;p=1930%7CRado+Jovic%7C1786911&amp;p=1894%7CPeter+Silins%7C1786911&amp;p=1824%7COve+Hartzell%7C1786911&amp;p=1896%7COlle+%C3%85lgars%7C1786911&amp;p=1600%7CMikael+Lundberg%7C1786911&amp;p=1724%7CMagnus+Karlsson%7C1786911&amp;p=1695%7CLeonid+Stolov%7C1786911&amp;p=1949%7CLennart+B+Johansson%7C1786911&amp;p=1865%7CLeif+Lundquist%7C1786911&amp;p=1785%7CLars+Ring%7C1786911&amp;p=1752%7CLars+Cederfeldt%7C1786911&amp;p=1848%7CLars-%C3%85ke+Pettersson%7C1786911&amp;p=1588%7CLars-Ivar+Juntti%7C1786911&amp;p=1913%7CKjell+H%C3%A4ggvik%7C1786911&amp;p=1660%7CKent+Sahlin%7C1786911&amp;p=1531%7CJouko+Liistamo%7C1786911&amp;p=1791%7CJohan+Sterner%7C1786911&amp;p=2062%7CIM+Axel+Ornstein%7C1786911&amp;p=2010%7CHenrik+Str%C3%B6mb%C3%A4ck%7C1786911&amp;p=1540%7CHelge+Bergstr%C3%B6m%7C1786911&amp;p=1798%7CHans+Westr%C3%B6m%7C1786911&amp;p=2092%7CGunnar+Hedin%7C1786911&amp;p=1670%7CFriedemann+Stumpf%7C1786911&amp;p=1821%7CDick+Viklund%7C1786911&amp;p=1694%7CChrister+Nilsson%7C1786911&amp;p=1729%7CChrister+Johansson%7C1786911&amp;p=1947%7CBo+L%C3%A4ndin%7C1786911&amp;p=1806%7CBo+Franz%C3%A9n%7C1786911&amp;p=1820%7CBj%C3%B6rn+L%C3%B6wgren%7C1786911&amp;p=1539%7CArne+Jansson%7C1786911&amp;p=1932%7CAndrzej+Kami%C5%84ski%7C1786911&amp;p=1500%7CAli+Ko%C3%A7%7C1786911&amp;p=1688%7CAbbas+Razavi%7C1786911">FairPair SrS KM 2026 - turneringen</a></p>
+<p><a href="matrix.txt">FairPair SrS KM 2026 - matrix</a></p>
+
+		
+
+		<p class="meta" id="relative-time" data-lastmod="1787307258">
+  Uppdaterad <span class="relative-time-value">nyss</span>
+</p>
+
+		
+	</div>
+</main><p class="source-link"><a href="https://raw.githubusercontent.com/ChristerNilsson/HugoLab/refs/heads/master/content/klubben/medlemmar/christer-nilsson/srs_HT_2026/_index.md">.md</a></p>
+</body>
+</html>
